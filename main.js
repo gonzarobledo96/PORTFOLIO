@@ -1,6 +1,3 @@
-
-
-
 // function([string1, string2],target id,[color1,color2])    
 consoleText(['Hola a todos.', 'Mi nombre es Gonzalo', 'Soy desarrollador web.'], 'text',['#FACF64','#BFBFBD','#FF293B']);
 
@@ -53,13 +50,10 @@ function consoleText(words, id, colors) {
   }, 400)
 }
 
-
+// logo hamburguesa
 document.querySelector('.hamburger').addEventListener('click', (e) => {
   e.currentTarget.classList.toggle('is-active');
 })
-
-
-
 
 
 
