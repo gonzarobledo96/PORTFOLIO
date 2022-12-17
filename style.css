@@ -11,7 +11,8 @@
   
   body {
     font-family: sans-serif;
-    background-color: rgb(165, 165, 165);}
+    background-color: rgb(207, 207, 207);
+}
 
 
                                                                     /* TAMAÑO DE LA BARRA DE SCROLL*/
@@ -140,106 +141,102 @@ background-color: transparent;
 
 
                                                                     /* BARRA DE NAVEGCION */
+
 .fondo-del-nav{
-background-color:rgb(43, 43, 43);
+background-color:rgba(0, 0, 0, 0.814);
 }
     .posicion-nav{
-    justify-content: end;
+    justify-content: center;
     }
         .fondo-nav{
-        margin-bottom: -45px;
+        margin-bottom: -17px;
+        margin-top: -17px;
         }
-            .nav-item a{
-            text-decoration: none;
-            color: white;
-            font-weight: 600;
-            text-transform: uppercase;
-            margin-right: 15px;
-            transition: all 0.4s;
-            font-family: 'Montserrat', sans-serif;
-            }   
-                .nav-item a:hover{
-                color: rgb(255, 255, 255);
-                }
-                    .navbar-brand{
-                    height: 50px;
-                    width: 150px;
+            nav ul{
+            text-align: center;
+            }
+                .nav-item a{
+                text-decoration: none;
+                color: white;
+                font-weight: 600;
+                text-transform: uppercase;
+                margin-right: 15px;
+                transition: all 0.4s;
+                font-family: 'Montserrat', sans-serif;
+                }   
+                    .nav-item a:hover{
+                    color: rgb(255, 255, 255);
                     }
-                        ul {
-                        display: flex;
+                        .navbar-brand{
+                        height: 50px;
+                        width: 150px;
                         }
-                            ul li {
-                            list-style: none;
+                            ul {
+                            display: flex;
                             }
-                                ul li .sobre-mi {
-                                font-family: 'Montserrat', sans-serif;
-                                position: relative;
-                                display: block;
-                                text-transform: uppercase;
-                                margin: 20px 0;
-                                padding: 10px 20px;
-                                text-decoration: none;
-                                color: rgb(255, 255, 255);
-                                font-size: 18px;
-                                font-weight: 600;
-                                transition: 0.5s;
-                                z-index: 1;
+                                ul li {
+                                list-style: none;
                                 }
-                                    ul li .sobre-mi:before {
-                                    content: "";
-                                    position: absolute;
-                                    top: 0;
-                                    left: 0;
-                                    width: 100%;
-                                    height: 100%;
-                                    border-top: 2px solid rgb(255, 255, 255);
-                                    border-bottom: 2px solid rgb(255, 255, 255);
-                                    transform: scaleY(2);
-                                    opacity: 0;
-                                    transition: 0.3s;
+                                    ul li .sobre-mi {
+                                    font-family: 'Montserrat', sans-serif;
+                                    position: relative;
+                                    display: block;
+                                    text-transform: uppercase;
+                                    margin: 20px 0;
+                                    padding: 10px 20px;
+                                    text-decoration: none;
+                                    color: rgb(255, 255, 255);
+                                    font-size: 15px;
+                                    font-weight: 600;
+                                    transition: 0.5s;
+                                    z-index: 1;
                                     }
-                                        ul li .sobre-mi:after {
+                                        ul li .sobre-mi:before {
                                         content: "";
                                         position: absolute;
-                                        top: 2px;
+                                        top: 0;
                                         left: 0;
                                         width: 100%;
                                         height: 100%;
-                                        background-color:rgb(255, 199, 88); 
-                                        transform: scale(0);
+                                        border-top: 2px solid rgb(255, 255, 255);
+                                        border-bottom: 2px solid rgb(255, 255, 255);
+                                        transform: scaleY(2);
                                         opacity: 0;
                                         transition: 0.3s;
-                                        z-index: -1;
                                         }
-                                            ul li .sobre-mi:hover {
-                                            color: #fff;
+                                            ul li .sobre-mi:after {
+                                            content: "";
+                                            position: absolute;
+                                            top: 2px;
+                                            left: 0;
+                                            width: 100%;
+                                            height: 100%;
+                                            background-color:rgb(255, 199, 88); 
+                                            transform: scale(0);
+                                            opacity: 0;
+                                            transition: 0.3s;
+                                            z-index: -1;
                                             }
-                                                ul li .sobre-mi:hover:before {
-                                                transform: scaleY(1);
-                                                opacity: 1;
+                                                ul li .sobre-mi:hover {
+                                                color: #fff;
                                                 }
-                                                    ul li .sobre-mi:hover:after {
+                                                    ul li .sobre-mi:hover:before {
                                                     transform: scaleY(1);
                                                     opacity: 1;
                                                     }
+                                                        ul li .sobre-mi:hover:after {
+                                                        transform: scaleY(1);
+                                                        opacity: 1;
+                                                        }
 
 
                                                                                 /* GR y animacion de foto */
 .imagen{
-width: 40%;
-border: solid 3px;
-border-color: rgb(255, 255, 255);  
-border-radius: 50%;
-margin-left: 100px;
+width: 70%;
+border: solid 10px;
+border-radius: 20px;
+border-color: rgb(255, 199, 88);  
 }
-    .imagen:hover{
-    border: solid 3px;
-    border-color:rgb(255, 199, 88);  
-    border-radius: 50%;
-    margin-left: 100px;
-    transition: all 0.6s;
-    transform: scale(1.1)
-    }
         .imagen-barra-navegacion{
         list-style: none;
         justify-content: left;
@@ -267,9 +264,11 @@ margin-left: 100px;
 
                                                                             /* FONDO DE IMAGEN PERSONAL Y ANIMACION TITULO */
 .fondo-representacion{
-background-image: url(./fondo\ -\ copia\ \(4\).jpg);
-background-repeat: no-repeat;
+background: linear-gradient( rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url(./fondo-inicio.jpg);
+background-size: cover;
 background-attachment: fixed;
+background-position: center center;
+height: 100vh;
 }
     /* numeros animacion */
     .console-container {
@@ -291,22 +290,82 @@ background-attachment: fixed;
 
                                                                                 /* SOBRE MI */
 .fondo-sobre-mi{
-background-color: rgb(193, 193, 193);
+background-color: #ffffff;
+padding: 100px 15px;
 }
-    .boton-contactar{
-    background-color: rgb(120, 120, 120);
-    border: solid 7px rgb(120, 120, 120);
-    border-radius: 10px;
-    font-family: 'Montserrat', sans-serif;
-    }
-        .boton-contactar:hover{
-        background-color: rgb(255, 199, 88);
-        border: solid 7px rgb(255, 199, 88);
-        border-radius: 10px;
-        transition: 0.4s;
-        transform: scale(1.1)
+        .titulo-sobre-mi{
+        font-size: 22px;
+        font-family: 'Montserrat', sans-serif;
+        text-align: left;
+        text-transform: uppercase;
+        margin: 20px 0;
+        padding: 10px 20px;
+        text-decoration: none;
+        color: #111135;
+        text-decoration: underline;
+        text-decoration-color: #d3d3d3;
+        text-decoration-thickness: 5px;
         }
+            .span-gonzalo-robledo{
+                color: rgb(255, 199, 88);
+            }
+                .titulo-sobre-mii{
+                text-align: left;
+                margin: 20px 0;
+                padding: 10px 20px;
+                text-decoration: none;
+                color: #111135;
+                font-weight: 600;
+                }
+                    .titulo-sobre-miii{
+                        font-size: 18px;
+                        text-align: left;
+                        margin: 20px 0;
+                        padding: 10px 20px;
+                        text-decoration: none;
+                        color: #111135;
+                        }
+                            .descargar{
+                            text-decoration: none;
+                            color: #111135;
+                            border-radius: 30px;
+                            border: 2px solid #111135;
+                            padding: 10px 20px;
+                            }
+                                .descargar:hover{
+                                background-color: rgb(255, 199, 88);
+                                color: #fff;
+                                transition: 0.4s;
+                                transform: scale(1.2)
+                                }
+
+.pepe{
+    text-decoration: none;
+    color: #111135;
+    border-radius: 30px;
+    border: 1px solid #111135;
+    padding: 10px 20px;
+}
+.pepe:hover{
+    background-color: rgb(255, 199, 88);
+    color: #fff;
+    transition: 0.4s;
+    transform: scale(1.2)
+}
+
+
+
+
+
+        
                                                                                 /* MI SKILLS */
+.fondo-mis-skills{
+background-image: linear-gradient( rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url(./diseno-y-desarrollo-web-senati-1800-x-1190-1.jpg);
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: cover;
+}                                                            
+
 .html{
 width: 6%;
 }
@@ -314,30 +373,30 @@ width: 6%;
     width: 6%;
     }
         .boostrap{
-        font-size: 45px;
+        font-size: 85px;
         color: rgb(112, 71, 173);
         }
             .git-hub{
-            font-size: 45px;
+            font-size: 85px;
             color: rgb(241, 80, 47);
             }
                 .wordpress{
-                font-size: 45px;
+                font-size: 85px;
                 color: rgb(56, 97, 140);
                 }
                     .js{
-                    font-size: 45px;
+                    font-size: 85px;
                     color: #f0db4f;
                     }
                         .react-logo{
-                        font-size: 45px;
+                        font-size: 85px;
                         color: rgb(97, 219, 251);
                         }
                             .texto-html-css-js{
                             color: black;
                             font-family: 'Montserrat', sans-serif;
                             font-weight: 700;
-                            font-size: 13px;
+                            font-size: 15px;
                             }
                                 .proximamente{
                                 font-size: 13px;
@@ -351,6 +410,12 @@ width: 6%;
 
 
                                                                                 /* PORTAFOLIO */
+.fondo-portafolio{
+background-color: rgb(43,43, 43);
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: cover;
+}                                                                                
 .contenedor figure{
 /* cursor:pointner- cambiaa la flecha del mouse */
 cursor: pointer;
@@ -369,7 +434,7 @@ box-shadow: 0px 15px 25px rgba(0,0,0,0.50);
         top: 0;
         width: 100%;
         height: 100%;
-        background: rgba(0,103,123,0.7);
+        background: rgba(0, 0, 0, 0.7);
         transition: all 400ms ease-out;
         opacity: 0;
         visibility: hidden;
@@ -567,8 +632,11 @@ background-color: rgb(43,43, 43);
                         [class^="grid-hijo"] {
                         border: 1px solid rgb(43,43,43); 
                         }
-        
-        
+                            .aaa{
+                            margin-top: -30px;
+                            }
+                        
+                            
                                                                                 /* EFECTO LIGHTBOX GRID GALERIA DE DIBUJOS */
 .gallery-block.compact-gallery .item .description{
 display: grid;
@@ -601,10 +669,11 @@ background: linear-gradient(to bottom, transparent, rgba(0, 0, 0, 0.39));
 
 
                                                                                 /* CONTACTO */
-.fondo-portafolio{
+.fondo-contacto{
 background-image: url(./3632f28598275cb6ff98a3fa9e7e46f0.jpg);
 background-repeat: no-repeat;
 background-attachment: fixed;
+background-size: cover;
 }
     .texto-portafolio-contacto{
     font-family: 'Montserrat', sans-serif;
@@ -686,37 +755,63 @@ background-color:rgb(43, 43, 43);
 }
 
 
-@media (max-width: 768px) {
-section > div {
-grid-template-areas: 
-    "div1" 
-    "div2" 
-    "div3" 
-    "div4" 
-    "div5" 
-    "div6";
-grid-template-columns: repeat(1, 1fr);
-grid-template-rows: repeat(6, 200px);
-    }
-  }
 
 
-@media (min-width: 576px) {
-
-  .gallery-block.compact-gallery .item .description {
-    opacity: 0; 
-  }
-
-  .gallery-block.compact-gallery .item a:hover .description {
-    opacity: 1; 
-  } 
-
-  .gallery-block .zoom-on-hover:hover .image {
-    transform: scale(1.3);
-    opacity: 0.7; 
-  }
+/* BIENVENIDOS SOY GONZALO, DESARROLLADOR WEB */
+.margin-top-del-titulo{
+    margin-top: -50px;
 }
 
+.presentacion {
+    max-width: 1100px;
+    height: 100vh;
+    margin: auto;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.presentacion .bienvenida {
+    font-size: 20px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+.presentacion h2 {
+    font-size: 66px;
+    margin-bottom: 155px;
+    text-align: center;
+}
+
+ .presentacion h2 span {
+    font-size: 30px;
+    /* color: #ff5080; */
+     color: rgb(255, 199, 88);
+}
+
+ .presentacion .descripcion {
+    max-width: 700px;
+    margin: 25px auto;
+    font-size: 22px;
+    text-align: center;
+    margin-top: -100px;
+}
+
+.presentacion a {
+    text-decoration: none;
+    display: inline-block;
+    margin: 25px;
+    padding: 20px 25px;
+    border: 2px solid #fff;
+    border-radius: 50px;
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: .5s;
+}
 
 
 
@@ -731,3 +826,60 @@ grid-template-rows: repeat(6, 200px);
 
 .scale-in-hor-right{-webkit-animation:scale-in-hor-right 1s;animation:scale-in-hor-right 2s; }
 @-webkit-keyframes scale-in-hor-right{0%{-webkit-transform:scaleX(0);transform:scaleX(0);-webkit-transform-origin:100% 100%;transform-origin:100% 100%;opacity:1}100%{-webkit-transform:scaleX(1);transform:scaleX(1);-webkit-transform-origin:100% 100%;transform-origin:100% 100%;opacity:1}}@keyframes scale-in-hor-right{0%{-webkit-transform:scaleX(0);transform:scaleX(0);-webkit-transform-origin:100% 100%;transform-origin:100% 100%;opacity:1}100%{-webkit-transform:scaleX(1);transform:scaleX(1);-webkit-transform-origin:100% 100%;transform-origin:100% 100%;opacity:1}}
+
+
+    
+    
+    @media (min-width: 576px) {
+    .gallery-block.compact-gallery .item .description {
+    opacity: 0; 
+    }
+        .gallery-block.compact-gallery .item a:hover .description {
+        opacity: 1; 
+        } 
+            .gallery-block .zoom-on-hover:hover .image {
+            transform: scale(1.3);
+            opacity: 0.7; 
+            }
+    }
+
+
+
+
+
+
+
+
+
+
+
+    @media screen and (min-width: 769px) and (max-width: 777px) {
+              
+                                        
+            
+    }   
+        
+        
+          @media screen and (max-width: 768px) {
+        
+                            
+    }
+        
+        
+        
+        @media screen and (min-width:481px) and (max-width: 768px) {
+          
+          }
+          
+        
+        
+        
+        @media screen and (min-width:320px) and (max-width: 480px) {
+            /* FOOTER */
+.fondo-footer{
+    background-color:rgb(180, 36, 36);
+    }
+                    
+        }
+          
+          
