@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600&display=swap');
 
 
 /* TAMAÑO DE LA BARRA DE SCROLL*/
@@ -244,7 +244,7 @@ font-size: 25px;
                                                             }
     
 .inicio {
-background: linear-gradient( rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url("./fondo-inicio.jpg");
+background: linear-gradient( rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url("img/fondo-inicio.jpg");
 background-size: cover;
 background-position: center center;
 }
@@ -374,7 +374,7 @@ background-position: center center;
 /* seccion S K I L L S */
 /* *********************/
 .fondo-mis-skills{
-background-image: linear-gradient( rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url(./imagenes/diseno-y-desarrollo-web-senati-1800-x-1190-1.jpg);
+background-image: linear-gradient( rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url(./img/diseno-y-desarrollo-web-senati-1800-x-1190-1.jpg);
 background-repeat: no-repeat;
 background-attachment: fixed;
 background-size: cover;
@@ -520,7 +520,7 @@ box-shadow: 0px 15px 25px rgba(0,0,0,0.50);
 
 
  /* *********************/
-/******* DIBUJOS ********/
+/*** MENU HAMBURGUESA ***/
 /* *********************/  
 .fondo-dibujo{
 background-color: rgb(43,43, 43);
@@ -745,7 +745,7 @@ background: linear-gradient(to bottom, transparent, rgba(0, 0, 0, 0.39));
 /* seccion C O N T A C T O */
 /* *********************/
 .fondo-contacto{
-background-image: url(./3632f28598275cb6ff98a3fa9e7e46f0.jpg);
+background-image: url(./img/3632f28598275cb6ff98a3fa9e7e46f0.jpg);
 background-repeat: no-repeat;
 background-attachment: fixed;
 background-size: cover;
@@ -979,21 +979,3 @@ background-color:rgb(43, 43, 43);
     background-color: rgb(43,43, 43);
     }
           }
-
-/* animista */
-@-webkit-keyframes rotate-top{0%{-webkit-transform:rotate(0);transform:rotate(0);-webkit-transform-origin:top;transform-origin:top}100%{-webkit-transform:rotate(360deg);transform:rotate(360deg);-webkit-transform-origin:top;transform-origin:top}}@keyframes rotate-top{0%{-webkit-transform:rotate(0);transform:rotate(0);-webkit-transform-origin:top;transform-origin:top}100%{-webkit-transform:rotate(360deg);transform:rotate(360deg);-webkit-transform-origin:top;transform-origin:top}}
-
-.scale-in-ver-top{-webkit-animation:scale-in-ver-top 1s;animation:scale-in-ver-top 2s}
-@-webkit-keyframes scale-in-ver-top{0%{-webkit-transform:scaleY(0);transform:scaleY(0);-webkit-transform-origin:100% 0;transform-origin:100% 0;opacity:1}100%{-webkit-transform:scaleY(1);transform:scaleY(1);-webkit-transform-origin:100% 0;transform-origin:100% 0;opacity:1}}@keyframes scale-in-ver-top{0%{-webkit-transform:scaleY(0);transform:scaleY(0);-webkit-transform-origin:100% 0;transform-origin:100% 0;opacity:1}100%{-webkit-transform:scaleY(1);transform:scaleY(1);-webkit-transform-origin:100% 0;transform-origin:100% 0;opacity:1}}
-
-.scale-in-ver-bottom{-webkit-animation:scale-in-ver-bottom 1s;animation:scale-in-ver-bottom 1s}
-@-webkit-keyframes scale-in-ver-bottom{0%{-webkit-transform:scaleY(0);transform:scaleY(0);-webkit-transform-origin:0 100%;transform-origin:0 100%;opacity:1}100%{-webkit-transform:scaleY(1);transform:scaleY(1);-webkit-transform-origin:0 100%;transform-origin:0 100%;opacity:1}}@keyframes scale-in-ver-bottom{0%{-webkit-transform:scaleY(0);transform:scaleY(0);-webkit-transform-origin:0 100%;transform-origin:0 100%;opacity:1}100%{-webkit-transform:scaleY(1);transform:scaleY(1);-webkit-transform-origin:0 100%;transform-origin:0 100%;opacity:1}}
-
-.scale-in-hor-right{-webkit-animation:scale-in-hor-right 1s;animation:scale-in-hor-right 2s; }
-@-webkit-keyframes scale-in-hor-right{0%{-webkit-transform:scaleX(0);transform:scaleX(0);-webkit-transform-origin:100% 100%;transform-origin:100% 100%;opacity:1}100%{-webkit-transform:scaleX(1);transform:scaleX(1);-webkit-transform-origin:100% 100%;transform-origin:100% 100%;opacity:1}}@keyframes scale-in-hor-right{0%{-webkit-transform:scaleX(0);transform:scaleX(0);-webkit-transform-origin:100% 100%;transform-origin:100% 100%;opacity:1}100%{-webkit-transform:scaleX(1);transform:scaleX(1);-webkit-transform-origin:100% 100%;transform-origin:100% 100%;opacity:1}}
-
-
-    
-    
-  
-          

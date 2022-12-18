@@ -1,8 +1,11 @@
 <!DOCTYPE html>
-<html lang="es" >
+<html lang="es">
 <head>
-  <meta charset="UTF-8">
-  <!-- boostrap css-->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 user-scalable=no">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <!-- boostrap css-->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
   <!-- boostrap iconos -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
@@ -14,25 +17,24 @@
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 <!-- efecto Lightbox grid -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.10.0/baguetteBox.min.css" /> 
-  <title>Porfolio</title>
-  <!-- CSS -->
-  <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./style.css">
+    <title>Porfolio</title>
 </head>
-<body>
 
-    
-<!-- BARRA DE NAVEGCION -->
-<div class="sticky-top "> 
-        <nav class="navbar navbar-expand-lg  fondo-del-nav">
-            <div class="container fondo-nav ">
+<body>
+    <!-- SECCION I N I C I O -->
+    <div class="inicio" id="inicio">
+        <div class="contenido ">
+            <nav class="navbar navbar-expand-lg fondo-del-nav fixed-top">
+            <div class="container fondo-nav">
                 <div class="nav-item  imagen-barra-navegacion mt-3">
                     <a class="parrafo-logo" href="index.html">
                         <p class="parrafo-logo d-inline-block"> < </p>
                         <p class="gr d-inline-block"> GR </p>
                         <p class="parrafo-logo d-inline-block"> /> </p>
                     </a>
-                </div> 
-                    <div class="navbar-toggler hamburger" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                </div>
+                <div class="navbar-toggler hamburger" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <div class="hamburger__container ">
                       <div class="hamburger__inner"></div>
                       <div class="hamburger__hidden"></div>
@@ -48,58 +50,43 @@
                         </li>
                         <li class="nav-item ms-3">
                             <a class="nav-link  sobre-mi" href="#SobreMi"  rel="noopener noreferrer">SOBRE MI</a>
-                            </li>
-                            <li class="nav-item ms-3">
-                                <a class="nav-link  sobre-mi" href="#portafolio"  rel="noopener noreferrer">PORTAFOLIO</a>
-                                </li>
-                                <li class="nav-item ms-3">
-                                    <a class="nav-link  sobre-mi"  href="#contactar"  rel="noopener noreferrer">CONTACTAR</a>
-                                    </li>
-                                    <li class="nav-item ms-3">
-                                        <a class="nav-link  sobre-mi"  href="#dibujos"  rel="noopener noreferrer">MIS INTERESES</a>
-                                        </li>
-                                    </ul>
-                                        </div>
-                                        </div>
-                                        </nav>
-                                        </div>           
-
-
-<div class=" container-fluid fondo-representacion">
-    <div class="row">
-        <div class='console-container margin-top-del-titulo'>
-            <!-- <span id='text' class="scale-in-ver-top"></span>
-            <div class='console-underscore' id='console'>&#95;</div> -->
+                        </li>
+                        <li class="nav-item ms-3">
+                            <a class="nav-link  sobre-mi" href="#portafolio"  rel="noopener noreferrer">PORTAFOLIO</a>
+                        </li>
+                        <li class="nav-item ms-3">
+                            <a class="nav-link  sobre-mi"  href="#contactar"  rel="noopener noreferrer">CONTACTAR</a>
+                        </li>
+                        <li class="nav-item ms-3">
+                            <a class="nav-link  sobre-mi"  href="#dibujos"  rel="noopener noreferrer">MIS INTERESES</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
             <div class="presentacion">
                 <p class="bienvenida">Bienvenidos</p>
                 <h2>Soy <span>Gonzalo Robledo</span>, Desarrollador Web</h2>
-                <p class="descripcion">Viviendo, aprendiendo y subiendo de nivel un día a la vez.</p>
-                
+                <p class="descripcion">Viviendo, aprendiendo y subiendo de nivel un día a la vez. </p>
+                <a href="#portfolio">Ir a Portafolio</a>
             </div>
         </div>
-    <!--     <div class="container-fluid col-6 scale-in-hor-right mt-5 mb-5">
-            card-img-top 
-            <img src="../foto personal.jfif" class=" img-fluid imagen text-center " alt="">
-        </div>-->
-  </div> 
-</div>
-
-
-<!-- SOBRE MI-->
- <div id="SobreMi" class="fondo-sobre-mi row row-cols-2 g-4 me-3 ms-3" ><!--row-cols-md-2 lo saco para poner col-* asi puedo seleccionar el tamaño de las columnas -->
-    <div class=" col-6 scale-in-hor-right text-center">
-        <!-- card-img-top  -->
-        <img src="../foto personal.jfif" class=" img-fluid imagen text-center " alt="">
     </div>
-    <div class="col-6 text-center">
-        <p class="titulo-sobre-mi">SOBRE MI</p>
-        <h2 class="titulo-sobre-mii">Hola, Soy<span class="span-gonzalo-robledo"> Gonzalo Robledo</span></h2>
-        <h3 class="titulo-sobre-mii">DESARROLLADOR WEB.</h3>
-        <p class="titulo-sobre-miii pe-5">Mi nombre es Gonzalo, soy un desarrollador web con excelentes habilidades comunicativas. Me encanta colaborar y trabajar en equipo, busco un puesto en desarrollo web donde pueda aplicar mis conocimientos y habilidades para seguir mejorando tanto en el ambito laboral como en lo personal. Este es mi proyecto de portafolio donde lo ire mejorando a medida que tenga mas conocimiento, añadiendo mas de mis proyectos y mas funcionalidades. Espero les guste.</p>
-        <a href="./cv.pdf" title="Curriculum Vitae - Desarrollador web Gonzalo Robledo" target="_blank" rel="noopener noreferrer" class="gallery-block compact-gallery descargar">Descargar CV</a>
-    </div>
-</div>
 
+    <!-- SECCION S O B R E M I -->
+    <div  id="sobremi">
+        <div class="contenedor-foto">
+            <img src="./imagenes/foto personal - copia.jfif" alt="">
+        </div>
+        <div class="sobremi">
+            <p class="titulo-seccion">Sobre Mi</p>
+            <h2>Hola, Soy <span>Gonzalo Robledo</span> </h2>
+            <h3>Desarrollador Web</h3>
+            <p>Mi nombre es Gonzalo, soy un desarrollador web con excelentes habilidades comunicativas. Me encanta colaborar y trabajar en equipo, busco un puesto en desarrollo web donde pueda aplicar mis conocimientos y habilidades para seguir mejorando tanto en el ambito laboral como en lo personal. Este es mi proyecto de portafolio donde lo ire mejorando a medida que tenga mas conocimiento, añadiendo mas de mis proyectos y mas funcionalidades. Espero les guste.</p>
+            <a href="#">Descargar CV</a>
+        </div>
+    </div>
+   
 
 <!-- MIS SKILLS-->
 <div id="SobreMi" class="row row-cols-1 g-4 me-3 ms-3 mt-5" ><!--row-cols-md-2 lo saco para poner col-* asi puedo seleccionar el tamaño de las columnas -->
@@ -153,14 +140,14 @@
 
 
 <!-- PORTAFOLIO -->
- <h3 class="text-center mt-5 border-4 g-4 bg-warning border-warning text-warning">______</h3>
+<h3 class="text-center mt-5 border-4 g-4 bg-warning border-warning text-warning">______</h3>
 <div id="portafolio" class="row row-cols-1 row-cols-md-1 g-4 me-3 ms-3 fondo-portafolio">
     <h3 class="texto-portafolio-contacto text-center">PORTAFOLIO</h3>
     <div class="">
         <div class="row row-cols-sm-1 row-cols-md-2 g-4">
-            <div class="col contenedor" data-aos="fade-up" data-aos-duration="2000">
+            <div class="col-12 contenedor" data-aos="fade-up" data-aos-duration="2000">
                      <figure class="card shadow-lg mb-5 bg-body rounded">
-                         <img src="./fondo-proyecto-3.jfif"  class="card-img-top" alt="GNC-LURO">
+                         <img src="./imagenes/fondo-proyecto-3.jfif"  class="card-img-top" alt="GNC-LURO">
                          <div class="capa">
                              <h3 class="bg-warning text-white ">GNC-LURO
                              </h3>
@@ -173,9 +160,9 @@
                          </div>
                      </figure>
              </div>
-              <div class="col contenedor" data-aos="fade-up" data-aos-duration="2000">
+              <div class="col-12 contenedor" data-aos="fade-down" data-aos-duration="2000">
                      <figure class="card shadow-lg mb-5 bg-body rounded">
-                         <img src="./fondo-verduleria-proyecto-2.jfif"  class="card-img-top" alt="GNC-LURO">
+                         <img src="./imagenes/fondo-verduleria-proyecto-2.jfif"  class="card-img-top" alt="GNC-LURO">
                          <div class="capa">
                              <h3 class="bg-warning text-white ">FRESH ORGANIC
                              </h3>
@@ -188,9 +175,9 @@
                          </div>
                      </figure>
              </div>
-             <div class="col contenedor" data-aos="fade-up" data-aos-duration="2000">
+             <div class="col-12 contenedor" data-aos="fade-up" data-aos-duration="2000">
                 <figure class="card shadow-lg mb-5 bg-body rounded">
-                    <img src="./fondo-proyecto-3.jfif"  class="card-img-top" alt="GNC-LURO">
+                    <img src="./imagenes/fondo-proyecto-3.jfif"  class="card-img-top" alt="GNC-LURO">
                     <div class="capa">
                         <h3 class="bg-warning text-white ">GNC-LURO
                         </h3>
@@ -203,9 +190,9 @@
                     </div>
                 </figure>
         </div>
-         <div class="col contenedor" data-aos="fade-up" data-aos-duration="2000">
+         <div class="col-12 contenedor" data-aos="fade-down" data-aos-duration="2000">
                      <figure class="card shadow-lg mb-5 bg-body rounded">
-                         <img src="./fondo-proyecto-3.jfif"  class="card-img-top" alt="GNC-LURO">
+                         <img src="./imagenes/fondo-proyecto-3.jfif"  class="card-img-top" alt="GNC-LURO">
                          <div class="capa">
                              <h3 class="bg-warning text-white ">GNC-LURO
                              </h3>
@@ -222,9 +209,9 @@
 </div>
 
 
- <!-- DIBUJOS  -->
+<!-- DIBUJOS  -->
 <h3 id="dibujos" class="text-center mt-5 border-4 g-4 bg-warning border-warning text-warning">______</h3>
-<div class=" row row-cols-2 row-cols-md-1 g-4 me-3 ms-3 pb-3 fondo-dibujo ">
+<div class=" row row-cols-1 row-cols-md-1 g-4 me-3 ms-3 pb-3 fondo-dibujo ">
     <h3 class="texto-portafolio-contacto text-white text-center">MIS INTERESES</h3>
     <div>
         <div class="row row-cols-1 row-cols-md-1 g-4 ">
@@ -301,13 +288,13 @@
 
 
 <!-- CONTACTO -->
-<h3 id="contactar" class="text-center mt-5 border-4 g-4 bg-warning border-warning text-warning">______</h3>
+<h3 id="contactar" class="text-center mt-5 border-4 g-4 bg-warning border-warning text-warning ">______</h3>
 <div data-aos="fade-up" data-aos-duration="2000" id="portafolio" class="row row-cols-2 row-cols-md-1 g-4 me-3 ms-3 fondo-contacto mb-3">
     <h3 class="texto-portafolio-contacto text-center">CONTACTO</h3>
     <div>
         <div data-aos="flip-left" data-aos-duration="2000" class="row row-cols-1 row-cols-md-1 g4 me-3 ms-3 ">
             <div class="col text-center ">
-            <div class="speace-around-entre-objetos mb-5">  
+            <div class="speace-around-entre-objetos-contacto mb-5">  
                 <div>
                     <ul class="z">
                         <li class="y">
@@ -334,13 +321,13 @@
     </div>
 </div>
 
-
-<!-- footer -->
+    <!-- footer -->
 <footer class="col-xs-12 text-white p-2 text-center fondo-footer">
-    © Copyright Portafolio 2022. Gonzalo Matias Robledo - Desarrollador de páginas web. 
+   <p class="tamaño-parrafo-footer">© Copyright Portafolio 2022. Gonzalo Matias Robledo - Desarrollador de páginas web.</p>  
 </footer>
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.10.0/baguetteBox.min.js"></script>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.10.0/baguetteBox.min.js"></script>
 <!-- ANIMACION GALERIA DE DBUJOS -->
 <script>baguetteBox.run('.compact-gallery', { animation: 'slideIn'});</script>
 <!-- partial -->
@@ -360,4 +347,5 @@
     AOS.init();
   </script>
 </body>
+
 </html>

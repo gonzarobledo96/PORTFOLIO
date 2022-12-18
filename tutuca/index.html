@@ -1,28 +1,351 @@
- <!DOCTYPE html>
-<html lang="en" >
+<!DOCTYPE html>
+<html lang="es">
 <head>
-  <meta charset="UTF-8">
-  <title>CodePen - Social Media Icons hover effect </title>
-  <link rel="stylesheet" href="./style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 user-scalable=no">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <!-- boostrap css-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  <!-- boostrap iconos -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+  <!-- google fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<!-- LOGO CONTACTO -->
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
-
+  <!-- ANIMACION DE AOS -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<!-- efecto Lightbox grid -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.10.0/baguetteBox.min.css" /> 
+    <link rel="stylesheet" href="estilo.css">
+    <title>Porfolio-2</title>
 </head>
+
 <body>
+    <!-- SECCION I N I C I O -->
+    <div class="inicio" id="inicio">
+        <div class="contenido ">
+            <nav class="navbar navbar-expand-lg fondo-del-nav fixed-top">
+            <div class="container fondo-nav">
+                <div class="nav-item  imagen-barra-navegacion mt-3">
+                    <a class="parrafo-logo" href="index.html">
+                        <p class="parrafo-logo d-inline-block"> < </p>
+                        <p class="gr d-inline-block"> GR </p>
+                        <p class="parrafo-logo d-inline-block"> /> </p>
+                    </a>
+                </div>
+                <div class="navbar-toggler hamburger" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <div class="hamburger__container ">
+                      <div class="hamburger__inner"></div>
+                      <div class="hamburger__hidden"></div>
+                    </div>
+                  </div>
+                <div class="collapse navbar-collapse posicion-nav"  id="navbarSupportedContent">
+                       <!-- <ul class="navbar-nav m-auto mb-2 mb-lg-0 justify-content-end"></ul> -->
+                    <ul class="navbar-nav ">
+                        <li class="nav-item ms-3">
+                            <a class="nav-link  sobre-mi" href="./index.html"  rel="noopener noreferrer">
+                                <i class="bi bi-house-door-fill"></i>
+                            </a>
+                        </li>
+                        <li class="nav-item ms-3">
+                            <a class="nav-link  sobre-mi" href="#SobreMi"  rel="noopener noreferrer">SOBRE MI</a>
+                        </li>
+                        <li class="nav-item ms-3">
+                            <a class="nav-link  sobre-mi" href="#portafolio"  rel="noopener noreferrer">PORTAFOLIO</a>
+                        </li>
+                        <li class="nav-item ms-3">
+                            <a class="nav-link  sobre-mi"  href="#contactar"  rel="noopener noreferrer">CONTACTAR</a>
+                        </li>
+                        <li class="nav-item ms-3">
+                            <a class="nav-link  sobre-mi"  href="#dibujos"  rel="noopener noreferrer">MIS INTERESES</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+            <div class="presentacion">
+                <p class="bienvenida">Bienvenidos</p>
+                <h2>Soy <span>Gonzalo Robledo</span>, Desarrollador Web</h2>
+                <p class="descripcion">Viviendo, aprendiendo y subiendo de nivel un día a la vez. </p>
+                <a href="#portfolio">Ir a Portafolio</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- SECCION S O B R E M I -->
+    <div  id="sobremi">
+        <div class="contenedor-foto">
+            <img src="img/foto personal - copia.jfif" alt="">
+        </div>
+        <div class="sobremi">
+            <p class="titulo-seccion">Sobre Mi</p>
+            <h2>Hola, Soy <span>Gonzalo Robledo</span> </h2>
+            <h3>Desarrollador Web</h3>
+            <p>Mi nombre es Gonzalo, soy un desarrollador web con excelentes habilidades comunicativas. Me encanta colaborar y trabajar en equipo, busco un puesto en desarrollo web donde pueda aplicar mis conocimientos y habilidades para seguir mejorando tanto en el ambito laboral como en lo personal. Este es mi proyecto de portafolio donde lo ire mejorando a medida que tenga mas conocimiento, añadiendo mas de mis proyectos y mas funcionalidades. Espero les guste.</p>
+            <a href="#">Descargar CV</a>
+        </div>
+    </div>
+   
+
+<!-- MIS SKILLS-->
+<div id="SobreMi" class="row row-cols-1 g-4 me-3 ms-3 mt-5" ><!--row-cols-md-2 lo saco para poner col-* asi puedo seleccionar el tamaño de las columnas -->
+    <div class="text-center fondo-mis-skills">
+        <h3 class="texto-portafolio-contacto text-white">MIS SKILLS:</h3>
+            <div class="speace-around-entre-objetos ">
+                <div class="html mb-2 d-inline-block  ">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 452 520">
+                        <path fill="#e34f26" d="M41 460L0 0h451l-41 460-185 52" />
+                        <path fill="#ef652a" d="M226 472l149-41 35-394H226" />
+                        <path fill="#ecedee" d="M226 208h-75l-5-58h80V94H84l15 171h127zm0 147l-64-17-4-45h-56l7 89 117 32z"/>
+                        <path fill="#fff" d="M226 265h69l-7 73-62 17v59l115-32 16-174H226zm0-171v56h136l5-56z"/>
+                    </svg>
+                    <p class="text-center texto-html-css-js text-white">HTML</p>
+                </div>
+                <div class="css mb-2 d-inline-block">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 452 520">
+                        <path fill="#0c73b8" d="M41 460L0 0h451l-41 460-185 52"/>
+                        <path fill="#30a9dc" d="M226 472l149-41 35-394H226"/>
+                        <path fill="#ecedee" d="M226 208H94l5 57h127zm0-114H84l5 56h137zm0 261l-124-33 7 60 117 32z"/>
+                        <path fill="#fff" d="M226 265h69l-7 73-62 17v59l115-32 26-288H226v56h80l-6 58h-74z"/>
+                    </svg>
+                    <p class="text-center texto-html-css-js text-white">CSS</p>
+                </div>
+                <div class=" mb-2 d-inline-block ">
+                    <i class="fab git-hub bi bi-git"></i>
+                    <p class="text-center texto-html-css-js mt-2 text-white">GIT</p>
+                </div>
+                <div class=" mb-2 d-inline-block ">
+                    <i class="js fab fab-brands fa-js "></i>
+                    <p class="text-center texto-html-css-js mt-2 text-white">JS <br> (PROX.)</p>
+                </div>
+                <div class=" mb-2 d-inline-block ">
+                    <i class="react-logo fab fa-brands fa-react "></i>
+                    <p class="text-center texto-html-css-js mt-2 text-white">REACT  <br>(PROX.)</p>
+                </div>
+            </div>
+        <h3 class="mt-5 texto-portafolio-contacto text-white">BIBLIOTECAS:</h3>
+    <div class="speace-around-entre-objetos"> 
+        <div class=" mb-2 d-inline-block ">
+            <i class="boostrap bi bi-bootstrap-fill"></i>
+            <p class="text-center texto-html-css-js mt-2 text-white">BOOTSTRAP</p>
+        </div>
+        <div class=" mb-2 d-inline-block ">
+            <i class="wordpress bi bi-wordpress"></i>
+            <p class="text-center texto-html-css-js mt-2 text-white">WORDPRESS <br> (PROX.)</p>
+        </div>
+    </div>  
+</div> 
+</div>
 
 
- <ul class="z">
-    <li class="y">
-        <a class="r" href="#">
-        <i class="fab fa-facebook-f iconn"></i></a>
-    </li>
-    <li class="y">
-        <a class="r" href="#"><i class="fab fa-twitter iconn"></i></a>
-    </li>
-    <li class="y">
-        <a class="r" href="#"><i class="fab fa-linkedin-in iconn"></i></a>
-    </li>
-    <li class="y">
-        <a class="r" href="#"><i class="fab fa-google-plus-g iconn"></i></a>
-    </li>
-</ul>
+<!-- PORTAFOLIO -->
+<h3 class="text-center mt-5 border-4 g-4 bg-warning border-warning text-warning">______</h3>
+<div id="portafolio" class="row row-cols-1 row-cols-md-1 g-4 me-3 ms-3 fondo-portafolio">
+    <h3 class="texto-portafolio-contacto text-center">PORTAFOLIO</h3>
+    <div class="">
+        <div class="row row-cols-sm-1 row-cols-md-2 g-4">
+            <div class="col-12 contenedor" data-aos="fade-up" data-aos-duration="2000">
+                     <figure class="card shadow-lg mb-5 bg-body rounded">
+                         <img src="./img/fondo-proyecto-3.jfif"  class="card-img-top" alt="GNC-LURO">
+                         <div class="capa">
+                             <h3 class="bg-warning text-white ">GNC-LURO
+                             </h3>
+                             <h5 class="bg-warning text-white ">Lenguajes utilizados: HTML, CSS, BOOTSTRAP
+                            </h5>
+                            <!-- <p class="d-inline-block  ver-diseño"><a class="text-decoration-none" href="">ver</a></p> -->
+                            <a href="file:///C:/Users/User/OneDrive/Escritorio/GNC-LURO/index.html" target="_blank"><p class="d-inline-block ver-diseño me-5 mt-3"><i class="fa fa-brands fa-globe iconn me-2"></i> VER</p></a>
+                            <a href="https://github.com/gonzarobledo96/GNC-LURO" target="_blank"><p class="d-inline-block repositorio-diseño"> <i class="fab fa-brands fa-github iconn me-2"></i>REPOSITORIO</p></a>
+                            
+                         </div>
+                     </figure>
+             </div>
+              <div class="col-12 contenedor" data-aos="fade-down" data-aos-duration="2000">
+                     <figure class="card shadow-lg mb-5 bg-body rounded">
+                         <img src="./img/fondo-verduleria-proyecto-2.jfif"  class="card-img-top" alt="GNC-LURO">
+                         <div class="capa">
+                             <h3 class="bg-warning text-white ">FRESH ORGANIC
+                             </h3>
+                             <h5 class="bg-warning text-white ">lenguajes utilizados: HTML, CSS, BOOTSTRAP
+                            </h5>
+                            <!-- <p class="d-inline-block  ver-diseño"><a class="text-decoration-none" href="">ver</a></p> -->
+                            <a href="file:///C:/Users/User/OneDrive/Escritorio/GNC-LURO/index.html" target="_blank"><p class="d-inline-block ver-diseño me-5 mt-3"><i class="fa fa-brands fa-globe iconn me-2"></i> VER</p></a>
+                            <a href="https://github.com/gonzarobledo96/GNC-LURO" target="_blank"><p class="d-inline-block repositorio-diseño"> <i class="fab fa-brands fa-github iconn me-2"></i>REPOSITORIO</p></a>
+                            
+                         </div>
+                     </figure>
+             </div>
+             <div class="col-12 contenedor" data-aos="fade-up" data-aos-duration="2000">
+                <figure class="card shadow-lg mb-5 bg-body rounded">
+                    <img src="./img/fondo-proyecto-3.jfif"  class="card-img-top" alt="GNC-LURO">
+                    <div class="capa">
+                        <h3 class="bg-warning text-white ">GNC-LURO
+                        </h3>
+                        <h5 class="bg-warning text-white ">lenguajes utilizados: HTML, CSS, BOOTSTRAP
+                       </h5>
+                       <!-- <p class="d-inline-block  ver-diseño"><a class="text-decoration-none" href="">ver</a></p> -->
+                       <a href="file:///C:/Users/User/OneDrive/Escritorio/GNC-LURO/index.html" target="_blank"><p class="d-inline-block ver-diseño me-5 mt-3"><i class="fa fa-brands fa-globe iconn me-2"></i> VER</p></a>
+                       <a href="https://github.com/gonzarobledo96/GNC-LURO" target="_blank"><p class="d-inline-block repositorio-diseño"> <i class="fab fa-brands fa-github iconn me-2"></i>REPOSITORIO</p></a>
+                       
+                    </div>
+                </figure>
+        </div>
+         <div class="col-12 contenedor" data-aos="fade-down" data-aos-duration="2000">
+                     <figure class="card shadow-lg mb-5 bg-body rounded">
+                         <img src="./img/fondo-proyecto-3.jfif"  class="card-img-top" alt="GNC-LURO">
+                         <div class="capa">
+                             <h3 class="bg-warning text-white ">GNC-LURO
+                             </h3>
+                             <h5 class="bg-warning text-white ">lenguajes utilizados: HTML, CSS, BOOTSTRAP
+                            </h5>
+                            <!-- <p class="d-inline-block  ver-diseño"><a class="text-decoration-none" href="">ver</a></p> -->
+                            <a href="file:///C:/Users/User/OneDrive/Escritorio/GNC-LURO/index.html" target="_blank"><p class="d-inline-block ver-diseño me-5 mt-3"><i class="fa fa-brands fa-globe iconn me-2"></i> VER</p></a>
+                            <a href="https://github.com/gonzarobledo96/GNC-LURO" target="_blank"><p class="d-inline-block repositorio-diseño"> <i class="fab fa-brands fa-github iconn me-2"></i>REPOSITORIO</p></a>
+                         </div>
+                     </figure>
+             </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- DIBUJOS  -->
+<h3 id="dibujos" class="text-center mt-5 border-4 g-4 bg-warning border-warning text-warning">______</h3>
+<div class=" row row-cols-1 row-cols-md-1 g-4 me-3 ms-3 pb-3 fondo-dibujo ">
+    <h3 class="texto-portafolio-contacto text-white text-center">MIS INTERESES</h3>
+    <div>
+        <div class="row row-cols-1 row-cols-md-1 g-4 ">
+            <section class="gallery-block compact-gallery aaa">
+                
+                <p class="texto-portafolio-contacto text-white text-center">Suelo dibujar para poner mi mente en blanco, relajarme, regular el estrés y mejorar la concentración. Es la forma que tengo de mejorar la creatividad y salud mental.</p>
+                <div>
+                    <div class="grid-hijo-1">
+                        <div  data-aos="fade-up" data-aos-duration="2000">
+                            <!-- title="BOB ESPONJA" agregar tiitle si queres ver un titulo en la imagen agrandada -->
+                            <a href="./img/foto-1.jpeg" target="_blank" ><img src="./img/foto-1.jpeg" alt="img1"></a>
+                        </div>
+                    </div>
+                    <div class="grid-hijo-2">
+                        <div  data-aos="fade-left" data-aos-duration="2000">
+                            <a href="./img/foto-2.jpeg" target="_blank"><img src="./img/foto-2.jpeg" alt="img2"></a>
+                        </div>
+                    </div>
+                    <div class="grid-hijo-3">
+                        <div data-aos="fade-up" data-aos-duration="2000">
+                            <a href="./img/foto-3.jpeg" target="_blank"><img src="./img/foto-3 - copia.jpeg" alt="img3"></a>                  
+                        </div>
+                    </div>
+                    <div class="grid-hijo-4">
+                        <div data-aos="fade-right" data-aos-duration="2000">
+                            <a href="./img/foto-4.jpeg" target="_blank"><img src="./img/foto-4.jpeg" alt="img4"></a>
+                        </div>
+                    </div>
+                    <div class="grid-hijo-5">                   
+                        <div data-aos="fade-up" data-aos-duration="2000">
+                            <a href="./img/foto-5.jpeg" target="_blank"><img src="./img/foto-5.jpeg" alt="img5"></a>
+                        </div>
+                    </div>
+                    <div class="grid-hijo-6">
+                        <div data-aos="fade-down" data-aos-duration="2000">
+                            <a href="./img/foto-20.jpeg" target="_blank"><img src="./img/foto-20.jpeg" alt="img6"></a>
+                        </div>
+                    </div>
+                    <div class="grid-hijo-7">                    
+                        <div data-aos="fade-right" data-aos-duration="2000">
+                            <a href="./img/foto-7.jpeg" target="_blank"><img src="./img/foto-7 - copia.jpeg" alt="img7"></a>
+                        </div>
+                    </div>
+                    <div class="grid-hijo-8">
+                        <div data-aos="fade-left" data-aos-duration="2000">
+                            <a href="./img/foto-8.jpeg" target="_blank"><img src="./img/foto-8.jpeg" alt="img8"></a>
+                        </div>
+                    </div>
+                    <div class="grid-hijo-9">
+                        <div data-aos="flip-left" data-aos-duration="2000">
+                            <a href="./img/foto-9.jpeg" target="_blank"><img src="./img/foto-9.jpeg" alt="img9"></a>
+                        </div>
+                    </div>
+                    <div class="grid-hijo-10">
+                        <div data-aos="flip-left" data-aos-duration="2000">
+                            <a href="./img/foto-6.jpeg" target="_blank"><img src="./img/foto-6 - copia.jpeg" alt="img10"></a>
+                        </div>
+                    </div>
+                    <div class="grid-hijo-11">
+                        <div data-aos="flip-left" data-aos-duration="2000">
+                            <a href="./img/foto-10.jpeg" target="_blank"><img src="./img/foto-10.jpeg" alt="img11"></a>
+                        </div>
+                    </div>               
+                    <div class="grid-hijo-12">                 
+                        <div data-aos="flip-left" data-aos-duration="2000">
+                            <a href="./img/foto-12.jpeg" target="_blank"><img src="./img/foto-12 - copia.jpeg" alt="img12"></a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+</div>
+
+
+<!-- CONTACTO -->
+<h3 id="contactar" class="text-center mt-5 border-4 g-4 bg-warning border-warning text-warning ">______</h3>
+<div data-aos="fade-up" data-aos-duration="2000" id="portafolio" class="row row-cols-2 row-cols-md-1 g-4 me-3 ms-3 fondo-contacto mb-3">
+    <h3 class="texto-portafolio-contacto text-center">CONTACTO</h3>
+    <div>
+        <div data-aos="flip-left" data-aos-duration="2000" class="row row-cols-1 row-cols-md-1 g4 me-3 ms-3 ">
+            <div class="col text-center ">
+            <div class="speace-around-entre-objetos-contacto mb-5">  
+                <div>
+                    <ul class="z">
+                        <li class="y">
+                            <a class="r" href="https://www.facebook.com/gonzalo.robledo.5"><i class="fab fa-facebook-f iconn"></i></a>
+                        </li>
+                        <li class="y">
+                            <a class="r" href="https://github.com/gonzarobledo96"><i class="fab fa-brands fa-github iconn"></i></a>
+                        </li>
+                        <li class="y">
+                            <a class="r" href="https://www.linkedin.com/in/gonzalo-robledo-b5811023b/"><i class="fab fa-linkedin-in iconn"></i></a>
+                        </li>
+                        <li class="y">
+                            <a class="r" href="https://www.instagram.com/gonzarobledo1996/" target="_blank"><i class="fab fa-brands fa-instagram iconn"></i></a>
+                        </li>
+                        <li class="y">
+                            <a class="r" href="#"><i class="fab fa-brands fa-whatsapp iconn"></i></a>
+                        </li>
+                    </ul>
+                </div> 
+            </div>
+            <h6 class="texto-portafolio-contacto text-center">La creatividad es la inteligencia divirtiéndose.</h6>
+        </div>
+        </div>
+    </div>
+</div>
+
+    <!-- footer -->
+<footer class="col-xs-12 text-white p-2 text-center fondo-footer">
+   <p class="tamaño-parrafo-footer">© Copyright Portafolio 2022. Gonzalo Matias Robledo - Desarrollador de páginas web.</p>  
+</footer>
+
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.10.0/baguetteBox.min.js"></script>
+<!-- ANIMACION GALERIA DE DBUJOS -->
+<script>baguetteBox.run('.compact-gallery', { animation: 'slideIn'});</script>
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.15.0/popper.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js'></script>
+<!-- jqueri -->
+<script src="js/jquery-3.6.1.min.js"></script>
+<!-- boostrap js -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+<!-- js -->
+<script src="./script.js"></script>
+<!-- animacion AOS -->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<!-- ANIMACION DE AOS -->
+<script>
+    AOS.init();
+  </script>
 </body>
+
+</html>
