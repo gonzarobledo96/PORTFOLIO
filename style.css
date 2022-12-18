@@ -244,7 +244,7 @@ font-size: 25px;
                                                             }
     
 .inicio {
-background: linear-gradient( rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url("./imagenes/fondo-inicio.jpg");
+background: linear-gradient( rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url("./imagenes/diseno-y-desarrollo-web-senati-1800-x-1190-1\ -\ copia.jpg");
 background-size: cover;
 background-position: center center;
 }
@@ -374,7 +374,7 @@ background-position: center center;
 /* seccion S K I L L S */
 /* *********************/
 .fondo-mis-skills{
-background-image: linear-gradient( rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url(./imagenes/diseno-y-desarrollo-web-senati-1800-x-1190-1.jpg);
+background-image: linear-gradient( rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url(./imagenes/fondo-inicio.jpg);
 background-repeat: no-repeat;
 background-attachment: fixed;
 background-size: cover;
