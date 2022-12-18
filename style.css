@@ -244,7 +244,7 @@ font-size: 25px;
                                                             }
     
 .inicio {
-background: linear-gradient( rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url("./fondo-inicio.jpg");
+background: linear-gradient( rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url("./imagenes/fondo-inicio.jpg");
 background-size: cover;
 background-position: center center;
 }
@@ -745,7 +745,7 @@ background: linear-gradient(to bottom, transparent, rgba(0, 0, 0, 0.39));
 /* seccion C O N T A C T O */
 /* *********************/
 .fondo-contacto{
-background-image: url(./3632f28598275cb6ff98a3fa9e7e46f0.jpg);
+background-image: url(./imagenes/foto-contactar.jpg);
 background-repeat: no-repeat;
 background-attachment: fixed;
 background-size: cover;
