@@ -412,10 +412,6 @@ width: 6%;
                             font-weight: 700;
                             font-size: 15px;
                             }
-                                .proximamente{
-                                font-size: 13px;
-                                font-weight: 700;
-                                }
                                     .speace-around-entre-objetos{
                                     display: flex;
                                     justify-content:space-around;
@@ -430,7 +426,11 @@ background-color: rgb(43,43, 43);
 background-repeat: no-repeat;
 background-attachment: fixed;
 background-size: cover;
-}                                                                                
+}      
+.espacio-entre-proyectos{
+    margin-top: -40px;
+}
+
 .contenedor figure{
 /* cursor:pointner- cambiaa la flecha del mouse */
 cursor: pointer;
@@ -750,7 +750,7 @@ background-repeat: no-repeat;
 background-attachment: fixed;
 background-size: cover;
 }
-    .texto-portafolio-contacto{
+    .texto-portafolio-contacto{                                             
     font-family: 'Montserrat', sans-serif;
     position: relative;
     display: block;
@@ -762,9 +762,10 @@ background-size: cover;
     font-weight: 600;
     }
     .speace-around-entre-objetos-contacto{
-        display: flex;
-        justify-content:space-around;
-        }
+    /* display: flex;
+    justify-content:space-around; */
+    justify-content: center;
+    }
         .z .y {
         list-style: none;
         }
@@ -842,9 +843,9 @@ background-color:rgb(43, 43, 43);
 /* *********************/
 /* seccion R E S P O N S I V E */
 /* *********************/
-        @media screen and (max-width: 800px) {
+        @media screen and (max-width: 850px) {
             .fondo-footer{
-                background-color:rgb(179, 28, 28);
+                background-color:rgb(43, 43, 43);
                 }
                 .tamaño-parrafo-footer{
                     font-size: 20px;
@@ -883,7 +884,7 @@ background-color:rgb(43, 43, 43);
                 display: block;
             }
             #sobremi .contenedor-foto {
-                max-width: 200px;
+                /* max-width: 200px; */
                 margin: auto;
             }
             #sobremi .contenedor-foto img {
@@ -931,34 +932,440 @@ background-color:rgb(43, 43, 43);
             #contacto .contenedor-form .mitad input {
                 width: 100%;
                 margin-bottom: 15px;
-            }
-            footer {
-                background-color: rgb(179, 32, 32);
-                color: #fff;
-                text-align: center;
-                padding: 30px 0;
-            }
-            
-            footer a {
-                text-decoration: none;
-                color: #fff;
-                display: inline-block;
-                margin: 5px;
-                font-size: 26px;
-            }
-        }
+            }}
 
 
-        @media (max-width: 768px) {
+@media screen and (min-width: 951px) and (max-width: 1200px){
+/* mis skills */
+section > div {
+    display: grid;
+    grid-template-areas: 
+    "div1 div4 div5 div11"
+    "div2 div4 div5 div7"
+    "div3 div6 div6 div7"
+    "div9 div8 div10 div12"
+    "div9 div8 div10 div12";
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(5, 150px);
+    border-radius: 10px;
+    padding: 1rem;
+    gap: 20px;
+  }
+
+  /* DIBUJO */
+.fondo-dibujo{
+background-color: rgb(43,43, 43);
+}
+
+  /* TITULO SOBRE MI */
+  .titulo-seccion{
+      margin-top: 10px;
+  }
+
+  /* mis skills */
+  .html{
+      width: 8%;
+      }
+          .css{
+          width: 8%;
+          }
+              .boostrap{
+              font-size:70px;
+              color: rgb(112, 71, 173);
+              }
+                  .git-hub{
+                    font-size:70px;
+                  color: rgb(241, 80, 47);
+                  }
+                      .wordpress{
+                        font-size:70px;
+                      color: rgb(56, 97, 140);
+                      }
+                          .js{
+                            font-size:70px;
+                          color: #f0db4f;
+                          }
+                              .react-logo{
+                                font-size:70px;
+                              color: rgb(97, 219, 251);
+                              }
+                                  .texto-html-css-js{
+                                  color: black;
+                                  font-family: 'Montserrat', sans-serif;
+                                  font-weight: 700;
+                                  font-size: 8px;
+                                  }
+                                      .speace-around-entre-objetos{
+                                      display: flex;
+                                      justify-content:space-around;
+                                      }
+                                      .texto-portafolio-contacto{                                             
+                                          font-family: 'Montserrat', sans-serif;
+                                          position: relative;
+                                          display: block;
+                                          text-transform: uppercase;
+                                          margin: 20px 0;
+                                          padding: 10px 20px;
+                                          text-decoration: none;
+                                          color: rgb(255, 255, 255);
+                                          font-weight: 600;
+                                          font-size: 20px;
+                                          }}
+
+    
+
+@media screen and (min-width: 931px) and (max-width: 992px){
+/* mis skills */
+section > div {
+    display: grid;
+    grid-template-areas: 
+    "div1 div4 div5 div11"
+    "div2 div4 div5 div7"
+    "div3 div6 div6 div7"
+    "div9 div8 div10 div12"
+    "div9 div8 div10 div12";
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(5, 140px);
+    border-radius: 10px;
+    padding: 1rem;
+    gap: 20px;
+  }
+  /* DIBUJO */
+.fondo-dibujo{
+background-color: rgb(43,43, 43);
+}
+
+  /* TITULO SOBRE MI */
+  .titulo-seccion{
+      margin-top: 10px;
+  }
+
+  /* mis skills */
+  .html{
+      width: 8%;
+      }
+          .css{
+          width: 8%;
+          }
+              .boostrap{
+              font-size:60px;
+              color: rgb(112, 71, 173);
+              }
+                  .git-hub{
+                    font-size:60px;
+                  color: rgb(241, 80, 47);
+                  }
+                      .wordpress{
+                        font-size:60px;
+                      color: rgb(56, 97, 140);
+                      }
+                          .js{
+                            font-size:60px;
+                          color: #f0db4f;
+                          }
+                              .react-logo{
+                                font-size:60px;
+                              color: rgb(97, 219, 251);
+                              }
+                                  .texto-html-css-js{
+                                  color: black;
+                                  font-family: 'Montserrat', sans-serif;
+                                  font-weight: 700;
+                                  font-size: 8px;
+                                  }
+                                      .speace-around-entre-objetos{
+                                      display: flex;
+                                      justify-content:space-around;
+                                      }
+                                      .texto-portafolio-contacto{                                             
+                                          font-family: 'Montserrat', sans-serif;
+                                          position: relative;
+                                          display: block;
+                                          text-transform: uppercase;
+                                          margin: 20px 0;
+                                          padding: 10px 20px;
+                                          text-decoration: none;
+                                          color: rgb(255, 255, 255);
+                                          font-weight: 600;
+                                          font-size: 20px;
+                                          }}
+
+@media screen and (min-width: 769px) and (max-width: 930px){
+    /* mis skills */
+section > div {
+    display: grid;
+    grid-template-areas: 
+    "div1 div4 div5 div11"
+    "div2 div4 div5 div7"
+    "div3 div6 div6 div7"
+    "div9 div8 div10 div12"
+    "div9 div8 div10 div12";
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(5, 110px);
+    border-radius: 10px;
+    padding: 1rem;
+    gap: 20px;
+  }
+  /* DIBUJO */
+  .fondo-dibujo{
+      background-color: rgb(43,43, 43);
+      }
+          /* CONTACTO */
+          .speace-around-entre-objetos-contacto{
+          /* display: flex;
+          justify-content:space-around; */
+          justify-content: center;
+          display: flex;
+          flex-direction: column;
+          margin:inherit;
+          }
+              .y{
+                  padding-top:20px ;
+              }
+  
+              /* TITULO SOBRE MI */
+              .titulo-seccion{
+                  margin-top: 10px;
+              }
+  
+              /* mis skills */
+              .html{
+                  width: 8%;
+                  }
+                      .css{
+                      width: 8%;
+                      }
+                          .boostrap{
+                          font-size:45px;
+                          color: rgb(112, 71, 173);
+                          }
+                              .git-hub{
+                              font-size: 45px;
+                              color: rgb(241, 80, 47);
+                              }
+                                  .wordpress{
+                                  font-size: 45px;
+                                  color: rgb(56, 97, 140);
+                                  }
+                                      .js{
+                                      font-size: 45px;
+                                      color: #f0db4f;
+                                      }
+                                          .react-logo{
+                                          font-size: 45px;
+                                          color: rgb(97, 219, 251);
+                                          }
+                                              .texto-html-css-js{
+                                              color: black;
+                                              font-family: 'Montserrat', sans-serif;
+                                              font-weight: 700;
+                                              font-size: 8px;
+                                              }
+                                                  .speace-around-entre-objetos{
+                                                  display: flex;
+                                                  justify-content:space-around;
+                                                  }
+                                                  .texto-portafolio-contacto{                                             
+                                                      font-family: 'Montserrat', sans-serif;
+                                                      position: relative;
+                                                      display: block;
+                                                      text-transform: uppercase;
+                                                      margin: 20px 0;
+                                                      padding: 10px 20px;
+                                                      text-decoration: none;
+                                                      color: rgb(255, 255, 255);
+                                                      font-weight: 600;
+                                                      font-size: 20px;
+                                                      }}
+                
+
+@media screen and (min-width: 577px) and (max-width: 768px){
             section > div {
+                grid-template-areas:
+                      "div1 div4" 
+                      "div11 div4 " 
+                      "div6 div6 "
+                      "div6 div6 "
+                      "div9 div8 " 
+                      "div9 div8 " 
+                      "div7 div12 "
+                      "div7 div12 "
+                      "div5 div10 " 
+                      "div5 div10 " 
+                      "div3 div2 " 
+                      "div3 div2 "; 
+                grid-template-columns: repeat(2, 1fr);
+                grid-template-rows: repeat(12, 45px);
+              }
+              /* DIBUJO */
+  .fondo-dibujo{
+      background-color: rgb(43,43, 43);
+      }
+          /* CONTACTO */
+          .speace-around-entre-objetos-contacto{
+          /* display: flex;
+          justify-content:space-around; */
+          justify-content: center;
+          display: flex;
+          flex-direction: column;
+          margin:inherit;
+          }
+              .y{
+                  padding-top:20px ;
+              }
+  
+              /* TITULO SOBRE MI */
+              .titulo-seccion{
+                  margin-top: 10px;
+              }
+  
+              /* mis skills */
+              .html{
+                  width: 8%;
+                  }
+                      .css{
+                      width: 8%;
+                      }
+                          .boostrap{
+                          font-size:45px;
+                          color: rgb(112, 71, 173);
+                          }
+                              .git-hub{
+                              font-size: 45px;
+                              color: rgb(241, 80, 47);
+                              }
+                                  .wordpress{
+                                  font-size: 45px;
+                                  color: rgb(56, 97, 140);
+                                  }
+                                      .js{
+                                      font-size: 45px;
+                                      color: #f0db4f;
+                                      }
+                                          .react-logo{
+                                          font-size: 45px;
+                                          color: rgb(97, 219, 251);
+                                          }
+                                              .texto-html-css-js{
+                                              color: black;
+                                              font-family: 'Montserrat', sans-serif;
+                                              font-weight: 700;
+                                              font-size: 8px;
+                                              }
+                                                  .speace-around-entre-objetos{
+                                                  display: flex;
+                                                  justify-content:space-around;
+                                                  }
+                                                  .texto-portafolio-contacto{                                             
+                                                      font-family: 'Montserrat', sans-serif;
+                                                      position: relative;
+                                                      display: block;
+                                                      text-transform: uppercase;
+                                                      margin: 20px 0;
+                                                      padding: 10px 20px;
+                                                      text-decoration: none;
+                                                      color: rgb(255, 255, 255);
+                                                      font-weight: 600;
+                                                      font-size: 20px;
+                                                      }}
+          
+
+
+@media screen and (min-width:481px) and (max-width: 576px){
+            section > div {
+                grid-template-areas:
+                      "div1 div4" 
+                      "div11 div4 " 
+                      "div6 div6 "
+                      "div6 div6 "
+                      "div9 div8 " 
+                      "div9 div8 " 
+                      "div7 div12 "
+                      "div7 div12 "
+                      "div5 div10 " 
+                      "div5 div10 " 
+                      "div3 div2 " 
+                      "div3 div2 "; 
+                grid-template-columns: repeat(2, 1fr);
+                grid-template-rows: repeat(12, 45px);
+              }
+              /* DIBUJO */
+  .fondo-dibujo{
+      background-color: rgb(43,43, 43);
+      }
+          /* CONTACTO */
+          .speace-around-entre-objetos-contacto{
+          /* display: flex;
+          justify-content:space-around; */
+          justify-content: center;
+          display: flex;
+          flex-direction: column;
+          margin:inherit;
+          }
+              .y{
+                  padding-top:20px ;
+              }
+  
+              /* TITULO SOBRE MI */
+              .titulo-seccion{
+                  margin-top: 10px;
+              }
+  
+              /* mis skills */
+              .html{
+                  width: 8%;
+                  }
+                      .css{
+                      width: 8%;
+                      }
+                          .boostrap{
+                          font-size:35px;
+                          color: rgb(112, 71, 173);
+                          }
+                              .git-hub{
+                              font-size: 35px;
+                              color: rgb(241, 80, 47);
+                              }
+                                  .wordpress{
+                                  font-size: 35px;
+                                  color: rgb(56, 97, 140);
+                                  }
+                                      .js{
+                                      font-size: 35px;
+                                      color: #f0db4f;
+                                      }
+                                          .react-logo{
+                                          font-size: 35px;
+                                          color: rgb(97, 219, 251);
+                                          }
+                                              .texto-html-css-js{
+                                              color: black;
+                                              font-family: 'Montserrat', sans-serif;
+                                              font-weight: 700;
+                                              font-size: 8px;
+                                              }
+                                                  .speace-around-entre-objetos{
+                                                  display: flex;
+                                                  justify-content:space-around;
+                                                  }
+                                                  .texto-portafolio-contacto{                                             
+                                                      font-family: 'Montserrat', sans-serif;
+                                                      position: relative;
+                                                      display: block;
+                                                      text-transform: uppercase;
+                                                      margin: 20px 0;
+                                                      padding: 10px 20px;
+                                                      text-decoration: none;
+                                                      color: rgb(255, 255, 255);
+                                                      font-weight: 600;
+                                                      font-size: 20px;
+                                                      }}
+          
+
+
+@media screen and (min-width:320px) and (max-width: 480px) {
+    section > div {
               grid-template-areas:
-                    /* "div1 div4 div5" 
-                    "div11 div4 div5" 
-                    "div3 div6 div6" 
-                    "div9 div8 div10" 
-                    "div9 div8 div10" 
-                    "div7 div2 div12"
-                    "div7 div2 div12"; */
                     "div1 div4" 
                     "div11 div4 " 
                     "div6 div6 "
@@ -978,7 +1385,89 @@ background-color:rgb(43, 43, 43);
 .fondo-dibujo{
     background-color: rgb(43,43, 43);
     }
-          }
+        /* CONTACTO */
+        .speace-around-entre-objetos-contacto{
+        /* display: flex;
+        justify-content:space-around; */
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        margin:inherit;
+        }
+            .y{
+                padding-top:20px ;
+            }
+
+            
+            /* TITULO SOBRE MI */
+            .titulo-seccion{
+                margin-top: 10px;
+            }
+
+
+            /* mis skills */
+            .html{
+                width: 6%;
+                }
+                    .css{
+                    width: 6%;
+                    }
+                        .boostrap{
+                        font-size:20px;
+                        color: rgb(112, 71, 173);
+                        }
+                            .git-hub{
+                            font-size: 20px;
+                            color: rgb(241, 80, 47);
+                            }
+                                .wordpress{
+                                font-size: 20px;
+                                color: rgb(56, 97, 140);
+                                }
+                                    .js{
+                                    font-size: 20px;
+                                    color: #f0db4f;
+                                    }
+                                        .react-logo{
+                                        font-size: 20px;
+                                        color: rgb(97, 219, 251);
+                                        }
+                                            .texto-html-css-js{
+                                            color: black;
+                                            font-family: 'Montserrat', sans-serif;
+                                            font-weight: 700;
+                                            font-size: 8px;
+                                            }
+                                                .speace-around-entre-objetos{
+                                                display: flex;
+                                                justify-content:space-around;
+                                                }
+                                                .texto-portafolio-contacto{                                             
+                                                    font-family: 'Montserrat', sans-serif;
+                                                    position: relative;
+                                                    display: block;
+                                                    text-transform: uppercase;
+                                                    margin: 20px 0;
+                                                    padding: 10px 20px;
+                                                    text-decoration: none;
+                                                    color: rgb(255, 255, 255);
+                                                    font-weight: 600;
+                                                    font-size: 20px;
+                                                    }
+                                                
+                                                }
+            
+            
+            
+
+
+
+
+
+
+
+
+
 
 /* animista */
 @-webkit-keyframes rotate-top{0%{-webkit-transform:rotate(0);transform:rotate(0);-webkit-transform-origin:top;transform-origin:top}100%{-webkit-transform:rotate(360deg);transform:rotate(360deg);-webkit-transform-origin:top;transform-origin:top}}@keyframes rotate-top{0%{-webkit-transform:rotate(0);transform:rotate(0);-webkit-transform-origin:top;transform-origin:top}100%{-webkit-transform:rotate(360deg);transform:rotate(360deg);-webkit-transform-origin:top;transform-origin:top}}
