@@ -14,14 +14,11 @@ body::-webkit-scrollbar-thumb {
 body::-webkit-scrollbar-thumb:hover {
     background-color: rgb(101, 101, 101);
 }
-body{
-    background-color: hsl(228, 15%, 20%);
-}
 
 
-/* *********************/
-/* MENU HAMBURGUESA */
-/* *********************/
+/*************************/
+/*** MENU HAMBURGUESA ***/
+/***********************/
 .hamburger {
     padding: 15px;
     cursor: pointer;
@@ -136,35 +133,28 @@ body{
 }
 
 
-/* *********************/
-/****** LOGO GR/ *******/
-/* *********************/
+/*****************/
+/*** LOGO GR/ ***/
+/***************/
+.parrafo-logo{
+    padding-left: 2em;
+}
 .parrafo-logo p{
-    color: rgb(255, 199, 88);
-    /* color:  rgb(244, 126, 62); */
+    color:rgb(255, 199, 88);
     font-size: 25px;
     transition: 0.5s;
 }
-.parrafo-logo p:hover {
-    color: white;
-    transition: all 400ms ease-out ;
-    }
         .parrafo-logo h3{
-            color: white;
+            color: rgb(0, 0, 0);
         font-size: 25px;
         transition: 0.5s;
         font-family: 'Montserrat', sans-serif;
         }
-            .parrafo-logo h3:hover{
-            color:rgb(255, 199, 88) ;
-            transition: all 400ms ease-out;
-            }
 
 
-/* *********************/
-/* seccion I N I C I O */
-/* *********************/
-/* Estilos para la barra de navegación */
+/**********************/
+/*** SECCION INICIO ***/
+/**********************/
 #navbar {
     position: fixed;
     top: 0;
@@ -172,26 +162,40 @@ body{
     height: 60px; 
     transition: background-color 0.5s ease;
   }
-  
+
   .navbar-bg {
-    /* background-color: hsla(229, 16%, 20%, 0.877); */
-    background-color: rgba(0, 0, 0, 0.849);
-    padding: 30px;
+     /* background-color: hsla(229, 16%, 20%, 0.877);  */
+     background-color: hsla(0, 0%, 100%, 0.877); 
   }
   .posicion-nav {
-    justify-content:center;
+    justify-content:space-evenly;
     width: auto;
 }
-
-/* .fondo-nav {
-    background-color: rgba(0, 0, 0, 0.829);
-} */
-
-nav ul {
-    text-align: center;
+/* LOGOS DEL NAVBAR */
+.logos-colores{
+    display: flex;
+    justify-content: center;
+}
+.logos-colores li{
+    flex: 1;
+  text-align: center;
+  font-size: 1em;
+}
+.logo-navBar-colores i{
+    color: rgb(0, 0, 0);
 }
 
-.nav-item a {
+
+ /* .fondo-nav {
+    margin-top: -10px;
+    background-color: rgba(0, 0, 0, 0.829);
+}  */
+
+/* nav ul {
+    text-align: center;
+} */
+
+/* .nav-item a {
     text-decoration: none;
     color: white;
     font-weight: 600;
@@ -202,12 +206,11 @@ nav ul {
 }
 .nav-item a:hover {
     color: rgb(255, 255, 255);
-}
+} */
 
 ul {
     display: flex;
     justify-content: center;
-    /* padding-left: 0px; */
 }
 ul li {
     list-style: none;
@@ -217,53 +220,154 @@ ul li .sobre-mi {
     position: relative;
     display: block;
     text-transform: uppercase;
-    margin: 20px 0;
+    margin: 20px 0px;
     padding: 10px 20px;
     text-decoration: none;
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     font-size: 15px;
     font-weight: 600;
-    transition: 0.5s;
     z-index: 1;
+    padding-bottom: 5px;
+    
 }
-ul li .sobre-mi:before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    border-top: 2px solid rgb(255, 255, 255);
-    border-bottom: 2px solid rgb(255, 255, 255);
-    transform: scaleY(2);
-    opacity: 0;
-    transition: 0.3s;
+.sobre-mi:hover{
+    color: black;
+    border-bottom: solid 1px black;
 }
-ul li .sobre-mi:after {
-    content: "";
-    position: absolute;
-    top: 2px;
-    left: 0;
-    width: 100%;
-    height: 100%;
+/* ANIMACION DEL ENGRANAJE */
+.fa-gear{
+    animation: homeSpinner 10s linear infinite;
+}
+@keyframes homeSpinner{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+
+/********************/
+/*** MODO OSCURO ***/
+/******************/
+body.modo-oscuro {
+    background-color: black;
+    color: white;
+  }
+  .modo-oscuro .diseño-ola {
+    background-image: url(./imagenes/imagen-personal/ola-negra.png);
+  }
+  .modo-oscuro .acerca-de-Titulo{
+    background-color: rgba(50, 50, 50, 1);
+  }
+  .modo-oscuro .acerca-de-Titulo h1{
+    -webkit-text-stroke: 1px #ffffff ;
+  }
+  .modo-oscuro .acerca-de-fondo{
+    background-color: rgba(50, 50, 50, 1);
+  }
+.modo-oscuro .titulo-proyectos h1{
+    -webkit-text-stroke: 1px #ffffff ;
+}
+
+  .modo-oscuro .sobre-mi {
+    color: white;
+    transition: 0.5s;
+  }
+
+  .modo-oscuro .sobre-mi:hover {
+    background-color: #383838;
+    transition: 0.5s;
+    border-bottom: solid 1px rgb(255, 255, 255);
+  }
+  
+  .modo-oscuro #sobremi .sobremi .parrafo{
+    color: rgb(219, 219, 219);
+  }
+  .modo-oscuro #sobremi .sobremi h2{
+    color: rgb(219, 219, 219);
+  }
+.modo-oscuro #sobremi .sobremi .titulo-seccion{
+    color: white;
+}
+.modo-oscuro #sobremi .sobremi .console-container{
+    color: white;
+}
+.modo-oscuro .logo-navBar-colores i{
+    color: white;
+}
+.modo-oscuro .console-underscore {
+    background-color: black;
+    padding: 10px;
+  }
+.modo-oscuro .navbar-bg{
+    background-color:rgb(0, 0, 0, 0.877);
+}
+.modo-oscuro .parrafo-logo h3{
+color: white;
+}
+.modo-oscuro .logos-imagen li{
+    background-color: rgb(85, 81, 81);
+}
+.modo-oscuro .logos-imagen ul li a{
+    color: rgb(255, 255, 255);
+}
+.modo-oscuro .logos-imagen ul li a:hover{
     background-color: rgb(255, 199, 88);
-    transform: scale(0);
-    opacity: 0;
-    transition: 0.3s;
-    z-index: -1;
+    color: rgb(0, 0, 0);
+    border-radius: 6% 6% 6% 6%;
+    transition: 0.5s;
+    border: none;
 }
-ul li .sobre-mi:hover {
-    color: #fff;
+.modo-oscuro span{
+    color: rgb(255, 199, 88);
 }
-ul li .sobre-mi:hover:before {
-    transform: scaleY(1);
-    opacity: 1;
+.modo-oscuro .tecnologíasyhabilidades{
+    color: rgb(255, 199, 88);
 }
-ul li .sobre-mi:hover:after {
-    transform: scaleY(1);
-    opacity: 1;
+.modo-oscuro .tecnologíasyhabilidades p:hover{
+    border-color: rgb(0, 0, 0) ;
 }
-/* TEXTO DE IMAGEN PRINCIPAL*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**********************************/
+/*** TEXTO DE IMAGEN PRINCIPAL ***/
+/********************************/
 .inicio .contenido .presentacion {
     max-width: 1100px;
     height: 100vh;
@@ -315,46 +419,18 @@ ul li .sobre-mi:hover:after {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* *************************/
-/* seccion S O B R E  M I */
-/* ***********************/
+/*************************/
+/*** SECCION SOBRE MI ***/
+/***********************/
  #sobremi {
-    max-width: 1300px;
     margin: auto;
-    padding: 100px 15px;
     color: #111135;
     display: flex;
+    padding: 100px 15px 0px 0px; 
+    /* background: linear-gradient(to bottom, #ccc, #fff) top/100% 100px no-repeat;  */
 } 
 #sobremi .sobremi {
-    padding: 50px;
-    /* margin: 0 40px; */
+    padding: 60px 0px 0px 50px;
 }
 #sobremi .sobremi .titulo-seccion {
     font-size: 22px;
@@ -362,167 +438,213 @@ ul li .sobre-mi:hover:after {
     color: #111135;
     text-decoration: underline;
     text-decoration-color: #d3d3d3;
-    text-decoration-thickness: 5px;
+    text-decoration-thickness: 5px; 
 }
 #sobremi .sobremi h2 {
     font-size: 34px;
     font-weight: bold;
-    margin: 20px 0;
+    margin: 25px 0;
     letter-spacing: 2px;
 }
-#sobremi .sobremi h2 span {
+#sobremi .sobremi span {
     color: rgb(255, 199, 88);
 }
-#sobremi .sobremi h3 {
+#sobremi .sobremi .console-container span {
+    color: rgb(255, 199, 88);
+}
+#sobremi .sobremi .console-container {
     font-size: 18px;
     font-weight: 500;
     text-transform: uppercase;
     margin-bottom: 20px;
     letter-spacing: 1px;
 }
-#sobremi .sobremi p {
+.console-underscore {
+ display:inline-block;
+ position:relative;
+ left:10px;
+ background-color: #111135;
+ 
+}
+ 
+@media (max-width: 750px) {
+ .console-container { font-size:2em; }
+}
+#sobremi .sobremi .parrafo {
     font-size: 16px;
     line-height: 25px;
     color: #565656;
     margin-bottom: 12px;
     font-weight: 500;
 }
-#sobremi .sobremi a {
+#sobremi .sobremi .descargarCV {
     display: inline-block;
     text-decoration: none;
-    color: #000;
-    border-radius: 30px;
-    border: 2px solid #000;
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    background-color: rgb(255, 199, 88);
+    border-radius: 5px 5px 5px 5px;
     padding: 10px 20px;
     margin-top: 30px;
-    transition: .5s;
+    transition: 0.5s;
 }
-#sobremi .sobremi a:hover {
+
+
+/* IMAGEN SOBRE-MI */
+  .contenedor-imagen {
+    width: 350px;
+    height: 350px;
+    padding-top: 20px;
+    border: 10px solid rgb(255, 199, 88);
+    box-sizing: border-box;
+}
+.contenedor-imagen img{
+    width: 350px;
+    height: 350px;
+margin-top: -80px;
+margin-left: 50px;
+filter: drop-shadow(16px 16px 20px rgba(189, 189, 189, 0.8));
+border: 10px solid rgb(255, 255, 255);
+transition: transform 0.3s ease-in-out;
+}
+.contenedor-imagen img:hover {
+    transform: scale(1.1) rotate(2deg);
+  }
+  .contenedor-imagen img:active {
+    transform: scale(0.9) rotate(-2deg);
+    transition-duration: 0.05s;
+  }
+.pepito{
+     padding: 100px; 
+}
+.sobre-mi .logos-imagen{
+    border: none;
+}
+.logos-imagen li{
+    background-color: #e0e0e0;
+    border-radius: 10% 10% 10% 10%;
+}
+.logos-imagen ul li a{
+    color: #000;
+    font-size: 1em;
+    transition: 0.5s;
+}
+.logos-imagen ul li a:hover{
     background-color: rgb(255, 199, 88);
-    color: #fff;
-    transition: 0.4s;
-    transform: scale(1.2)
+    color: white;
+    border-radius: 10% 10% 10% 10%;
+    transition: 0.5s;
+    border: none;
 }
 
-/* imagen-sobre mi */
-.hexagonal-imagen {
+
+/******************/
+/*** ACERCA DE ***/
+/****************/
+  .diseño-ola {
     width: 100%;
-    padding: 100px;
-    
-     /* filter: drop-shadow(16px 16px 20px rgba(66,220,219,.8));  */
-  }
-  .hexagonal-imagen img {
-      /* clip-path: polygon(50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%);  */
-     animation: neonGlow 2s infinite alternate ;
-      border-radius: 50%;
-  }
-
-  /* rgb(255, 199, 88) */
-
-
-  @keyframes neonGlow {
-    0% {
-      box-shadow:   0 0 20px rgba(255,255,255,.8),
-                   0 0 22px  rgba(255,255,255,.8),
-                   /* 0 0 40px  rgba(66,220,219,.8),
-                   0 0 60px  rgba(66,220,219,.8),
-                   0 0 80px  rgba(66,220,219,.5),
-                   0 0 100px rgba(66,220,219,.5),
-                   0 0 140px rgba(66,220,219,.5),
-                   0 0 200px rgba(66,220,219,.5); */
-                   0 0 40px  rgba(255, 199, 88,.8),
-                   0 0 60px  rgba(255, 199, 88,.8),
-                   0 0 80px  rgba(255, 199, 88,.8),
-                   0 0 100px rgba(255, 199, 88,.5),
-                   0 0 140px rgba(255, 199, 88,.5),
-                   0 0 200px rgba(255, 199, 88,.5);
-    }
-    100% {
-      box-shadow:   0 0 2px rgba(255,255,255,.8),
-                   0 0 8px rgba(255,255,255,.8),
-                   0 0 10px rgba(255,255,255,.8),
-                   0 0 20px rgba(255, 199, 88,.8),
-                   0 0 30px rgba(255, 199, 88,.8),
-                   0 0 40px rgba(255, 199, 88,.8),
-                   0 0 50px rgba(255, 199, 88,.5),
-                   0 0 80px rgba(255, 199, 88,.5);
-    }
-  }
-
-
-
-
-
-
-
-
-
-/* *********************/
-/* seccion S K I L L S */
-/* *********************/
-.fondo-mis-skills {
-    background-image: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url(./imagenes/fondo-inicio.jpg);
+    background-image: url(./imagenes/imagen-personal/ola-blanca.png), url(./imagenes/imagen-personal/ola-negra.png);
+    background-size: 100% 180px;
+    background-position: center top;
     background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
+    margin-bottom: -20px;
+    padding-top: 195px;
 }
-.html {
-    width: 6%;
+/* ajusta la posición de la segunda imagen para que se superponga en la primera */
+.diseño-ola:hover {
+    background-position: center top, center 80%;
 }
-.css {
-    width: 6%;
+.acerca-de-fondo{
+    background-color: rgb(232, 232, 232);
 }
-.boostrap {
-    font-size: 85px;
-    color: rgb(112, 71, 173);
+.acerca-de-Titulo{
+    background-color: rgba(232, 232, 232);
 }
-.git-hub {
-    font-size: 85px;
-    color: rgb(241, 80, 47);
+.acerca-de-Titulo h1{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 60px;
+    font-family:'poppins', sans-serif;
+    -webkit-text-fill-color: transparent ;
+    -webkit-text-stroke: 1px #111135 ;
+    letter-spacing: 20px;
+    opacity: 0.2;
 }
-.wordpress {
-    font-size: 85px;
-    color: rgb(56, 97, 140);
+.gonzalo-robledo{
+    font-size: 34px;
+    margin: 20px 0;
+    font-weight: bold;
 }
-.js {
-    font-size: 85px;
-    color: #f0db4f;
+.tecnologíasyhabilidades div{
+    margin-right: 12px;
 }
-.react-logo {
-    font-size: 85px;
-    color: rgb(97, 219, 251);
+.tecnologíasyhabilidades h3{
+    font-size:2em;
 }
-.texto-html-css-js {
-    color: black;
+ .tecnologíasyhabilidades p{
+    font-size: 14px;
+    font-weight: 600;
     font-family: 'Montserrat', sans-serif;
-    font-weight: 700;
-    font-size: 15px;
+    background-color: #e9e9e9;
+    display: inline-block;
+    text-decoration: none;
+    color: #1b1b1b;
+    border-radius: 30px;
+    border: 2px solid #00000042;
+    padding: 10px 20px;
+    margin-top: 30px;
+    transition: 0.5s;
 }
-.speace-around-entre-objetos {
+.tecnologíasyhabilidades p:hover{
+    border: 2px solid rgb(49, 49, 49);
+    transition: 0.5s;
+}
+
+
+/*****************/
+/*** PROYECTOS ***/
+/*****************/
+.titulo-proyectos h1{
+    margin-top: 200px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 60px;
+    font-family:'poppins', sans-serif;
+    -webkit-text-fill-color: transparent ;
+    -webkit-text-stroke: 1px #111135 ;
+    letter-spacing: 20px;
+    opacity: 0.2;
+}
+.titulo-proyectos i {
     display: flex;
-    justify-content: space-around;
+    align-items: center;
+    color: rgb(255, 199, 88);
+    margin-right: 10px; /* Ajusta el margen derecho según tus preferencias */
+    margin-left: 10px; /* Ajusta el margen izquierdo según tus preferencias */
+    font-size: 24px; /* Ajusta el tamaño de fuente según tus preferencias */
+  }
+.linea-proyecto{
+    background-color: rgb(255, 199, 88);
+    color: transparent;
 }
-
-
-/* *********************/
-/***** PORTAFOLIO ******/
-/* *********************/
 .fondo-portafolio {
     background-color: rgb(43, 43, 43);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
+    border: 5px solid rgb(241, 241, 241);
+     margin-bottom: 200px;
+     filter: drop-shadow(16px 16px 20px rgba(189, 189, 189, 0.8));
 }
-.espacio-entre-proyectos {
-    margin-top: -40px;
+.fondo-portafolio .contenedor{
+    padding: 0 30px 0px 30px;
 }
 .contenedor figure {
     /* cursor:pointner- cambiaa la flecha del mouse */
     cursor: pointer;
     /* overflow: hidden; te permite no mostrar el contenido de un elemento que sobresale cuando es demasiado grande para caber. */
     overflow: hidden;
-    border-radius: 6px;
-    box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.50);
 }
 .contenedor figure img {
     width: 100%;
@@ -566,49 +688,15 @@ ul li .sobre-mi:hover:after {
     max-width: 220px;
     margin: auto;
 }
-.ver-diseño {
-    font-size: 2px;
-    text-decoration: none;
-    color: white;
-    background-color: rgb(255, 199, 88);
-    border: solid 4px;
-    border-left: 50px;
-    border-color: rgb(255, 199, 88);
-    border-radius: 5px;
-}
-.ver-diseño:hover {
-    background-color: rgb(0, 0, 0);
-    border: solid 4px;
-    border-color: rgb(0, 0, 0);
-    border-radius: 4px;
-    color: rgb(255, 199, 88);
-    transition: 0.3s;
-    transform: scale(1.150);
-}
-.repositorio-diseño {
-    text-decoration: none;
-    color: white;
-    background-color: rgb(255, 199, 88);
-    border: solid 4px;
-    border-color: rgb(255, 199, 88);
-    border-radius: 4px;
-}
-.repositorio-diseño:hover {
-    background-color: rgb(0, 0, 0);
-    border: solid 4px;
-    border-color: rgb(0, 0, 0);
-    border-radius: 4px;
-    color: rgb(255, 199, 88);
-    transition: 0.3s;
-    transform: scale(1.150);
-}
 
-
-/* *********************/
-/******* DIBUJOS ********/
-/* *********************/
+/***************/
+/*** DIBUJOS ***/
+/***************/
 .fondo-dibujo {
     background-color: rgb(43, 43, 43);
+    border: 5px solid rgb(241, 241, 241);
+    margin-bottom: 200px;
+    filter: drop-shadow(16px 16px 20px rgba(189, 189, 189, 0.8));
 }
 section {
     width: 100%;
@@ -671,7 +759,6 @@ section>div {
     overflow: hidden;
     transition: all 400ms ease-out;
 }
-
 .grid-hijo-5:hover {
     transition: 0.3s;
     transform: scale(1.050);
@@ -750,8 +837,6 @@ img {
 .aaa {
     margin-top: -30px;
 }
-
-
 /* EFECTO LIGHTBOX GRID GALERIA DE DIBUJOS */
 .gallery-block.compact-gallery .item .description {
     display: grid;
@@ -783,81 +868,25 @@ img {
 }
 
 
-/* *********************/
-/* seccion P O R T F O L I O */
-/* *********************/
-#portfolio {
-    max-width: 1100px;
-    padding: 100px 0;
-    margin: auto;
-}
-#portfolio .titulo-seccion {
-    text-align: center;
-    font-size: 22px;
-    text-transform: uppercase;
-    color: #111135;
-    text-decoration: underline;
-    text-decoration-color: #d3d3d3;
-    text-decoration-thickness: 5px;
-}
-#portfolio .fila {
-    display: flex;
-    justify-content: space-between;
-    margin: 30px 0;
-}
-#portfolio .fila .proyecto {
-    max-width: 450px;
-    border: 1px solid #000;
-    margin: 0 10px;
-    position: relative;
-    overflow: hidden;
-}
-#portfolio .fila .proyecto img {
-    width: 100%;
-    height: 100%;
-    filter: grayscale(1);
-    object-fit: cover;
-    transition: .5s;
-}
-#portfolio .fila .proyecto:hover img {
-    filter: grayscale(0);
-}
-#portfolio .fila .proyecto .info {
-    position: absolute;
-    left: 0px;
-    background-color: rgba(0, 0, 0, 0.8);
-    color: #ff5080;
-    width: 100%;
-    padding: 10px;
-    opacity: 0;
-    bottom: -40px;
-    transition: .5s;
-}
-#portfolio .fila .proyecto:hover .info {
-    opacity: 1;
-    bottom: 0;
-}
-
-
-/* *********************/
-/* seccion C O N T A C T O */
-/* *********************/
+/*************************/
+/*** SECCION CONTACTO ***/
+/***********************/
 .fondo-contacto {
-    background-image: url(./imagenes/foto-contactar.jpg);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
+    background-color: #565656;
+    border: 5px solid rgb(241, 241, 241);
+    filter: drop-shadow(16px 16px 20px rgba(189, 189, 189, 0.8));
 }
 .texto-portafolio-contacto {
     font-family: 'Montserrat', sans-serif;
     position: relative;
     display: block;
     text-transform: uppercase;
-    margin: 20px 0;
-    padding: 10px 20px;
+    /* margin: 20px 0px;
+    padding: 10px 20px; */
     text-decoration: none;
     color: rgb(255, 255, 255);
     font-weight: 600;
+
 }
 .speace-around-entre-objetos-contacto {
     /* display: flex;
@@ -920,36 +949,33 @@ img {
     background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
 }
 .z .y:nth-child(5) .r:before {
-    background: #19b552;
-}
-.z .y:nth-child(6) .r:before {
-    background: #b5192e;
+    background: #f00;
 }
 
 
-/* *********************/
-/* seccion F O O T E R */
-/* *********************/
+
+/**********************/
+/*** SECCION FOOTER ***/
+/**********************/
 .fondo-footer {
     background-color: rgb(43, 43, 43);
 }
 .tamaño-parrafo-footer {
     font-size: 20px;
 }
-
-
  @media screen and (min-width: 992px) and (max-width: 2800px){
-   
+    .fondo-nav {
+        background-color: rgba(0, 0, 0, 0);
+    }
 }
-
  @media screen and (min-width: 320px) and (max-width: 991px){
    .navbar-bg {
-    background-color: rgba(0, 0, 0, 0);
+    padding-top: 0px;
     padding: 0px; 
-     /* background-color: hsla(229, 16%, 20%, 0.877); */
+    background-color: hsla(229, 16%, 20%, 0);
    } 
-
    .fondo-nav {
-    background-color: rgba(0, 0, 0, 0.829);
+    padding-top: 0px;
+    background-color: hsla(229, 16%, 20%, 0.877); 
 }
  } 

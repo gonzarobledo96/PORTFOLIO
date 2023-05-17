@@ -11,7 +11,7 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
   <!-- google fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
-<!-- LOGO CONTACTO -->
+<!-- LOGO FONT AWESOME -->
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
   <!-- ANIMACION DE AOS -->
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
@@ -24,15 +24,18 @@
 <!-- body-color: hsl(228, 15%, 20%); -->
 
 <body>
-    <!-- SECCION I N I C I O -->
+  
+<!-- *************************** -->
+<!-- *** BARRA DE NAVEGACION *** -->
+<!-- *************************** -->
      <div class="inicio" id="inicio">
-        <div class="contenido fondo-nav">
-            <nav id="navbar" class="navbar navbar-expand-lg  fixed-top"><!-- navbar-bg -->
-            <div class="container-fluid ">
+        <div class="contenido ">
+            <nav id="navbar" class="navbar navbar-expand-lg fixed-top "><!-- navbar-bg -->
+            <div class="container-fluid fondo-nav">
                 <div class="parrafo-logo nav-item mt-3">
-                        <p class="parrafo-logo d-inline-block"> < </p>
+                        <p class=" d-inline-block"> < </p>
                         <h3 class="d-inline-block"> GR </h3>
-                        <p class="parrafo-logo d-inline-block"> > </p>
+                        <p class=" d-inline-block"> > </p>
                 </div>
                 <div class="navbar-toggler hamburger" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <div class="hamburger__container ">
@@ -41,136 +44,223 @@
                     </div>
                   </div>
                 <div class="collapse navbar-collapse posicion-nav"  id="navbarSupportedContent">
-                    <ul class="navbar-nav ">
+                    <ul class="navbar-nav diseño-navbar">
                         <li class="nav-item ms-3">
                             <a class="nav-link sobre-mi" href="#sobremi" rel="noopener noreferrer">
                                 <i class="bi bi-house-door-fill"></i>
                             </a>
                         </li>
                         <li class="nav-item ms-3">
-                            <a class="nav-link sobre-mi" href="#skills" rel="noopener noreferrer">MIS SKILLS</a>
+                            <a id="acerca-de-mi-ing" class="nav-link sobre-mi" href="#acercaDe" rel="noopener noreferrer">ACERCA DE</a>
                         </li>
                         <li class="nav-item ms-3">
-                            <a class="nav-link sobre-mi" href="#proyectos" rel="noopener noreferrer">PROYECTOS</a>
+                            <a id="proyectos-ing" class="nav-link sobre-mi" href="#proyectos" rel="noopener noreferrer">PROYECTOS</a>
                         </li>
                         <li class="nav-item ms-3">
-                            <a class="nav-link sobre-mi"  href="#dibujos" rel="noopener noreferrer">MIS INTERESES</a>
+                            <a id="mis-intereses-ing" class="nav-link sobre-mi"  href="#dibujos" rel="noopener noreferrer">MIS INTERESES</a>
                         </li>
                         <li class="nav-item ms-3">
-                            <a class="nav-link sobre-mi"  href="#contactar" rel="noopener noreferrer">CONTACTAR</a>
+                            <a id="contactar-ing" class="nav-link sobre-mi"  href="#contactar" rel="noopener noreferrer">CONTACTAR</a>
                         </li>
                     </ul>
-                    <div class=" pt-3">
-                            <ul>
-                                <li class="nav-item ">
-                                    <a class="nav-link sobre-mi" href=""><i class="fa-regular fa-moon"></i></a>
-                                </li>
-                                <li>
-                                    <a class="nav-link sobre-mi" href=""><i class="fa-solid fa-globe"></i></a>
-                                </li>
-                            </ul>
+
+                        <ul class="navbar-nav logo-navBar-colores">
+                          <li class="nav-item">
+                            <button style="border: none; background-color: transparent;" class="nav-link" id="idioma-link" onclick="toggleIdioma()">
+                                <i class="fa-solid fa-globe"></i>
+                              </button>
+
+                           
+
+                          </li>
+                          <li class="nav-item" style="cursor: pointer;">
+                            <a class="nav-link" onclick="cambiarFondo()"><i class="fa-regular fa-moon"></i></a>
+                          </li>
+                          <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              <i class="fa-solid fa-gear"></i>
+                            </a>
+                            <ul class="dropdown-menu " id="color-list">
+                                            <p id="elige-un-color-ing" class="text-center">Elige un color</p>
+                                            <div class="logos-colores d-flex">
+                                                  <li><a href="#" data-color="" onclick="handleColorChange(event)"><i class="fas fa-circle" style="color: rgb(255, 199, 88);"></i></a></li>
+                                                  <li><a href="#" data-color="#ec1839" onclick="handleColorChange(event)"><i class="fas fa-circle" style="color: #ec1839;"></i></a></li>
+                                              <li><a href="#" data-color="#fa5b0f" onclick="handleColorChange(event)"><i class="fas fa-circle" style="color: #fa5b0f;"></i></a></li>
+                                              <li><a href="#" data-color="#37b182" onclick="handleColorChange(event)"><i class="fas fa-circle" style="color: #37b182;"></i></a></li>
+                                              <li><a href="#" data-color="rgb(218, 221, 29)" onclick="handleColorChange(event)"><i class="fas fa-circle" style="color: rgb(218, 221, 29);"></i></a></li>
+                                              <li><a href="#" data-color="#2564ca" onclick="handleColorChange(event)"><i class="fas fa-circle" style="color: #2564ca;"></i></a></li>
+                                              <li><a href="#" data-color="#f021b2" onclick="handleColorChange(event)"><i class="fas fa-circle" style="color: #f021b2;"></i></a></li>
+                                              </div>
+                                            </ul>
+                                          </li>
+                                        </ul>
+                                    </div>
                         </div>
                 </div>
             </div>
-        </nav>
-         
 
+
+<!-- ********************** -->
+<!-- *** SECCION INICIO *** -->
+<!-- ********************** -->
+<div class="row align-items-start" id="sobremi">
+    <div class="col">
+        <div class=" sobremi">
+            <p id="Hola-mi-nombre-es-Gonzalo-ing" class="titulo-seccion">Hola, Mi nombre es</p>
+            <h2><span>Gonzalo Robledo</span></h2>
+            <div id="maquina-de-escribir-ing" class='console-container d-flex'><p id="soy" class="me-2">Soy</p> 
+                <span id='text'></span>
+                 <div class='console-underscore' id='console'>_</div>
+                 </div>
+                 <p id="parrafos-1-ing" class="parrafo">Soy un diseñador y desarrollador web apasionado por crear soluciones digitales y visuales innovadoras que generen una experiencia única al usuario y que conecten con las necesidades <br> de las personas.</p>
+            <a id="descargarCV" class="descargarCV" href="./gonzalo-robledo.pdf" target="_blank">Descargar CV</a>
+        </div>
     </div>
+    <div class="col">
+        <div class="d-flex">
+            <div class="pepito">
+                <div class="contenedor-imagen" >
+                   <img src="./imagenes/imagen-personal/blanco - copia.png" alt="Descripción de la imagen">
+                 </div>
+             </div>
+        <div class="logos-imagen" style="padding-top: 8%;">
+            <ul class="ms-5 d-inline-block ">
+                <li class="nav-item " >
+                    <a class="nav-link sobre-mi" href=""><i class="fab fa-facebook-f iconn" ></i></a>
+                </li>
+                <li>
+                    <a class="nav-link sobre-mi" href=""><i class="fab fa-brands fa-github iconn"></i></a>
+                </li>
+                <li>
+                    <a class="nav-link sobre-mi" href=""><i class="fab fa-linkedin-in iconn"></i></a>
+                </li>
+                <li>
+                    <a class="nav-link sobre-mi" href=""><i class="fab fa-brands fa-instagram iconn"></i></a>
+                </li>
+                <li>
+                    <a class="nav-link sobre-mi" href=""><i class="fa-solid fa-envelope iconn"></i></a>
+                </li>
+            </ul>
+        </div>
+        </div>
+    </div>
+  </div>
+  
+
+<!-- ***************** -->
+<!-- *** ACERCA DE *** -->
+<!-- ***************** -->
+<!-- EFECTO OLA -->
+<div id="color-fondo" class="diseño-ola">
+<div id="acercaDe" class="acerca-de-Titulo pt-5" style=" margin-top: -15px;">
+    <h1 id="acerca-de-titulo-ing">ACERCA DE</h1><!-- data-aos="flip-left"
+        data-aos-easing="ease-out-cubic"
+        data-aos-duration="2000" -->
 </div>
-
-<div id="sobremi" >
-    <div class="sobremi">
-        <p class="titulo-seccion">Sobre Mi</p>
-        <h2>Hola,<span> Soy Gonzalo Robledo</span> </h2>
-        <h3>Desarrollador y diseñador Web</h3>
-        <p>Me llamo Gonzalo, soy un apasionado desarrollador y Diseñador web <br> con experiencia en HTML, CSS y Bootstrap, con conocimientos basicos <br> en JavaScript. Disfruto creando paginas webs innovadoras y funcionales <br> que hagan la vida más fácil para las personas. Siempre estoy buscando aprender nuevas tecnologías y mejorar mis habilidades para ofrecer un trabajo de calidad y satisfacer las necesidades de los clientes.</p>
-        <a href="./gonzalo-robledo.pdf">Descargar CV</a>
-    </div>
-    <div class=" hexagonal-imagen">
-        <img src="./imagenes/imagen-personal/fondo-dorado.png" alt="">
-    </div>
 </div>
-
-
-
-
-<!-- MIS SKILLS-->
-<div id="skills" class="row row-cols-1 g-4 me-3 ms-3 mt-5" ><!--row-cols-md-2 lo saco para poner col-* asi puedo seleccionar el tamaño de las columnas -->
-    <div class="text-center fondo-mis-skills">
-        <h3 class="texto-portafolio-contacto text-white">MIS SKILLS:</h3>
-            <div class="speace-around-entre-objetos ">
-                <div class="html mb-2 d-inline-block">
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 452 520">
-                        <path fill="#e34f26" d="M41 460L0 0h451l-41 460-185 52" />
-                        <path fill="#ef652a" d="M226 472l149-41 35-394H226" />
-                        <path fill="#ecedee" d="M226 208h-75l-5-58h80V94H84l15 171h127zm0 147l-64-17-4-45h-56l7 89 117 32z"/>
-                        <path fill="#fff" d="M226 265h69l-7 73-62 17v59l115-32 16-174H226zm0-171v56h136l5-56z"/>
-                    </svg>
-                    <p class="text-center texto-html-css-js text-white">HTML</p>
-                </div>
-                <div class="css mb-2 d-inline-block">
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 452 520">
-                        <path fill="#0c73b8" d="M41 460L0 0h451l-41 460-185 52"/>
-                        <path fill="#30a9dc" d="M226 472l149-41 35-394H226"/>
-                        <path fill="#ecedee" d="M226 208H94l5 57h127zm0-114H84l5 56h137zm0 261l-124-33 7 60 117 32z"/>
-                        <path fill="#fff" d="M226 265h69l-7 73-62 17v59l115-32 26-288H226v56h80l-6 58h-74z"/>
-                    </svg>
-                    <p class="text-center texto-html-css-js text-white">CSS</p>
-                </div>
-                <div class=" mb-2 d-inline-block ">
-                    <i class="fab git-hub bi bi-git"></i>
-                    <p class="text-center texto-html-css-js mt-2 text-white">GIT</p>
-                </div>
-                <div class=" mb-2 d-inline-block ">
-                    <i class="js fab fab-brands fa-js "></i>
-                    <p class="text-center texto-html-css-js mt-2 text-white">JS <br> (PROX.)</p>
-                </div>
-                <div class=" mb-2 d-inline-block ">
-                    <i class="react-logo fab fa-brands fa-react "></i>
-                    <p class="text-center texto-html-css-js mt-2 text-white">REACT  <br>(PROX.)</p>
-                </div>
+<div class="row acerca-de-fondo pb-5" style="padding: 50px 15px 0px 0px;" id="sobremi">
+    <div class="col">
+        <div class="pepito" data-aos="fade-down" data-aos-duration="2000"><!-- data-aos-duration="1500" data-aos="fade-left" -->
+            <div class="contenedor-imagen" >
+               <img src="./imagenes/imagen-personal/blanco - copia.png" alt="Descripción de la imagen">
+             </div>
+         </div>
+    </div>
+    <div class="col" data-aos="fade-up" data-aos-duration="2000"><!-- data-aos-duration="1500" data-aos="fade-right" data-aos-offset="300" -->
+        <div class="sobremi">
+            <p id="sobre-mi-titulo-ing" class="titulo-seccion">Sobre Mi</p>
+            <div class="d-flex">
+                <h2 id="hola-soy-ing">Hola, Soy</h2>
+                <span class="ms-2 gonzalo-robledo" id="nombre">Gonzalo Robledo</span>
             </div>
-        <h3 class="mt-5 texto-portafolio-contacto text-white">BIBLIOTECAS:</h3>
-    <div class="speace-around-entre-objetos"> 
-        <div class=" mb-2 d-inline-block ">
-            <i class="boostrap bi bi-bootstrap-fill"></i>
-            <p class="text-center texto-html-css-js mt-2 text-white">BOOTSTRAP</p>
+             <p id="parrafo-2-ing" class="parrafo" style="padding: 0px 20px 0px 0px;">Me llamo Gonzalo, soy un apasionado desarrollador y Diseñador web con experiencia en HTML, CSS y Bootstrap, con conocimientos basicos en JavaScript y React. Disfruto creando paginas webs innovadoras y funcionales que hagan la vida más fácil para las personas, creando soluciones visuales que no solo sean atractivas, sino también fáciles de usar. Me encanta aprender y estar al tanto de las últimas tendencias en diseño y tecnología para poder ofrecer lo mejor a mis clientes.</p> 
+            <div class="tecnologíasyhabilidades">
+                <!-- MIS SKILLS-->
+                <h3 id="tecnologíasYhabilidades-ing" class="mt-5">tecnologías y habilidades</h3>
+                <div class="d-inline-block text-center">
+                    <!-- <i class="fa-brands fa-html5" style="color: #f06529;"></i>
+                    <p class="text-center mt-2 text-white">HTML</p>
+                    <P class="opacity-0">-----------</P> -->
+                    <p>HTML</p>
+                </div>
+                <div class="d-inline-block text-center">
+                    <!-- <i class="fa-brands fa-css3-alt" style="color: #2965f1;"></i>
+                    <p class="text-center mt-2 text-white">CSS</p>
+                    <p class="opacity-0">-----------</p> -->
+                    <p>CSS</p>
+                </div>
+                <div class="d-inline-block text-center">
+                    <!-- <i class="fa-brands fa-bootstrap" style="color: rgb(112, 71, 173);"></i>
+                    <p class="text-center mt-2 text-white">BOOTSTRAP</p>
+                    <p class="opacity-0">-----------</p> -->
+                    <p>BOOSTRAP</p>
+                </div>
+                <!-- <div class=" mb-2 d-inline-block ">
+                    <i class="fab git-hub bi bi-git" style="color: rgb(241, 80, 47);"></i>
+                    <p class="text-center mt-2 text-white">GIT</p>
+                </div> -->
+
+                <div class="d-inline-block text-center">
+                    <!-- <i class="js fab fab-brands fa-js" style="color: #f0db4f;"></i>
+                        <p class="text-center mt-2 text-white">JS</p>
+                        <p class="text-center text-white">(basico)</p> -->
+                        <p>JS</p>
+                </div>
+                
+                <div class="d-inline-block text-center">
+                    <!-- <i class="react-logo fa-brands fa-react" style="color: rgb(97, 219, 251);"></i>
+                        <p class="text-center mt-2 text-white">REACT</p>
+                        <p class="text-center text-white">(basico)</p> -->
+                        <p>REACT</p>
+                </div>
+                <h3 id="herramientasDeDiseño-ing" class="mt-3">herramientas de diseño</h3>
+                <!-- <img style=" width: 6%;" src="./Figma-logo.svg" alt="">
+                <div class="mt-3" style="width: 6%;">
+                    <p class="text-center text-white">FIGMA</p>
+                    <p class="text-center text-white">(basico)</p> -->
+                    <p>FIGMA</p>
+            </div>
+            </div>
         </div>
-        <div class=" mb-2 d-inline-block ">
-            <i class="wordpress bi bi-wordpress"></i>
-            <p class="text-center texto-html-css-js mt-2 text-white">WORDPRESS <br> (PROX.)</p>
+    </div>
+  </div>
+
+
+<!-- ***************** -->
+<!-- *** PROYECTOS *** -->
+<!-- ***************** -->
+  <div id="proyectos" class="titulo-proyectos" >
+        <h1 id="proyecto-titulo-ing">PROYECTOS</h1><!-- data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000" -->
+        <div class="d-flex justify-content-center">
+            <i class="fa-solid fa-minus"></i>
+            <h2 id="misProyectos-ing">MIS PROYECTOS </h2>
+            <i class="fa-solid fa-minus"></i>
         </div>
-    </div>  
-</div> 
 </div>
-
-
-<!-- PROYECTOS -->
-<h3 class="text-center mt-5 border-4 g-4 bg-warning border-warning text-warning">______</h3>
-<div id="proyectos" class="row row-cols-1 row-cols-md-1 g-4 me-3 ms-3 fondo-portafolio">
-    <h3 class="texto-portafolio-contacto text-center">PROYECTOS</h3>
+<h3 class="text-center mt-5 g-4 linea-proyecto">______</h3>
+<div class="row row-cols-1 row-cols-md-1 g-4 me-3 ms-3 fondo-portafolio">
     <div>
         <div class="row row-cols-sm-1 row-cols-md-2 g-4">
-            <div class="col-12 contenedor p-4 espacio-entre-proyectos" data-aos="flip-down" data-aos-duration="2000">
-                     <figure class="card shadow-lg mb-5 bg-body rounded ">
+            <div class="col-12 contenedor" ><!-- data-aos="flip-down" data-aos-duration="2000" -->
+                     <figure class="card shadow-lg  bg-body">
                          <img src="./imagenes/fondo-proyecto-3.jfif"  class="card-img-top" alt="GNC-LURO">
                          <div class="capa ">
-                             <h3 class="bg-warning text-white ">GNC-LURO
+                             <h3 class=" text-white ">GNC-LURO
                              </h3>
-                             <h5 class="bg-warning text-white ">Lenguajes utilizados: HTML, CSS, BOOTSTRAP
+                             <h5 class=" text-white ">Lenguajes utilizados: HTML, CSS, BOOTSTRAP
                             </h5>
                             <a href="file:///C:/Users/User/OneDrive/Escritorio/GNC-LURO/index.html" target="_blank"><p class="d-inline-block ver-diseño me-5 mt-3"><i class="fa fa-brands fa-globe iconn me-2"></i> VER</p></a>
                             <a href="https://github.com/gonzarobledo96/GNC-LURO" target="_blank"><p class="d-inline-block repositorio-diseño"> <i class="fab fa-brands fa-github iconn me-2"></i>REPOSITORIO</p></a>
                          </div>
                      </figure>
              </div>
-              <div class="col-12 contenedor p-4 espacio-entre-proyectos" data-aos="flip-left" data-aos-duration="2000">
-                     <figure class="card shadow-lg mb-5 bg-body rounded">
-                         <img src="./imagenes/verduleria.jpg"  class="card-img-top" alt="VERDULERIA">
+              <div class="col-12 contenedor " ><!-- data-aos="flip-left" data-aos-duration="2000" -->
+                     <figure class="card shadow-lg  bg-body ">
+                         <img src="./imagenes/verduleria - copia.jpg"  class="card-img-top" alt="VERDULERIA">
                          <div class="capa">
-                             <h3 class="bg-warning text-white ">VERDULERIA-ORGANICA
+                             <h3 class=" text-white ">VERDULERIA-ORGANICA
                              </h3>
-                             <h5 class="bg-warning text-white ">lenguajes utilizados: HTML, CSS, BOOTSTRAP
+                             <h5 class=" text-white ">lenguajes utilizados: HTML, CSS, BOOTSTRAP
                             </h5>
                             <!-- <p class="d-inline-block  ver-diseño"><a class="text-decoration-none" href="">ver</a></p> -->
                             <a href="file:///C:/Users/User/OneDrive/Escritorio/verduleria-natural/index.html" target="_blank"><p class="d-inline-block ver-diseño me-5 mt-3"><i class="fa fa-brands fa-globe iconn me-2"></i> VER</p></a>
@@ -179,13 +269,13 @@
                          </div>
                      </figure>
              </div>
-             <div class="col-12 contenedor p-4 espacio-entre-proyectos" data-aos="flip-left" data-aos-duration="2000">
-                <figure class="card shadow-lg mb-5 bg-body rounded">
+             <div class="col-12 contenedor " ><!-- data-aos="flip-left" data-aos-duration="2000" -->
+                <figure class="card shadow-lg bg-body ">
                     <img src="./imagenes/micros-escolares.jpg"  class="card-img-top" alt="GNC-LURO">
                     <div class="capa">
-                        <h3 class="bg-warning text-white ">TRANSPORTE RAUL-EMPRESA FAMILIAR
+                        <h3 class=" text-white ">TRANSPORTE RAUL-EMPRESA FAMILIAR
                         </h3>
-                        <h5 class="bg-warning text-white ">lenguajes utilizados: HTML, CSS, js, Bootstrap
+                        <h5 class=" text-white ">lenguajes utilizados: HTML, CSS, js, Bootstrap
                        </h5>
                        <!-- <p class="d-inline-block  ver-diseño"><a class="text-decoration-none" href="">ver</a></p> -->
                        <a href="http://transporte-raul.lovestoblog.com/index.html/" target="_blank"><p class="d-inline-block ver-diseño me-5 mt-3"><i class="fa fa-brands fa-globe iconn me-2"></i> VER</p></a>
@@ -194,13 +284,13 @@
                     </div>
                 </figure>
         </div>
-         <div class="col-12 contenedor p-4 espacio-entre-proyectos" data-aos="flip-down" data-aos-duration="2000">
-                     <figure class="card shadow-lg mb-5 bg-body rounded">
+         <div class="col-12 contenedor " ><!-- data-aos="flip-down" data-aos-duration="2000" -->
+                     <figure class="card shadow-lg bg-body ">
                          <img src="./imagenes/proximamente.jfif"  class="card-img-top" alt="GNC-LURO">
                          <div class="capa">
-                             <h3 class="bg-warning text-white ">PROXIMAMENTE
+                             <h3 class=" text-white ">PROXIMAMENTE
                              </h3>
-                             <h5 class="bg-warning text-white ">lenguajes utilizados: #, #, #
+                             <h5 class=" text-white ">lenguajes utilizados: #, #, #
                             </h5>
                             <!-- <p class="d-inline-block  ver-diseño"><a class="text-decoration-none" href="">ver</a></p> -->
                             <a href="#" target="_blank"><p class="d-inline-block ver-diseño me-5 mt-3"><i class="fa fa-brands fa-globe iconn me-2"></i> VER</p></a>
@@ -213,15 +303,24 @@
 </div>
 
 
-<!-- DIBUJOS  -->
-<h3 id="dibujos" class="text-center mt-5 border-4 g-4 bg-warning border-warning text-warning">______</h3>
-<div class=" row row-cols-1 row-cols-md-1 g-4 me-3 ms-3 pb-3 fondo-dibujo ">
-    <h3 class="texto-portafolio-contacto text-white text-center">MIS INTERESES</h3>
+<!-- *************** -->
+<!-- *** DIBUJOS *** -->
+<!-- *************** -->
+<div id="dibujos" class="titulo-proyectos" >
+    <h1 id="intereses-titulo-ing">INTERESES</h1><!-- data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000" -->
+    <div class="d-flex justify-content-center">
+        <i class="fa-solid fa-minus"></i>
+        <h2 id="misDibujos-ing">MIS DIBUJOS</h2>
+        <i class="fa-solid fa-minus"></i>
+    </div>
+</div>
+<h3 class="text-center mt-5 g-4 linea-proyecto">______</h3>
+<div class=" row row-cols-1 row-cols-md-1 g-4 me-3 ms-3 pb-3 fondo-dibujo">
+    <h3 class="texto-portafolio-contacto text-white text-center"></h3>
     <div>
-        <div class="row row-cols-1 row-cols-md-1 g-4 ">
-            <section class="gallery-block compact-gallery aaa">
-                
-                <p class="texto-portafolio-contacto text-white text-center">Suelo dibujar para poner mi mente en blanco, relajarme, regular el estrés y mejorar la concentración. Es la forma que tengo de mejorar la creatividad y salud mental.</p>
+        <div class="row row-cols-1 row-cols-md-1 g-4">
+            <section class="gallery-block compact-gallery">
+                <p id="parrafoDibujos-ing" class="texto-portafolio-contacto text-white text-center">Suelo dibujar para poner mi mente en blanco, relajarme, regular el estrés y mejorar la concentración. Es la forma que tengo de mejorar la creatividad y salud mental.</p>
                 <div>
                     <div class="grid-hijo-1">
                         <div  data-aos="fade-up" data-aos-duration="2000">
@@ -291,12 +390,14 @@
 </div>
 
 
-<!-- CONTACTO -->
-<h3 id="contactar" class="text-center mt-5 border-4 g-4 bg-warning border-warning text-warning ">______</h3>
-<div data-aos="fade-up" data-aos-duration="2000" id="portafolio" class="row row-cols-1 row-cols-md-1 g-4 me-3 ms-3 fondo-contacto mb-3">
-    <h3 class="texto-portafolio-contacto text-center">CONTACTO</h3>
+<!-- **************** -->
+<!-- *** CONTACTO *** -->
+<!-- **************** -->
+<h3 id="contactar" class="text-center mt-5 border-4 g-4 linea-proyecto">______</h3>
+<div class="row row-cols-1 row-cols-md-1 g-4 me-3 ms-3 fondo-contacto mb-3">
+    <h3 id="contacto-ing" class="texto-portafolio-contacto text-center">CONTACTO</h3>
     <div>
-        <div data-aos="flip-left" data-aos-duration="2000" class="row row-cols-1 row-cols-md-1 g4 me-3 ms-3">
+        <div class="row row-cols-1 row-cols-md-1 g4 me-3 ms-3">
             <div class="col ">
             <div class=" mb-5 text-center ">  
                 <div>
@@ -314,28 +415,38 @@
                             <a class="r" href="https://www.instagram.com/gonzarobledo1996/" target="_blank"><i class="fab fa-brands fa-instagram iconn"></i></a>
                         </li>
                         <li class="y">
-                            <a class="r" href="#"><i class="fab fa-brands fa-whatsapp iconn"></i></a>
+                            <a class="r" href="#"><i class="fa-solid fa-envelope iconn"></i></a>
+                            
                         </li>
                     </ul>
                 </div> 
             </div>
-            <h6 class="texto-portafolio-contacto text-center">La creatividad es la inteligencia divirtiéndose.</h6>
+            <h6 id="creatividad-ing" class="texto-portafolio-contacto text-center">La creatividad es la inteligencia divirtiéndose.</h6>
         </div>
         </div>
     </div>
 </div>
 
+
+<!-- ******** -->
+<!-- ** GR ** -->
+<!-- ******** -->
 <div class="text-end m-3">
-    <div class="parrafo-logo nav-item mt-3">
-        <p class="parrafo-logo d-inline-block"> < </p>
-        <h3 class="d-inline-block"> GR </h3>
-        <p class="parrafo-logo d-inline-block"> /> </p>
+    <div class="parrafo-logo nav-item mt-3" >
+        <p class="parrafo-logo d-inline-block" > < </p>
+        <h3 class="d-inline-block" > GR </h3>
+        <p class="parrafo-logo d-inline-block" style="padding-left: 0px;"> /> </p>
     </div>
 </div>
 
-    <!-- FOOTER -->
-<footer class="col-xs-12 text-white p-2 text-center fondo-footer">
-   <p class="tamaño-parrafo-footer">© Copyright Portafolio 2022. Gonzalo Matias Robledo - Desarrollador de páginas web. 🏆🏆🏆</p>  
+<!-- ************** -->
+<!-- *** FOOTER *** -->
+<!-- ************** -->
+<footer class="col-xs-12 text-white p-2 fondo-footer">
+  <div class="d-flex justify-content-center">
+    <p id="footer-ing" class="tamaño-parrafo-footer">© Copyright Portafolio 2023. Gonzalo Matias Robledo - Desarrollador de páginas web.<p>
+        <div> 🏆🏆🏆 </div>
+  </div>
 </footer>
 
     
@@ -359,5 +470,4 @@
     AOS.init();
   </script>
 </body>
-
 </html>
