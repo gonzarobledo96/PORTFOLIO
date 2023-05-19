@@ -29,8 +29,8 @@
 <!-- *** BARRA DE NAVEGACION *** -->
 <!-- *************************** -->
      <div class="inicio" id="inicio">
-        <div class="contenido ">
-            <nav id="navbar" class="navbar navbar-expand-lg fixed-top "><!-- navbar-bg -->
+        <div class="contenido data-container">
+            <nav id="navbar" class="navbar navbar-expand-lg fixed-top"><!-- navbar-bg -->
             <div class="container-fluid fondo-nav">
                 <div class="parrafo-logo nav-item mt-3">
                         <p class=" d-inline-block"> < </p>
@@ -46,21 +46,21 @@
                 <div class="collapse navbar-collapse posicion-nav"  id="navbarSupportedContent">
                     <ul class="navbar-nav diseño-navbar">
                         <li class="nav-item ms-3">
-                            <a class="nav-link sobre-mi" href="#sobremi" rel="noopener noreferrer">
+                            <a class="nav-link sobre-mi diseño-texto-navbar navbar-item" href="#sobremi" rel="noopener noreferrer">
                                 <i class="bi bi-house-door-fill"></i>
                             </a>
+                        </li>                        
+                        <li class="nav-item ms-3">
+                            <a id="acerca-de-mi-ing" class="nav-link sobre-mi diseño-texto-navbar" href="#acercaDe" rel="noopener noreferrer">ACERCA DE</a>
                         </li>
                         <li class="nav-item ms-3">
-                            <a id="acerca-de-mi-ing" class="nav-link sobre-mi" href="#acercaDe" rel="noopener noreferrer">ACERCA DE</a>
+                            <a id="proyectos-ing" class="nav-link sobre-mi diseño-texto-navbar" href="#proyectos" rel="noopener noreferrer">PROYECTOS</a>
                         </li>
                         <li class="nav-item ms-3">
-                            <a id="proyectos-ing" class="nav-link sobre-mi" href="#proyectos" rel="noopener noreferrer">PROYECTOS</a>
+                            <a id="mis-intereses-ing" class="nav-link sobre-mi diseño-texto-navbar"  href="#dibujos" rel="noopener noreferrer">MIS INTERESES</a>
                         </li>
                         <li class="nav-item ms-3">
-                            <a id="mis-intereses-ing" class="nav-link sobre-mi"  href="#dibujos" rel="noopener noreferrer">MIS INTERESES</a>
-                        </li>
-                        <li class="nav-item ms-3">
-                            <a id="contactar-ing" class="nav-link sobre-mi"  href="#contactar" rel="noopener noreferrer">CONTACTAR</a>
+                            <a id="contactar-ing" class="nav-link sobre-mi diseño-texto-navbar"  href="#contacto-ing" rel="noopener noreferrer">CONTACTAR</a>
                         </li>
                     </ul>
 
@@ -69,19 +69,16 @@
                             <button style="border: none; background-color: transparent;" class="nav-link" id="idioma-link" onclick="toggleIdioma()">
                                 <i class="fa-solid fa-globe"></i>
                               </button>
-
-                           
-
                           </li>
                           <li class="nav-item" style="cursor: pointer;">
-                            <a class="nav-link" onclick="cambiarFondo()"><i class="fa-regular fa-moon"></i></a>
+                            <a class="nav-link" onclick="cambiarFondo()"><i id="modo-icono" class="sol-icono fa-regular fa-sun"></i></a>
                           </li>
                           <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                               <i class="fa-solid fa-gear"></i>
                             </a>
-                            <ul class="dropdown-menu " id="color-list">
-                                            <p id="elige-un-color-ing" class="text-center">Elige un color</p>
+                            <ul class="dropdown-menu fondo-elige-un-color" id="color-list">
+                                            <p id="elige-un-color-ing" class="text-center elige-un-color">Colores del Tema</p>
                                             <div class="logos-colores d-flex">
                                                   <li><a href="#" data-color="" onclick="handleColorChange(event)"><i class="fas fa-circle" style="color: rgb(255, 199, 88);"></i></a></li>
                                                   <li><a href="#" data-color="#ec1839" onclick="handleColorChange(event)"><i class="fas fa-circle" style="color: #ec1839;"></i></a></li>
@@ -176,48 +173,23 @@
              <p id="parrafo-2-ing" class="parrafo" style="padding: 0px 20px 0px 0px;">Me llamo Gonzalo, soy un apasionado desarrollador y Diseñador web con experiencia en HTML, CSS y Bootstrap, con conocimientos basicos en JavaScript y React. Disfruto creando paginas webs innovadoras y funcionales que hagan la vida más fácil para las personas, creando soluciones visuales que no solo sean atractivas, sino también fáciles de usar. Me encanta aprender y estar al tanto de las últimas tendencias en diseño y tecnología para poder ofrecer lo mejor a mis clientes.</p> 
             <div class="tecnologíasyhabilidades">
                 <!-- MIS SKILLS-->
-                <h3 id="tecnologíasYhabilidades-ing" class="mt-5">tecnologías y habilidades</h3>
+                <h3 id="tecnologíasYhabilidades-ing" class="mt-5">Tecnologías y Habilidades</h3>
                 <div class="d-inline-block text-center">
-                    <!-- <i class="fa-brands fa-html5" style="color: #f06529;"></i>
-                    <p class="text-center mt-2 text-white">HTML</p>
-                    <P class="opacity-0">-----------</P> -->
                     <p>HTML</p>
                 </div>
                 <div class="d-inline-block text-center">
-                    <!-- <i class="fa-brands fa-css3-alt" style="color: #2965f1;"></i>
-                    <p class="text-center mt-2 text-white">CSS</p>
-                    <p class="opacity-0">-----------</p> -->
                     <p>CSS</p>
                 </div>
                 <div class="d-inline-block text-center">
-                    <!-- <i class="fa-brands fa-bootstrap" style="color: rgb(112, 71, 173);"></i>
-                    <p class="text-center mt-2 text-white">BOOTSTRAP</p>
-                    <p class="opacity-0">-----------</p> -->
                     <p>BOOSTRAP</p>
                 </div>
-                <!-- <div class=" mb-2 d-inline-block ">
-                    <i class="fab git-hub bi bi-git" style="color: rgb(241, 80, 47);"></i>
-                    <p class="text-center mt-2 text-white">GIT</p>
-                </div> -->
-
                 <div class="d-inline-block text-center">
-                    <!-- <i class="js fab fab-brands fa-js" style="color: #f0db4f;"></i>
-                        <p class="text-center mt-2 text-white">JS</p>
-                        <p class="text-center text-white">(basico)</p> -->
-                        <p>JS</p>
+                    <p>JS</p>
                 </div>
-                
                 <div class="d-inline-block text-center">
-                    <!-- <i class="react-logo fa-brands fa-react" style="color: rgb(97, 219, 251);"></i>
-                        <p class="text-center mt-2 text-white">REACT</p>
-                        <p class="text-center text-white">(basico)</p> -->
-                        <p>REACT</p>
+                    <p>REACT</p>
                 </div>
-                <h3 id="herramientasDeDiseño-ing" class="mt-3">herramientas de diseño</h3>
-                <!-- <img style=" width: 6%;" src="./Figma-logo.svg" alt="">
-                <div class="mt-3" style="width: 6%;">
-                    <p class="text-center text-white">FIGMA</p>
-                    <p class="text-center text-white">(basico)</p> -->
+                <h3 id="herramientasDeDiseño-ing" class="mt-3">Herramientas de diseño</h3>
                     <p>FIGMA</p>
             </div>
             </div>
@@ -242,61 +214,72 @@
     <div>
         <div class="row row-cols-sm-1 row-cols-md-2 g-4">
             <div class="col-12 contenedor" ><!-- data-aos="flip-down" data-aos-duration="2000" -->
-                     <figure class="card shadow-lg  bg-body">
-                         <img src="./imagenes/fondo-proyecto-3.jfif"  class="card-img-top" alt="GNC-LURO">
-                         <div class="capa ">
-                             <h3 class=" text-white ">GNC-LURO
-                             </h3>
-                             <h5 class=" text-white ">Lenguajes utilizados: HTML, CSS, BOOTSTRAP
-                            </h5>
-                            <a href="file:///C:/Users/User/OneDrive/Escritorio/GNC-LURO/index.html" target="_blank"><p class="d-inline-block ver-diseño me-5 mt-3"><i class="fa fa-brands fa-globe iconn me-2"></i> VER</p></a>
-                            <a href="https://github.com/gonzarobledo96/GNC-LURO" target="_blank"><p class="d-inline-block repositorio-diseño"> <i class="fab fa-brands fa-github iconn me-2"></i>REPOSITORIO</p></a>
-                         </div>
-                     </figure>
+                <figure class="card shadow-lg bg-body">
+                    <img src="./imagenes/fondo-proyecto-3.jfif" class="card-img-top" alt="GNC-LURO">
+                    <div class="capa">
+                      <h3 class="text-white">GNC-LURO</h3>
+                      <h5 id="lenguajesUtilizados-gncLuro-ing" class="text-white">Lenguajes utilizados: Html, Css y Bootstrap.</h5>
+                      <a style=" text-decoration: none; outline: none; color: white;" href="file:///C:/Users/User/OneDrive/Escritorio/GNC-LURO/index.html" target="_blank" class="ver-ing">
+                        <i class="fa fa-brands fa-globe iconn me-2"></i>
+                        <p id="ver-ing" class="d-inline-block" style="margin-right: 100px;">VER</p>
+                      </a>                      
+                      <a style=" text-decoration: none; outline: none; color: white;" href="https://github.com/gonzarobledo96/GNC-LURO" target="_blank">
+                        <i class="fab fa-brands fa-github iconn me-2"></i>
+                        <p id="repositorio-ing" class="d-inline-block repositorio-diseño">REPOSITORIO</p>
+                      </a>
+                    </div>
+                  </figure>
              </div>
               <div class="col-12 contenedor " ><!-- data-aos="flip-left" data-aos-duration="2000" -->
-                     <figure class="card shadow-lg  bg-body ">
-                         <img src="./imagenes/verduleria - copia.jpg"  class="card-img-top" alt="VERDULERIA">
-                         <div class="capa">
-                             <h3 class=" text-white ">VERDULERIA-ORGANICA
-                             </h3>
-                             <h5 class=" text-white ">lenguajes utilizados: HTML, CSS, BOOTSTRAP
-                            </h5>
-                            <!-- <p class="d-inline-block  ver-diseño"><a class="text-decoration-none" href="">ver</a></p> -->
-                            <a href="file:///C:/Users/User/OneDrive/Escritorio/verduleria-natural/index.html" target="_blank"><p class="d-inline-block ver-diseño me-5 mt-3"><i class="fa fa-brands fa-globe iconn me-2"></i> VER</p></a>
-                            <a href="https://github.com/gonzarobledo96/Verduleria-Natural" target="_blank"><p class="d-inline-block repositorio-diseño"> <i class="fab fa-brands fa-github iconn me-2"></i>REPOSITORIO</p></a>
-                            
-                         </div>
-                     </figure>
+                     <figure class="card shadow-lg bg-body">
+                        <img src="./imagenes/verduleria - copia.jpg"  class="card-img-top" alt="VERDULERIA">
+                        <div class="capa">
+                          <h3 id="verduleria-titulo-ing" class="text-white">VERDULERIA-ORGANICA</h3>
+                          <h5 id="lenguajesUtilizados-verduleria-ing" class="text-white">lenguajes utilizados: Html, Css, Bootstrap y Js.</h5>
+                          <a style=" text-decoration: none; outline: none; color: white;" href="file:///C:/Users/User/OneDrive/Escritorio/verduleria-natural/index.html" target="_blank" class="ver-ing">
+                            <i class="fa fa-brands fa-globe iconn me-2"></i>
+                            <p id="ver2-ing" class="d-inline-block" style="margin-right: 100px;">VER</p>
+                          </a>                      
+                          <a style=" text-decoration: none; outline: none; color: white;" href="https://github.com/gonzarobledo96/Verduleria-Natural" target="_blank">
+                            <i class="fab fa-brands fa-github iconn me-2"></i>
+                            <p id="repositorio2-ing" class="d-inline-block repositorio-diseño">REPOSITORIO</p>
+                          </a>
+                        </div>
+                      </figure>
              </div>
              <div class="col-12 contenedor " ><!-- data-aos="flip-left" data-aos-duration="2000" -->
-                <figure class="card shadow-lg bg-body ">
+                <figure class="card shadow-lg bg-body">
                     <img src="./imagenes/micros-escolares.jpg"  class="card-img-top" alt="GNC-LURO">
                     <div class="capa">
-                        <h3 class=" text-white ">TRANSPORTE RAUL-EMPRESA FAMILIAR
-                        </h3>
-                        <h5 class=" text-white ">lenguajes utilizados: HTML, CSS, js, Bootstrap
-                       </h5>
-                       <!-- <p class="d-inline-block  ver-diseño"><a class="text-decoration-none" href="">ver</a></p> -->
-                       <a href="http://transporte-raul.lovestoblog.com/index.html/" target="_blank"><p class="d-inline-block ver-diseño me-5 mt-3"><i class="fa fa-brands fa-globe iconn me-2"></i> VER</p></a>
-                       <a href="https://github.com/gonzarobledo96/Transporte-Raul" target="_blank"><p class="d-inline-block repositorio-diseño"> <i class="fab fa-brands fa-github iconn me-2"></i>REPOSITORIO</p></a>
-                       
+                      <h3 id="transporte-raul-titulo-ing" class="text-white">TRANSPORTE RAUL-EMPRESA ESCOLAR</h3>
+                      <h5 id="lenguajesUtilizados-Transporte-ing" class="text-white">lenguajes utilizados: Html, Css, Bootstrap y Js.</h5>
+                      <a style=" text-decoration: none; outline: none; color: white;" href="http://transporte-raul.lovestoblog.com/index.html/" target="_blank" class="ver-ing">
+                        <i class="fa fa-brands fa-globe iconn me-2"></i>
+                        <p id="ver3-ing" class="d-inline-block" style="margin-right: 100px;">VER</p>
+                      </a>                      
+                      <a style=" text-decoration: none; outline: none; color: white;" href="https://github.com/gonzarobledo96/Transporte-Raul" target="_blank">
+                        <i class="fab fa-brands fa-github iconn me-2"></i>
+                        <p id="repositorio3-ing" class="d-inline-block repositorio-diseño">REPOSITORIO</p>
+                      </a>
                     </div>
-                </figure>
+                  </figure>
         </div>
          <div class="col-12 contenedor " ><!-- data-aos="flip-down" data-aos-duration="2000" -->
-                     <figure class="card shadow-lg bg-body ">
-                         <img src="./imagenes/proximamente.jfif"  class="card-img-top" alt="GNC-LURO">
-                         <div class="capa">
-                             <h3 class=" text-white ">PROXIMAMENTE
-                             </h3>
-                             <h5 class=" text-white ">lenguajes utilizados: #, #, #
-                            </h5>
-                            <!-- <p class="d-inline-block  ver-diseño"><a class="text-decoration-none" href="">ver</a></p> -->
-                            <a href="#" target="_blank"><p class="d-inline-block ver-diseño me-5 mt-3"><i class="fa fa-brands fa-globe iconn me-2"></i> VER</p></a>
-                            <a href="#" target="_blank"><p class="d-inline-block repositorio-diseño"> <i class="fab fa-brands fa-github iconn me-2"></i>REPOSITORIO</p></a>
-                         </div>
-                     </figure>
+                     <figure class="card shadow-lg bg-body">
+                        <img src="./imagenes/proximamente.jfif"  class="card-img-top" alt="GNC-LURO">
+                        <div class="capa">
+                          <h3 class="text-white">PROXIMAMENTE</h3>
+                          <h5 id="lenguajesUtilizados-gncLuro-ing" class="text-white">lenguajes utilizados: #, #, #</h5>
+                          <a style=" text-decoration: none; outline: none; color: white;" href="http://transporte-raul.lovestoblog.com/index.html/" target="_blank" class="ver-ing">
+                            <i class="fa fa-brands fa-globe iconn me-2"></i>
+                            <p id="ver4-ing" class="d-inline-block" style="margin-right: 100px;">VER</p>
+                          </a>                      
+                          <a style=" text-decoration: none; outline: none; color: white;" href="https://github.com/gonzarobledo96/Transporte-Raul" target="_blank">
+                            <i class="fab fa-brands fa-github iconn me-2"></i>
+                            <p id="repositorio4-ing" class="d-inline-block repositorio-diseño">REPOSITORIO</p>
+                          </a>
+                        </div>
+                      </figure>
              </div>
         </div>
     </div>
@@ -393,51 +376,53 @@
 <!-- **************** -->
 <!-- *** CONTACTO *** -->
 <!-- **************** -->
-<h3 id="contactar" class="text-center mt-5 border-4 g-4 linea-proyecto">______</h3>
-<div class="row row-cols-1 row-cols-md-1 g-4 me-3 ms-3 fondo-contacto mb-3">
-    <h3 id="contacto-ing" class="texto-portafolio-contacto text-center">CONTACTO</h3>
-    <div>
-        <div class="row row-cols-1 row-cols-md-1 g4 me-3 ms-3">
-            <div class="col ">
-            <div class=" mb-5 text-center ">  
-                <div>
-                    <ul class="z speace-around-entre-objetos-contacto ">
-                        <li class="y">
-                            <a class="r" href="https://www.facebook.com/gonzalo.robledo.5" target="_blank"><i class="fab fa-facebook-f iconn"></i></a>
-                        </li>
-                        <li class="y">
-                            <a class="r" href="https://github.com/gonzarobledo96" target="_blank"><i class="fab fa-brands fa-github iconn"></i></a>
-                        </li>
-                        <li class="y">
-                            <a class="r" href="https://www.linkedin.com/in/gonzalo-robledo-b5811023b/" target="_blank"><i class="fab fa-linkedin-in iconn"></i></a>
-                        </li>
-                        <li class="y">
-                            <a class="r" href="https://www.instagram.com/gonzarobledo1996/" target="_blank"><i class="fab fa-brands fa-instagram iconn"></i></a>
-                        </li>
-                        <li class="y">
-                            <a class="r" href="#"><i class="fa-solid fa-envelope iconn"></i></a>
-                            
-                        </li>
-                    </ul>
-                </div> 
-            </div>
-            <h6 id="creatividad-ing" class="texto-portafolio-contacto text-center">La creatividad es la inteligencia divirtiéndose.</h6>
-        </div>
-        </div>
-    </div>
-</div>
-
-
-<!-- ******** -->
-<!-- ** GR ** -->
-<!-- ******** -->
+<!-- data-aos="flip-left"
+            data-aos-easing="ease-out-cubic"
+            data-aos-duration="2000" -->
+<div id="color-fondo" class="diseño-ola-contacto">
+    <div id="acercaDe" class="fondo-contacto pt-5" style=" margin-top: -15px;">
+        <h3 id="contacto-ing" class="texto-portafolio-contacto text-center pb-3">CONTACTO</h3>
+        <div>
+            <div class="row row-cols-1 row-cols-md-1 g4 me-3 ms-3">
+                <div class="col ">
+                <div class=" mb-5 text-center ">  
+                    <div>
+                        <ul class="z speace-around-entre-objetos-contacto ">
+                            <li class="y">
+                                <a class="r" href="https://www.facebook.com/gonzalo.robledo.5" target="_blank"><i class="fab fa-facebook-f iconn"></i></a>
+                            </li>
+                            <li class="y">
+                                <a class="r" href="https://github.com/gonzarobledo96" target="_blank"><i class="fab fa-brands fa-github iconn"></i></a>
+                            </li>
+                            <li class="y">
+                                <a class="r" href="https://www.linkedin.com/in/gonzalo-robledo-b5811023b/" target="_blank"><i class="fab fa-linkedin-in iconn"></i></a>
+                            </li>
+                            <li class="y">
+                                <a class="r" href="https://www.instagram.com/gonzarobledo1996/" target="_blank"><i class="fab fa-brands fa-instagram iconn"></i></a>
+                            </li>
+                            <li class="y">
+                                <a class="r" href="#"><i class="fa-solid fa-envelope iconn"></i></a>
+                                
+                            </li>
+                        </ul>
+                    </div> 
+                </div>
+                <h6 id="creatividad-ing" class="texto-portafolio-contacto text-center ">La creatividad es la inteligencia divirtiéndose.</h6>
 <div class="text-end m-3">
-    <div class="parrafo-logo nav-item mt-3" >
+    <div class="parrafo-logo nav-item" >
         <p class="parrafo-logo d-inline-block" > < </p>
         <h3 class="d-inline-block" > GR </h3>
         <p class="parrafo-logo d-inline-block" style="padding-left: 0px;"> /> </p>
     </div>
 </div>
+            </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<button id="btnSubirArriba" onclick="subirArriba()"><i class="fa-solid fa-arrow-up" ></i></button>
+
 
 <!-- ************** -->
 <!-- *** FOOTER *** -->
@@ -445,7 +430,7 @@
 <footer class="col-xs-12 text-white p-2 fondo-footer">
   <div class="d-flex justify-content-center">
     <p id="footer-ing" class="tamaño-parrafo-footer">© Copyright Portafolio 2023. Gonzalo Matias Robledo - Desarrollador de páginas web.<p>
-        <div> 🏆🏆🏆 </div>
+        <div class="ms-2"> 🏆🏆🏆 </div>
   </div>
 </footer>
 

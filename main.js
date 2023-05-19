@@ -143,6 +143,7 @@ function cambiarColores(colorSeleccionado) {
 const tituloProyecto = document.querySelectorAll('.titulo-proyectos i');
 const tecnologiasyhabilidades = document.querySelectorAll('.tecnologíasyhabilidades');
 const lineaProyecto = document.querySelectorAll('.linea-proyecto');
+const diseñotextonavbar = document.querySelectorAll('.diseño-texto-navbar');
 
 // Resto del código para cambiar los estilos de los elementos con el colorSeleccionado
 // ...
@@ -189,6 +190,12 @@ logoImagen.style.transition = '0.5s';
 lineaProyecto.forEach((lineaProyecto) => {
   lineaProyecto.style.backgroundColor = colorSeleccionado;
   });
+
+  // diseñotextonavbar.forEach((diseñotextonavbar) => {
+  //   diseñotextonavbar.style.color = colorSeleccionado;
+  //   });
+
+  
 }
 
 const colorList = document.getElementById('color-list');
@@ -199,43 +206,68 @@ item.addEventListener('click', handleColorChange);
 
 
 
+
 // **************************
 // CAMBIAR EL FONDO DEL BODY
 // **************************
 // nuevo del viejo
 function cambiarFondo() {
-  const body = document.querySelector('body');
+  const body = document.body;
+  const icono = document.getElementById('modo-icono');
+
+  // Verifica si el cuerpo tiene la clase 'modo-oscuro'
+  if (body.classList.contains('modo-oscuro')) {
+    // Cambia el ícono al sol y remueve la clase 'modo-oscuro' del cuerpo
+    icono.className = 'fa-regular fa-sun';
+    body.classList.remove('modo-oscuro');
+  } else {
+    // Cambia el ícono a la luna y agrega la clase 'modo-oscuro' al cuerpo
+    icono.className = 'fa-regular fa-moon';
+    body.classList.add('modo-oscuro');
+  }
+
+  // Integración de tu código
   const diseñoOla = document.querySelector('.diseño-ola');
   const acercaDeTitulo = document.querySelector('.acerca-de-Titulo');
+  const fondoContacto = document.querySelector('.fondo-contacto');
+  const diseNoOlaContacto = document.querySelector('.diseño-ola-contacto');
   const tituloProyecto = document.querySelector('.titulo-proyectos');
   const span = document.querySelector('span');
   const acercaDe = document.querySelector('.acerca-de-fondo');
   const fondoNav = document.querySelector('.sobre-mi');
   const parrafos = document.querySelector('.parrafos');
-  const tituloSseccion = document.querySelector('.titulo-seccion');
-  const tecnologíasyhabilidades = document.querySelector('.tecnologíasyhabilidades');
+  const tituloSeccion = document.querySelector('.titulo-seccion');
+  const tecnologiasYHabilidades = document.querySelector('.tecnologias-y-habilidades');
   const consoleContainer = document.querySelector('.console-container');
   const consoleUnderscore = document.querySelector('.console-underscore');
   const navbarBg = document.querySelector('.navbar-bg');
   const parrafoLogo = document.querySelector('.parrafo-logo');
   const logosColores = document.querySelector('.logo-navBar-colores');
+  const eligeUnColor = document.querySelector('.elige-un-color');
+  const btnSubirArriba = document.querySelector('#btnSubirArriba');
+  
 
-  body.classList.toggle('modo-oscuro');
+  // Agrega o remueve la clase 'modo-oscuro' a los elementos
   diseñoOla.classList.toggle('modo-oscuro');
   acercaDeTitulo.classList.toggle('modo-oscuro');
+  tituloProyecto.classList.toggle('modo-oscuro');
+  span.classList.toggle('modo-oscuro');
   acercaDe.classList.toggle('modo-oscuro');
   fondoNav.classList.toggle('modo-oscuro');
   parrafos.classList.toggle('modo-oscuro');
-  tituloSseccion.classList.toggle('modo-oscuro');
+  tituloSeccion.classList.toggle('modo-oscuro');
+  tecnologiasYHabilidades.classList.toggle('modo-oscuro');
   consoleContainer.classList.toggle('modo-oscuro');
   consoleUnderscore.classList.toggle('modo-oscuro');
   navbarBg.classList.toggle('modo-oscuro');
   parrafoLogo.classList.toggle('modo-oscuro');
-  tituloProyecto.classList.toggle('modo-oscuro');
-  span.classList.toggle('modo-oscuro');
-  tecnologíasyhabilidades.classList.toggle('modo-oscuro');
   logosColores.classList.toggle('modo-oscuro');
+  fondoContacto.classList.toggle('modo-oscuro');
+  diseNoOlaContacto.classList.toggle('modo-oscuro');
+  eligeUnColor.classList.toggle('modo-oscuro');
+  btnSubirArriba.classList.toggle('modo-oscuro');
 }
+
 
 
 
@@ -260,7 +292,8 @@ function cambiarAIngles() {
   document.getElementById("proyectos-ing").innerText = "PROJECTS";
   document.getElementById("mis-intereses-ing").innerText = "MY INTERESTS";
   document.getElementById("contactar-ing").innerText = "CONTACT";
-  document.getElementById("elige-un-color-ing").innerText = "Choose a color";
+  document.getElementById("elige-un-color-ing").innerText = "Theme Colors";
+  // INICIO
   document.getElementById("Hola-mi-nombre-es-Gonzalo-ing").innerText = "HELLO, MY NAME IS";
    document.getElementById("soy").innerText = "am";
   document.getElementById("parrafos-1-ing").innerText = "I am a web designer and developer passionate about creating innovative digital and visual solutions that generate a unique user experience and that connect with the needs of people.";
@@ -270,20 +303,40 @@ function cambiarAIngles() {
   document.getElementById("sobre-mi-titulo-ing").innerText = "ABOUT ME";
   document.getElementById("hola-soy-ing").innerText = "Hi, I am";
   document.getElementById("parrafo-2-ing").innerText = "My name is Gonzalo, I am a passionate web designer and developer with experience in HTML, CSS and Bootstrap, with basic knowledge in JavaScript and React. I enjoy creating innovative and functional websites that make life easier for people, creating visual solutions that are not only attractive, but also easy to use. I love learning and staying up to date with the latest trends in design and technology in order to offer the best to my clients.";
-  document.getElementById("tecnologíasYhabilidades-ing").innerText = "technologies and skills";
-  document.getElementById("herramientasDeDiseño-ing").innerText = "DesignTools";
+  document.getElementById("tecnologíasYhabilidades-ing").innerText = "Technologies and skills";
+  document.getElementById("herramientasDeDiseño-ing").innerText = "Design Tools";
   // PROYECTOS
   document.getElementById("proyecto-titulo-ing").innerText = "PROJECTS";
   document.getElementById("misProyectos-ing").innerText = "MY PROJECTS";
+  // gnc-luro
+  document.getElementById("lenguajesUtilizados-gncLuro-ing").innerText = "Languages used: Html, Css and Bootstrap.";
+  document.getElementById("ver-ing").innerText = "SEE";
+  document.getElementById("repositorio-ing").innerText = "REPOSITORY";
+  // verduleria-natural
+  document.getElementById("ver2-ing").innerText = "SEE";
+document.getElementById("repositorio2-ing").innerText = "REPOSITORY";
+document.getElementById("verduleria-titulo-ing").innerText = "ORGANIC-GREENHOUSE";
+document.getElementById("lenguajesUtilizados-verduleria-ing").innerText = "Languages used: Html, Css, Bootstrap and Js.";
+// transporte-escolar
+document.getElementById("ver3-ing").innerText = "SEE";
+document.getElementById("repositorio3-ing").innerText = "REPOSITORY";
+document.getElementById("transporte-raul-titulo-ing").innerText = "TRANSPORTATION RAUL-SCHOOL COMPANY";
+document.getElementById("lenguajesUtilizados-Transporte-ing").innerText = "Languages used: Html, Css, Bootstrap and Js.";
+// figma
+ document.getElementById("ver4-ing").innerText = "SEE";
+ document.getElementById("repositorio4-ing").innerText = "REPOSITORY";
+
   // INTERESES
   document.getElementById("intereses-titulo-ing").innerText = "INTERESTS";
   document.getElementById("misDibujos-ing").innerText = "MY DRAWINGS";
   document.getElementById("parrafoDibujos-ing").innerText = "I USUALLY DRAW TO PUT MY MIND BLANK, RELAX, REGULATE STRESS AND IMPROVE CONCENTRATION. IT IS THE WAY I HAVE TO IMPROVE CREATIVITY AND MENTAL HEALTH.";
+
 //  CONTACTO
 document.getElementById("contacto-ing").innerText = "CONTACT";
 document.getElementById("creatividad-ing").innerText = "CREATIVITY IS INTELLIGENCE HAVING FUN.";
+
   // FOOTER
-  document.getElementById("footer-ing").innerText = "© Copyright Portfolio 2022. Gonzalo Matias Robledo - Web page developer.";
+  document.getElementById("footer-ing").innerText = "© Copyright Portfolio 2023. Gonzalo Matias Robledo - Web page developer.";
   consoleText(WORDS_EN, 'text');
 
   // Cambiar otros elementos a inglés
@@ -296,7 +349,8 @@ function cambiarAEspanol() {
   document.getElementById("proyectos-ing").innerText = "PROYECTOS";
   document.getElementById("mis-intereses-ing").innerText = "MIS INTERESES";
   document.getElementById("contactar-ing").innerText = "CONTACTAR";
-  document.getElementById("elige-un-color-ing").innerText = "Elige un color";
+  document.getElementById("elige-un-color-ing").innerText = "Colores del Tema";
+  // INICIO 
   document.getElementById("Hola-mi-nombre-es-Gonzalo-ing").innerText = "HOLA, MI NOMBRE ES";
    document.getElementById("soy").innerText = "SOY";
   document.getElementById("parrafos-1-ing").innerText = "Soy un diseñador y desarrollador web apasionado por crear soluciones digitales y visuales innovadoras que generen una experiencia única al usuario y que conecten con las necesidades de las personas.";
@@ -306,11 +360,28 @@ function cambiarAEspanol() {
   document.getElementById("sobre-mi-titulo-ing").innerText = "SOBRE MI";
   document.getElementById("hola-soy-ing").innerText = "Hola, Soy";
   document.getElementById("parrafo-2-ing").innerText = "Me llamo Gonzalo, soy un apasionado desarrollador y Diseñador web con experiencia en HTML, CSS y Bootstrap, con conocimientos basicos en JavaScript y React. Disfruto creando paginas webs innovadoras y funcionales que hagan la vida más fácil para las personas, creando soluciones visuales que no solo sean atractivas, sino también fáciles de usar. Me encanta aprender y estar al tanto de las últimas tendencias en diseño y tecnología para poder ofrecer lo mejor a mis clientes.";
-  document.getElementById("tecnologíasYhabilidades-ing").innerText = "tecnologías y habilidades";
-  document.getElementById("herramientasDeDiseño-ing").innerText = "herramientas de diseño";
+  document.getElementById("tecnologíasYhabilidades-ing").innerText = "Tecnologías y habilidades";
+  document.getElementById("herramientasDeDiseño-ing").innerText = "Herramientas de diseño";
  // PROYECTOS
  document.getElementById("proyecto-titulo-ing").innerText = "PROYECTOS";
  document.getElementById("misProyectos-ing").innerText = "MIS PROYECTOS";
+
+ document.getElementById("lenguajesUtilizados-gncLuro-ing").innerText = "Lenguajes utilizados: Html, Css y Bootstrap.";
+document.getElementById("ver-ing").innerText = "VER";
+document.getElementById("repositorio-ing").innerText = "REPOSITORIO";
+
+document.getElementById("ver2-ing").innerText = "VER";
+document.getElementById("repositorio2-ing").innerText = "REPOSITORIO";
+document.getElementById("verduleria-titulo-ing").innerText = "VERDULERIA-ORGANICA";
+document.getElementById("lenguajesUtilizados-verduleria-ing").innerText = "lenguajes utilizados: Html, Css, Bootstrap y Js.";
+
+document.getElementById("ver3-ing").innerText = "VER";
+document.getElementById("repositorio3-ing").innerText = "REPOSITORIO";
+document.getElementById("transporte-raul-titulo-ing").innerText = "TRANSPORTE RAUL-EMPRESA ESCOLAR";
+document.getElementById("lenguajesUtilizados-Transporte-ing").innerText = "lenguajes utilizados: Html, Css, Bootstrap y Js.";
+
+document.getElementById("ver4-ing").innerText = "VER";
+document.getElementById("repositorio4-ing").innerText = "REPOSITORIO";
 // INTERESES
  document.getElementById("intereses-titulo-ing").innerText = "INTERESES";
  document.getElementById("misDibujos-ing").innerText = "MIS DIBUJOS";
@@ -320,10 +391,23 @@ document.getElementById("contacto-ing").innerText = "CONTACTO";
 document.getElementById("creatividad-ing").innerText = "LA CREATIVIDAD ES LA INTELIGENCIA DIVIRTIÉNDOSE.";
   consoleText(WORDS, 'text');
   // FOOTER
-  document.getElementById("footer-ing").innerText = "© Copyright Portafolio 2022. Gonzalo Matias Robledo - Desarrollador de páginas web.";
+  document.getElementById("footer-ing").innerText = "© Copyright Portafolio 2023. Gonzalo Matias Robledo - Desarrollador de páginas web.";
 
   // Cambiar otros elementos a español
   idiomaActual = "es";
 }
 
+// BOTON SUBIR
+function subirArriba() {
+  // Desplazarse suavemente hacia arriba con velocidad más lenta
+  window.scrollTo({
+    top: 0,
+    behavior: 'smooth',
+    // Ajusta la velocidad de desplazamiento
+    // El valor predeterminado es 1000 (1 segundo)
+    // Cuanto mayor sea el valor, más lenta será la velocidad
+    // Puedes experimentar con diferentes valores
+    duration: 2000
+  });
+}
 
