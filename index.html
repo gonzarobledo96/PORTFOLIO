@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0 user-scalable=no">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
     <!-- boostrap css-->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
@@ -67,7 +67,7 @@
                         <ul class="navbar-nav logo-navBar-colores">
                           <li class="nav-item">
                             <button style="border: none; background-color: transparent;" class="nav-link" id="idioma-link" onclick="toggleIdioma()">
-                                <i class="fa-solid fa-globe"></i>
+                                <i class="fa-solid fa-earth-americas"></i>
                               </button>
                           </li>
                           <li class="nav-item" style="cursor: pointer;">
@@ -114,14 +114,14 @@
         </div>
     </div>
     <div class="col">
-        <div class="d-flex">
+        <div class="container contenedor-imagen-logos">
             <div class="pepito">
                 <div class="contenedor-imagen" >
-                   <img src="./imagenes/imagen-personal/blanco - copia.png" alt="Descripción de la imagen">
+                   <img class="img-fluid" src="./imagenes/imagen-personal/blanco - copia.png" alt="Descripción de la imagen">
                  </div>
              </div>
         <div class="logos-imagen" style="padding-top: 8%;">
-            <ul class="ms-5 d-inline-block ">
+            <ul>
                 <li class="nav-item " >
                     <a class="nav-link sobre-mi" href=""><i class="fab fa-facebook-f iconn" ></i></a>
                 </li>
@@ -201,89 +201,82 @@
 <!-- ***************** -->
 <!-- *** PROYECTOS *** -->
 <!-- ***************** -->
-  <div id="proyectos" class="titulo-proyectos" >
-        <h1 id="proyecto-titulo-ing">PROYECTOS</h1><!-- data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000" -->
-        <div class="d-flex justify-content-center">
-            <i class="fa-solid fa-minus"></i>
-            <h2 id="misProyectos-ing">MIS PROYECTOS </h2>
-            <i class="fa-solid fa-minus"></i>
-        </div>
-</div>
-<h3 class="text-center mt-5 g-4 linea-proyecto">______</h3>
-<div class="row row-cols-1 row-cols-md-1 g-4 me-3 ms-3 fondo-portafolio">
-    <div>
-        <div class="row row-cols-sm-1 row-cols-md-2 g-4">
-            <div class="col-12 contenedor" ><!-- data-aos="flip-down" data-aos-duration="2000" -->
-                <figure class="card shadow-lg bg-body">
-                    <img src="./imagenes/fondo-proyecto-3.jfif" class="card-img-top" alt="GNC-LURO">
-                    <div class="capa">
-                      <h3 class="text-white">GNC-LURO</h3>
-                      <h5 id="lenguajesUtilizados-gncLuro-ing" class="text-white">Lenguajes utilizados: Html, Css y Bootstrap.</h5>
-                      <a style=" text-decoration: none; outline: none; color: white;" href="file:///C:/Users/User/OneDrive/Escritorio/GNC-LURO/index.html" target="_blank" class="ver-ing">
-                        <i class="fa fa-brands fa-globe iconn me-2"></i>
-                        <p id="ver-ing" class="d-inline-block" style="margin-right: 100px;">VER</p>
-                      </a>                      
-                      <a style=" text-decoration: none; outline: none; color: white;" href="https://github.com/gonzarobledo96/GNC-LURO" target="_blank">
-                        <i class="fab fa-brands fa-github iconn me-2"></i>
-                        <p id="repositorio-ing" class="d-inline-block repositorio-diseño">REPOSITORIO</p>
-                      </a>
-                    </div>
-                  </figure>
-             </div>
-              <div class="col-12 contenedor " ><!-- data-aos="flip-left" data-aos-duration="2000" -->
-                     <figure class="card shadow-lg bg-body">
-                        <img src="./imagenes/verduleria - copia.jpg"  class="card-img-top" alt="VERDULERIA">
-                        <div class="capa">
-                          <h3 id="verduleria-titulo-ing" class="text-white">VERDULERIA-ORGANICA</h3>
-                          <h5 id="lenguajesUtilizados-verduleria-ing" class="text-white">lenguajes utilizados: Html, Css, Bootstrap y Js.</h5>
-                          <a style=" text-decoration: none; outline: none; color: white;" href="file:///C:/Users/User/OneDrive/Escritorio/verduleria-natural/index.html" target="_blank" class="ver-ing">
-                            <i class="fa fa-brands fa-globe iconn me-2"></i>
-                            <p id="ver2-ing" class="d-inline-block" style="margin-right: 100px;">VER</p>
-                          </a>                      
-                          <a style=" text-decoration: none; outline: none; color: white;" href="https://github.com/gonzarobledo96/Verduleria-Natural" target="_blank">
-                            <i class="fab fa-brands fa-github iconn me-2"></i>
-                            <p id="repositorio2-ing" class="d-inline-block repositorio-diseño">REPOSITORIO</p>
-                          </a>
-                        </div>
-                      </figure>
-             </div>
-             <div class="col-12 contenedor " ><!-- data-aos="flip-left" data-aos-duration="2000" -->
-                <figure class="card shadow-lg bg-body">
-                    <img src="./imagenes/micros-escolares.jpg"  class="card-img-top" alt="GNC-LURO">
-                    <div class="capa">
-                      <h3 id="transporte-raul-titulo-ing" class="text-white">TRANSPORTE RAUL-EMPRESA ESCOLAR</h3>
-                      <h5 id="lenguajesUtilizados-Transporte-ing" class="text-white">lenguajes utilizados: Html, Css, Bootstrap y Js.</h5>
-                      <a style=" text-decoration: none; outline: none; color: white;" href="http://transporte-raul.lovestoblog.com/index.html/" target="_blank" class="ver-ing">
-                        <i class="fa fa-brands fa-globe iconn me-2"></i>
-                        <p id="ver3-ing" class="d-inline-block" style="margin-right: 100px;">VER</p>
-                      </a>                      
-                      <a style=" text-decoration: none; outline: none; color: white;" href="https://github.com/gonzarobledo96/Transporte-Raul" target="_blank">
-                        <i class="fab fa-brands fa-github iconn me-2"></i>
-                        <p id="repositorio3-ing" class="d-inline-block repositorio-diseño">REPOSITORIO</p>
-                      </a>
-                    </div>
-                  </figure>
-        </div>
-         <div class="col-12 contenedor " ><!-- data-aos="flip-down" data-aos-duration="2000" -->
-                     <figure class="card shadow-lg bg-body">
-                        <img src="./imagenes/proximamente.jfif"  class="card-img-top" alt="GNC-LURO">
-                        <div class="capa">
-                          <h3 class="text-white">PROXIMAMENTE</h3>
-                          <h5 id="lenguajesUtilizados-gncLuro-ing" class="text-white">lenguajes utilizados: #, #, #</h5>
-                          <a style=" text-decoration: none; outline: none; color: white;" href="http://transporte-raul.lovestoblog.com/index.html/" target="_blank" class="ver-ing">
-                            <i class="fa fa-brands fa-globe iconn me-2"></i>
-                            <p id="ver4-ing" class="d-inline-block" style="margin-right: 100px;">VER</p>
-                          </a>                      
-                          <a style=" text-decoration: none; outline: none; color: white;" href="https://github.com/gonzarobledo96/Transporte-Raul" target="_blank">
-                            <i class="fab fa-brands fa-github iconn me-2"></i>
-                            <p id="repositorio4-ing" class="d-inline-block repositorio-diseño">REPOSITORIO</p>
-                          </a>
-                        </div>
-                      </figure>
-             </div>
-        </div>
+<div id="proyectos" class="titulo-proyectos" >
+    <h1 id="proyecto-titulo-ing">PROYECTOS</h1><!-- data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000" -->
+    <div class="d-flex justify-content-center">
+        <i class="fa-solid fa-minus"></i>
+        <h2 id="misProyectos-ing">MIS PROYECTOS </h2>
+        <i class="fa-solid fa-minus"></i>
     </div>
 </div>
+<!-- SECCION PORTAFOLIO -->
+<section id="portfolio">
+    <div class="fila text-center">
+        <div class="proyecto ">
+            <img src="./imagenes/fondo-proyecto-3.jfif" alt="">
+            <div class="info">
+                <h4>GNC-LURO</h4>
+                <p id="lenguajesUtilizados-gncLuro-ing">Lenguajes utilizados: Html, Css y Bootstrap.
+                </p>
+                    <a style=" text-decoration: none; outline: none; color: white;" href="http://transporte-raul.lovestoblog.com/index.html/" target="_blank" class="ver-ing">
+                        <i class="fa-regular fa-eye iconn me-2"></i>
+                        <h6 id="ver-ing" class="d-inline-block" style="margin-right: 100px;">VER</h6>
+                      </a>
+                      <a style=" text-decoration: none; outline: none; color: white;" href="https://github.com/gonzarobledo96/Transporte-Raul" target="_blank">
+                        <i class="fab fa-brands fa-github iconn me-2"></i>
+                        <h6 id="repositorio-ing" class="d-inline-block repositorio-diseño">REPOSITORIO</h6>
+                      </a> 
+            </div>
+        </div>
+        <div class="proyecto ">
+            <img src="./imagenes/verduleria.jpg" alt="">
+            <div class="info ">
+                <h4 id="verduleria-titulo-ing">VERDULERIA-ORGANICA</h4>
+                <p id="lenguajesUtilizados-verduleria-ing">lenguajes utilizados: Html, Css, Bootstrap y Js.</p>
+                <a style=" text-decoration: none; outline: none; color: white;" href="http://transporte-raul.lovestoblog.com/index.html/" target="_blank" class="ver-ing">
+                    <i class="fa-regular fa-eye iconn me-2"></i>
+                    <h6 id="ver2-ing" class="d-inline-block" style="margin-right: 100px;">VER</h6>
+                  </a>
+                  <a style=" text-decoration: none; outline: none; color: white;" href="https://github.com/gonzarobledo96/Transporte-Raul" target="_blank">
+                    <i class="fab fa-brands fa-github iconn me-2"></i>
+                    <h6 id="repositorio2-ing" class="d-inline-block repositorio-diseño">REPOSITORIO</h6>
+                  </a> 
+            </div>
+        </div>
+    </div>
+    <div class="fila text-center">
+        <div class="proyecto">
+            <img src="./imagenes/micros-escolares.jpg" alt="">
+            <div class="info">
+                <h4 id="transporte-raul-titulo-ing">TRANSPORTE RAUL-EMPRESA ESCOLAR</h4>
+                <p id="lenguajesUtilizados-Transporte-ing">lenguajes utilizados: Html, Css, Bootstrap y Js.</p>
+                <a style=" text-decoration: none; outline: none; color: white;" href="http://transporte-raul.lovestoblog.com/index.html/" target="_blank" class="ver-ing">
+                    <i class="fa-regular fa-eye iconn me-2"></i>
+                    <h6 id="ver3-ing" class="d-inline-block" style="margin-right: 100px;">VER</h6>
+                  </a>
+                  <a style=" text-decoration: none; outline: none; color: white;" href="https://github.com/gonzarobledo96/Transporte-Raul" target="_blank">
+                    <i class="fab fa-brands fa-github iconn me-2"></i>
+                    <h6 id="repositorio3-ing" class="d-inline-block repositorio-diseño">REPOSITORIO</h6>
+                  </a> 
+            </div>
+        </div>
+        <div class="proyecto">
+            <img src="./imagenes/proximamente.jfif" alt="">
+            <div class="info">
+                <h4>PROXIMAMENTE</h4>
+                <p>lenguajes utilizados: #, #, #</p>
+                <a style=" text-decoration: none; outline: none; color: white;" href="http://transporte-raul.lovestoblog.com/index.html/" target="_blank" class="ver-ing">
+                    <i class="fa-regular fa-eye iconn me-2"></i>
+                    <h6 id="ver4-ing" class="d-inline-block" style="margin-right: 100px;">VER</h6>
+                  </a>
+                  <a style=" text-decoration: none; outline: none; color: white;" href="https://github.com/gonzarobledo96/Transporte-Raul" target="_blank">
+                    <i class="fab fa-brands fa-github iconn me-2"></i>
+                    <h6 id="repositorio4-ing" class="d-inline-block repositorio-diseño">REPOSITORIO</h6>
+                  </a> 
+            </div>
+        </div>
+    </div>
+</section>
 
 
 <!-- *************** -->
@@ -421,6 +414,10 @@
     </div>
 </div>
 
+
+<!-- ******************* -->
+<!-- *** BOTON SUBIR *** -->
+<!-- ******************* -->
 <button id="btnSubirArriba" onclick="subirArriba()"><i class="fa-solid fa-arrow-up" ></i></button>
 
 

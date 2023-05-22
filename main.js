@@ -15,6 +15,21 @@ window.addEventListener("scroll", () => {
 
 
 
+// BOTON SUBIR
+function subirArriba() {
+  // Desplazarse suavemente hacia arriba con velocidad más lenta
+  window.scrollTo({
+    top: 0,
+    behavior: 'smooth',
+    // Ajusta la velocidad de desplazamiento
+    // El valor predeterminado es 1000 (1 segundo)
+    // Cuanto mayor sea el valor, más lenta será la velocidad
+    // Puedes experimentar con diferentes valores
+    duration: 2000
+  });
+}
+
+
 // **************************
 // EFECTO MAQUINA DE ESCRIBIR
 // **************************
@@ -133,6 +148,7 @@ function closeDropdown() {
 function cambiarColores(colorSeleccionado) {
   // Resto del código para cambiar los colores utilizando el colorSeleccionado
 
+  
   const descargarCV = document.querySelectorAll('.descargarCV');
   const span = document.querySelectorAll('span');
   const titulos = document.querySelectorAll('h1');
@@ -143,7 +159,8 @@ function cambiarColores(colorSeleccionado) {
 const tituloProyecto = document.querySelectorAll('.titulo-proyectos i');
 const tecnologiasyhabilidades = document.querySelectorAll('.tecnologíasyhabilidades');
 const lineaProyecto = document.querySelectorAll('.linea-proyecto');
-const diseñotextonavbar = document.querySelectorAll('.diseño-texto-navbar');
+const portfolio = document.querySelectorAll('.info p');/* i, h4,  */
+const portfolioImagenes = document.querySelectorAll('.proyecto');
 
 // Resto del código para cambiar los estilos de los elementos con el colorSeleccionado
 // ...
@@ -191,11 +208,21 @@ lineaProyecto.forEach((lineaProyecto) => {
   lineaProyecto.style.backgroundColor = colorSeleccionado;
   });
 
-  // diseñotextonavbar.forEach((diseñotextonavbar) => {
-  //   diseñotextonavbar.style.color = colorSeleccionado;
-  //   });
+  portfolio.forEach((portfolio) => {
+    portfolio.style.color = colorSeleccionado;
+    });
 
-  
+    // SOMBRA DE LAS IMAGENES DE PROYECTOS
+    if (colorSeleccionado === '') {
+      // Removemos la sombra en las imágenes
+      portfolioImagenes.forEach((portfolioImagen) => {
+        portfolioImagen.style.boxShadow = ''; /* poner none si quieres quitar la sombra */
+      });
+    } else {
+      portfolioImagenes.forEach((portfolioImagen) => {
+        portfolioImagen.style.boxShadow = `10px 10px 10px 5px ${colorSeleccionado}`;
+      });
+    }
 }
 
 const colorList = document.getElementById('color-list');
@@ -215,6 +242,7 @@ function cambiarFondo() {
   const body = document.body;
   const icono = document.getElementById('modo-icono');
 
+  // CAMBIA EL LOGO DEL SOL A LA LUNA
   // Verifica si el cuerpo tiene la clase 'modo-oscuro'
   if (body.classList.contains('modo-oscuro')) {
     // Cambia el ícono al sol y remueve la clase 'modo-oscuro' del cuerpo
@@ -396,18 +424,3 @@ document.getElementById("creatividad-ing").innerText = "LA CREATIVIDAD ES LA INT
   // Cambiar otros elementos a español
   idiomaActual = "es";
 }
-
-// BOTON SUBIR
-function subirArriba() {
-  // Desplazarse suavemente hacia arriba con velocidad más lenta
-  window.scrollTo({
-    top: 0,
-    behavior: 'smooth',
-    // Ajusta la velocidad de desplazamiento
-    // El valor predeterminado es 1000 (1 segundo)
-    // Cuanto mayor sea el valor, más lenta será la velocidad
-    // Puedes experimentar con diferentes valores
-    duration: 2000
-  });
-}
-
