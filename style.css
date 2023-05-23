@@ -318,10 +318,10 @@ color: white;
 /*** SECCION INICIO ***/
 #navbar {
     position: fixed;
-    top: 0;
     width: 100%;
     height: 60px; 
     transition: background-color 0.5s ease;
+    padding: 0px;
   }
   .navbar-bg {
      /* background-color: hsla(229, 16%, 20%, 0.877);  */
@@ -567,6 +567,7 @@ ul li .diseño-texto-navbar:hover:after {
     color: #565656;
     margin-bottom: 12px;
     font-weight: 500;
+    padding: 0px 20px 0px 0px;
 }
 #sobremi .sobremi .descargarCV {
     display: inline-block;
@@ -648,7 +649,7 @@ transition: transform 0.3s ease-in-out;
     background-position: center top;
     background-repeat: no-repeat;
     margin-bottom: -20px;
-    padding-top: 110px;
+    padding-top: 115px;
 }
 /* ajusta la posición de la segunda imagen para que se superponga en la primera */
 .diseño-ola:hover {
@@ -989,7 +990,7 @@ img {
     background-position: center top;
     background-repeat: no-repeat;
     margin-bottom: -20px;
-    padding-top: 110px;
+    padding-top: 115px;
 }
 .texto-portafolio-contacto {
     font-family: 'Montserrat', sans-serif;
@@ -1074,20 +1075,24 @@ img {
     font-size: 20px;
 }
  @media screen and (min-width: 992px) and (max-width: 2800px){
-    .fondo-nav {
-        background-color: rgba(0, 0, 0, 0);
-    }
+
 }
  @media screen and (min-width: 320px) and (max-width: 991px){
-   .navbar-bg {
-    padding-top: 0px;
-    padding: 0px; 
-    background-color: hsla(229, 16%, 20%, 0);
-   } 
+ 
    .fondo-nav {
-    padding-top: 0px;
     background-color: hsla(229, 16%, 20%, 0.877); 
 }
+/*** LOGO GR/ ***/
+.parrafo-logo{
+    padding-left: 0em;
+}
+        .parrafo-logo h3{
+            color: rgb(255, 255, 255);
+        }
+        .hamburger {
+            padding: 15px;
+            margin-right: 0em;
+        }
  } 
 
 
@@ -1106,80 +1111,14 @@ img {
  
 
  @media screen and (min-width:320px) and (max-width: 480px) {
-    section>div {
-        grid-template-areas:
-            "div1 div4"
-            "div11 div4 "
-            "div6 div6 "
-            "div6 div6 "
-            "div9 div8 "
-            "div9 div8 "
-            "div7 div12 "
-            "div7 div12 "
-            "div5 div10 "
-            "div5 div10 "
-            "div3 div2 "
-            "div3 div2 ";
-        grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: repeat(12, 45px);
-    }
-    /* DIBUJO */
-    .fondo-dibujo {
-        background-color: rgb(43, 43, 43);
-    }
-    /* CONTACTO */
-    .speace-around-entre-objetos-contacto {
-        display: block;
-        padding: 0px;
-    }
-    .y {
-        padding-top: 20px;
-    }
-    .z .y .r {
-        margin: auto;
-    }
-
-
-
-
-
-
 /*************************/
 /*** SECCION SOBRE MI ***/
 /***********************/
-
  #sobremi {
     padding: 100p 0px 0px 0px; 
 } 
 #sobremi .sobremi {
-    /* padding: 40px 20px 0px 20px; */
     padding: 40px 5px 0px 5px;
-}
-#sobremi .sobremi .titulo-seccion {
-    font-size: 15px;
-}
-#sobremi .sobremi h2 {
-    font-size: 4px;
-}
-#sobremi .sobremi span {
-    color: rgb(255, 199, 88);
-    font-size: 12px;
-}
-#sobremi .sobremi .console-container {
-    font-size: 18px;
-    font-weight: 500;
-    text-transform: uppercase;
-    margin-bottom: 20px;
-    letter-spacing: 1px;
-}
-.console-underscore {
- display:inline-block;
- position:relative;
- left:10px;
- background-color: #111135;
-}
-@media (max-width: 750px) {
- .console-container { font-size:2em; }
 }
 #sobremi .sobremi .parrafo {
     font-size: 16px;
@@ -1187,8 +1126,21 @@ img {
     color: #565656;
     margin-bottom: 12px;
     font-weight: 500;
+    padding: 0;
 }
-
+#sobremi .sobremi .titulo-seccion {
+    font-size: 15px;
+}
+#sobremi .sobremi h2 {
+    font-size: 19px;
+    margin: 10px 0;
+}
+#sobremi .sobremi span {
+    font-size: 19px;
+}
+#sobremi .sobremi .console-container {
+    font-size: 19px;
+}
 /* IMAGEN SOBRE-MI */
 .contenedor-imagen-logos{
     flex-direction: column;
@@ -1206,13 +1158,6 @@ img {
     margin-bottom: 20px ;
     border: 5px solid rgb(255, 255, 255);
 }
-.contenedor-imagen img:hover {
-    transform: scale(1.1) rotate(2deg);
-  }
-  .contenedor-imagen img:active {
-    transform: scale(0.9) rotate(-2deg);
-    transition-duration: 0.05s;
-  }
 .pepito{
     margin-top: 2em;
     padding: 50px;
@@ -1233,59 +1178,94 @@ ul li .sobre-mi {
 }
 
 
-
-
-
-
 /******************/
 /*** ACERCA DE ***/
 /****************/
-.acerca-de-Titulo h1{
-    text-align: center;
-    text-transform: uppercase;
-    font-size: 20px;
-    font-family:'poppins', sans-serif;
-    letter-spacing: auto;
+.diseño-ola {
+    max-width: 100%;
+    background-image: url(./imagenes/imagen-personal/ola-blanca.png);
+    background-size: 100%;/* 100% 180px; */
+    background-position: center top;
+    background-repeat: no-repeat;
+     margin-bottom: -20px;
+    padding-top: 45px;
+    
 }
+.gonzalo-robledo{
+    margin-top: 0px;
+    font-size: 34px;
+    margin: 7px 0px 0px 0px;
+}
+.acerca-de-Titulo h1{
+    margin: 0px;
+    padding: 0px 15px;
+    font-size: 30px;
+    letter-spacing: 10px;
+}
+.tecnologíasyhabilidades h3{
+    font-size:1.4em;
+}
+
 
 /*****************/
 /*** PROYECTOS ***/
 /*****************/
 .titulo-proyectos h1{
-    margin-top: 200px;
-    text-align: center;
-    text-transform: uppercase;
-    font-size: 20px;
-    font-family:'poppins', sans-serif;
-    -webkit-text-fill-color: transparent ;
-    -webkit-text-stroke: 1px #111135 ;
-    letter-spacing: 20px;
-    opacity: 0.2;
+    margin-top: 130px;
+    padding: 0px 15px;
+    font-size: 30px;
+    letter-spacing: 10px;
+}
+#portfolio .fila {
+    flex-direction: column;
+    margin: 10px 0;
+}
+#portfolio .fila .proyecto {
+    margin: 20px 10px;
 }
 
 
+/***************/
+/*** DIBUJOS ***/
+/***************/
+    section>div {
+        grid-template-areas:
+            "div1 div4"
+            "div11 div4 "
+            "div6 div6 "
+            "div6 div6 "
+            "div9 div8 "
+            "div9 div8 "
+            "div7 div12 "
+            "div7 div12 "
+            "div5 div10 "
+            "div5 div10 "
+            "div3 div2 "
+            "div3 div2 ";
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(12, 45px);
+    }
 
 
+/*****************/
+/*** CONTACTO ***/
+/***************/
+    .speace-around-entre-objetos-contacto {
+        display: block;
+        padding: 0px;
+    }
+    .y {
+        padding-top: 20px;
+    }
+    .z .y .r {
+        margin: auto;
+    }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/**********************/
+/*** SECCION FOOTER ***/
+/**********************/
+.tamaño-parrafo-footer {
+    font-size: 20px;
+}
   }
