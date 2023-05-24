@@ -157,6 +157,7 @@ const tecnologiasyhabilidades = document.querySelectorAll('.tecnologíasyhabilid
 const lineaProyecto = document.querySelectorAll('.linea-proyecto');
 const portfolio = document.querySelectorAll('.info p');/* i, h4,  */
 const portfolioImagenes = document.querySelectorAll('.proyecto');
+const hamburger = document.querySelectorAll('.hamburger');
 const hamburgerHidden = document.querySelectorAll('.hamburger__hidden');
 const hamburgerInner = document.querySelectorAll('.hamburger__inner');
 
@@ -214,11 +215,15 @@ lineaProyecto.forEach((lineaProyecto) => {
       hamburgerHidden.style.backgroundColor = colorSeleccionado;
       });
 
-      hamburgerInner.forEach(( hamburgerInner) => {
+      hamburgerInner.forEach((hamburgerInner) => {
         hamburgerInner.style.backgroundColor = colorSeleccionado;
         });
 
-     
+        hamburger.forEach((hamburger) => {
+          hamburger.style.borderColor = colorSeleccionado;
+          });
+
+       
     // SOMBRA DE LAS IMAGENES DE PROYECTOS
     if (colorSeleccionado === '') {
       // Removemos la sombra en las imágenes

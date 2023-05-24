@@ -46,6 +46,7 @@ color: #ffffff;
     display: inline-block;
     overflow: hidden;
     background-color: transparent;
+    border: solid 2px rgb(255, 199, 88);
 }
 .hamburger__container {
     width: 36px;
@@ -607,7 +608,7 @@ transition: transform 0.3s ease-in-out;
 .contenedor-imagen img:active {
     transition-duration: 0.05s;
 }
-.pepito{
+.fondo-imagen-personal{
      padding: 100px; 
 }
 /* 
@@ -1262,7 +1263,7 @@ margin-right: 50px;
     margin-bottom: 20px ;
     border: 5px solid rgb(255, 255, 255);
 }
-.pepito{
+.fondo-imagen-personal{
     margin-top: 2em;
     padding: 50px;
 }
