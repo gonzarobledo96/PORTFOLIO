@@ -1167,16 +1167,8 @@ margin-left: 0px;
 #sobremi .sobremi {
     padding: 40px 5px 0px 5px;
 }
-#sobremi .sobremi .parrafo {
-    font-size: 16px;
-    line-height: 25px;
-    color: #565656;
-    margin-bottom: 12px;
-    font-weight: 500;
-    padding: 0;
-}
 #sobremi .sobremi .titulo-seccion {
-    font-size: 15px;
+    font-size: 20px;
 }
 #sobremi .sobremi h2 {
     font-size: 19px;
@@ -1239,7 +1231,6 @@ margin-left: 0px;
 }
 .gonzalo-robledo{
     margin-top: 0px;
-    font-size: 34px;
     margin: 7px 0px 0px 0px;
 }
 .acerca-de-Titulo h1{
