@@ -21,10 +21,6 @@ function subirArriba() {
   window.scrollTo({
     top: 0,
     behavior: 'smooth',
-    // Ajusta la velocidad de desplazamiento
-    // El valor predeterminado es 1000 (1 segundo)
-    // Cuanto mayor sea el valor, más lenta será la velocidad
-    // Puedes experimentar con diferentes valores
     duration: 2000
   });
 }
@@ -161,6 +157,8 @@ const tecnologiasyhabilidades = document.querySelectorAll('.tecnologíasyhabilid
 const lineaProyecto = document.querySelectorAll('.linea-proyecto');
 const portfolio = document.querySelectorAll('.info p');/* i, h4,  */
 const portfolioImagenes = document.querySelectorAll('.proyecto');
+const hamburgerHidden = document.querySelectorAll('.hamburger__hidden');
+const hamburgerInner = document.querySelectorAll('.hamburger__inner');
 
 // Resto del código para cambiar los estilos de los elementos con el colorSeleccionado
 // ...
@@ -212,6 +210,15 @@ lineaProyecto.forEach((lineaProyecto) => {
     portfolio.style.color = colorSeleccionado;
     });
 
+    hamburgerHidden.forEach((hamburgerHidden) => {
+      hamburgerHidden.style.backgroundColor = colorSeleccionado;
+      });
+
+      hamburgerInner.forEach(( hamburgerInner) => {
+        hamburgerInner.style.backgroundColor = colorSeleccionado;
+        });
+
+     
     // SOMBRA DE LAS IMAGENES DE PROYECTOS
     if (colorSeleccionado === '') {
       // Removemos la sombra en las imágenes

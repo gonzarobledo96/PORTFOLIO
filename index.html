@@ -44,53 +44,55 @@
                     </div>
                   </div>
                 <div class="collapse navbar-collapse posicion-nav"  id="navbarSupportedContent">
-                    <ul class="navbar-nav diseño-navbar">
-                        <li class="nav-item ms-3">
+                    <ul class="navbar-nav">
+                        <li class="nav-item marginLeft-del-navBar">
                             <a class="nav-link sobre-mi diseño-texto-navbar navbar-item" href="#sobremi" rel="noopener noreferrer">
                                 <i class="bi bi-house-door-fill"></i>
                             </a>
                         </li>                        
-                        <li class="nav-item ms-3">
+                        <li class="nav-item marginLeft-del-navBar">
                             <a id="acerca-de-mi-ing" class="nav-link sobre-mi diseño-texto-navbar" href="#acercaDe" rel="noopener noreferrer">ACERCA DE</a>
                         </li>
-                        <li class="nav-item ms-3">
+                        <li class="nav-item marginLeft-del-navBar">
                             <a id="proyectos-ing" class="nav-link sobre-mi diseño-texto-navbar" href="#proyectos" rel="noopener noreferrer">PROYECTOS</a>
                         </li>
-                        <li class="nav-item ms-3">
+                        <li class="nav-item marginLeft-del-navBar">
                             <a id="mis-intereses-ing" class="nav-link sobre-mi diseño-texto-navbar"  href="#dibujos" rel="noopener noreferrer">MIS INTERESES</a>
                         </li>
-                        <li class="nav-item ms-3">
+                        <li class="nav-item marginLeft-del-navBar">
                             <a id="contactar-ing" class="nav-link sobre-mi diseño-texto-navbar"  href="#contacto-ing" rel="noopener noreferrer">CONTACTAR</a>
                         </li>
                     </ul>
-
+                    <div>
                         <ul class="navbar-nav logo-navBar-colores">
-                          <li class="nav-item">
-                            <button style="border: none; background-color: transparent;" class="nav-link" id="idioma-link" onclick="toggleIdioma()">
-                                <i class="fa-solid fa-earth-americas"></i>
-                              </button>
-                          </li>
-                          <li class="nav-item" style="cursor: pointer;">
-                            <a class="nav-link" onclick="cambiarFondo()"><i id="modo-icono" class="sol-icono fa-regular fa-sun"></i></a>
-                          </li>
-                          <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                              <i class="fa-solid fa-gear"></i>
-                            </a>
-                            <ul class="dropdown-menu fondo-elige-un-color" id="color-list">
-                                            <p id="elige-un-color-ing" class="text-center elige-un-color">Colores del Tema</p>
-                                            <div class="logos-colores d-flex">
-                                                  <li><a href="#" data-color="" onclick="handleColorChange(event)"><i class="fas fa-circle" style="color: rgb(255, 199, 88);"></i></a></li>
-                                                  <li><a href="#" data-color="#ec1839" onclick="handleColorChange(event)"><i class="fas fa-circle" style="color: #ec1839;"></i></a></li>
-                                              <li><a href="#" data-color="#fa5b0f" onclick="handleColorChange(event)"><i class="fas fa-circle" style="color: #fa5b0f;"></i></a></li>
-                                              <li><a href="#" data-color="#37b182" onclick="handleColorChange(event)"><i class="fas fa-circle" style="color: #37b182;"></i></a></li>
-                                              <li><a href="#" data-color="rgb(218, 221, 29)" onclick="handleColorChange(event)"><i class="fas fa-circle" style="color: rgb(218, 221, 29);"></i></a></li>
-                                              <li><a href="#" data-color="#2564ca" onclick="handleColorChange(event)"><i class="fas fa-circle" style="color: #2564ca;"></i></a></li>
-                                              <li><a href="#" data-color="#f021b2" onclick="handleColorChange(event)"><i class="fas fa-circle" style="color: #f021b2;"></i></a></li>
-                                              </div>
-                                            </ul>
-                                          </li>
-                                        </ul>
+                            <li class="nav-item">
+                              <button style="border: none; background-color: transparent;" class="nav-link" id="idioma-link" onclick="toggleIdioma()">
+                                  <i class="fa-solid fa-earth-americas"></i>
+                                </button>
+                            </li>
+                            <li class="nav-item" style="cursor: pointer;">
+                              <a class="nav-link" onclick="cambiarFondo()"><i id="modo-icono" class="sol-icono fa-regular fa-sun"></i></a>
+                            </li>
+                            <li class="nav-item dropdown">
+                              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                <i class="fa-solid fa-gear"></i>
+                              </a>
+                              <ul class="dropdown-menu fondo-elige-un-color" id="color-list">
+                                              <p id="elige-un-color-ing" class="text-center elige-un-color">Colores del Tema</p>
+                                              <div class="logos-colores d-flex">
+                                                    <li><a href="#" data-color="" onclick="handleColorChange(event)"><i class="fas fa-circle" style="color: rgb(255, 199, 88);"></i></a></li>
+                                                    <li><a href="#" data-color="#ec1839" onclick="handleColorChange(event)"><i class="fas fa-circle" style="color: #ec1839;"></i></a></li>
+                                                <li><a href="#" data-color="#fa5b0f" onclick="handleColorChange(event)"><i class="fas fa-circle" style="color: #fa5b0f;"></i></a></li>
+                                                <li><a href="#" data-color="#37b182" onclick="handleColorChange(event)"><i class="fas fa-circle" style="color: #37b182;"></i></a></li>
+                                                <li><a href="#" data-color="rgb(218, 221, 29)" onclick="handleColorChange(event)"><i class="fas fa-circle" style="color: rgb(218, 221, 29);"></i></a></li>
+                                                <li><a href="#" data-color="#2564ca" onclick="handleColorChange(event)"><i class="fas fa-circle" style="color: #2564ca;"></i></a></li>
+                                                <li><a href="#" data-color="#f021b2" onclick="handleColorChange(event)"><i class="fas fa-circle" style="color: #f021b2;"></i></a></li>
+                                                </div>
+                                              </ul>
+                                            </li>
+                                          </ul>
+                    </div>
+                        
                                     </div>
                         </div>
                 </div>
@@ -109,7 +111,7 @@
                 <span id='text'></span>
                  <div class='console-underscore' id='console'>_</div>
                  </div>
-                 <p id="parrafos-1-ing" class="parrafo">Soy un diseñador y desarrollador web apasionado por crear soluciones digitales y visuales innovadoras que generen una experiencia única al usuario y que conecten con las necesidades <br> de las personas.</p>
+                 <p id="parrafos-1-ing" class="parrafo text-dark">Soy un diseñador y desarrollador web apasionado por crear soluciones digitales y visuales innovadoras que generen una experiencia única al usuario y que conecten con las necesidades de las personas.</p>
             <a id="descargarCV" class="descargarCV" href="./gonzalo-robledo.pdf" target="_blank">Descargar CV</a>
         </div>
     </div>
@@ -171,7 +173,7 @@
                 <h2 id="hola-soy-ing">Hola, Soy</h2>
                 <span class="ms-2 gonzalo-robledo" id="nombre">Gonzalo Robledo</span>
             </div>
-             <p id="parrafo-2-ing" class="parrafo" >Me llamo Gonzalo, soy un apasionado desarrollador y Diseñador web con experiencia en HTML, CSS y Bootstrap, con conocimientos basicos en JavaScript y React. Disfruto creando paginas webs innovadoras y funcionales que hagan la vida más fácil para las personas, creando soluciones visuales que no solo sean atractivas, sino también fáciles de usar. Me encanta aprender y estar al tanto de las últimas tendencias en diseño y tecnología para poder ofrecer lo mejor a mis clientes.</p> 
+             <p id="parrafo-2-ing" class="parrafo text-dark">Me llamo Gonzalo, soy un apasionado desarrollador y Diseñador web con experiencia en HTML, CSS y Bootstrap, con conocimientos basicos en JavaScript y React. Disfruto creando paginas webs innovadoras y funcionales que hagan la vida más fácil para las personas, creando soluciones visuales que no solo sean atractivas, sino también fáciles de usar. Me encanta aprender y estar al tanto de las últimas tendencias en diseño y tecnología para poder ofrecer lo mejor a mis clientes.</p> 
             <div class="tecnologíasyhabilidades">
                 <!-- MIS SKILLS-->
                 <h3 id="tecnologíasYhabilidades-ing" class="mt-5">Tecnologías y Habilidades</h3>
