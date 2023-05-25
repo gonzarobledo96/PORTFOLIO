@@ -267,10 +267,10 @@ function cambiarFondo() {
   }
 
   // Integración de tu código
-  const diseñoOla = document.querySelector('.diseño-ola');
+  const diseñoOla = document.querySelector('.shapedividers_com-6525');
   const acercaDeTitulo = document.querySelector('.acerca-de-Titulo');
   const fondoContacto = document.querySelector('.fondo-contacto');
-  const diseNoOlaContacto = document.querySelector('.diseño-ola-contacto');
+  // const diseNoOlaContacto = document.querySelector('.diseño-ola-contacto');
   const tituloProyecto = document.querySelector('.titulo-proyectos');
   const span = document.querySelector('span');
   const acercaDe = document.querySelector('.acerca-de-fondo');
@@ -303,7 +303,7 @@ function cambiarFondo() {
   parrafoLogo.classList.toggle('modo-oscuro');
   logosColores.classList.toggle('modo-oscuro');
   fondoContacto.classList.toggle('modo-oscuro');
-  diseNoOlaContacto.classList.toggle('modo-oscuro');
+  // diseNoOlaContacto.classList.toggle('modo-oscuro');
   eligeUnColor.classList.toggle('modo-oscuro');
   btnSubirArriba.classList.toggle('modo-oscuro');
 }

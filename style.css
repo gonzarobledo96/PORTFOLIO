@@ -652,7 +652,6 @@ transition: transform 0.3s ease-in-out;
 .logos-imagen ul{
    display: inline-block;
    margin-left: 2em;
-
 }
 .logos-imagen ul li a{
     color: #000;
@@ -677,7 +676,7 @@ transition: transform 0.3s ease-in-out;
     background-size: 100%;/* 100% 180px; */
     background-position: center top;
     background-repeat: no-repeat;
-    margin-bottom: -20px;
+    margin-bottom: -25px;
     padding-top: 115px;
 }
 /* ajusta la posición de la segunda imagen para que se superponga en la primera */
@@ -1018,8 +1017,8 @@ img {
     background-size: 100%;/* 100% 180px; */
     background-position: center top;
     background-repeat: no-repeat;
-    margin-bottom: -20px;
-    padding-top: 115px;
+    margin-bottom: -25px;
+    padding-top: 125px;
 }
 .texto-portafolio-contacto {
     font-family: 'Montserrat', sans-serif;
@@ -1285,13 +1284,18 @@ margin-right: 50px;
 /*** ACERCA DE ***/
 /****************/
 .diseño-ola {
+    margin-top: 100px;
     max-width: 100%;
     background-image: url(./imagenes/imagen-personal/ola-blanca.png);
     background-size: 100%;/* 100% 180px; */
     background-position: center top;
     background-repeat: no-repeat;
-     margin-bottom: -20px;
-    padding-top: 45px;  
+     margin-bottom: -25px;
+    padding-top: 65px;  
+}
+.diseño-ola-contacto{
+    margin-bottom: -25px;
+    padding-top: 65px;
 }
 .gonzalo-robledo{
     margin-top: 0px;
@@ -1386,3 +1390,5 @@ margin-right: 50px;
     font-size: 20px;
 }
   }
+
+  
