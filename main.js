@@ -1,7 +1,7 @@
 // ****************
 // logo hamburguesa
 // ****************
-document.querySelector('.hamburger').addEventListener('click', (e) => {
+/* document.querySelector('.hamburger').addEventListener('click', (e) => {
   e.currentTarget.classList.toggle('is-active');
 })
 const navbar = document.getElementById("navbar");
@@ -12,6 +12,24 @@ window.addEventListener("scroll", () => {
     navbar.classList.remove("navbar-bg");
   }
 });
+ */
+
+const menuToggle = document.querySelector('.navbar-toggler');
+const navbarCollapse = document.querySelector('.navbar-collapse');
+
+document.addEventListener('click', (event) => {
+  const isClickInsideMenu = navbarCollapse.contains(event.target);
+  const isClickOnToggle = menuToggle.contains(event.target);
+  
+  if (!isClickInsideMenu && !isClickOnToggle) {
+    navbarCollapse.classList.remove('show');
+  }
+});
+
+
+
+
+
 
 
 
@@ -342,7 +360,7 @@ function cambiarAIngles() {
   document.getElementById("acerca-de-titulo-ing").innerText = "ABOUT";
   document.getElementById("sobre-mi-titulo-ing").innerText = "ABOUT ME";
   document.getElementById("hola-soy-ing").innerText = "Hi, I am";
-  document.getElementById("parrafo-2-ing").innerText = "My name is Gonzalo, I am a passionate web designer and developer with experience in HTML, CSS and Bootstrap, with basic knowledge in JavaScript and React. I enjoy creating innovative and functional websites that make life easier for people, creating visual solutions that are not only attractive, but also easy to use. I love learning and staying up to date with the latest trends in design and technology in order to offer the best to my clients.";
+  document.getElementById("parrafo-2-ing").innerText = "I am a passionate developer and web designer with experience in HTML, CSS and Bootstrap, with basic knowledge in JavaScript, React and Figma. I enjoy creating innovative and functional websites that make life easier for people, creating visual solutions that are not only attractive, but also easy to use. I love learning and staying up to date with the latest trends in design and technology in order to offer the best to my clients.";
   document.getElementById("tecnologíasYhabilidades-ing").innerText = "Technologies and skills";
   document.getElementById("herramientasDeDiseño-ing").innerText = "Design Tools";
   // PROYECTOS
@@ -399,7 +417,7 @@ function cambiarAEspanol() {
   document.getElementById("acerca-de-titulo-ing").innerText = "ACERCA DE";
   document.getElementById("sobre-mi-titulo-ing").innerText = "SOBRE MI";
   document.getElementById("hola-soy-ing").innerText = "Hola, Soy";
-  document.getElementById("parrafo-2-ing").innerText = "Me llamo Gonzalo, soy un apasionado desarrollador y Diseñador web con experiencia en HTML, CSS y Bootstrap, con conocimientos basicos en JavaScript y React. Disfruto creando paginas webs innovadoras y funcionales que hagan la vida más fácil para las personas, creando soluciones visuales que no solo sean atractivas, sino también fáciles de usar. Me encanta aprender y estar al tanto de las últimas tendencias en diseño y tecnología para poder ofrecer lo mejor a mis clientes.";
+  document.getElementById("parrafo-2-ing").innerText = "Soy un apasionado desarrollador y Diseñador web con experiencia en HTML, CSS y Bootstrap, con conocimientos basicos en JavaScript, React y Figma. Disfruto creando paginas webs innovadoras y funcionales que hagan la vida más fácil para las personas, creando soluciones visuales que no solo sean atractivas, sino también fáciles de usar. Me encanta aprender y estar al tanto de las últimas tendencias en diseño y tecnología para poder ofrecer lo mejor a mis clientes.";
   document.getElementById("tecnologíasYhabilidades-ing").innerText = "Tecnologías y habilidades";
   document.getElementById("herramientasDeDiseño-ing").innerText = "Herramientas de diseño";
  // PROYECTOS

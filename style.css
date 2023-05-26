@@ -154,6 +154,18 @@ color: #ffffff;
 
 
 
+
+
+.navbar-collapse {
+    transition: height 1.3s ease;
+  }
+
+
+
+
+
+  
+
 /********************/
 /*** MODO OSCURO ***/
 /******************/
@@ -1155,7 +1167,7 @@ margin-left: 0px;
     }
 
    .fondo-nav {
-    background-color: hsla(229, 16%, 20%, 0.877); 
+    background-color: hsla(229, 16%, 20%, 0.877);
 }
 /*** LOGO GR/ ***/
 .parrafo-logo{
