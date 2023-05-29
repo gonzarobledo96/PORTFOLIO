@@ -1,7 +1,7 @@
 // ****************
 // logo hamburguesa
 // ****************
-/* document.querySelector('.hamburger').addEventListener('click', (e) => {
+ document.querySelector('.hamburger').addEventListener('click', (e) => {
   e.currentTarget.classList.toggle('is-active');
 })
 const navbar = document.getElementById("navbar");
@@ -12,9 +12,9 @@ window.addEventListener("scroll", () => {
     navbar.classList.remove("navbar-bg");
   }
 });
- */
+ 
 
-const menuToggle = document.querySelector('.navbar-toggler');
+/* const menuToggle = document.querySelector('.navbar-toggler');
 const navbarCollapse = document.querySelector('.navbar-collapse');
 
 document.addEventListener('click', (event) => {
@@ -24,7 +24,7 @@ document.addEventListener('click', (event) => {
   if (!isClickInsideMenu && !isClickOnToggle) {
     navbarCollapse.classList.remove('show');
   }
-});
+}); */
 
 
 
@@ -301,10 +301,11 @@ function cambiarFondo() {
   const navbarBg = document.querySelector('.navbar-bg');
   const parrafoLogo = document.querySelector('.parrafo-logo');
   const logosColores = document.querySelector('.logo-navBar-colores');
+  // const logoSol = document.querySelector('.logo-sol');
   const eligeUnColor = document.querySelector('.elige-un-color');
   const btnSubirArriba = document.querySelector('#btnSubirArriba');
   
-
+  
   // Agrega o remueve la clase 'modo-oscuro' a los elementos
   diseñoOla.classList.toggle('modo-oscuro');
   acercaDeTitulo.classList.toggle('modo-oscuro');
@@ -321,7 +322,7 @@ function cambiarFondo() {
   parrafoLogo.classList.toggle('modo-oscuro');
   logosColores.classList.toggle('modo-oscuro');
   fondoContacto.classList.toggle('modo-oscuro');
-  // diseNoOlaContacto.classList.toggle('modo-oscuro');
+  // logoSol.classList.toggle('modo-oscuro');
   eligeUnColor.classList.toggle('modo-oscuro');
   btnSubirArriba.classList.toggle('modo-oscuro');
 }

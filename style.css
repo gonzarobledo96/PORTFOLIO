@@ -151,15 +151,10 @@ color: #ffffff;
 .hamburger__hidden::after {
     top: 13px;
 }
-
-
-
-
-
 .navbar-collapse {
     transition: height 1.3s ease;
   }
-
+/* ********************************************************************************************************************************* */
 
 
 
@@ -209,7 +204,9 @@ body.modo-oscuro {
 }
 .modo-oscuro .logo-navBar-colores i{
     color: white;
+
 }
+
 .modo-oscuro .console-underscore {
     background-color: rgb(20, 20, 20);
   }
@@ -1148,23 +1145,32 @@ margin-left: 0px;
         color: rgb(0, 0, 0);
         flex-direction: row;
         justify-content:left;
+        
     }
     .logo-navBar-colores i{
+        color: rgb(255, 255, 255);
+        padding: 0px 10px;
+    }
+    .logo-navBar-colores .logo-posicion{
         color: white;
+        margin-left: 30px;
+       
+    }
+    .logo-tierra{
         margin-left: 10px;
+        margin-right: 30px;
+        
     }
     .fondo-elige-un-color{
         background-color: hsla(229, 16%, 20%, 0.877); 
         border: solid 2px rgb(117, 117, 117);
-        margin-left: -50px;
-        margin-bottom: 10px;
+       margin-left: -100px;
+        margin-bottom: 15px;
     }
     .elige-un-color{
         color: white;
     } 
-    .logos-colores{
-        margin-right: 10px;
-    }
+    
 
    .fondo-nav {
     background-color: hsla(229, 16%, 20%, 0.877);
