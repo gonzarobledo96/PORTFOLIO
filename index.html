@@ -28,74 +28,83 @@
 <!-- *************************** -->
 <!-- *** BARRA DE NAVEGACION *** -->
 <!-- *************************** -->
-     <div class="inicio" id="inicio">
-        <div class="contenido data-container">
-            <nav id="navbar" class="navbar navbar-expand-lg fixed-top"><!-- navbar-bg -->
-            <div class="container-fluid fondo-nav">
-                <div class="parrafo-logo nav-item mt-3">
-                        <p class=" d-inline-block"> < </p>
-                        <h3 class="d-inline-block"> GR </h3>
-                        <p class=" d-inline-block"> > </p>
-                </div>
-                <div class="navbar-toggler hamburger" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <div class="hamburger__container ">
-                      <div class="hamburger__inner"></div>
-                      <div class="hamburger__hidden"></div>
-                    </div>
-                  </div>
-                <div class="collapse navbar-collapse posicion-nav"  id="navbarSupportedContent">
-                    <ul class="navbar-nav">
-                        <li class="nav-item marginLeft-del-navBar">
-                            <a class="nav-link sobre-mi diseño-texto-navbar navbar-item" href="#sobremi" rel="noopener noreferrer">
-                                <i class="bi bi-house-door-fill"></i>
-                            </a>
-                        </li>                        
-                        <li class="nav-item marginLeft-del-navBar">
-                            <a id="acerca-de-mi-ing" class="nav-link sobre-mi diseño-texto-navbar" href="#acercaDe" rel="noopener noreferrer">ACERCA DE</a>
-                        </li>
-                        <li class="nav-item marginLeft-del-navBar">
-                            <a id="proyectos-ing" class="nav-link sobre-mi diseño-texto-navbar" href="#proyectos" rel="noopener noreferrer">PROYECTOS</a>
-                        </li>
-                        <li class="nav-item marginLeft-del-navBar">
-                            <a id="mis-intereses-ing" class="nav-link sobre-mi diseño-texto-navbar"  href="#dibujos" rel="noopener noreferrer">MIS INTERESES</a>
-                        </li>
-                        <li class="nav-item marginLeft-del-navBar">
-                            <a id="contactar-ing" class="nav-link sobre-mi diseño-texto-navbar"  href="#contacto-ing" rel="noopener noreferrer">CONTACTAR</a>
-                        </li>
-                    </ul>
-                    <div>
-                        <ul class="navbar-nav logo-navBar-colores">
-                            <li class="nav-item">
-                              <button style="border: none; background-color: transparent;" class="nav-link" id="idioma-link" onclick="toggleIdioma()">
-                                  <i class="fa-solid fa-earth-americas logo-posicion"></i>
-                                </button>
-                            </li>
-                            <li class="nav-item" style="cursor: pointer;">
-                              <a class="nav-link" onclick="cambiarFondo()"><i id="modo-icono" class="sol-icono fa-regular fa-sun logo-posicion"></i></a>
-                            </li>
-                            <li class="nav-item dropdown">
-                              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                <i class="fa-solid fa-gear logo-posicion"></i>
-                              </a>
-                              <ul class="dropdown-menu fondo-elige-un-color" id="color-list">
-                                              <p id="elige-un-color-ing" class="text-center elige-un-color">Colores del Tema</p>
-                                              <div class="logos-colores d-flex">
-                                                    <li><a href="#" data-color="" onclick="handleColorChange(event)"><i class="fas fa-circle" style="color: rgb(255, 199, 88);"></i></a></li>
-                                                    <li><a href="#" data-color="#ec1839" onclick="handleColorChange(event)"><i class="fas fa-circle" style="color: #ec1839;"></i></a></li>
-                                                <li><a href="#" data-color="#fa5b0f" onclick="handleColorChange(event)"><i class="fas fa-circle" style="color: #fa5b0f;"></i></a></li>
-                                                <li><a href="#" data-color="#37b182" onclick="handleColorChange(event)"><i class="fas fa-circle" style="color: #37b182;"></i></a></li>
-                                                <li><a href="#" data-color="rgb(218, 221, 29)" onclick="handleColorChange(event)"><i class="fas fa-circle" style="color: rgb(218, 221, 29);"></i></a></li>
-                                                <li><a href="#" data-color="#2564ca" onclick="handleColorChange(event)"><i class="fas fa-circle" style="color: #2564ca;"></i></a></li>
-                                                <li><a href="#" data-color="#f021b2" onclick="handleColorChange(event)"><i class="fas fa-circle" style="color: #f021b2;"></i></a></li>
-                                                </div>
-                                              </ul>
-                                            </li>
-                                          </ul>
-                                        </div>
-                                    </div>
-                        </div>
-                </div>
+<div class="inicio" id="inicio">
+    <div class="contenido data-container">
+      <nav id="navbar" class="navbar navbar-expand-lg fixed-top">
+        <div class="container-fluid fondo-nav">
+          <div class="parrafo-logo nav-item mt-3">
+            <p class="d-inline-block">< </p>
+            <h3 class="d-inline-block">GR</h3>
+            <p class="d-inline-block"> ></p>
+          </div>
+
+
+
+          <div class="navbar-toggler hamburger"  type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" >
+            <div class="hamburger__container">
+              <div class="hamburger__inner"></div>
+              <div class="hamburger__hidden"></div>
             </div>
+          </div>
+
+         
+
+
+          <div class="collapse navbar-collapse posicion-nav" id="navbarSupportedContent">
+            <ul class="navbar-nav">
+              <li class="nav-item marginLeft-del-navBar">
+                <a class="nav-link sobre-mi diseño-texto-navbar navbar-item" href="#sobremi" rel="noopener noreferrer">
+                  <i class="bi bi-house-door-fill"></i>
+                </a>
+              </li>                        
+              <li class="nav-item marginLeft-del-navBar">
+                <a id="acerca-de-mi-ing" class="nav-link sobre-mi diseño-texto-navbar" href="#acercaDe" rel="noopener noreferrer">ACERCA DE</a>
+              </li>
+              <li class="nav-item marginLeft-del-navBar">
+                <a id="proyectos-ing" class="nav-link sobre-mi diseño-texto-navbar" href="#proyectos" rel="noopener noreferrer">PROYECTOS</a>
+              </li>
+              <li class="nav-item marginLeft-del-navBar">
+                <a id="mis-intereses-ing" class="nav-link sobre-mi diseño-texto-navbar" href="#dibujos" rel="noopener noreferrer">MIS INTERESES</a>
+              </li>
+              <li class="nav-item marginLeft-del-navBar">
+                <a id="contactar-ing" class="nav-link sobre-mi diseño-texto-navbar" href="#contacto-ing" rel="noopener noreferrer">CONTACTAR</a>
+              </li>
+            </ul>
+            <div>
+              <ul class="navbar-nav logo-navBar-colores">
+                <li class="nav-item">
+                  <button style="border: none; background-color: transparent;" class="nav-link" id="idioma-link" onclick="toggleIdioma()">
+                    <i class="fa-solid fa-earth-americas logo-posicion"></i>
+                  </button>
+                </li>
+                <li class="nav-item" style="cursor: pointer;">
+                  <a class="nav-link" onclick="cambiarFondo()"><i id="modo-icono" class="sol-icono fa-regular fa-sun logo-posicion"></i></a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <i class="fa-solid fa-gear logo-posicion"></i>
+                  </a>
+                  <ul class="dropdown-menu fondo-elige-un-color" id="color-list">
+                    <p id="elige-un-color-ing" class="text-center elige-un-color">Colores del Tema</p>
+                    <div class="logos-colores d-flex">
+                      <li><a href="#" data-color="" onclick="handleColorChange(event)"><i class="fas fa-circle" style="color: rgb(255, 199, 88);"></i></a></li>
+                      <li><a href="#" data-color="#ec1839" onclick="handleColorChange(event)"><i class="fas fa-circle" style="color: #ec1839;"></i></a></li>
+                      <li><a href="#" data-color="#fa5b0f" onclick="handleColorChange(event)"><i class="fas fa-circle" style="color: #fa5b0f;"></i></a></li>
+                      <li><a href="#" data-color="#37b182" onclick="handleColorChange(event)"><i class="fas fa-circle" style="color: #37b182;"></i></a></li>
+                      <li><a href="#" data-color="rgb(218, 221, 29)" onclick="handleColorChange(event)"><i class="fas fa-circle" style="color: rgb(218, 221, 29);"></i></a></li>
+                      <li><a href="#" data-color="#2564ca" onclick="handleColorChange(event)"><i class="fas fa-circle" style="color: #2564ca;"></i></a></li>
+                      <li><a href="#" data-color="#f021b2" onclick="handleColorChange(event)"><i class="fas fa-circle" style="color: #f021b2;"></i></a></li>
+                    </div>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </div>
+  
 
 
 <!-- ********************** -->

@@ -1,39 +1,27 @@
 // ****************
-// logo hamburguesa
+// LOGO HAMBURGUESA
 // ****************
- document.querySelector('.hamburger').addEventListener('click', (e) => {
+document.querySelector('.hamburger').addEventListener('click', (e) => {
   e.currentTarget.classList.toggle('is-active');
-})
-const navbar = document.getElementById("navbar");
-window.addEventListener("scroll", () => {
-  if (window.scrollY > 0) {
-    navbar.classList.add("navbar-bg");
-  } else {
-    navbar.classList.remove("navbar-bg");
-  }
+  navbarCollapse.classList.toggle('show');
 });
- 
 
-/* const menuToggle = document.querySelector('.navbar-toggler');
-const navbarCollapse = document.querySelector('.navbar-collapse');
-
-document.addEventListener('click', (event) => {
-  const isClickInsideMenu = navbarCollapse.contains(event.target);
-  const isClickOnToggle = menuToggle.contains(event.target);
+document.addEventListener('click', (e) => {
+  const hamburger = document.querySelector('.hamburger');
+  const navbarCollapse = document.querySelector('.navbar-collapse');
+  const targetElement = e.target;
   
-  if (!isClickInsideMenu && !isClickOnToggle) {
+  if (!hamburger.contains(targetElement) && !navbarCollapse.contains(targetElement)) {
+    hamburger.classList.remove('is-active');
     navbarCollapse.classList.remove('show');
   }
-}); */
+});
 
 
 
-
-
-
-
-
+// ***********
 // BOTON SUBIR
+// ***********
 function subirArriba() {
   // Desplazarse suavemente hacia arriba con velocidad más lenta
   window.scrollTo({
@@ -42,6 +30,7 @@ function subirArriba() {
     duration: 2000
   });
 }
+
 
 
 // **************************
