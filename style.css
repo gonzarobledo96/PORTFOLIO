@@ -154,12 +154,8 @@ color: #ffffff;
 .navbar-collapse {
     transition: height 1.0s ease;
   }
-/* ********************************************************************************************************************************* */
 
 
-
-
-  
 
 /********************/
 /*** MODO OSCURO ***/
@@ -206,10 +202,10 @@ body.modo-oscuro {
     color: white;
 }
 .modo-oscuro .console-underscore {
-    background-color: rgb(20, 20, 20);
+    background-color: rgb(255, 255, 255);
   }
 .modo-oscuro .navbar-bg{
-    background-color:rgb(0, 0, 0, 0.877);
+    background-color:rgba(20, 20, 20, 0.800);
 }
 .modo-oscuro .parrafo-logo h3{
 color: white;
@@ -254,7 +250,7 @@ color: white;
     left: 0;
     width: 100%;
     height: 100%;
-    border-bottom: 2px solid rgb(20, 20, 20);
+    border-bottom: 2px solid rgba(20, 20, 20, 0.800);
     transform: scaleY(2);
     opacity: 0;
     transition: 0.3s;
@@ -316,7 +312,7 @@ color: white;
     transition: 0.5s;
 }
         .parrafo-logo h3{
-            color: rgb(0, 0, 0);
+        color: rgb(0, 0, 0);
         font-size: 25px;
         transition: 0.5s;
         font-family: 'Montserrat', sans-serif;
@@ -330,7 +326,6 @@ color: white;
     padding: 0px;
   }
   .navbar-bg {
-     /* background-color: hsla(229, 16%, 20%, 0.877);  */
      background-color: hsla(0, 0%, 100%, 0.877); 
   }
   .posicion-nav {
@@ -340,7 +335,6 @@ color: white;
 .posicion-nav .marginLeft-del-navBar{
    margin-left: 30px;
 }
-
 /*** LOGOS DEL NAVBAR ***/
 .logos-colores{
     display: flex;
@@ -354,7 +348,6 @@ color: white;
 .logo-navBar-colores i{
     color: rgb(0, 0, 0);
 }
-
 ul {
     display: flex;
     justify-content: center;
@@ -530,7 +523,6 @@ ul li .diseño-texto-navbar:hover:after {
     color: #111135;
     display: flex;
     padding: 100px 0px 0px 0px; 
-    /* background: linear-gradient(to bottom, #ccc, #fff) top/100% 100px no-repeat;  */
 } 
 #sobremi .sobremi {
     padding: 60px 0px 0px 50px;
@@ -566,7 +558,7 @@ ul li .diseño-texto-navbar:hover:after {
  display:inline-block;
  position:relative;
  left:10px;
- background-color: #111135;
+ background-color: rgba(20, 20, 20);
 }
 @media (max-width: 750px) {
  .console-container { font-size:2em; }
@@ -612,47 +604,18 @@ transition: transform 0.3s ease-in-out;
 .contenedor-imagen img:active {
     transform: scale(1.1) rotate(2deg);
 }
-
 .contenedor-imagen img:active {
     transition-duration: 0.05s;
 }
 .fondo-imagen-personal{
      padding: 100px; 
 }
-/* 
-.contenedor-imagen {
-    width: 350px;
-    height: 350px;
-    padding-top: 20px;
-    border: 10px solid rgb(255, 199, 88);
-    box-sizing: border-box;
-}
-.contenedor-imagen img{
-    width: 350px;
-    height: 350px;
-margin-top: -80px;
-margin-left: 50px;
-filter: drop-shadow(16px 16px 20px rgba(189, 189, 189, 0.8));
-border: 10px solid rgb(255, 255, 255);
-transition: transform 0.3s ease-in-out;
-}
-.contenedor-imagen img:hover {
-    transform: scale(1.1) rotate(2deg);
-  }
-  .contenedor-imagen img:active {
-    transform: scale(0.9) rotate(-2deg);
-    transition-duration: 0.05s;
-  }
-.pepito{
-     padding: 100px; 
-} */
 .contenedor-imagen-logos{
     display: flex;
 }
 .sobre-mi .logos-imagen{
     border: none;
 }
-
 .logos-imagen li{
     background-color: #e0e0e0;
     border-radius: 10% 10% 10% 10%;
@@ -673,6 +636,7 @@ transition: transform 0.3s ease-in-out;
     transition: 0.5s;
     border: none;
 }
+
 
 
 /******************/
@@ -767,7 +731,6 @@ transition: transform 0.3s ease-in-out;
 }
 #portfolio {
     max-width: 1100px;
-    /* padding: 0px 100px 100px 100px; */
     margin: auto;
 }
 #portfolio .titulo-seccion {
@@ -789,8 +752,7 @@ transition: transform 0.3s ease-in-out;
     margin: 0 10px;
     position: relative;
     overflow: hidden;
-     /* box-shadow: 0px 0px 10px 5px rgb(255, 199, 88); */
-     box-shadow: 10px 10px 10px 5px rgba(255, 199, 88, 0.596);
+    box-shadow: 10px 10px 10px 5px rgba(255, 199, 88, 0.596);
 }
 #portfolio .fila .proyecto img {
     width: 100%;
@@ -798,7 +760,6 @@ transition: transform 0.3s ease-in-out;
     filter: grayscale(1);
     object-fit: cover;
     transition: .5s;
-  
 }
 #portfolio .fila .proyecto:hover img {
     filter: grayscale(0);
@@ -1013,7 +974,6 @@ img {
 /*** SECCION CONTACTO ***/
 /***********************/
 .fondo-contacto{
-    /* background-color: rgb(234, 234, 234); */
     background-color: rgb(50, 50, 50, 1);
 }
 .fondo-contacto h3{
@@ -1022,7 +982,7 @@ img {
 .diseño-ola-contacto{
     background-image: url(./imagenes/imagen-personal/ola-negra\ -\ fondo-blanco.png);
     width: 100%;
-    background-size: 100%;/* 100% 180px; */
+    background-size: 100%;
     background-position: center top;
     background-repeat: no-repeat;
     margin-bottom: -25px;
@@ -1113,86 +1073,200 @@ img {
 
 
 
-
-
-
- @media screen and (min-width: 992px) and (max-width: 2800px){
-
-}
-
-
-
- @media screen and (min-width: 320px) and (max-width: 991px){
-     /*** Navbar ***/
+ /*****************************/
+/**** SECCION RESPONSIVE ****/
+/***************************/
+/* ESTILOS NAVBAR */
+@media screen and (min-width: 320px) and (max-width: 991px){
+    /*** Navbar ***/
 .posicion-nav .marginLeft-del-navBar{
 margin-left: 0px;
 }
-    .navbar-bg {
-     background-color:transparent; 
-  }
-  .modo-oscuro .navbar-bg{
-    background-color:transparent;
+.navbar-bg {
+    background-color:hsla(229, 16%, 20%, 0.877);
+ }
+ .modo-oscuro .navbar-bg{
+   background-color:rgb(0, 0, 0);
 }
-    ul li .sobre-mi {
-       color: white;
-        padding-bottom: 5px;
-        padding: 10px 10px;
-        margin: 10px 0px;
-    }
-/*** LOGOS DEL NAVBAR ***/
-    .logo-navBar-colores{
-        color: rgb(0, 0, 0);
-        flex-direction: row;
-        justify-content:left;
-        
-    }
-    .logo-navBar-colores i{
-        color: rgb(255, 255, 255);
-        padding: 0px 20px;
-    }
-   .logos-colores i{
-    padding: 0px 10px;
+   ul li .sobre-mi {
+      color: white;
+       padding-bottom: 5px;
+       padding: 10px 10px;
+       margin: 10px 0px;
    }
-    .fondo-elige-un-color{
-        background-color: hsla(229, 16%, 20%, 0.877); 
-        border: solid 2px rgb(117, 117, 117);
-       margin-left: -95px;
-        margin-bottom: 15px;
-    }
-    .elige-un-color{
-        color: white;
-    } 
-    
-   .fondo-nav {
-    background-color: hsla(229, 16%, 20%, 0.877);
+/*** LOGOS DEL NAVBAR ***/
+   .logo-navBar-colores{
+       color: rgb(0, 0, 0);
+       flex-direction: row;
+       justify-content:left; 
+   }
+   .logo-navBar-colores i{
+       color: rgb(255, 255, 255);
+       padding: 0px 20px;
+   }
+  .logos-colores i{
+   padding: 0px 10px;
+  }
+   .fondo-elige-un-color{
+       background-color: rgb(0, 0, 0, 0.877);
+       border: solid 2px rgb(117, 117, 117);
+      margin-left: -95px;
+       margin-bottom: 15px;
+   }
+   .elige-un-color{
+       color: white;
+   } 
+  .fondo-nav {
+   background-color: rgb(0, 0, 0, 0.877);
 }
 /*** LOGO GR/ ***/
 .parrafo-logo{
-    padding-left: 0em;
+   padding-left: 0em;
 }
-        .parrafo-logo h3{
-            color: rgb(255, 255, 255);
-        }
-        .hamburger {
-            padding: 15px;
-            margin-right: 0em;
-        }
- } 
+    .parrafo-logo h3{
+        color: rgb(255, 255, 255);
+       }
+    .hamburger {
+        padding: 15px;
+        margin-right: 0em;
+       }
+} 
+/* RESPONSIVE, INFORMACION DE LOS PROYECTOS */
+   @media screen and (min-width:320px) and (max-width: 400px){
+/*****************/
+/*** PROYECTOS ***/
+/*****************/
+#portfolio .fila .proyecto p{
+  font-size: 10px;
+}
+#portfolio .fila .proyecto h4{
+   font-size:10px;
+}
+#portfolio .fila .proyecto h6 {
+   font-size: 10px; 
+}
+.espacio-ver-repositorio i{
+   font-size: 10px;
+   }
+}
 
 
+@media screen and (min-width: 1251px) and (max-width: 1700px){
+/******************/
+/*** ACERCA DE ***/
+/****************/
+.diseño-ola {
+    margin-top: 100px;
+    max-width: 100%;
+    background-image: url(./imagenes/imagen-personal/ola-blanca.png);
+    background-size: 100%;/* 100% 180px; */
+    background-position: center top;
+    background-repeat: no-repeat;
+     margin-bottom: -25px;
+     padding-top: 155px;  
+}
+.diseño-ola-contacto{
+    margin-bottom: -25px;
+    padding-top: 175px;
+}
 
-
-
-
-
-
-
-
-
-
-
- 
-    @media screen and (min-width:320px) and (max-width: 400px){
+}
+ @media screen and (min-width: 992px) and (max-width: 1250px){
+    section>div {
+        display: grid;
+        grid-template-areas:
+            "div1 div4 div5 div11"
+            "div2 div4 div5 div7"
+            "div3 div6 div6 div7"
+            "div9 div8 div10 div12"
+            "div9 div8 div10 div12";
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(5, 150px);
+        border-radius: 10px;
+        padding: 1rem;
+        gap: 20px;}
+/*************************/
+/*** SECCION SOBRE MI ***/
+/***********************/
+#sobremi {
+    padding: 100px 0px 0px 0px; 
+} 
+#sobremi .sobremi {
+    padding: 40px 5px 0px 5px;
+}
+#sobremi .sobremi .titulo-seccion {
+    font-size: 20px;
+}
+#sobremi .sobremi h2 {
+    font-size: 19px;
+    margin: 10px 0;
+}
+#sobremi .sobremi span {
+    font-size: 19px;
+}
+#sobremi .sobremi .console-container {
+    font-size: 19px;
+}
+/* IMAGEN SOBRE-MI */
+.contenedor-imagen-logos{
+    display: flex;
+} 
+  .contenedor-imagen {
+    max-width: 100%;
+    height:auto;
+    border: 5px solid rgb(255, 199, 88);
+}
+.contenedor-imagen img{
+    max-width: 100%;
+    height: auto;
+    margin-top: -50px;
+    margin-left: 20px;
+    margin-bottom: 20px ;
+    border: 5px solid rgb(255, 255, 255);
+}
+.fondo-imagen-personal{
+    margin-top: 0em;
+    padding: 50px;
+}
+.logos-imagen li{
+    background-color: #e0e0e0;
+    border-radius: 10% 10% 10% 10%;
+    margin: auto;
+    margin: 20px 0px;
+}
+.logos-imagen ul{
+   display: inline-block;
+   margin-left: 2em;
+   padding: 0px;
+}
+.logos-imagen ul li a{
+    margin: 0px;
+    font-size: 1.3em;
+}
+/******************/
+/*** ACERCA DE ***/
+/****************/
+.diseño-ola {
+    margin-top: 100px;
+    padding-top: 105px;
+}
+.diseño-ola-contacto{
+    margin-bottom: -25px;
+    padding-top: 145px;
+}
+.gonzalo-robledo{
+    margin-top: 0px;
+    margin: 7px 0px 0px 0px;
+}
+.acerca-de-Titulo h1{
+    margin: 0px;
+    padding: 0px 15px;
+    font-size: 30px;
+    letter-spacing: 10px;
+}
+.tecnologíasyhabilidades h3{
+    font-size:1.4em;
+}
 /*****************/
 /*** PROYECTOS ***/
 /*****************/
@@ -1202,15 +1276,498 @@ margin-left: 0px;
     font-size: 30px;
     letter-spacing: 10px;
 }
+#portfolio .fila .proyecto {
+    max-width: 450px;
+    margin: 12px 10px;
+    position: relative;
+    overflow: hidden;
+}
 #portfolio .fila {
-    flex-direction: column;
+    display: flex;
+    margin: 12px 0;
+}
+#portfolio .fila .proyecto p{
+   font-size: auto;
+}
+#portfolio .fila .proyecto h4{
+    font-size:auto;
+ }
+#portfolio .fila .proyecto h6 {
+    font-size: auto; 
+}
+#portfolio .fila .proyecto .info {
+    padding: 10px;
+}
+#portfolio .fila .proyecto .info p{
+   margin-bottom: 5px;
+}
+.espacio-ver-repositorio .ver{
+margin-right: 50px;
+}
+.espacio-ver-repositorio i{
+    font-size: auto;
+    }
+/*****************/
+/*** CONTACTO ***/
+/***************/
+.speace-around-entre-objetos-contacto {
+    padding: 0px;
+}
+.y {
+    padding-top: 20px;
+    padding: 0px 30px;
+}
+    .z .y .r {
+        margin: auto;
+    }
+/**********************/
+/*** SECCION FOOTER ***/
+/**********************/
+.tamaño-parrafo-footer {
+    font-size: 20px;
+    padding: 0px 5px;
+}
+}
+@media screen and (min-width: 931px) and (max-width: 992px){
+    section>div {
+        display: grid;
+        grid-template-areas:
+            "div1 div4 div5 div11"
+            "div2 div4 div5 div7"
+            "div3 div6 div6 div7"
+            "div9 div8 div10 div12"
+            "div9 div8 div10 div12";
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(5, 140px);
+        border-radius: 10px;
+        padding: 1rem;
+        gap: 20px;
+    }
+/*************************/
+/*** SECCION SOBRE MI ***/
+/***********************/
+#sobremi {
+    padding: 100px 0px 0px 0px; 
+} 
+#sobremi .sobremi {
+    padding: 40px 5px 0px 5px;
+}
+#sobremi .sobremi .titulo-seccion {
+    font-size: 20px;
+}
+#sobremi .sobremi h2 {
+    font-size: 19px;
     margin: 10px 0;
+}
+#sobremi .sobremi span {
+    font-size: 19px;
+}
+#sobremi .sobremi .console-container {
+    font-size: 19px;
+}
+/* IMAGEN SOBRE-MI */
+.contenedor-imagen-logos{
+    flex-direction: column;
+} 
+  .contenedor-imagen {
+    max-width: 100%;
+    height:auto;
+    border: 5px solid rgb(255, 199, 88);
+}
+.contenedor-imagen img{
+    max-width: 100%;
+    height: auto;
+    margin-top: -50px;
+    margin-left: 20px;
+    margin-bottom: 20px ;
+    border: 5px solid rgb(255, 255, 255);
+}
+.fondo-imagen-personal{
+    margin-top: 2em;
+    padding: 50px;
+}
+.logos-imagen li{
+    background-color: #e0e0e0;
+    border-radius: 10% 10% 10% 10%;
+    margin: auto;
+}
+.logos-imagen ul{
+   display:flex;
+   margin-left: 0em;
+   padding: 0px;
+}
+.logos-imagen ul li a{
+    margin: 0px;
+    font-size: 1.3em;
+}
+/******************/
+/*** ACERCA DE ***/
+/****************/
+.diseño-ola {
+    margin-top: 100px;
+    padding-top: 105px;
+}
+.diseño-ola-contacto{
+    margin-bottom: -25px;
+    padding-top: 105px;
+}
+.gonzalo-robledo{
+    margin-top: 0px;
+    margin: 7px 0px 0px 0px;
+}
+.acerca-de-Titulo h1{
+    margin: 0px;
+    padding: 0px 15px;
+    font-size: 30px;
+    letter-spacing: 10px;
+}
+.tecnologíasyhabilidades h3{
+    font-size:1.4em;
+}
+/*****************/
+/*** PROYECTOS ***/
+/*****************/
+.titulo-proyectos h1{
+    margin-top: 130px;
+    padding: 0px 15px;
+    font-size: 30px;
+    letter-spacing: 10px;
+}
+#portfolio .fila .proyecto {
+    max-width: 450px;
+    margin: 12px 10px;
+    position: relative;
+    overflow: hidden;
+}
+#portfolio .fila {
+    display: flex;
+    margin: 12px 0;
+}
+#portfolio .fila .proyecto p{
+   font-size: auto;
+}
+#portfolio .fila .proyecto h4{
+    font-size:auto;
+ }
+#portfolio .fila .proyecto h6 {
+    font-size: auto; 
+}
+#portfolio .fila .proyecto .info {
+    padding: 10px;
+}
+#portfolio .fila .proyecto .info p{
+   margin-bottom: 5px;
+}
+.espacio-ver-repositorio .ver{
+margin-right: 50px;
+}
+.espacio-ver-repositorio i{
+    font-size: auto;
+    }
+/*****************/
+/*** CONTACTO ***/
+/***************/
+.speace-around-entre-objetos-contacto {
+    padding: 0px;
+}
+.y {
+    padding-top: 20px;
+    padding: 0px 30px;
+}
+    .z .y .r {
+        margin: auto;
+    }
+/**********************/
+/*** SECCION FOOTER ***/
+/**********************/
+.tamaño-parrafo-footer {
+    font-size: 20px;
+    padding: 0px 5px;
+}
+}
+
+
+@media screen and (min-width: 769px) and (max-width: 930px){
+    section>div {
+        display: grid;
+        grid-template-areas:
+            "div1 div4 div5 div11"
+            "div2 div4 div5 div7"
+            "div3 div6 div6 div7"
+            "div9 div8 div10 div12"
+            "div9 div8 div10 div12";
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(5, 90px);
+        border-radius: 10px;
+        padding: 1rem;
+        gap: 10px;
+    }
+/*************************/
+/*** SECCION SOBRE MI ***/
+/***********************/
+#sobremi {
+    display: block;
+    padding: 100px 0px 0px 0px;
+} 
+#sobremi .sobremi {
+    padding: 40px 5px 0px 5px;
+}
+#sobremi .sobremi .titulo-seccion {
+    font-size: 20px;
+}
+#sobremi .sobremi h2 {
+    font-size: 19px;
+    margin: 10px 0;
+}
+#sobremi .sobremi span {
+    font-size: 19px;
+}
+#sobremi .sobremi .console-container {
+    font-size: 19px;
+}
+/* IMAGEN SOBRE-MI */
+.contenedor-imagen-logos{
+    flex-direction: column;
+} 
+  .contenedor-imagen {
+    margin: auto;
+    max-width: 100%;
+    height:auto;
+    border: 5px solid rgb(255, 199, 88);
+}
+.contenedor-imagen img{
+    max-width: 100%;
+    height: auto;
+    margin-top: -50px;
+    margin-left: 20px;
+    margin-bottom: 20px ;
+    border: 5px solid rgb(255, 255, 255);
+}
+.fondo-imagen-personal{
+    margin-top: 2em;
+    padding: 50px;
+}
+.logos-imagen li{
+    background-color: #e0e0e0;
+    border-radius: 10% 10% 10% 10%;
+    margin: auto;
+}
+.logos-imagen ul{
+   display:flex;
+   margin-left: 0em;
+   padding: 0px;
+}
+.logos-imagen ul li a{
+    margin: 0px;
+    font-size: 2.0em;
+}
+/******************/
+/*** ACERCA DE ***/
+/****************/
+.diseño-ola {
+    margin-top: 100px;
+    padding-top: 105px; 
+}
+.diseño-ola-contacto{
+    margin-bottom: -25px;
+    padding-top: 105px;
+}
+.gonzalo-robledo{
+    margin-top: 0px;
+    margin: 7px 0px 0px 0px;
+}
+.acerca-de-Titulo h1{
+    margin: 0px;
+    padding: 0px 15px;
+    font-size: 30px;
+    letter-spacing: 10px;
+}
+.tecnologíasyhabilidades h3{
+    font-size:1.4em;
+}
+/*****************/
+/*** PROYECTOS ***/
+/*****************/
+.titulo-proyectos h1{
+    margin-top: 130px;
+    padding: 0px 15px;
+    font-size: 30px;
+    letter-spacing: 10px;
+}
+#portfolio .fila .proyecto {
+    max-width: 450px;
+    margin: 12px 10px;
+    position: relative;
+    overflow: hidden;
+}
+#portfolio .fila {
+    display: flex;
+    margin: 12px 0;
+}
+#portfolio .fila .proyecto p{
+   font-size: auto;
+}
+#portfolio .fila .proyecto h4{
+    font-size:auto;
+ }
+#portfolio .fila .proyecto h6 {
+    font-size: auto; 
+}
+#portfolio .fila .proyecto .info {
+    padding: 10px;
+}
+#portfolio .fila .proyecto .info p{
+   margin-bottom: 5px;
+}
+.espacio-ver-repositorio .ver{
+margin-right: 50px;
+}
+.espacio-ver-repositorio i{
+    font-size: auto;
+    }
+/*****************/
+/*** CONTACTO ***/
+/***************/
+.speace-around-entre-objetos-contacto {
+    padding: 0px;
+}
+.y {
+    padding-top: 20px;
+    padding: 0px 30px;
+}
+    .z .y .r {
+        margin: auto;
+    }
+/**********************/
+/*** SECCION FOOTER ***/
+/**********************/
+.tamaño-parrafo-footer {
+    font-size: 20px;
+    padding: 0px 5px;
+}
+}
+
+
+@media screen and (min-width: 577px) and (max-width: 768px){
+/***************/
+/*** DIBUJOS ***/
+/***************/
+section>div {
+    display: block;
+}
+.gallery-block img{
+    width: 100%;
+    height: 100%;
+    object-fit:fill;
+    padding: 15px 0px;
+}
+/*************************/
+/*** SECCION SOBRE MI ***/
+/***********************/
+#sobremi {
+    display: block;
+    padding: 100px 0px 0px 0px;
+} 
+#sobremi .sobremi {
+    padding: 40px 5px 0px 5px;
+}
+#sobremi .sobremi .titulo-seccion {
+    font-size: 20px;
+}
+#sobremi .sobremi h2 {
+    font-size: 19px;
+    margin: 10px 0;
+}
+#sobremi .sobremi span {
+    font-size: 19px;
+}
+#sobremi .sobremi .console-container {
+    font-size: 19px;
+}
+/* IMAGEN SOBRE-MI */
+.contenedor-imagen-logos{
+    flex-direction: column;
+} 
+  .contenedor-imagen {
+    margin: auto;
+    max-width: 100%;
+    height:auto;
+    border: 5px solid rgb(255, 199, 88);
+}
+.contenedor-imagen img{
+    max-width: 100%;
+    height: auto;
+    margin-top: -50px;
+    margin-left: 20px;
+    margin-bottom: 20px ;
+    border: 5px solid rgb(255, 255, 255);
+}
+.fondo-imagen-personal{
+    margin-top: 2em;
+    padding: 50px;
+}
+.logos-imagen li{
+    background-color: #e0e0e0;
+    border-radius: 10% 10% 10% 10%;
+    margin: auto;
+}
+.logos-imagen ul{
+   display:flex;
+   margin-left: 0em;
+   padding: 0px;
+}
+.logos-imagen ul li a{
+    margin: 0px;
+    font-size: 2.0em;
+}
+/******************/
+/*** ACERCA DE ***/
+/****************/
+.diseño-ola {
+    margin-top: 100px;
+    padding-top: 105px;  
+}
+.diseño-ola-contacto{
+    margin-bottom: -25px;
+    padding-top: 85px;
+}
+.gonzalo-robledo{
+    margin-top: 0px;
+    margin: 7px 0px 0px 0px;
+}
+.acerca-de-Titulo h1{
+    margin: 0px;
+    padding: 0px 15px;
+    font-size: 30px;
+    letter-spacing: 10px;
+}
+.tecnologíasyhabilidades h3{
+    font-size:1.4em;
+}
+/*****************/
+/*** PROYECTOS ***/
+/*****************/
+.titulo-proyectos h1{
+    margin-top: 130px;
+    padding: 0px 15px;
+    font-size: 30px;
+    letter-spacing: 10px;
+}
+#portfolio .fila .proyecto {
+    max-width: 450px;
+    margin: 12px 10px;
+    position: relative;
+    overflow: hidden;
+}
+#portfolio .fila {
+    display: flex;
+    margin: 12px 0;
 }
 #portfolio .fila .proyecto p{
    font-size: 10px;
 }
 #portfolio .fila .proyecto h4{
-    font-size:10px;
+    font-size: 10px;
  }
 #portfolio .fila .proyecto h6 {
     font-size: 10px; 
@@ -1219,7 +1776,7 @@ margin-left: 0px;
     padding: 10px;
 }
 #portfolio .fila .proyecto .info p{
-    margin-bottom: 5px;
+   margin-bottom: 5px;
 }
 .espacio-ver-repositorio .ver{
 margin-right: 50px;
@@ -1227,10 +1784,186 @@ margin-right: 50px;
 .espacio-ver-repositorio i{
     font-size: 10px;
     }
-
-
-
+/*****************/
+/*** CONTACTO ***/
+/***************/
+    .speace-around-entre-objetos-contacto {
+        padding: 0px;
+    }
+    .y {
+        padding-top: 20px;
+        padding: 0px 15px;
+    }
+    .z .y .r {
+        margin: auto;
+    }
+/**********************/
+/*** SECCION FOOTER ***/
+/**********************/
+.tamaño-parrafo-footer {
+    font-size: 20px;
+    padding: 0px 5px;
 }
+}
+
+
+@media screen and (min-width:481px) and (max-width: 576px) {
+/***************/
+/*** DIBUJOS ***/
+/***************/
+section>div {
+    display: block;
+}
+.gallery-block img{
+    width: 100%;
+    height: 100%;
+    object-fit:fill;
+    padding: 15px 0px;
+}
+/*************************/
+/*** SECCION SOBRE MI ***/
+/***********************/
+#sobremi {
+    padding: 100px 0px 0px 0px; 
+} 
+#sobremi .sobremi {
+    padding: 40px 5px 0px 5px;
+}
+#sobremi .sobremi .titulo-seccion {
+    font-size: 20px;
+}
+#sobremi .sobremi h2 {
+    font-size: 19px;
+    margin: 10px 0;
+}
+#sobremi .sobremi span {
+    font-size: 19px;
+}
+#sobremi .sobremi .console-container {
+    font-size: 19px;
+}
+/* IMAGEN SOBRE-MI */
+.contenedor-imagen-logos{
+    flex-direction: column;
+} 
+  .contenedor-imagen {
+    max-width: 100%;
+    height:auto;
+    border: 5px solid rgb(255, 199, 88);
+}
+.contenedor-imagen img{
+    max-width: 100%;
+    height: auto;
+    margin-top: -50px;
+    margin-left: 20px;
+    margin-bottom: 20px ;
+    border: 5px solid rgb(255, 255, 255);
+}
+.fondo-imagen-personal{
+    margin-top: 2em;
+    padding: 50px;
+}
+.logos-imagen li{
+    background-color: #e0e0e0;
+    border-radius: 10% 10% 10% 10%;
+    margin: auto;
+}
+.logos-imagen ul{
+   display:flex;
+   margin-left: 0em;
+   padding: 0px;
+}
+.logos-imagen ul li a{
+    margin: 0px;
+    font-size: 1.3em;
+}
+/******************/
+/*** ACERCA DE ***/
+/****************/
+.diseño-ola {
+    margin-top: 100px;
+    padding-top: 85px;  
+}
+.diseño-ola-contacto{
+    margin-bottom: -25px;
+    padding-top: 85px;
+}
+.gonzalo-robledo{
+    margin-top: 0px;
+    margin: 7px 0px 0px 0px;
+}
+.acerca-de-Titulo h1{
+    margin: 0px;
+    padding: 0px 15px;
+    font-size: 30px;
+    letter-spacing: 10px;
+}
+.tecnologíasyhabilidades h3{
+    font-size:1.4em;
+}
+/*****************/
+/*** PROYECTOS ***/
+/*****************/
+.titulo-proyectos h1{
+    margin-top: 130px;
+    padding: 0px 15px;
+    font-size: 30px;
+    letter-spacing: 10px;
+}
+#portfolio .fila .proyecto {
+    max-width: 450px;
+    margin: 12px 10px;
+    position: relative;
+    overflow: hidden;
+}
+#portfolio .fila {
+    flex-direction: column;
+    margin: 12px 0;
+}
+#portfolio .fila .proyecto p{
+   font-size: auto;
+}
+#portfolio .fila .proyecto h4{
+    font-size:auto;
+ }
+#portfolio .fila .proyecto h6 {
+    font-size: auto; 
+}
+#portfolio .fila .proyecto .info {
+    padding: 10px;
+}
+#portfolio .fila .proyecto .info p{
+   margin-bottom: 5px;
+}
+.espacio-ver-repositorio .ver{
+margin-right: 50px;
+}
+.espacio-ver-repositorio i{
+    font-size: auto;
+    }
+/*****************/
+/*** CONTACTO ***/
+/***************/
+    .speace-around-entre-objetos-contacto {
+        display: block;
+        padding: 0px;
+    }
+    .y {
+        padding-top: 20px;
+    }
+    .z .y .r {
+        margin: auto;
+    }
+/**********************/
+/*** SECCION FOOTER ***/
+/**********************/
+.tamaño-parrafo-footer {
+    font-size: 20px;
+    padding: 0px 5px;
+}
+}
+
+
  @media screen and (min-width:320px) and (max-width: 480px) {
 /*************************/
 /*** SECCION SOBRE MI ***/
@@ -1294,12 +2027,6 @@ margin-right: 50px;
 /****************/
 .diseño-ola {
     margin-top: 100px;
-    max-width: 100%;
-    background-image: url(./imagenes/imagen-personal/ola-blanca.png);
-    background-size: 100%;/* 100% 180px; */
-    background-position: center top;
-    background-repeat: no-repeat;
-     margin-bottom: -25px;
     padding-top: 65px;  
 }
 .diseño-ola-contacto{
@@ -1363,21 +2090,13 @@ margin-right: 50px;
 /*** DIBUJOS ***/
 /***************/
     section>div {
-        grid-template-areas:
-            "div1 div4"
-            "div11 div4 "
-            "div6 div6 "
-            "div6 div6 "
-            "div9 div8 "
-            "div9 div8 "
-            "div7 div12 "
-            "div7 div12 "
-            "div5 div10 "
-            "div5 div10 "
-            "div3 div2 "
-            "div3 div2 ";
-        grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: repeat(12, 45px);
+        display: block;
+    }
+    .gallery-block img{
+        width: 100%;
+        height: 100%;
+        object-fit:fill;
+        padding: 10px 0px;
     }
 /*****************/
 /*** CONTACTO ***/
@@ -1397,7 +2116,6 @@ margin-right: 50px;
 /**********************/
 .tamaño-parrafo-footer {
     font-size: 20px;
+    padding: 0px 5px;
 }
-  }
-
-  
+}

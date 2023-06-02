@@ -151,7 +151,6 @@ function closeDropdown() {
 function cambiarColores(colorSeleccionado) {
   // Resto del código para cambiar los colores utilizando el colorSeleccionado
 
-  
   const descargarCV = document.querySelectorAll('.descargarCV');
   const span = document.querySelectorAll('span');
   const titulos = document.querySelectorAll('h1');
@@ -162,7 +161,7 @@ function cambiarColores(colorSeleccionado) {
 const tituloProyecto = document.querySelectorAll('.titulo-proyectos i');
 const tecnologiasyhabilidades = document.querySelectorAll('.tecnologíasyhabilidades');
 const lineaProyecto = document.querySelectorAll('.linea-proyecto');
-const portfolio = document.querySelectorAll('.info p');/* i, h4,  */
+const portfolio = document.querySelectorAll('.info p');
 const portfolioImagenes = document.querySelectorAll('.proyecto');
 const hamburger = document.querySelectorAll('.hamburger');
 const hamburgerHidden = document.querySelectorAll('.hamburger__hidden');
@@ -243,13 +242,11 @@ lineaProyecto.forEach((lineaProyecto) => {
       });
     }
 }
-
 const colorList = document.getElementById('color-list');
 const colorItems = colorList.querySelectorAll('a');
 colorItems.forEach((item) => {
 item.addEventListener('click', handleColorChange);
 });
-
 
 
 
@@ -272,7 +269,6 @@ function cambiarFondo() {
     icono.className = 'fa-regular fa-moon';
     body.classList.add('modo-oscuro');
   }
-
   // Integración de tu código
   const diseñoOla = document.querySelector('.shapedividers_com-6525');
   const acercaDeTitulo = document.querySelector('.acerca-de-Titulo');
@@ -286,12 +282,11 @@ function cambiarFondo() {
   const tecnologiasYHabilidades = document.querySelector('.tecnologias-y-habilidades');
   const consoleContainer = document.querySelector('.console-container');
   const consoleUnderscore = document.querySelector('.console-underscore');
-  const navbarBg = document.querySelector('.navbar-bg');
+  const navbarBg = document.querySelector('navbar');
   const parrafoLogo = document.querySelector('.parrafo-logo');
   const logosColores = document.querySelector('.logo-navBar-colores');
   const eligeUnColor = document.querySelector('.elige-un-color');
   const btnSubirArriba = document.querySelector('#btnSubirArriba');
-  
   
   // Agrega o remueve la clase 'modo-oscuro' a los elementos
   diseñoOla.classList.toggle('modo-oscuro');
@@ -312,7 +307,6 @@ function cambiarFondo() {
   eligeUnColor.classList.toggle('modo-oscuro');
   btnSubirArriba.classList.toggle('modo-oscuro');
 }
-
 
 
 
@@ -367,19 +361,16 @@ document.getElementById("ver3-ing").innerText = "SEE";
 document.getElementById("repositorio3-ing").innerText = "REPOSITORY";
 document.getElementById("transporte-raul-titulo-ing").innerText = "TRANSPORTATION RAUL-SCHOOL COMPANY";
 document.getElementById("lenguajesUtilizados-Transporte-ing").innerText = "Languages used: Html, Css, Bootstrap and Js.";
-// figma
+// FIGMA
  document.getElementById("ver4-ing").innerText = "SEE";
  document.getElementById("repositorio4-ing").innerText = "REPOSITORY";
-
   // INTERESES
   document.getElementById("intereses-titulo-ing").innerText = "INTERESTS";
   document.getElementById("misDibujos-ing").innerText = "MY DRAWINGS";
   document.getElementById("parrafoDibujos-ing").innerText = "I USUALLY DRAW TO PUT MY MIND BLANK, RELAX, REGULATE STRESS AND IMPROVE CONCENTRATION. IT IS THE WAY I HAVE TO IMPROVE CREATIVITY AND MENTAL HEALTH.";
-
 //  CONTACTO
 document.getElementById("contacto-ing").innerText = "CONTACT";
 document.getElementById("creatividad-ing").innerText = "CREATIVITY IS INTELLIGENCE HAVING FUN.";
-
   // FOOTER
   document.getElementById("footer-ing").innerText = "© Copyright Portfolio 2023. Gonzalo Matias Robledo - Web page developer.";
   consoleText(WORDS_EN, 'text');
@@ -410,21 +401,21 @@ function cambiarAEspanol() {
  // PROYECTOS
  document.getElementById("proyecto-titulo-ing").innerText = "PROYECTOS";
  document.getElementById("misProyectos-ing").innerText = "MIS PROYECTOS";
-
+// gnc-luro
  document.getElementById("lenguajesUtilizados-gncLuro-ing").innerText = "Lenguajes utilizados: Html, Css y Bootstrap.";
 document.getElementById("ver-ing").innerText = "VER";
 document.getElementById("repositorio-ing").innerText = "REPOSITORIO";
-
+// verduleria-natural
 document.getElementById("ver2-ing").innerText = "VER";
 document.getElementById("repositorio2-ing").innerText = "REPOSITORIO";
 document.getElementById("verduleria-titulo-ing").innerText = "VERDULERIA-ORGANICA";
 document.getElementById("lenguajesUtilizados-verduleria-ing").innerText = "lenguajes utilizados: Html, Css, Bootstrap y Js.";
-
+// transporte-escolar
 document.getElementById("ver3-ing").innerText = "VER";
 document.getElementById("repositorio3-ing").innerText = "REPOSITORIO";
 document.getElementById("transporte-raul-titulo-ing").innerText = "TRANSPORTE RAUL-EMPRESA ESCOLAR";
 document.getElementById("lenguajesUtilizados-Transporte-ing").innerText = "lenguajes utilizados: Html, Css, Bootstrap y Js.";
-
+// FIGMA
 document.getElementById("ver4-ing").innerText = "VER";
 document.getElementById("repositorio4-ing").innerText = "REPOSITORIO";
 // INTERESES
