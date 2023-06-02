@@ -1,1 +1,2 @@
-https://i.imgur.com/m6MkWp3.png
+![Descripción de la imagen](https://i.imgur.com/1gQiLB5.gif)
+
