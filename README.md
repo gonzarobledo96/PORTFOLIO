@@ -1,1 +1,1 @@
-https://imgur.com/m6MkWp3
+https://i.imgur.com/m6MkWp3.png
