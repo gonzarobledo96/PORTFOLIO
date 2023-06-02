@@ -1,2 +1,2 @@
-![Descripción de la imagen](https://i.imgur.com/1gQiLB5.gif)
+![Descripción de la imagen](https://imgur.com/m6MkWp3)
 
