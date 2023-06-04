@@ -432,3 +432,4 @@ document.getElementById("creatividad-ing").innerText = "LA CREATIVIDAD ES LA INT
   // Cambiar otros elementos a español
   idiomaActual = "es";
 }
+
