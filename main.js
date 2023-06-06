@@ -386,6 +386,8 @@ document.getElementById("repositorio3-ing").innerText = "REPOSITORY";
 document.getElementById("transporte-raul-titulo-ing").innerText = "TRANSPORTATION RAUL-SCHOOL COMPANY";
 document.getElementById("lenguajesUtilizados-Transporte-ing").innerText = "Languages used: Html, Css, Bootstrap and Js.";
 // FIGMA
+document.getElementById("figma-ing").innerText = "Design with Figma";
+document.getElementById("herramienta-figma-ing").innerText = "Design Tool: Figma";
  document.getElementById("ver4-ing").innerText = "SEE";
  document.getElementById("repositorio4-ing").innerText = "REPOSITORY";
   // INTERESES
@@ -440,6 +442,8 @@ document.getElementById("repositorio3-ing").innerText = "REPOSITORIO";
 document.getElementById("transporte-raul-titulo-ing").innerText = "TRANSPORTE RAUL-EMPRESA ESCOLAR";
 document.getElementById("lenguajesUtilizados-Transporte-ing").innerText = "lenguajes utilizados: Html, Css, Bootstrap y Js.";
 // FIGMA
+document.getElementById("figma-ing").innerText = "Diseño con Figma";
+document.getElementById("herramienta-figma-ing").innerText = "Herramienta de diseño: Figma";
 document.getElementById("ver4-ing").innerText = "VER";
 document.getElementById("repositorio4-ing").innerText = "REPOSITORIO";
 // INTERESES
