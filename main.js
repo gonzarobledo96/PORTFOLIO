@@ -257,6 +257,30 @@ item.addEventListener('click', handleColorChange);
 function cambiarFondo() {
   const body = document.body;
   const icono = document.getElementById('modo-icono');
+  const contenedorImagen1 = document.querySelector('.contenedor-imagen');
+  const contenedorImagen2 = document.querySelector('.contenedor-imagen2');
+  const imagen1 = contenedorImagen1.querySelector('img');
+  const imagen2 = contenedorImagen2.querySelector('img');
+
+  // ... Código existente ...
+
+  // Cambia la imagen de fondo del contenedor-imagen1
+  if (body.classList.contains('modo-oscuro')) {
+    imagen1.src = './imagenes/imagen-personal/responsive-1.png';
+    imagen1.alt = 'Descripción de la imagen en modo oscuro';
+  } else {
+    imagen1.src = './imagenes/imagen-personal/responsive-2.png';
+    imagen1.alt = 'Descripción de la imagen en modo claro';
+  }
+
+  // Cambia la imagen de fondo del contenedor-imagen2
+  if (body.classList.contains('modo-oscuro')) {
+    imagen2.src = './imagenes/imagen-personal/responsive-1.png';
+    imagen2.alt = 'Descripción de la imagen en modo oscuro';
+  } else {
+    imagen2.src = './imagenes/imagen-personal/responsive-2.png';
+    imagen2.alt = 'Descripción de la imagen en modo claro';
+  }
 
   // CAMBIA EL LOGO DEL SOL A LA LUNA
   // Verifica si el cuerpo tiene la clase 'modo-oscuro'
