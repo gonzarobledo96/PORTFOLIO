@@ -396,7 +396,7 @@ document.getElementById("lenguajesUtilizados-Transporte-ing").innerText = "Langu
 document.getElementById("contacto-ing").innerText = "CONTACT";
 document.getElementById("creatividad-ing").innerText = "CREATIVITY IS INTELLIGENCE HAVING FUN.";
   // FOOTER
-  document.getElementById("footer-ing").innerText = "© Copyright Portfolio 2023. Gonzalo Matias Robledo - Web page developer.";
+  document.getElementById("footer-ing").innerText = "© Copyright Portfolio 2023. Gonzalo Matias Robledo - Web page developer. 🏆🏆🏆";
   consoleText(WORDS_EN, 'text');
 
   // Cambiar otros elementos a inglés
@@ -451,7 +451,7 @@ document.getElementById("contacto-ing").innerText = "CONTACTO";
 document.getElementById("creatividad-ing").innerText = "LA CREATIVIDAD ES LA INTELIGENCIA DIVIRTIÉNDOSE.";
   consoleText(WORDS, 'text');
   // FOOTER
-  document.getElementById("footer-ing").innerText = "© Copyright Portafolio 2023. Gonzalo Matias Robledo - Desarrollador de páginas web.";
+  document.getElementById("footer-ing").innerText = "© Copyright Portafolio 2023. Gonzalo Matias Robledo - Desarrollador de páginas web. 🏆🏆🏆";
 
   // Cambiar otros elementos a español
   idiomaActual = "es";
