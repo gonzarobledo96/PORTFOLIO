@@ -155,6 +155,7 @@ function cambiarColores(colorSeleccionado) {
   const span = document.querySelectorAll('span');
   const titulos = document.querySelectorAll('h1');
   const bordes = document.querySelectorAll('.contenedor-imagen');
+  const bordes2 = document.querySelectorAll('.contenedor-imagen2');
   const sobreMi = document.querySelectorAll('.sobre-mi');
   const parrafoLogo = document.querySelectorAll('.parrafo-logo p');
   const logoImagenes = document.querySelectorAll('.logos-imagen a');
@@ -181,6 +182,10 @@ titulo.style.color = colorSeleccionado;
 bordes.forEach((borde) => {
 borde.style.borderColor = colorSeleccionado;
 });
+
+bordes2.forEach((borde) => {
+  borde.style.borderColor = colorSeleccionado;
+  });
 
 span.forEach((span) => {
 span.style.color = colorSeleccionado;
