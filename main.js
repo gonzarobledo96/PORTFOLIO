@@ -364,13 +364,13 @@ function cambiarAIngles() {
   // INICIO
   document.getElementById("Hola-mi-nombre-es-Gonzalo-ing").innerText = "HELLO, MY NAME IS";
    document.getElementById("soy").innerText = "am";
-  document.getElementById("parrafos-1-ing").innerText = "I am a web designer and developer passionate about creating innovative digital and visual solutions that generate a unique user experience and that connect with the needs of people.";
+  document.getElementById("parrafos-1-ing").innerText = "Turning visions into reality through web design.";
   document.getElementById("descargarCV").innerText = "download CV";
   // ACERCA-DE
   document.getElementById("acerca-de-titulo-ing").innerText = "ABOUT";
   document.getElementById("sobre-mi-titulo-ing").innerText = "ABOUT ME";
   document.getElementById("hola-soy-ing").innerText = "Hi, I am";
-  document.getElementById("parrafo-2-ing").innerText = "I am a passionate developer and web designer with experience in HTML, CSS and Bootstrap, with basic knowledge in JavaScript, React and Figma. I enjoy creating innovative and functional websites that make life easier for people, creating visual solutions that are not only attractive, but also easy to use. I love learning and staying up to date with the latest trends in design and technology in order to offer the best to my clients.";
+  document.getElementById("parrafo-2-ing").innerText = "Always look to dedicate myself to a career that has to do with design. I went through architecture school, I learned to draw to improve my creativity and imagination, even winning drawing contests at school, I even designed 3D houses for my friends. Now I create and design functional and attractive web pages so that people can use them.";
   document.getElementById("tecnologíasYhabilidades-ing").innerText = "Technologies and skills";
   document.getElementById("herramientasDeDiseño-ing").innerText = "Design Tools";
   // PROYECTOS
@@ -420,13 +420,13 @@ function cambiarAEspanol() {
   // INICIO 
   document.getElementById("Hola-mi-nombre-es-Gonzalo-ing").innerText = "HOLA, MI NOMBRE ES";
    document.getElementById("soy").innerText = "SOY";
-  document.getElementById("parrafos-1-ing").innerText = "Soy un diseñador y desarrollador web apasionado por crear soluciones digitales y visuales innovadoras que generen una experiencia única al usuario y que conecten con las necesidades de las personas.";
+  document.getElementById("parrafos-1-ing").innerText = "Convirtiendo visiones en realidad a través del diseño web.";
   document.getElementById("descargarCV").innerText = "descargarCV";
   // ACERCA-DE
   document.getElementById("acerca-de-titulo-ing").innerText = "ACERCA DE";
-  document.getElementById("sobre-mi-titulo-ing").innerText = "SOBRE MI";
+  document.getElementById("sobre-mi-titulo-ing").innerText = "SOBRE MÍ";
   document.getElementById("hola-soy-ing").innerText = "Hola, Soy";
-  document.getElementById("parrafo-2-ing").innerText = "Soy un apasionado desarrollador y Diseñador web con experiencia en HTML, CSS y Bootstrap, con conocimientos basicos en JavaScript, React y Figma. Disfruto creando paginas webs innovadoras y funcionales que hagan la vida más fácil para las personas, creando soluciones visuales que no solo sean atractivas, sino también fáciles de usar. Me encanta aprender y estar al tanto de las últimas tendencias en diseño y tecnología para poder ofrecer lo mejor a mis clientes.";
+  document.getElementById("parrafo-2-ing").innerText = "Siempre busque dedicarme a alguna carrera que tenga que ver con el diseño.  Pase por la facultad de arquitectura, aprendi a dibujar para mejorar mi creatividad e imaginacion, ganando hasta concursos de dibujo en el colegio, incluso diseñe en 3D casas para mis amigos. Ahora creo y diseño páginas web funcionales y atractivas para que las personas puedan utilizarlas.";
   document.getElementById("tecnologíasYhabilidades-ing").innerText = "Tecnologías y habilidades";
   document.getElementById("herramientasDeDiseño-ing").innerText = "Herramientas de diseño";
  // PROYECTOS

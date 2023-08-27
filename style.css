@@ -567,11 +567,11 @@ ul li .diseño-texto-navbar:hover:after {
  .console-container { font-size:2em; }
 }
 #sobremi .sobremi .parrafo {
-    font-size: 16px;
+    font-size: 20px;
     line-height: 25px;
     color: #565656;
     margin-bottom: 12px;
-    font-weight: 500;
+    font-weight: 600;
     padding: 0px 20px 0px 0px;
 }
 #sobremi .sobremi .descargarCV {
