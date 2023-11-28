@@ -37,8 +37,8 @@ function subirArriba() {
 // EFECTO MAQUINA DE ESCRIBIR
 // **************************
 // Definir las palabras a mostrar y los colores disponibles
-const WORDS = ['DESARROLLADOR Y DISEÑADOR WEB'];
-const WORDS_EN = ['WEB DESIGNER AND DEVELOPER'];
+const WORDS = ['DISEÑADOR WEB'];
+const WORDS_EN = ['Web Designer'];
 const coloresDisponibles = ['rgb(255, 199, 88);', '#ec1839', '#fa5b0f', '#37b182', 'rgb(229, 233, 0)', '#2564ca', '#f021b2'];
 const COLORS = [coloresDisponibles[0]];
 
@@ -403,7 +403,7 @@ document.getElementById("herramienta-figma-ing").innerText = "Design Tool: Figma
 document.getElementById("contacto-ing").innerText = "CONTACT";
 document.getElementById("creatividad-ing").innerText = "CREATIVITY IS INTELLIGENCE HAVING FUN.";
   // FOOTER
-  document.getElementById("footer-ing").innerText = "© Copyright Portfolio 2023. Gonzalo Matias Robledo - Web page developer. 🏆🏆🏆";
+  document.getElementById("footer-ing").innerText = "© Copyright Portfolio 2023. Gonzalo Matias Robledo - Web designer. 🏆🏆🏆";
   consoleText(WORDS_EN, 'text');
 
   // Cambiar otros elementos a inglés
@@ -426,7 +426,7 @@ function cambiarAEspanol() {
   document.getElementById("acerca-de-titulo-ing").innerText = "ACERCA DE";
   document.getElementById("sobre-mi-titulo-ing").innerText = "SOBRE MÍ";
   document.getElementById("hola-soy-ing").innerText = "Hola, Soy";
-  document.getElementById("parrafo-2-ing").innerText = "Siempre busque dedicarme a alguna carrera que tenga que ver con el diseño.  Pase por la facultad de arquitectura, aprendi a dibujar para mejorar mi creatividad e imaginacion, ganando hasta concursos de dibujo en el colegio, incluso diseñe en 3D casas para mis amigos. Ahora creo y diseño páginas web funcionales y atractivas para que las personas puedan utilizarlas.";
+  document.getElementById("parrafo-2-ing").innerText = "Siempre busque dedicarme a alguna carrera que tenga que ver con el diseño. Pase por la facultad de arquitectura, aprendi a dibujar para mejorar mi creatividad e imaginacion, ganando hasta concursos de dibujo en el colegio, incluso diseñe en 3D casas para mis amigos. Ahora creo y diseño páginas web funcionales y atractivas para que las personas puedan utilizarlas.";
   document.getElementById("tecnologíasYhabilidades-ing").innerText = "Tecnologías y habilidades";
   document.getElementById("herramientasDeDiseño-ing").innerText = "Herramientas de diseño";
  // PROYECTOS
@@ -460,7 +460,7 @@ document.getElementById("contacto-ing").innerText = "CONTACTO";
 document.getElementById("creatividad-ing").innerText = "LA CREATIVIDAD ES LA INTELIGENCIA DIVIRTIÉNDOSE.";
   consoleText(WORDS, 'text');
   // FOOTER
-  document.getElementById("footer-ing").innerText = "© Copyright Portafolio 2023. Gonzalo Matias Robledo - Desarrollador de páginas web. 🏆🏆🏆";
+  document.getElementById("footer-ing").innerText = "© Copyright Portafolio 2023. Gonzalo Matias Robledo - Diseñador de páginas web. 🏆🏆🏆";
 
   // Cambiar otros elementos a español
   idiomaActual = "es";
