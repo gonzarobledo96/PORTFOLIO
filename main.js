@@ -37,8 +37,8 @@ function subirArriba() {
 // EFECTO MAQUINA DE ESCRIBIR
 // **************************
 // Definir las palabras a mostrar y los colores disponibles
-const WORDS = ['DISEÑADOR WEB'];
-const WORDS_EN = ['Web Designer'];
+const WORDS = ['DISEÑADOR WEB Y  DESARROLLADOR FRONTEND'];
+const WORDS_EN = ['WEB DESIGNER AND FRONT END DEVELOPER'];
 const coloresDisponibles = ['rgb(255, 199, 88);', '#ec1839', '#fa5b0f', '#37b182', 'rgb(229, 233, 0)', '#2564ca', '#f021b2'];
 const COLORS = [coloresDisponibles[0]];
 
