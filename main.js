@@ -385,16 +385,31 @@ function cambiarAIngles() {
 document.getElementById("repositorio2-ing").innerText = "REPOSITORY";
 document.getElementById("verduleria-titulo-ing").innerText = "ORGANIC-GREENHOUSE";
 document.getElementById("lenguajesUtilizados-verduleria-ing").innerText = "Languages used: Html, Css, Bootstrap and Js.";
+
+
 // transporte-escolar
 document.getElementById("ver3-ing").innerText = "SEE";
 document.getElementById("repositorio3-ing").innerText = "REPOSITORY";
 document.getElementById("transporte-raul-titulo-ing").innerText = "TRANSPORTATION RAUL-SCHOOL COMPANY";
-document.getElementById("lenguajesUtilizados-Transporte-ing").innerText = "Languages used: Html, Css, Bootstrap and Js.";
+document.getElementById("lenguajesUtilizados-Transporte-ing").innerText = "Languages used: Html, Css, Bootstrap, React, js and Figma.";
+// Buffet Stentor
+document.getElementById("BuffetStentor-ing").innerText = "BUFFET STENTOR";
+document.getElementById("lenguajesUtilizados-Buffet-ing").innerText = "Languages used: Html, Css, Bootstrap and Js";
+document.getElementById("ver5-ing").innerText = "SEE";
+document.getElementById("repositorio5-ing").innerText = "REPOSITORY";
+
+
 // FIGMA
 document.getElementById("figma-ing").innerText = "Design with Figma";
 document.getElementById("herramienta-figma-ing").innerText = "Design Tool: Figma";
  document.getElementById("ver4-ing").innerText = "SEE";
  document.getElementById("repositorio4-ing").innerText = "REPOSITORY";
+// FIGMA 2
+document.getElementById("PizerriaDonRemoleo").innerText = "Pizerria Don Remoleo";
+document.getElementById("herramientaDeFigmaStentor").innerText = "Design Tool: Figma";
+ document.getElementById("ver4-ing").innerText = "SEE";
+ document.getElementById("repositorio4-ing").innerText = "REPOSITORY";
+
   // INTERESES
   document.getElementById("intereses-titulo-ing").innerText = "INTERESTS";
   document.getElementById("misDibujos-ing").innerText = "MY DRAWINGS";
@@ -446,11 +461,18 @@ document.getElementById("ver3-ing").innerText = "VER";
 document.getElementById("repositorio3-ing").innerText = "REPOSITORIO";
 document.getElementById("transporte-raul-titulo-ing").innerText = "TRANSPORTE RAUL-EMPRESA ESCOLAR";
 document.getElementById("lenguajesUtilizados-Transporte-ing").innerText = "lenguajes utilizados: Html, Css, Bootstrap y Js.";
-// FIGMA
-document.getElementById("figma-ing").innerText = "Diseño con Figma";
-document.getElementById("herramienta-figma-ing").innerText = "Herramienta de diseño: Figma";
-document.getElementById("ver4-ing").innerText = "VER";
-document.getElementById("repositorio4-ing").innerText = "REPOSITORIO";
+// Buffet Stentor
+document.getElementById("PizerriaDonRemoleo").innerText = "Pizerria Don Remoleo";
+document.getElementById("herramientaDeFigma").innerText = "Herramienta de diseño: Figma";
+document.getElementById("ver5-ing").innerText = "VER";
+document.getElementById("repositorio5-ing").innerText = "REPOSITORIO";
+
+// FIGMA 2
+document.getElementById("PizerriaDonRemoleo").innerText = "Pizerria Don Remoleo";
+document.getElementById("herramientaDeFigmaStentor").innerText = "Herramienta de diseño: Figma";
+ document.getElementById("ver4-ing").innerText = "VER";
+ document.getElementById("repositorio4-ing").innerText = "REPOSITORIO";
+
 // INTERESES
  document.getElementById("intereses-titulo-ing").innerText = "INTERESES";
  document.getElementById("misDibujos-ing").innerText = "MIS DIBUJOS";
