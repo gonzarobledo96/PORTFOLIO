@@ -186,9 +186,6 @@ body.modo-oscuro {
     color: white;
     transition: 0.5s;
   }
-
-
-
   .modo-oscuro #sobremi .sobremi .parrafo{
     color: rgb(219, 219, 219);
   }
@@ -246,7 +243,11 @@ color: white;
     color: white;
     font-weight: 600;
 }
-  .modo-oscuro ul li .diseño-texto-navbar:before {
+.modo-oscuro .diseño-texto-navbar:hover{
+    transition: 0.2s;
+    color: var(--color-hover);
+}
+  /* .modo-oscuro ul li .diseño-texto-navbar:before {
     content: "";
     position: absolute;
     top: 0;
@@ -257,8 +258,8 @@ color: white;
     transform: scaleY(2);
     opacity: 0;
     transition: 0.3s;
-}
-.modo-oscuro ul li .diseño-texto-navbar:after {
+} */
+/* .modo-oscuro ul li .diseño-texto-navbar:after {
     content: "";
     position: absolute;
     top: 2px;
@@ -270,18 +271,23 @@ color: white;
     opacity: 0;
     transition: 0.3s;
     z-index: -1;
+} */
+
+ 
+.modo-oscuro ul li .diseño-texto-navbar{
+    color: white;
 }
-.modo-oscuro ul li .diseño-texto-navbar:hover {
-    color: rgb(50, 50, 50);
-}
-.modo-oscuro ul li .diseño-texto-navbar:hover:before {
+/* .modo-oscuro ul li .diseño-texto-navbar:hover {
+     color: rgb(50, 50, 50); 
+} */
+/* .modo-oscuro ul li .diseño-texto-navbar:hover:before {
     transform: scaleY(1);
     opacity: 1;
 }
 .modo-oscuro ul li .diseño-texto-navbar:hover:after {
     transform: scaleY(1);
     opacity: 1;
-} 
+}  */
 .modo-oscuro #btnSubirArriba{
     border: solid 10px rgb(255, 255, 255);
     background-color: #ffffff;
@@ -371,6 +377,7 @@ ul li .sobre-mi {
     font-weight: 600;
     z-index: 1;
     padding-bottom: 5px;
+    transition: 0.2s;
 }
 /* ANIMACION DEL ENGRANAJE */
 .fa-gear{
@@ -391,7 +398,17 @@ ul li .sobre-mi {
     font-weight: 600;
     font-family: 'Montserrat', sans-serif;
 } 
-ul li .diseño-texto-navbar:before {
+  :root {
+    --color-hover: rgb(255, 199, 88);
+  }
+  .diseño-texto-navbar:hover {
+    transition: 0.2s;
+    color: var(--color-hover);
+  }
+  
+
+
+/* ul li .diseño-texto-navbar:before {
     content: "";
     position: absolute;
     top: 0;
@@ -462,7 +479,7 @@ ul li .diseño-texto-navbar:hover:after {
 .navbar-item:hover::after {
     transform: scaleY(1);
     opacity: 1;
-}
+} */
 
 
 
@@ -664,17 +681,6 @@ transition: transform 0.3s ease-in-out;
     transition: 0.5s;
     border: none;
 }
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -2238,4 +2244,5 @@ margin-right: 50px;
     padding: 0px 5px;
 }
 }
+
 

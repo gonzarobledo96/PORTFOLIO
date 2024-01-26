@@ -18,7 +18,6 @@ document.addEventListener('click', (e) => {
 });
 
 
-
 // ***********
 // BOTON SUBIR
 // ***********
@@ -30,7 +29,6 @@ function subirArriba() {
     duration: 2000
   });
 }
-
 
 
 // **************************
@@ -136,6 +134,22 @@ consoleText(WORDS, 'text');
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 // ****************************************
 // CAMBIAR COLORES DEL H1, H2, UL, LI, ETC.
 // ****************************************
@@ -151,6 +165,11 @@ function closeDropdown() {
 function cambiarColores(colorSeleccionado) {
   // Resto del código para cambiar los colores utilizando el colorSeleccionado
 
+
+
+
+  document.documentElement.style.setProperty('--color-hover', colorSeleccionado);
+  
   const descargarCV = document.querySelectorAll('.descargarCV');
   const span = document.querySelectorAll('span');
   const titulos = document.querySelectorAll('h1');
@@ -159,99 +178,104 @@ function cambiarColores(colorSeleccionado) {
   const sobreMi = document.querySelectorAll('.sobre-mi');
   const parrafoLogo = document.querySelectorAll('.parrafo-logo p');
   const logoImagenes = document.querySelectorAll('.logos-imagen a');
-const tituloProyecto = document.querySelectorAll('.titulo-proyectos i');
-const tecnologiasyhabilidades = document.querySelectorAll('.tecnologíasyhabilidades');
-const lineaProyecto = document.querySelectorAll('.linea-proyecto');
-const portfolio = document.querySelectorAll('.info p');
-const portfolioImagenes = document.querySelectorAll('.proyecto');
-const hamburger = document.querySelectorAll('.hamburger');
-const hamburgerHidden = document.querySelectorAll('.hamburger__hidden');
-const hamburgerInner = document.querySelectorAll('.hamburger__inner');
+  const tituloProyecto = document.querySelectorAll('.titulo-proyectos i');
+  const tecnologiasyhabilidades = document.querySelectorAll('.tecnologíasyhabilidades');
+  const lineaProyecto = document.querySelectorAll('.linea-proyecto');
+  const portfolio = document.querySelectorAll('.info p');
+  const portfolioImagenes = document.querySelectorAll('.proyecto');
+  const hamburger = document.querySelectorAll('.hamburger');
+  const hamburgerHidden = document.querySelectorAll('.hamburger__hidden');
+  const hamburgerInner = document.querySelectorAll('.hamburger__inner');
 
-// Resto del código para cambiar los estilos de los elementos con el colorSeleccionado
-// ...
+  // Resto del código para cambiar los estilos de los elementos con el colorSeleccionado
+  // ...
 
-descargarCV.forEach((descargar) => {
-descargar.style.backgroundColor = colorSeleccionado;
-});
-
-titulos.forEach((titulo) => {
-titulo.style.color = colorSeleccionado;
-});
-
-bordes.forEach((borde) => {
-borde.style.borderColor = colorSeleccionado;
-});
-
-bordes2.forEach((borde) => {
-  borde.style.borderColor = colorSeleccionado;
+  descargarCV.forEach((descargar) => {
+    descargar.style.backgroundColor = colorSeleccionado;
   });
 
-span.forEach((span) => {
-span.style.color = colorSeleccionado;
-});
+  titulos.forEach((titulo) => {
+    titulo.style.color = colorSeleccionado;
+  });
 
-sobreMi.forEach((sobreMi) => {
-sobreMi.style.color = 'white !important';
-});
+  bordes.forEach((borde) => {
+    borde.style.borderColor = colorSeleccionado;
+  });
 
-parrafoLogo.forEach((parrafoLogo) => {
-parrafoLogo.style.color = colorSeleccionado;
-});
+  bordes2.forEach((borde) => {
+    borde.style.borderColor = colorSeleccionado;
+  });
 
-tecnologiasyhabilidades.forEach((tecnologiasyhabilidades) => {
-tecnologiasyhabilidades.style.color = colorSeleccionado;
-});
+  span.forEach((span) => {
+    span.style.color = colorSeleccionado;
+  });
 
-tituloProyecto.forEach((tituloProyecto) => {
-tituloProyecto.style.color = colorSeleccionado;
-tituloProyecto.style.borderColor = colorSeleccionado;
-});
+  sobreMi.forEach((sobreMi) => {
+    sobreMi.style.color = 'white !important';
+  });
 
-logoImagenes.forEach((logoImagen) => {
-logoImagen.style.backgroundColor = colorSeleccionado;
-logoImagen.style.borderRadius = '10%';
-logoImagen.style.transition = '0.5s';
-});
+  parrafoLogo.forEach((parrafoLogo) => {
+    parrafoLogo.style.color = colorSeleccionado;
+  });
 
-lineaProyecto.forEach((lineaProyecto) => {
-  lineaProyecto.style.backgroundColor = colorSeleccionado;
+  tecnologiasyhabilidades.forEach((tecnologiasyhabilidades) => {
+    tecnologiasyhabilidades.style.color = colorSeleccionado;
+  });
+
+  tituloProyecto.forEach((tituloProyecto) => {
+    tituloProyecto.style.color = colorSeleccionado;
+    tituloProyecto.style.borderColor = colorSeleccionado;
+  });
+
+  logoImagenes.forEach((logoImagen) => {
+    logoImagen.style.backgroundColor = colorSeleccionado;
+    logoImagen.style.borderRadius = '10%';
+    logoImagen.style.transition = '0.5s';
+  });
+
+  lineaProyecto.forEach((lineaProyecto) => {
+    lineaProyecto.style.backgroundColor = colorSeleccionado;
   });
 
   portfolio.forEach((portfolio) => {
     portfolio.style.color = colorSeleccionado;
+  });
+
+  hamburgerHidden.forEach((hamburgerHidden) => {
+    hamburgerHidden.style.backgroundColor = colorSeleccionado;
+  });
+
+  hamburgerInner.forEach((hamburgerInner) => {
+    hamburgerInner.style.backgroundColor = colorSeleccionado;
+  });
+
+  hamburger.forEach((hamburger) => {
+    hamburger.style.borderColor = colorSeleccionado;
+  });
+
+  
+
+
+
+  // SOMBRA DE LAS IMAGENES DE PROYECTOS
+  if (colorSeleccionado === '') {
+    // Removemos la sombra en las imágenes
+    portfolioImagenes.forEach((portfolioImagen) => {
+      portfolioImagen.style.boxShadow = ''; /* poner none si quieres quitar la sombra */
     });
-
-    hamburgerHidden.forEach((hamburgerHidden) => {
-      hamburgerHidden.style.backgroundColor = colorSeleccionado;
-      });
-
-      hamburgerInner.forEach((hamburgerInner) => {
-        hamburgerInner.style.backgroundColor = colorSeleccionado;
-        });
-
-        hamburger.forEach((hamburger) => {
-          hamburger.style.borderColor = colorSeleccionado;
-          });
-
-       
-    // SOMBRA DE LAS IMAGENES DE PROYECTOS
-    if (colorSeleccionado === '') {
-      // Removemos la sombra en las imágenes
-      portfolioImagenes.forEach((portfolioImagen) => {
-        portfolioImagen.style.boxShadow = ''; /* poner none si quieres quitar la sombra */
-      });
-    } else {
-      portfolioImagenes.forEach((portfolioImagen) => {
-        portfolioImagen.style.boxShadow = `10px 10px 10px 5px ${colorSeleccionado}`;
-      });
-    }
+  } else {
+    portfolioImagenes.forEach((portfolioImagen) => {
+      portfolioImagen.style.boxShadow = `10px 10px 10px 5px ${colorSeleccionado}`;
+    });
+  }
 }
+
 const colorList = document.getElementById('color-list');
 const colorItems = colorList.querySelectorAll('a');
 colorItems.forEach((item) => {
-item.addEventListener('click', handleColorChange);
+  item.addEventListener('click', handleColorChange);
 });
+
 
 
 
@@ -266,8 +290,6 @@ function cambiarFondo() {
   const contenedorImagen2 = document.querySelector('.contenedor-imagen2');
   const imagen1 = contenedorImagen1.querySelector('img');
   const imagen2 = contenedorImagen2.querySelector('img');
-
-  // ... Código existente ...
 
   // Cambia la imagen de fondo del contenedor-imagen1
   if (body.classList.contains('modo-oscuro')) {
@@ -338,12 +360,12 @@ function cambiarFondo() {
 }
 
 
-
 // ***********************
 // CAMBIAR IDIOMA A INGLES
 // ***********************
 // querySelector es para las clases
 // getElementById es para los id
+
 var idiomaActual = "es";
 
 function toggleIdioma() {
@@ -353,138 +375,218 @@ function toggleIdioma() {
     cambiarAEspanol();
   }
 }
-
 function cambiarAIngles() {
-  // Cambiar el idioma a inglés
-  document.getElementById("acerca-de-mi-ing").innerText = "about me";
-  document.getElementById("proyectos-ing").innerText = "PROJECTS";
-  document.getElementById("mis-intereses-ing").innerText = "MY INTERESTS";
-  document.getElementById("contactar-ing").innerText = "CONTACT";
-  document.getElementById("elige-un-color-ing").innerText = "Theme Colors";
-  // INICIO
-  document.getElementById("Hola-mi-nombre-es-Gonzalo-ing").innerText = "HELLO, MY NAME IS";
-   document.getElementById("soy").innerText = "am";
-  document.getElementById("parrafos-1-ing").innerText = "Turning visions into reality through web design.";
-  document.getElementById("descargarCV").innerText = "download CV";
-  // ACERCA-DE
-  document.getElementById("acerca-de-titulo-ing").innerText = "ABOUT";
-  document.getElementById("sobre-mi-titulo-ing").innerText = "ABOUT ME";
-  document.getElementById("hola-soy-ing").innerText = "Hi, I am";
-  document.getElementById("parrafo-2-ing").innerText = "Always look to dedicate myself to a career that has to do with design. I went through architecture school, I learned to draw to improve my creativity and imagination, even winning drawing contests at school, I even designed 3D houses for my friends. Now I create and design functional and attractive web pages so that people can use them.";
-  document.getElementById("tecnologíasYhabilidades-ing").innerText = "Technologies and skills";
-  document.getElementById("herramientasDeDiseño-ing").innerText = "Design Tools";
-  // PROYECTOS
-  document.getElementById("proyecto-titulo-ing").innerText = "PROJECTS";
-  document.getElementById("misProyectos-ing").innerText = "MY PROJECTS";
-  // gnc-luro
-  document.getElementById("lenguajesUtilizados-gncLuro-ing").innerText = "Languages used: Html, Css and Bootstrap.";
-  document.getElementById("ver-ing").innerText = "SEE";
-  document.getElementById("repositorio-ing").innerText = "REPOSITORY";
-  // verduleria-natural
-  document.getElementById("ver2-ing").innerText = "SEE";
-document.getElementById("repositorio2-ing").innerText = "REPOSITORY";
-document.getElementById("verduleria-titulo-ing").innerText = "ORGANIC-GREENHOUSE";
-document.getElementById("lenguajesUtilizados-verduleria-ing").innerText = "Languages used: Html, Css, Bootstrap and Js.";
-
-
-// transporte-escolar
-document.getElementById("ver3-ing").innerText = "SEE";
-document.getElementById("repositorio3-ing").innerText = "REPOSITORY";
-document.getElementById("transporte-raul-titulo-ing").innerText = "TRANSPORTATION RAUL-SCHOOL COMPANY";
-document.getElementById("lenguajesUtilizados-Transporte-ing").innerText = "Languages used: Html, Css, Bootstrap, React, js and Figma.";
-// Buffet Stentor
-document.getElementById("BuffetStentor-ing").innerText = "BUFFET STENTOR";
-document.getElementById("lenguajesUtilizados-Buffet-ing").innerText = "Languages used: Html, Css, Bootstrap and Js";
-document.getElementById("ver5-ing").innerText = "SEE";
-document.getElementById("repositorio5-ing").innerText = "REPOSITORY";
-
-
-// FIGMA
-document.getElementById("figma-ing").innerText = "Design with Figma";
-document.getElementById("herramienta-figma-ing").innerText = "Design Tool: Figma";
- document.getElementById("ver4-ing").innerText = "SEE";
- document.getElementById("repositorio4-ing").innerText = "REPOSITORY";
-// FIGMA 2
-document.getElementById("PizerriaDonRemoleo").innerText = "Pizerria Don Remoleo";
-document.getElementById("herramientaDeFigmaStentor").innerText = "Design Tool: Figma";
- document.getElementById("ver4-ing").innerText = "SEE";
- document.getElementById("repositorio4-ing").innerText = "REPOSITORY";
-
-  // INTERESES
-  document.getElementById("intereses-titulo-ing").innerText = "INTERESTS";
-  document.getElementById("misDibujos-ing").innerText = "MY DRAWINGS";
-  document.getElementById("parrafoDibujos-ing").innerText = "I USUALLY DRAW TO PUT MY MIND BLANK, RELAX, REGULATE STRESS AND IMPROVE CONCENTRATION. IT IS THE WAY I HAVE TO IMPROVE CREATIVITY AND MENTAL HEALTH.";
-//  CONTACTO
-document.getElementById("contacto-ing").innerText = "CONTACT";
-document.getElementById("creatividad-ing").innerText = "CREATIVITY IS INTELLIGENCE HAVING FUN.";
-  // FOOTER
-  document.getElementById("footer-ing").innerText = "© Copyright Portfolio 2023. Gonzalo Matias Robledo - Web designer. 🏆🏆🏆";
-  consoleText(WORDS_EN, 'text');
-
-  // Cambiar otros elementos a inglés
   idiomaActual = "en";
+  actualizarTextos();
 }
-
 function cambiarAEspanol() {
-  // Cambiar el idioma a español
-  document.getElementById("acerca-de-mi-ing").innerText = "ACERCA DE";
-  document.getElementById("proyectos-ing").innerText = "PROYECTOS";
-  document.getElementById("mis-intereses-ing").innerText = "MIS INTERESES";
-  document.getElementById("contactar-ing").innerText = "CONTACTAR";
-  document.getElementById("elige-un-color-ing").innerText = "Colores del Tema";
-  // INICIO 
-  document.getElementById("Hola-mi-nombre-es-Gonzalo-ing").innerText = "HOLA, MI NOMBRE ES";
-   document.getElementById("soy").innerText = "SOY";
-  document.getElementById("parrafos-1-ing").innerText = "Convirtiendo visiones en realidad a través del diseño web.";
-  document.getElementById("descargarCV").innerText = "descargarCV";
-  // ACERCA-DE
-  document.getElementById("acerca-de-titulo-ing").innerText = "ACERCA DE";
-  document.getElementById("sobre-mi-titulo-ing").innerText = "SOBRE MÍ";
-  document.getElementById("hola-soy-ing").innerText = "Hola, Soy";
-  document.getElementById("parrafo-2-ing").innerText = "Siempre busque dedicarme a alguna carrera que tenga que ver con el diseño. Pase por la facultad de arquitectura, aprendi a dibujar para mejorar mi creatividad e imaginacion, ganando hasta concursos de dibujo en el colegio, incluso diseñe en 3D casas para mis amigos. Ahora creo y diseño páginas web funcionales y atractivas para que las personas puedan utilizarlas.";
-  document.getElementById("tecnologíasYhabilidades-ing").innerText = "Tecnologías y habilidades";
-  document.getElementById("herramientasDeDiseño-ing").innerText = "Herramientas de diseño";
- // PROYECTOS
- document.getElementById("proyecto-titulo-ing").innerText = "PROYECTOS";
- document.getElementById("misProyectos-ing").innerText = "MIS PROYECTOS";
-// gnc-luro
- document.getElementById("lenguajesUtilizados-gncLuro-ing").innerText = "Lenguajes utilizados: Html, Css y Bootstrap.";
-document.getElementById("ver-ing").innerText = "VER";
-document.getElementById("repositorio-ing").innerText = "REPOSITORIO";
-// verduleria-natural
-document.getElementById("ver2-ing").innerText = "VER";
-document.getElementById("repositorio2-ing").innerText = "REPOSITORIO";
-document.getElementById("verduleria-titulo-ing").innerText = "VERDULERIA-ORGANICA";
-document.getElementById("lenguajesUtilizados-verduleria-ing").innerText = "lenguajes utilizados: Html, Css, Bootstrap y Js.";
-// transporte-escolar
-document.getElementById("ver3-ing").innerText = "VER";
-document.getElementById("repositorio3-ing").innerText = "REPOSITORIO";
-document.getElementById("transporte-raul-titulo-ing").innerText = "TRANSPORTE RAUL-EMPRESA ESCOLAR";
-document.getElementById("lenguajesUtilizados-Transporte-ing").innerText = "lenguajes utilizados: Html, Css, Bootstrap y Js.";
-// Buffet Stentor
-document.getElementById("PizerriaDonRemoleo").innerText = "Pizerria Don Remoleo";
-document.getElementById("herramientaDeFigma").innerText = "Herramienta de diseño: Figma";
-document.getElementById("ver5-ing").innerText = "VER";
-document.getElementById("repositorio5-ing").innerText = "REPOSITORIO";
+  idiomaActual = "es";
+  actualizarTextos();
+}
+function actualizarTextos() {
+  // Asegúrate de que estas variables estén definidas correctamente
+  var textosEn = {
+    acercaDeMi: "< about me >",
+    proyectosNav: "< PROJECTS >",
+    misIntereses: "< MY INTERESTS >",
+    contactar: "< CONTACT >",
+    eligeColor: "Theme Colors",
+    // INICIO
+    holaMiNombreEsGonzalo: "HELLO, MY NAME IS",
+    soy: "am",
+    parrafo1: "Turning visions into reality through web design.",
+    descargarCV: "download CV",
 
+    // ACERCA-DE
+    acercaDeTitulo: "ABOUT",
+    sobreMiTitulo: "ABOUT ME",
+    holaSoy: "Hi, I am",
+    parrafo2: "Always look to dedicate myself to a career that has to do with design. I went through architecture school, I learned to draw to improve my creativity and imagination, even winning drawing contests at school, I even designed 3D houses for my friends. Now I create and design functional and attractive web pages so that people can use them.",
+    tecnologiasYhabilidades: "Technologies and skills",
+    herramientasDeDiseño: "Design Tools",
+    
+ // PROYECTOS
+ proyectos: "PROJECTS",
+ misProyectos: "MY PROJECTS",
+ // Buffet Stentor
+ver: "SEE",
+repositorio: "REPOSITORY",
+BuffetStentor: "BUFFET STENTOR",
+lenguajesUtilizadosBuffet: "Languages used: Html, Css, Bootstrap, React, js and Figma",
+// transporte-escolar
+ver2: "SEE",
+repositorio2: "REPOSITORY",
+transporteRaulTitulo: "TRANSPORTATION RAUL-SCHOOL COMPANY",
+lenguajesUtilizadosTransporte: "Languages used: Html, Css, Bootstrap, React, js and Figma.",
+ // verduleria-natural
+ ver3: "SEE",
+ repositorio3: "REPOSITORY",
+ verduleriatitulo: "ORGANIC-GREENHOUSE",
+ lenguajesUtilizadosVerduleria: "Languages used: Html, Css, Bootstrap and Js.",
+ // GNC-LURO
+ LengujesUtilizadosGncLuro: "Languages used: Html, Css and Bootstrap.",
+ verGnc: "SEE",
+ repositorio4: "REPOSITORY",
+// FIGMA 1
+ver5: "SEE",
+repositorio5: "REPOSITORY",
+figmaTitulo: "Design with Figma",
+herramientaFigma: "Design Tool: Figma",
 // FIGMA 2
-document.getElementById("PizerriaDonRemoleo").innerText = "Pizerria Don Remoleo";
-document.getElementById("herramientaDeFigmaStentor").innerText = "Herramienta de diseño: Figma";
- document.getElementById("ver4-ing").innerText = "VER";
- document.getElementById("repositorio4-ing").innerText = "REPOSITORIO";
+ver6: "SEE",
+repositorio6: "REPOSITORY",
+// PizerriaDonRemoleo: "Pizerria Don Remoleo",
+herramientaFigma2: "Design Tool: Figma",
+// INTERESES
+interesesTitulo: "INTERESTS",
+misDibujos: "MY DRAWINGS",
+parrafoDibujos: "I USUALLY DRAW TO PUT MY MIND BLANK, RELAX, REGULATE STRESS AND IMPROVE CONCENTRATION. IT IS THE WAY I HAVE TO IMPROVE CREATIVITY AND MENTAL HEALTH.",
+// CONTACTO
+contacto: "CONTACT",
+creatividad: "CREATIVITY IS INTELLIGENCE HAVING FUN.",
+// FOOTER
+footer: "Copyright Portfolio 2024. Gonzalo Matias Robledo - Web designer. 🏆🏆🏆",
+
+
+
+    // ... otros textos en inglés
+  };
+  var textosEs = {
+    acercaDeMi: "< ACERCA DE >",
+    proyectosNav: "< PROYECTOS >",
+    misIntereses: "< MIS INTERESES >",
+    contactar: "< CONTACTAR >",
+    eligeColor: " Colores del Tema",
+    // INICIO
+    holaMiNombreEsGonzalo: "HOLA, MI NOMBRE ES",
+    soy: "SOY",
+    parrafo1: "Convirtiendo visiones en realidad a través del diseño web.",
+    descargarCV: "descargarCV",
+
+    // ACERCA-DE
+    acercaDeTitulo: "ACERCA DE",
+    sobreMiTitulo: "SOBRE MÍ",
+    holaSoy: "Hola, Soy",
+    parrafo2: "Siempre busque dedicarme a alguna carrera que tenga que ver con el diseño. Pase por la facultad de arquitectura, aprendi a dibujar para mejorar mi creatividad e imaginacion, ganando hasta concursos de dibujo en el colegio, incluso diseñe en 3D casas para mis amigos. Ahora creo y diseño páginas web funcionales y atractivas para que las personas puedan utilizarlas.",
+    tecnologiasYhabilidades: "Tecnologías y habilidades",
+    herramientasDeDiseño: "Herramientas de diseño",
+
+// PROYECTOS
+proyectos: "PROYECTOS",
+misProyectos: "MIS PROYECTOS",
+// Buffet Stentor
+ver: "VER",
+repositorio: "REPOSITORIO",
+BuffetStentor: "BUFFET STENTOR",
+lenguajesUtilizadosBuffet: "Lenguajes utilizados: Html, Css, Bootstrap, React, js y Figma",
+// transporte-escola
+ver2: "VER",
+repositorio2: "REPOSITORIO",
+transporteRaulTitulo: "TRANSPORTE RAUL-EMPRESA ESCOLAR",
+lenguajesUtilizadosTransporte: "lenguajes utilizados: Html, Css, Bootstrap y Js.",
+// verduleria-natural
+ver3: "VER",
+repositorio3: "REPOSITORIO",
+verduleriatitulo: "VERDULERIA-ORGANICA",
+lenguajesUtilizadosVerduleria: "Lenguajes utilizados: Html, Css, Bootstrap y Js.",
+// GNC-LURO
+LengujesUtilizadosGncLuro: "lenguajesUtilizados-gncLuro-ing",
+verGnc: "VER",
+repositorio4: "REPOSITORIO",
+// FIGMA
+ver5: "VER",
+repositorio5: "REPOSITORIO",
+figmaTitulo: "Diseño con Figma",
+herramientaFigma: "Herramienta de diseño: Figma",
+// FIGMA 2
+ver6: "VER",
+repositorio6: "REPOSITORIO",
+// PizerriaDonRemoleo: "Pizerria Don Remoleo",
+herramientaFigma2: "Herramienta de diseño: Figma",
 
 // INTERESES
- document.getElementById("intereses-titulo-ing").innerText = "INTERESES";
- document.getElementById("misDibujos-ing").innerText = "MIS DIBUJOS";
- document.getElementById("parrafoDibujos-ing").innerText = "SUELO DIBUJAR PARA PONER MI MENTE EN BLANCO, RELAJARME, REGULAR EL ESTRÉS Y MEJORAR LA CONCENTRACIÓN. ES LA FORMA QUE TENGO DE MEJORAR LA CREATIVIDAD Y SALUD MENTAL.";
-//  CONTACTO
-document.getElementById("contacto-ing").innerText = "CONTACTO";
-document.getElementById("creatividad-ing").innerText = "LA CREATIVIDAD ES LA INTELIGENCIA DIVIRTIÉNDOSE.";
-  consoleText(WORDS, 'text');
-  // FOOTER
-  document.getElementById("footer-ing").innerText = "© Copyright Portafolio 2023. Gonzalo Matias Robledo - Diseñador de páginas web. 🏆🏆🏆";
+interesesTitulo: "INTERESES",
+misDibujos: "MIS DIBUJOS",
+parrafoDibujos: "SUELO DIBUJAR PARA PONER MI MENTE EN BLANCO, RELAJARME, REGULAR EL ESTRÉS Y MEJORAR LA CONCENTRACIÓN. ES LA FORMA QUE TENGO DE MEJORAR LA CREATIVIDAD Y SALUD MENTAL.",
+// CONTACTO
+contacto: "CONTACTO",
+creatividad: "LA CREATIVIDAD ES LA INTELIGENCIA DIVIRTIÉNDOSE.",
+// FOOTER
+footer: "© Copyright Portafolio 2024. Gonzalo Matias Robledo - Diseñador de páginas web. 🏆🏆🏆",
+    // ... otros textos en español
+  };
 
-  // Cambiar otros elementos a español
-  idiomaActual = "es";
+
+
+  var textos = (idiomaActual === "es") ? textosEs : textosEn;
+  // Actualiza los textos en el DOM
+  document.getElementById("acerca-de-mi-ing").innerText = textos.acercaDeMi;
+  document.getElementById("proyectos-ing").innerText = textos.proyectosNav;
+  document.getElementById("mis-intereses-ing").innerText = textos.misIntereses;
+  document.getElementById("contactar-ing").innerText = textos.contactar;
+  document.getElementById("elige-un-color-ing").innerText = textos.eligeColor;
+
+  // INICIO
+  document.getElementById("Hola-mi-nombre-es-Gonzalo-ing").innerText = textos.holaMiNombreEsGonzalo;
+  document.getElementById("soy").innerText = textos.soy;
+  document.getElementById("parrafos-1-ing").innerText = textos.parrafo1;
+  document.getElementById("descargarCV").innerText = textos.descargarCV;
+
+  // ACERCA-DE
+  document.getElementById("acerca-de-titulo-ing").innerText = textos.acercaDeTitulo;
+  document.getElementById("sobre-mi-titulo-ing").innerText = textos.sobreMiTitulo;
+  document.getElementById("hola-soy-ing").innerText = textos.holaSoy;
+  document.getElementById("parrafo-2-ing").innerText = textos.parrafo2;
+  document.getElementById("tecnologíasYhabilidades-ing").innerText = textos.tecnologiasYhabilidades;
+  document.getElementById("herramientasDeDiseño-ing").innerText = textos.herramientasDeDiseño;
+
+  // PROYECTOS
+  document.getElementById("proyecto-titulo-ing").innerText = textos.proyectos;
+  document.getElementById("misProyectos-ing").innerText = textos.misProyectos;
+  //BUFFET STENTOR
+  document.getElementById("ver-ing").innerText = textos.ver;
+  document.getElementById("repositorio-ing").innerText = textos.repositorio;
+  //  document.getElementById("BuffetStentor-ing").innerText = textos.BuffetStentor;
+   document.getElementById("lenguajesUtilizados-Transporte-ing").innerText = textos.lenguajesUtilizadosBuffet;
+// TRANSPORTE-ESCOLAR
+document.getElementById("transporte-raul-titulo-ing").innerText = textos.transporteRaulTitulo;
+document.getElementById("ver2-ing").innerText = textos.ver2;
+document.getElementById("repositorio2-ing").innerText = textos.repositorio2;
+document.getElementById("lenguajesUtilizados-Buffet-ing").innerText = textos.lenguajesUtilizadosTransporte;
+// VERDULERIA-NATURAL
+document.getElementById("verduleria-titulo-ing").innerText = textos.verduleriatitulo;
+document.getElementById("lenguajesUtilizados-verduleria-ing").innerText = textos.lenguajesUtilizadosVerduleria;
+document.getElementById("ver3-ing").innerText = textos.verGnc;
+document.getElementById("repositorio3-ing").innerText = textos.repositorio2;
+// GNC-LURO
+document.getElementById("lenguajesUtilizados-gncLuro-ing").innerText = textos.LengujesUtilizadosGncLuro;
+document.getElementById("ver4-ing").innerText = textos.verGnc;
+document.getElementById("repositorio4-ing").innerText = textos.repositorio4;
+// FIGMA 1
+document.getElementById("figma-ing").innerText = textos.figmaTitulo;
+document.getElementById("herramienta-figma-ing").innerText = textos.herramientaFigma;
+document.getElementById("ver5-ing").innerText = textos.ver5;
+document.getElementById("repositorio5-ing").innerText = textos.repositorio5;
+// FIGMA 2
+// document.getElementById("PizerriaDonRemoleo").innerText = textos.PizerriaDonRemoleo;
+document.getElementById("herramientaDeFigmaPizza-ing").innerText = textos.herramientaFigma2;
+document.getElementById("ver6-ing").innerText = textos.ver6;
+document.getElementById("repositorio6-ing").innerText = textos.repositorio6;
+// INTERESES
+// document.getElementById("PizerriaDonRemoleo").innerText = textos.PizerriaDonRemoleo;
+document.getElementById("intereses-titulo-ing").innerText = textos.interesesTitulo;
+document.getElementById("misDibujos-ing").innerText = textos.misDibujos;
+document.getElementById("parrafoDibujos-ing").innerText = textos.parrafoDibujos;
+
+// CONTACTO
+document.getElementById("contacto-ing").innerText = textos.contacto;
+document.getElementById("creatividad-ing").innerText = textos.creatividad;
+
+// FOOTER
+document.getElementById("footer-ing").innerText = textos.footer;
+  // ... otros elementos
+  consoleText((idiomaActual === "es") ? WORDS : WORDS_EN, 'text');
 }
 
+// Llamada inicial para asegurar que los textos estén correctamente establecidos
+actualizarTextos();
