@@ -2118,12 +2118,12 @@ margin-right: 50px;
 .contenedor-imagen {
     max-width: 100%;
     height:auto;
-    border: 5px solid rgb(255, 199, 88);
+    border: 5px solid var(--color-hover);
 }
 .contenedor-imagen2 {
     max-width: 100%;
     height:auto;
-    border: 5px solid rgb(255, 199, 88);
+    border: 5px solid var(--color-hover);
 }
 .contenedor-imagen img{
     max-width: 100%;
