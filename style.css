@@ -1561,10 +1561,9 @@ margin-right: 50px;
 
 
 
- /* .proyectosDescripcion {
+.proyectosDescripcion{
     max-width: auto;
-}  */
-
+}
 
 
 .proyectosDescripcion h1 {
@@ -1886,6 +1885,9 @@ margin-right: 50px;
 }
 .boton-frontEnd-diseñoUi h1 {
     font-size: 1.5em;
+}
+.proyectosDescripcion{
+    max-width: auto;
 }
 .proyectosDescripcion h1 {
     color: var(--color-hover);
