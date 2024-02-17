@@ -1,1 +1,1 @@
-![Descripción de la imagen]([img]https://i.imgur.com/RFw15Ia.png[/img])
+![Descripción de la imagen](<a href="https://imgur.com/RFw15Ia"><img src="https://i.imgur.com/RFw15Ia.png" title="source: imgur.com" /></a>)
