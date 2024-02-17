@@ -13,6 +13,42 @@ function subirArriba() {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+clipboard.on('success', function(e) {
+  // Prevenir la redirección al correo electrónico
+  e.preventDefault();
+
+  // Mostrar un cartel que diga "Link copiado"
+  alert("Link copiado!");
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 document.addEventListener('DOMContentLoaded', function () {
   // ... (otros códigos y eventos aquí)
 
@@ -33,18 +69,6 @@ function mostrarProyectos(idProyecto) {
       contenedorMostrar.style.display = '';
   }
 }
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -198,7 +222,6 @@ function cambiarFondo() {
 // ***********************
 // querySelector es para las clases
 // getElementById es para los id
-
 var idiomaActual = "es";
 
 function toggleIdioma() {
@@ -502,18 +525,3 @@ document.getElementById("footer-ing").innerText = textos.footer;
 
 // Llamada inicial para asegurar que los textos estén correctamente establecidos
 actualizarTextos();
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

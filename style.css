@@ -346,6 +346,46 @@ margin: 0 auto;
 
 
 
+
+
+
+
+
+
+
+
+
+.boton-correo {
+    text-align: center;
+  }
+  
+  .boton-correo button {
+    background-color: #0000FF;
+    color: #ffffff;
+    font-size: 16px;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .boton-correo button:hover {
+    background-color: #0000CD;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*************************/
 /*** SECCION SOBRE MI ***/
 /***********************/
