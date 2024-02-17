@@ -16,39 +16,6 @@ function subirArriba() {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-clipboard.on('success', function(e) {
-  // Prevenir la redirección al correo electrónico
-  e.preventDefault();
-
-  // Mostrar un cartel que diga "Link copiado"
-  alert("Link copiado!");
-});
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 document.addEventListener('DOMContentLoaded', function () {
   // ... (otros códigos y eventos aquí)
 
@@ -441,7 +408,7 @@ footer: "© Copyright Portafolio 2024. Gonzalo Matias Robledo - Diseñador de p�
   // INICIO
    document.getElementById("DiseñadorFronTend-ing").innerText = textos.DiseñadorFronTend;
    document.getElementById("parrafo-inicio-ing").innerText = textos.parrafoInicio;
-  document.getElementById("descargarCV").innerText = textos.descargarCV;
+  document.getElementById("descargarCV-ing").innerText = textos.descargarCV;
   document.getElementById("añosDeExperiencia-ing").innerText = textos.AñosDeExperiencia;
   document.getElementById("proyectos-creados-ing").innerText = textos.proyectosCreados;
   // PERFIL

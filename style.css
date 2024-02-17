@@ -53,15 +53,12 @@ color: #ffffff;
   .navbar-toggler[aria-expanded="true"] .fa-bars {
     display: none;
   }
-
   .navbar-toggler[aria-expanded="true"] .fa-times {
     display: inline-block;
   }
-
   .navbar-toggler[aria-expanded="false"] .fa-bars {
     display: inline-block;
   }
-
   .navbar-toggler[aria-expanded="false"] .fa-times {
     display: none;
   }
@@ -69,20 +66,6 @@ color: #ffffff;
     transition: 0.5s ;
   }
  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 /********************/
@@ -132,7 +115,6 @@ body.modo-oscuro {
 .modo-oscuro #sobremi .sobremi .titulo-seccion{
     color: white;
 }
-
 .modo-oscuro .logo-navBar-colores i{
     color: white;
 }
@@ -142,7 +124,6 @@ body.modo-oscuro {
 .modo-oscuro .info-container-añosYproyectos p{
     color: var(--color-hover);
 }
-
 .modo-oscuro .navbar-bg{
     background-color:rgba(20, 20, 20, 0.800);
 }
@@ -156,19 +137,14 @@ color: white;
     color: rgb(255, 255, 255);
 }
 .modo-oscuro .logos-imagen ul li a:hover{
-    /* background-color: rgb(255, 199, 88); */
     color: var(--color-hover);
     border-radius: 6% 6% 6% 6%;
     transition: 0.5s;
     border: none;
 }
-
 .modo-oscuro .tecnologíasyhabilidades{
     color: rgb(255, 199, 88);
 }
-/* .modo-oscuro .tecnologíasyhabilidades p:hover{
-    border: 3px solid var(--color-hover);
-} */
 .modo-oscuro .fondo-contacto{
     background-color: rgb(50, 50, 50, 1);
 }
@@ -184,7 +160,6 @@ color: white;
     transition: 0.2s;
     color: var(--color-hover);
 }
-
 .modo-oscuro ul li .diseño-texto-navbar{
     color: white;
 }
@@ -214,18 +189,14 @@ color: white;
 }
 .modo-oscuro .titulo-perfil div h2 {
     color: white;
-  
 }
 .modo-oscuro .titulo-perfil h1 {
     background-color: rgb(20, 20, 20);
     -webkit-text-stroke: 2px #ffffff3f ;
 }
-
 .modo-oscuro .perfil p{
-    /* color: rgb(44, 44, 44); */
      color: rgb(255, 255, 255); 
-    font-weight: 600;
-    
+    font-weight: 600; 
 }
 .modo-oscuro .intereses ul li i{
     background-color: rgb(20, 20, 20);
@@ -233,6 +204,7 @@ color: white;
 .modo-oscuro .tecnologíasyhabilidades .tecnohabilidades p{
     color: rgb(255, 255, 255);
 }
+
 
 
 /***************************/
@@ -247,12 +219,12 @@ color: white;
     font-size: 25px;
     transition: 0.5s;
 }
-        .parrafo-logo h3{
-        color: rgb(0, 0, 0);
-        font-size: 25px;
-        transition: 0.5s;
-        font-family: 'Montserrat', sans-serif;
-        }
+.parrafo-logo h3{
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+    transition: 0.5s;
+    font-family: 'Montserrat', sans-serif;
+}
 /*** SECCION INICIO ***/
 #navbar {
     position: fixed;
@@ -345,47 +317,6 @@ margin: 0 auto;
 
 
 
-
-
-
-
-
-
-
-
-
-
-.boton-correo {
-    text-align: center;
-  }
-  
-  .boton-correo button {
-    background-color: #0000FF;
-    color: #ffffff;
-    font-size: 16px;
-    padding: 10px 20px;
-    border: none;
-    cursor: pointer;
-  }
-  
-  .boton-correo button:hover {
-    background-color: #0000CD;
-  }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*************************/
 /*** SECCION SOBRE MI ***/
 /***********************/
@@ -441,12 +372,6 @@ margin: 0 auto;
     letter-spacing: 2px;
     color: var(--color-hover);
 }
-
-
-
-
-
-
 #sobremi .sobremi .parrafo {
     font-size: 1em;
     line-height: 25px;
@@ -488,10 +413,6 @@ margin-left: 50px;
 transition: transform 0.3s ease-in-out;
 border-radius: 10px;
 }
-/* .contenedor-imagen img:hover,
-.contenedor-imagen img:active {
-    transform: scale(1.1) rotate(2deg);
-} */
 .contenedor-imagen img:active {
     transition-duration: 0.05s;
 }
@@ -500,7 +421,6 @@ border-radius: 10px;
 }
 .fondo-imagen-personal2{
     padding: 100px 100px 50px 100px; 
-    
 }
 .contenedor-imagen-logos{
     display: flex;
@@ -529,13 +449,6 @@ border-radius: 10px;
 
 
 
-
-
-
-
-
-
-
 /*****************/
 /*** PROYECTOS ***/
 /*****************/
@@ -560,7 +473,7 @@ border-radius: 10px;
 }
 .titulo-proyectos h2{
     color: rgb(255, 255, 255);
-    
+    margin: 0px;
 }
 .titulo-proyectos i {
     display: flex;
@@ -610,8 +523,6 @@ border-radius: 10px;
     border-radius: 25px;
     box-shadow: 10px 10px 10px 5px rgba(255, 199, 88, 0.596);    
 }
-
-
 .boton-frontEnd-diseñoUi {
     display: flex;
     justify-content: space-around;
@@ -627,7 +538,6 @@ border-radius: 10px;
 .boton-frontEnd-diseñoUi h1{
     font-family: 'Montserrat', sans-serif;
     font-size: 2em;
-   
 }
 .resaltado {
     color: var(--color-hover);
@@ -670,11 +580,6 @@ border-radius: 10px;
     }
     
     
-      
-      
-
-
-   
 
 /**************/
 /*** PERFIL ***/
@@ -682,30 +587,23 @@ border-radius: 10px;
 .perfil{
     padding: 0px 60px 0px 60px;
     margin: auto;
-     
 }
 .perfil-seccion2{
     padding: 60px 60px 0px 60px;
     margin: auto;
      background-color: rgb(255, 255, 255); 
-    /* background-color: rgb(66, 66, 66); */
 }
 .perfil h1{
     color: rgb(44, 44, 44);
 }
-
-
 .perfil p{
-    /* color: rgb(44, 44, 44); */
      color: rgb(44, 44, 44); 
     font-weight: 600;
     
 }
-
 .perfil .perfil-titulo-sobreMi{
     display: flex;
 }
-
 .perfil-titulo-sobreMi p{
     margin-bottom: 1em;
     padding: 5px 10px;
@@ -715,11 +613,9 @@ border-radius: 10px;
     font-size: 1.5em;
     color: #ffffff;
 }
-
 .perfil .perfil-titulo-intereses{
     display: flex;
 }
-
 .perfil-titulo-intereses p{
     margin-bottom: 1em;
     padding: 5px 10px;
@@ -729,7 +625,6 @@ border-radius: 10px;
     font-size: 1.5em;
     color: #ffffff;
 }
-
 .titulo-tecnologíasYhabilidades p{
     font-size: 1.5em;
     margin-top: 2em;
@@ -740,13 +635,11 @@ border-radius: 10px;
     background-color: var(--color-hover);
     color: #ffffff;
 }
-
 .titulo-perfil{
     border-top: solid 5px var(--color-hover);
 }
 .titulo-perfil h1{
      background-color: rgb(255, 255, 255); 
-    /* background-color: rgb(66, 66, 66); */
     padding-top: 100px;
      margin: 0;
     text-align: center;
@@ -760,6 +653,7 @@ border-radius: 10px;
 }
 .titulo-perfil h2{
     color: rgb(0, 0, 0);
+    margin: 0px;
 }
 .titulo-perfil i {
     display: flex;
@@ -816,7 +710,6 @@ border-radius: 10px;
 }
 .tecnologíasyhabilidades{
      padding: 0px 0px 50px 100px; 
-     
 }
 .tecnologíasyhabilidades h3{
     font-size: 1.5em;
@@ -848,24 +741,9 @@ align-items: center;
   }
   .iconos-prueba i{
     font-size: 2em;
-    
 color: var(--color-hover);
 transition: 0.3s;
 }
-/* .iconos-prueba i:hover{
-    font-size: 2em;
-    
-color: #000;
-transition: 0.3s;
-} */
-
-
-
-
-
-
-
-
   .intereses ul {
     display: flex;
     justify-content: space-between;
@@ -873,7 +751,6 @@ transition: 0.3s;
     margin: 0;
    
   }
-  
   .intereses ul li {
     display: flex;
     flex-direction: column;
@@ -881,7 +758,6 @@ transition: 0.3s;
     margin: 10px 10px 10px 0px;
     font-size: 16px;
   }
-  
   .intereses ul li i {
     font-size: 32px;
     color: var(--color-hover);
@@ -890,57 +766,14 @@ transition: 0.3s;
     padding: 12px;
     border-radius: 50px;
    border: solid 3px var(--color-hover);
-
   }
-  /* .intereses ul li i:hover {
-    font-size: 32px;
-    color: var(--color-hover);
-    margin-bottom: 10px;
-
-  } */
-
-
-
-
   .intereses ul li h2 {
     font-size: 20px;
     margin: 0;
   }
-  
   .intereses ul li:hover {
     color: #000;
   }
-  
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* imagen 2 */
 .contenedor-imagen2 {
     width: 350px;
@@ -961,14 +794,6 @@ transition: 0.3s;
     border-radius: 10px;
     animation-delay: 10.1s;
   }
-
-
- 
-
-
-
-
-
 
 
 
@@ -997,6 +822,7 @@ transition: 0.3s;
   }
 .titulo-dibujos h2{
     color: rgb(231, 231, 231);
+    margin: 0px;
 }
 .Galeria-img {
     background-color: rgb(44, 44, 44); 
@@ -1020,7 +846,6 @@ transition: 0.3s;
   .Galeria-img .fila {
     display: flex;
     justify-content: space-between;
-    
   }
   .Galeria-img .fila .imagenes {
     position: relative;
@@ -1029,9 +854,7 @@ transition: 0.3s;
     border-radius: 15px;
   }
   .Galeria-img .fila .imagenes:hover {
-    /* box-shadow: 10px 10px 10px 5px rgba(255, 199, 88, 0.596);  */
     box-shadow: 5px 5px 10px 5px var(--color-hover);
-    /* box-shadow: 0px 0px 10px 10px rgba(255, 199, 88, 0.596);  */
     transition: 0.3s;
   }
   .info {
@@ -2106,8 +1929,9 @@ margin-right: 50px;
 
 
  @media screen and (min-width:320px) and (max-width: 480px) {
-
-
+/**************/
+/*** Navbar ***/
+/**************/
     .dropdown-menu.fondo-elige-un-color {
         position: absolute;
         left: 0%;
@@ -2128,7 +1952,6 @@ margin-right: 50px;
 }
 .info-container-añosYproyectos {
     margin-top: 1em;
-    /* padding: 20px 20px 0px 0px; */
      padding: 0px 0px 0px 0px; 
 }
 .descargarCv-copiarLinkGmail{
@@ -2144,7 +1967,7 @@ margin-right: 50px;
     font-size: 20px;
 }
 #sobremi .sobremi h2 {
-    font-size: 19px;
+    font-size: 1.5em;
     margin: 20px 0;
 }
 #sobremi .sobremi .console-container {
@@ -2300,7 +2123,6 @@ margin-right: 50px;
    display: flex;
    justify-content: center;
 }
-
 /*************/
 /* Columna 2 */
 /*************/
@@ -2324,7 +2146,6 @@ margin-right: 50px;
     display: flex;
     justify-content: center;
 }
-
 .tecnologíasyhabilidades h3 {
     font-size: 1em;
     margin-top: 2em;
@@ -2335,7 +2156,6 @@ margin-right: 50px;
 .tecnologíasyhabilidades div p{
     font-size: 10px;
 }
-
 /* habilidades blandas */
 .titulo-habilidadesBlandas{
     display: flex;
@@ -2350,8 +2170,6 @@ margin-right: 50px;
 .habilidades-blandas .opciones p {
     font-size: 10px ;
 }
-
-
 /***************/
 /*** DIBUJOS ***/
 /***************/
@@ -2362,12 +2180,6 @@ margin-right: 50px;
     padding: 3rem 3rem 5rem 3rem;
     margin: 0 auto;
 }
-/* .info p {
-    padding-top: 50%;
-    font-size: 1em;
-    text-align: center;
-    letter-spacing: 5px;
-} */
 .info .bob-esponja {
     padding-top: 30%;
 }
@@ -2401,7 +2213,6 @@ margin-right: 50px;
 .info .stitch {
     padding-top: 15%;
 }
-
 /*****************/
 /*** CONTACTO ***/
 /***************/
@@ -2415,8 +2226,6 @@ margin-right: 50px;
     .z .y .r {
         margin: auto;
     }
-    
-    
 /**********************/
 /*** SECCION FOOTER ***/
 /**********************/
