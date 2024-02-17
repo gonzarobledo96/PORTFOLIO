@@ -2205,13 +2205,16 @@ margin-right: 50px;
     margin: 10px 0;
 }
 #proyectos .fila .proyecto p{
-   font-size: auto;
+   font-size: 10px;
+   
 }
 #proyectos .fila .proyecto h4{
-    font-size:auto;
+    font-size: 10px;
+    
  }
 #proyectos .fila .proyecto h6 {
-    font-size: auto; 
+    font-size: 10px; 
+    
 }
 #proyectos .fila .proyecto .info {
     padding: 10px;
