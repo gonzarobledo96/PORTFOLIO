@@ -426,6 +426,9 @@ border-radius: 10px;
     display: flex;
     padding: 0px 50px 0px 0px;
 }
+.logo-imagenes{
+    padding-top: 8%;
+}
 .logos-imagen li{
     /* background-color: #e0e0e0; */
     background-color: #ffffff;
@@ -1081,715 +1084,69 @@ margin-left: 0px;
 
 
 @media screen and (min-width: 1251px) and (max-width: 1700px){
-/******************/
-/*** ACERCA DE ***/
-/****************/
+
 }
  @media screen and (min-width: 992px) and (max-width: 1250px){
-    section>div {
-        display: grid;
-        grid-template-areas:
-            "div1 div4 div5 div11"
-            "div2 div4 div5 div7"
-            "div3 div6 div6 div7"
-            "div9 div8 div10 div12"
-            "div9 div8 div10 div12";
-        grid-template-columns: repeat(4, 1fr);
-        grid-template-rows: repeat(5, 150px);
-        border-radius: 10px;
-        padding: 1rem;
-        gap: 20px;}
-/*************************/
-/*** SECCION SOBRE MI ***/
-/***********************/
-#sobremi {
-    padding: 100px 0px 0px 0px; 
-} 
-#sobremi .sobremi {
-    padding: 40px 5px 0px 5px;
-}
-#sobremi .sobremi .titulo-seccion {
-    font-size: 20px;
-}
-#sobremi .sobremi h2 {
-    font-size: 19px;
-    margin: 10px 0;
-}
-#sobremi .sobremi span {
-    font-size: 19px;
-}
-#sobremi .sobremi .console-container {
-    font-size: 19px;
-}
-/* IMAGEN SOBRE-MI */
-.contenedor-imagen-logos{
-    display: flex;
-} 
-.contenedor-imagen {
-    max-width: 100%;
-    height:auto;
-    border: 5px solid rgb(255, 199, 88);
-}
-.contenedor-imagen2 {
-    max-width: 100%;
-    height:auto;
-    border: 5px solid rgb(255, 199, 88);
-}
-.contenedor-imagen img{
-    max-width: 100%;
-    height: auto;
-    margin-top: -50px;
-    margin-left: 20px;
-    margin-bottom: 20px ;
-    border: 5px solid rgb(255, 255, 255);
-}
-.contenedor-imagen2 img{
-    max-width: 100%;
-    height: auto;
-    margin-top: -50px;
-    margin-left: 20px;
-    margin-bottom: 20px ;
-    border: 5px solid rgb(255, 255, 255);
-}
-.fondo-imagen-personal1{
-    margin-top: 0em;
-    padding: 50px;
-}
-.fondo-imagen-personal2{
-    margin-top: 0em;
-    padding: 50px;
-}
-.logos-imagen li{
-    background-color: #e0e0e0;
-    border-radius: 10% 10% 10% 10%;
-    margin: auto;
-    margin: 20px 0px;
-}
-.logos-imagen ul{
-   display: inline-block;
-   margin-left: 2em;
-   padding: 0px;
-}
-.logos-imagen ul li a{
-    margin: 0px;
-    font-size: 1.3em;
-}
-/******************/
-/*** ACERCA DE ***/
-/****************/
-.gonzalo-robledo-sobreMi{
-    margin-top: 0px;
-    margin: 7px 0px 0px 0px;
-}
-.perfilTitulo h1{
-    margin: 0px;
-    padding: 0px 15px;
-    font-size: 30px;
-    letter-spacing: 10px;
-}
-.tecnologíasyhabilidades h3{
-    font-size:1.4em;
-}
-/*****************/
-/*** PROYECTOS ***/
-/*****************/
-.titulo-proyectos h1{
-    margin-top: 130px;
-    padding: 0px 15px;
-    font-size: 30px;
-    letter-spacing: 10px;
-}
-#portfolio .fila .proyecto {
-    max-width: 450px;
-    margin: 12px 10px;
-    position: relative;
-    overflow: hidden;
-}
-#portfolio .fila {
-    display: flex;
-    margin: 12px 0;
-}
-#portfolio .fila .proyecto p{
-   font-size: auto;
-}
-#portfolio .fila .proyecto h4{
-    font-size:auto;
- }
-#portfolio .fila .proyecto h6 {
-    font-size: auto; 
-}
-#portfolio .fila .proyecto .info {
-    padding: 10px;
-}
-#portfolio .fila .proyecto .info p{
-   margin-bottom: 5px;
-}
-.espacio-ver-repositorio .ver{
-margin-right: 50px;
-}
-.espacio-ver-repositorio i{
-    font-size: auto;
-    }
-/*****************/
-/*** CONTACTO ***/
-/***************/
-.speace-around-entre-objetos-contacto {
-    padding: 0px;
-}
-.y {
-    padding-top: 20px;
-    padding: 0px 30px;
-}
-    .z .y .r {
-        margin: auto;
-    }
-/**********************/
-/*** SECCION FOOTER ***/
-/**********************/
-.tamaño-parrafo-footer {
-    font-size: 20px;
-    padding: 0px 5px;
-}
+    
 }
 @media screen and (min-width: 931px) and (max-width: 992px){
-    section>div {
-        display: grid;
-        grid-template-areas:
-            "div1 div4 div5 div11"
-            "div2 div4 div5 div7"
-            "div3 div6 div6 div7"
-            "div9 div8 div10 div12"
-            "div9 div8 div10 div12";
-        grid-template-columns: repeat(4, 1fr);
-        grid-template-rows: repeat(5, 140px);
-        border-radius: 10px;
-        padding: 1rem;
-        gap: 20px;
-    }
-/*************************/
-/*** SECCION SOBRE MI ***/
-/***********************/
-#sobremi {
-    padding: 100px 0px 0px 0px; 
-} 
-#sobremi .sobremi {
-    padding: 40px 5px 0px 5px;
-}
-#sobremi .sobremi .titulo-seccion {
-    font-size: 20px;
-}
-#sobremi .sobremi h2 {
-    font-size: 19px;
-    margin: 10px 0;
-}
-#sobremi .sobremi span {
-    font-size: 19px;
-}
-#sobremi .sobremi .console-container {
-    font-size: 19px;
-}
-/* IMAGEN SOBRE-MI */
-.contenedor-imagen-logos{
-    flex-direction: column;
-} 
-.contenedor-imagen {
-    max-width: 100%;
-    height:auto;
-    border: 5px solid rgb(255, 199, 88);
-}
-.contenedor-imagen2 {
-    max-width: 100%;
-    height:auto;
-    border: 5px solid rgb(255, 199, 88);
-}
-.contenedor-imagen img{
-    max-width: 100%;
-    height: auto;
-    margin-top: -50px;
-    margin-left: 20px;
-    margin-bottom: 20px ;
-    border: 5px solid rgb(255, 255, 255);
-}
-.contenedor-imagen2 img{
-    max-width: 100%;
-    height: auto;
-    margin-top: -50px;
-    margin-left: 20px;
-    margin-bottom: 20px ;
-    border: 5px solid rgb(255, 255, 255);
-}
-.fondo-imagen-personal1{
-    margin-top: 2em;
-    padding: 50px;
-}
-.fondo-imagen-personal2{
-    margin-top: 2em;
-    padding: 50px;
-}
-.logos-imagen li{
-    background-color: #e0e0e0;
-    border-radius: 10% 10% 10% 10%;
-    margin: auto;
-}
-.logos-imagen ul{
-   display:flex;
-   margin-left: 0em;
-   padding: 0px;
-}
-.logos-imagen ul li a{
-    margin: 0px;
-    font-size: 1.3em;
-}
-/******************/
-/*** ACERCA DE ***/
-/****************/
-.gonzalo-robledo-sobreMi{
-    margin-top: 0px;
-    margin: 7px 0px 0px 0px;
-}
-.perfilTitulo h1{
-    margin: 0px;
-    padding: 0px 15px;
-    font-size: 30px;
-    letter-spacing: 10px;
-}
-.tecnologíasyhabilidades h3{
-    font-size:1.4em;
-}
-/*****************/
-/*** PROYECTOS ***/
-/*****************/
-.titulo-proyectos h1{
-    margin-top: 130px;
-    padding: 0px 15px;
-    font-size: 30px;
-    letter-spacing: 10px;
-}
-#portfolio .fila .proyecto {
-    max-width: 450px;
-    margin: 12px 10px;
-    position: relative;
-    overflow: hidden;
-}
-#portfolio .fila {
-    display: flex;
-    margin: 12px 0;
-}
-#portfolio .fila .proyecto p{
-   font-size: auto;
-}
-#portfolio .fila .proyecto h4{
-    font-size:auto;
- }
-#portfolio .fila .proyecto h6 {
-    font-size: auto; 
-}
-#portfolio .fila .proyecto .info {
-    padding: 10px;
-}
-#portfolio .fila .proyecto .info p{
-   margin-bottom: 5px;
-}
-.espacio-ver-repositorio .ver{
-margin-right: 50px;
-}
-.espacio-ver-repositorio i{
-    font-size: auto;
-    }
-/*****************/
-/*** CONTACTO ***/
-/***************/
-.speace-around-entre-objetos-contacto {
-    padding: 0px;
-}
-.y {
-    padding-top: 20px;
-    padding: 0px 30px;
-}
-    .z .y .r {
-        margin: auto;
-    }
-/**********************/
-/*** SECCION FOOTER ***/
-/**********************/
-.tamaño-parrafo-footer {
-    font-size: 20px;
-    padding: 0px 5px;
-}
+   
 }
 
 
 @media screen and (min-width: 769px) and (max-width: 930px){
-    section>div {
-        display: grid;
-        grid-template-areas:
-            "div1 div4 div5 div11"
-            "div2 div4 div5 div7"
-            "div3 div6 div6 div7"
-            "div9 div8 div10 div12"
-            "div9 div8 div10 div12";
-        grid-template-columns: repeat(4, 1fr);
-        grid-template-rows: repeat(5, 90px);
-        border-radius: 10px;
-        padding: 1rem;
-        gap: 10px;
-    }
-/*************************/
-/*** SECCION SOBRE MI ***/
-/***********************/
-#sobremi {
-    display: block;
-    padding: 100px 0px 0px 0px;
-} 
-#sobremi .sobremi {
-    padding: 40px 5px 0px 5px;
-}
-#sobremi .sobremi .titulo-seccion {
-    font-size: 20px;
-}
-#sobremi .sobremi h2 {
-    font-size: 19px;
-    margin: 10px 0;
-}
-#sobremi .sobremi span {
-    font-size: 19px;
-}
-#sobremi .sobremi .console-container {
-    font-size: 19px;
-}
-/* IMAGEN SOBRE-MI */
-.contenedor-imagen-logos{
-    flex-direction: column;
-} 
-.contenedor-imagen {
-    margin: auto;
-    max-width: 100%;
-    height:auto;
-    border: 5px solid rgb(255, 199, 88);
-}
-.contenedor-imagen2 {
-    margin: auto;
-    max-width: 100%;
-    height:auto;
-    border: 5px solid rgb(255, 199, 88);
-}
-.contenedor-imagen img{
-    max-width: 100%;
-    height: auto;
-    margin-top: -50px;
-    margin-left: 20px;
-    margin-bottom: 20px ;
-    border: 5px solid rgb(255, 255, 255);
-}
-.contenedor-imagen2 img{
-    max-width: 100%;
-    height: auto;
-    margin-top: -50px;
-    margin-left: 20px;
-    margin-bottom: 20px ;
-    border: 5px solid rgb(255, 255, 255);
-}
-.fondo-imagen-personal1{
-    margin-top: 2em;
-    padding: 50px;
-}
-.fondo-imagen-personal2{
-    margin-top: 2em;
-    padding: 50px;
-}
-.logos-imagen li{
-    background-color: #e0e0e0;
-    border-radius: 10% 10% 10% 10%;
-    margin: auto;
-}
-.logos-imagen ul{
-   display:flex;
-   margin-left: 0em;
-   padding: 0px;
-}
-.logos-imagen ul li a{
-    margin: 0px;
-    font-size: 2.0em;
-}
-/******************/
-/*** ACERCA DE ***/
-/****************/
-.gonzalo-robledo-sobreMi{
-    margin-top: 0px;
-    margin: 7px 0px 0px 0px;
-}
-.perfilTitulo h1{
-    margin: 0px;
-    padding: 0px 15px;
-    font-size: 30px;
-    letter-spacing: 10px;
-}
-.tecnologíasyhabilidades h3{
-    font-size:1.4em;
-}
-/*****************/
-/*** PROYECTOS ***/
-/*****************/
-.titulo-proyectos h1{
-    margin-top: 130px;
-    padding: 0px 15px;
-    font-size: 30px;
-    letter-spacing: 10px;
-}
-#portfolio .fila .proyecto {
-    max-width: 450px;
-    margin: 12px 10px;
-    position: relative;
-    overflow: hidden;
-}
-#portfolio .fila {
-    display: flex;
-    margin: 12px 0;
-}
-#portfolio .fila .proyecto p{
-   font-size: auto;
-}
-#portfolio .fila .proyecto h4{
-    font-size:auto;
- }
-#portfolio .fila .proyecto h6 {
-    font-size: auto; 
-}
-#portfolio .fila .proyecto .info {
-    padding: 10px;
-}
-#portfolio .fila .proyecto .info p{
-   margin-bottom: 5px;
-}
-.espacio-ver-repositorio .ver{
-margin-right: 50px;
-}
-.espacio-ver-repositorio i{
-    font-size: auto;
-    }
-/*****************/
-/*** CONTACTO ***/
-/***************/
-.speace-around-entre-objetos-contacto {
-    padding: 0px;
-}
-.y {
-    padding-top: 20px;
-    padding: 0px 30px;
-}
-    .z .y .r {
-        margin: auto;
-    }
-/**********************/
-/*** SECCION FOOTER ***/
-/**********************/
-.tamaño-parrafo-footer {
-    font-size: 20px;
-    padding: 0px 5px;
-}
+   
 }
 
 
 @media screen and (min-width: 577px) and (max-width: 768px){
-/***************/
-/*** DIBUJOS ***/
-/***************/
-section>div {
-    display: block;
-}
-.gallery-block img{
-    width: 100%;
-    height: 100%;
-    object-fit:fill;
-    padding: 15px 0px;
-}
+    .modo-oscuro .contenedor-imagen img{
+        width: 100%;
+        height: auto;
+        margin-top: -50px;
+        margin-left: 20px;
+    }
+/**************/
+/*** Navbar ***/
+/**************/
+    .dropdown-menu.fondo-elige-un-color {
+        position: absolute;
+        left: 0%;
+        transform: translateX(0%);
+    }
+    .dropdown-menu.fondo-elige-un-color > div.logos-colores {
+        width: auto;
+        margin: 0 auto;
+    }
 /*************************/
 /*** SECCION SOBRE MI ***/
 /***********************/
-#sobremi {
-    display: block;
-    padding: 100px 0px 0px 0px;
-} 
-#sobremi .sobremi {
-    padding: 40px 5px 0px 5px;
-}
-#sobremi .sobremi .titulo-seccion {
-    font-size: 20px;
-}
-#sobremi .sobremi h2 {
-    font-size: 19px;
-    margin: 10px 0;
-}
-#sobremi .sobremi span {
-    font-size: 19px;
-}
-#sobremi .sobremi .console-container {
-    font-size: 19px;
-}
-/* IMAGEN SOBRE-MI */
-.contenedor-imagen-logos{
-    flex-direction: column;
-} 
-.contenedor-imagen {
-    margin: auto;
-    max-width: 100%;
-    height:auto;
-    border: 5px solid rgb(255, 199, 88);
-}
-.contenedor-imagen2 {
-    margin: auto;
-    max-width: 100%;
-    height:auto;
-    border: 5px solid rgb(255, 199, 88);
-}
-.contenedor-imagen img{
-    max-width: 100%;
-    height: auto;
-    margin-top: -50px;
-    margin-left: 20px;
-    margin-bottom: 20px ;
-    border: 5px solid rgb(255, 255, 255);
-}
-.contenedor-imagen2 img{
-    max-width: 100%;
-    height: auto;
-    margin-top: -50px;
-    margin-left: 20px;
-    margin-bottom: 20px ;
-    border: 5px solid rgb(255, 255, 255);
-}
-.fondo-imagen-personal1{
-    margin-top: 2em;
-    padding: 50px;
-}
-.fondo-imagen-personal2{
-    margin-top: 2em;
-    padding: 50px;
-}
-.logos-imagen li{
-    background-color: #e0e0e0;
-    border-radius: 10% 10% 10% 10%;
-    margin: auto;
-}
-.logos-imagen ul{
-   display:flex;
-   margin-left: 0em;
-   padding: 0px;
-}
-.logos-imagen ul li a{
-    margin: 0px;
-    font-size: 2.0em;
-}
-/******************/
-/*** ACERCA DE ***/
-/****************/
-.gonzalo-robledo-sobreMi{
-    margin-top: 0px;
-    margin: 7px 0px 0px 0px;
-}
-.perfilTitulo h1{
-    margin: 0px;
-    padding: 0px 15px;
-    font-size: 30px;
-    letter-spacing: 10px;
-}
-.tecnologíasyhabilidades h3{
-    font-size:1.4em;
-}
-/*****************/
-/*** PROYECTOS ***/
-/*****************/
-.titulo-proyectos h1{
-    margin-top: 130px;
-    padding: 0px 15px;
-    font-size: 30px;
-    letter-spacing: 10px;
-}
-#portfolio .fila .proyecto {
-    max-width: 450px;
-    margin: 12px 10px;
-    position: relative;
-    overflow: hidden;
-}
-#portfolio .fila {
-    display: flex;
-    margin: 12px 0;
-}
-#portfolio .fila .proyecto p{
-   font-size: 10px;
-}
-#portfolio .fila .proyecto h4{
-    font-size: 10px;
- }
-#portfolio .fila .proyecto h6 {
-    font-size: 10px; 
-}
-#portfolio .fila .proyecto .info {
-    padding: 10px;
-}
-#portfolio .fila .proyecto .info p{
-   margin-bottom: 5px;
-}
-.espacio-ver-repositorio .ver{
-margin-right: 50px;
-}
-.espacio-ver-repositorio i{
-    font-size: 10px;
-    }
-/*****************/
-/*** CONTACTO ***/
-/***************/
-    .speace-around-entre-objetos-contacto {
-        padding: 0px;
-    }
-    .y {
-        padding-top: 20px;
-        padding: 0px 15px;
-    }
-    .z .y .r {
-        margin: auto;
-    }
-/**********************/
-/*** SECCION FOOTER ***/
-/**********************/
-.tamaño-parrafo-footer {
-    font-size: 20px;
-    padding: 0px 5px;
-}
-}
-
-
-@media screen and (min-width:481px) and (max-width: 576px) {
-/***************/
-/*** DIBUJOS ***/
-/***************/
-section>div {
-    display: block;
-}
-.gallery-block img{
-    width: 100%;
-    height: 100%;
-    object-fit:fill;
-    padding: 15px 0px;
-}
-/*************************/
-/*** SECCION SOBRE MI ***/
-/***********************/
-#sobremi {
+ #sobremi {
     padding: 100px 0px 0px 0px; 
 } 
 #sobremi .sobremi {
-    padding: 40px 5px 0px 5px;
+    padding: 20px 15px 0px 15px;
+}
+.info-container-añosYproyectos {
+    margin-top: 1em;
+     padding: 0px 0px 0px 0px; 
+}
+.descargarCv-copiarLinkGmail{
+    display: flex;
+}
+.descargarCv-copiarLinkGmail a{
+   font-size: 12px;
+}
+.añosDeExperiencia-proyectosCreados{
+    padding: 10px 0px;
+    justify-content: space-around;
 }
 #sobremi .sobremi .titulo-seccion {
     font-size: 20px;
 }
 #sobremi .sobremi h2 {
-    font-size: 19px;
-    margin: 10px 0;
-}
-#sobremi .sobremi span {
-    font-size: 19px;
+    font-size: 1.5em;
+    margin: 20px 0;
 }
 #sobremi .sobremi .console-container {
     font-size: 19px;
@@ -1797,16 +1154,17 @@ section>div {
 /* IMAGEN SOBRE-MI */
 .contenedor-imagen-logos{
     flex-direction: column;
+        padding: 0px 0px 0px 0px;
 } 
 .contenedor-imagen {
     max-width: 100%;
     height:auto;
-    border: 5px solid rgb(255, 199, 88);
+    border: 5px solid var(--color-hover);
 }
 .contenedor-imagen2 {
     max-width: 100%;
     height:auto;
-    border: 5px solid rgb(255, 199, 88);
+    border: 5px solid var(--color-hover);
 }
 .contenedor-imagen img{
     max-width: 100%;
@@ -1814,7 +1172,7 @@ section>div {
     margin-top: -50px;
     margin-left: 20px;
     margin-bottom: 20px ;
-    border: 5px solid rgb(255, 255, 255);
+    border: 5px solid rgb(66, 66, 66); 
 }
 .contenedor-imagen2 img{
     max-width: 100%;
@@ -1822,78 +1180,102 @@ section>div {
     margin-top: -50px;
     margin-left: 20px;
     margin-bottom: 20px ;
-    border: 5px solid rgb(255, 255, 255);
+    border: 5px solid rgb(66, 66, 66); 
 }
 .fondo-imagen-personal1{
     margin-top: 2em;
-    padding: 50px;
+    padding: auto;
 }
-.fondo-imagen-personal2{
-    margin-top: 2em;
-    padding: 50px;
-}
-.logos-imagen li{
-    background-color: #e0e0e0;
-    border-radius: 10% 10% 10% 10%;
-    margin: auto;
+.logo-imagenes{
+    padding-top: 0%;
 }
 .logos-imagen ul{
-   display:flex;
-   margin-left: 0em;
-   padding: 0px;
+    display:flex;
+    margin-left: 0em;
+    padding: 0px;
+ }
+.logos-imagen li{
+    background-color: rgb(44, 44, 44);
+    border-radius: 10% 10% 10% 10%;
+    margin: auto;
 }
 .logos-imagen ul li a{
     margin: 0px;
     font-size: 1.3em;
+    color: white;
 }
-/******************/
-/*** ACERCA DE ***/
-/****************/
-.gonzalo-robledo-sobreMi{
-    margin-top: 0px;
-    margin: 7px 0px 0px 0px;
-}
-.perfilTitulo h1{
+.logos-imagen ul li a:hover{
     margin: 0px;
-    padding: 0px 15px;
-    font-size: 30px;
-    letter-spacing: 10px;
-}
-.tecnologíasyhabilidades h3{
-    font-size:1.4em;
+    font-size: 1.3em;
+    color: var(--color-hover);
 }
 /*****************/
 /*** PROYECTOS ***/
 /*****************/
 .titulo-proyectos h1{
-    margin-top: 130px;
-    padding: 0px 15px;
+    margin-top: 0px;
+    padding: 30px 15px 15px 15px;
     font-size: 30px;
     letter-spacing: 10px;
 }
-#portfolio .fila .proyecto {
-    max-width: 450px;
+#proyectos {
+    background-color: rgb(44, 44, 44);
+    padding: 0em 1em 3em 1em;
+}
+.boton-frontEnd-diseñoUi h1 {
+    font-size: 1.5em;
+}
+
+
+
+
+.proyectosDescripcion {
+    max-width: auto;
+   
+}
+
+
+.proyectosDescripcion h1 {
+    color: var(--color-hover);
+    text-align: center;
+    padding-top: 50px;
+}
+.proyectosDescripcion h2 {
+    text-align: center;
+    font-size: 1.5em;
+}
+.proyectosDescripcion p {
+    text-align: center;
+   
+    
+}
+#proyectos .fila {
+    flex-direction: column;
+    margin: 10px 0;
+}
+#proyectos .fila .proyecto {
+    /* box-shadow: 6px 6px 6px 1px rgba(255, 199, 88, 0.596); */
+    box-shadow: 6px 6px 6px 4px var(--color-hover); 
+    border-radius: 15px;
+    max-width: auto;
     margin: 12px 10px;
     position: relative;
     overflow: hidden;
+    order: 1;
 }
-#portfolio .fila {
-    flex-direction: column;
-    margin: 12px 0;
+#proyectos .fila .proyecto p{
+   font-size: 10px;
 }
-#portfolio .fila .proyecto p{
-   font-size: auto;
-}
-#portfolio .fila .proyecto h4{
-    font-size:auto;
+#proyectos .fila .proyecto h4{
+    font-size: 10px;
  }
-#portfolio .fila .proyecto h6 {
-    font-size: auto; 
+#proyectos .fila .proyecto h6 {
+    font-size: 10px; 
 }
-#portfolio .fila .proyecto .info {
+#proyectos .fila .proyecto .info {
     padding: 10px;
 }
-#portfolio .fila .proyecto .info p{
+#proyectos .fila .proyecto .info p{
    margin-bottom: 5px;
 }
 .espacio-ver-repositorio .ver{
@@ -1902,6 +1284,129 @@ margin-right: 50px;
 .espacio-ver-repositorio i{
     font-size: auto;
     }
+/***************/
+/*** PERFIL ***/
+/**************/
+.col-6{
+    width: 100%;
+}
+.columna-1{
+    display: block;
+}
+.titulo-perfil h1 {
+    padding-top: 50px;
+    }
+.fondo-imagen-personal2{
+    margin-top: 1em;
+    padding: auto;
+}
+.perfil .perfil-titulo-sobreMi{
+    margin-top: 3em;
+    font-size: 1em;
+    justify-content: center;
+}
+.perfil .perfil-titulo-intereses{
+    justify-content: center;
+}
+.perfil {
+    padding: 0px 0px 0px 0px;
+    margin: auto;
+}
+.perfil .intereses-titulo {
+    font-size: 1em;
+   display: flex;
+   justify-content: center;
+}
+/*************/
+/* Columna 2 */
+/*************/
+.columna-2{
+    display: block;
+}
+/* INTERESES */
+.intereses ul {
+    padding: 0px 20px;
+    justify-content: center;
+    }
+    .intereses ul li i {
+        font-size: 26px;
+      }
+    .intereses ul li {
+        margin: 10px 10px 10px 10px;
+        font-size: 9px;
+      }
+/* tecnologias y habilidades */
+.titulo-tecnohabilidades{
+    display: flex;
+    justify-content: center;
+}
+.tecnologíasyhabilidades h3 {
+    font-size: 1em;
+    margin-top: 2em;
+}
+.tecnologíasyhabilidades {
+    padding: 0px 0px 0px 0px;
+}
+.tecnologíasyhabilidades div p{
+    font-size: 10px;
+}
+/* habilidades blandas */
+.titulo-habilidadesBlandas{
+    display: flex;
+    justify-content: center;
+}
+.titulo-habilidadesBlandas h3{
+    font-size: 1em;
+}
+.habilidades-blandas {
+    padding: 0px 0px 30px 0px;
+}
+.habilidades-blandas .opciones p {
+    font-size: 10px ;
+}
+/***************/
+/*** DIBUJOS ***/
+/***************/
+.Galeria-img {
+    background-color: rgb(44, 44, 44);
+    display: grid;
+    grid-gap: 20px;
+    padding: 3rem 3rem 5rem 3rem;
+    margin: 0 auto;
+}
+.info .bob-esponja {
+    padding-top: 30%;
+}
+.info .super-campeones {
+    padding-top: 30%;
+}
+.info .tomYjerryAncianos {
+    padding-top: 10%;
+}
+.info .tomYjerry {
+    padding-top: 10%;
+}
+.info .hellsing {
+    padding-top: 25%;
+}
+.info .krilin {
+    padding-top: 20%;
+}
+.info .random {
+    padding-top: 0%;
+}
+.info .jovenes-titanes {
+    padding-top: 20%;
+}
+.info .jakeLong {
+    padding-top: 0%;
+}
+.info .silvestreYpiolin {
+    padding-top: 10%;
+}
+.info .stitch {
+    padding-top: 15%;
+}
 /*****************/
 /*** CONTACTO ***/
 /***************/
@@ -1919,7 +1424,338 @@ margin-right: 50px;
 /*** SECCION FOOTER ***/
 /**********************/
 .tamaño-parrafo-footer {
+    text-align: center;
+    font-size: 1em;
+    padding: 0px 5px;
+}
+}
+
+
+@media screen and (min-width:481px) and (max-width: 576px) {
+    .modo-oscuro .contenedor-imagen img{
+        width: 100%;
+        height: auto;
+        margin-top: -50px;
+        margin-left: 20px;
+    }
+/**************/
+/*** Navbar ***/
+/**************/
+    .dropdown-menu.fondo-elige-un-color {
+        position: absolute;
+        left: 0%;
+        transform: translateX(0%);
+    }
+    .dropdown-menu.fondo-elige-un-color > div.logos-colores {
+        width: auto;
+        margin: 0 auto;
+    }
+/*************************/
+/*** SECCION SOBRE MI ***/
+/***********************/
+ #sobremi {
+    padding: 100px 0px 0px 0px; 
+} 
+#sobremi .sobremi {
+    padding: 20px 15px 0px 15px;
+}
+.info-container-añosYproyectos {
+    margin-top: 1em;
+     padding: 0px 0px 0px 0px; 
+}
+.descargarCv-copiarLinkGmail{
+    display: flex;
+}
+.descargarCv-copiarLinkGmail a{
+   font-size: 12px;
+}
+.añosDeExperiencia-proyectosCreados{
+    padding: 10px 0px;
+    justify-content: space-around;
+}
+#sobremi .sobremi .titulo-seccion {
     font-size: 20px;
+}
+#sobremi .sobremi h2 {
+    font-size: 1.5em;
+    margin: 20px 0;
+}
+#sobremi .sobremi .console-container {
+    font-size: 19px;
+}
+/* IMAGEN SOBRE-MI */
+.contenedor-imagen-logos{
+    flex-direction: column;
+        padding: 0px 0px 0px 0px;
+} 
+.contenedor-imagen {
+    max-width: 100%;
+    height:auto;
+    border: 5px solid var(--color-hover);
+}
+.contenedor-imagen2 {
+    max-width: 100%;
+    height:auto;
+    border: 5px solid var(--color-hover);
+}
+.contenedor-imagen img{
+    max-width: 100%;
+    height: auto;
+    margin-top: -50px;
+    margin-left: 20px;
+    margin-bottom: 20px ;
+    border: 5px solid rgb(66, 66, 66); 
+}
+.contenedor-imagen2 img{
+    max-width: 100%;
+    height: auto;
+    margin-top: -50px;
+    margin-left: 20px;
+    margin-bottom: 20px ;
+    border: 5px solid rgb(66, 66, 66); 
+}
+.fondo-imagen-personal1{
+    margin-top: 2em;
+    padding: 80px;
+}
+.logo-imagenes{
+    padding-top: 0%;
+}
+.logos-imagen ul{
+    display:flex;
+    margin-left: 0em;
+    padding: 0px;
+ }
+.logos-imagen li{
+    background-color: rgb(44, 44, 44);
+    border-radius: 10% 10% 10% 10%;
+    margin: auto;
+}
+.logos-imagen ul li a{
+    margin: 0px;
+    font-size: 1.3em;
+    color: white;
+}
+.logos-imagen ul li a:hover{
+    margin: 0px;
+    font-size: 1.3em;
+    color: var(--color-hover);
+}
+/*****************/
+/*** PROYECTOS ***/
+/*****************/
+.titulo-proyectos h1{
+    margin-top: 0px;
+    padding: 30px 15px 15px 15px;
+    font-size: 30px;
+    letter-spacing: 10px;
+}
+#proyectos {
+    background-color: rgb(44, 44, 44);
+    padding: 0em 1em 3em 1em;
+}
+.boton-frontEnd-diseñoUi h1 {
+    font-size: 1.5em;
+}
+
+
+
+
+ /* .proyectosDescripcion {
+    max-width: auto;
+}  */
+
+
+
+.proyectosDescripcion h1 {
+    color: var(--color-hover);
+    text-align: center;
+    padding-top: 50px;
+}
+.proyectosDescripcion h2 {
+    text-align: center;
+    font-size: 1.5em;
+}
+.proyectosDescripcion p {
+    text-align: center;
+}
+#proyectos .fila {
+    flex-direction: column;
+    margin: 10px 0;
+}
+#proyectos .fila .proyecto {
+    /* box-shadow: 6px 6px 6px 1px rgba(255, 199, 88, 0.596); */
+    box-shadow: 6px 6px 6px 4px var(--color-hover); 
+    border-radius: 15px;
+    max-width: auto;
+    margin: 12px 10px;
+    position: relative;
+    overflow: hidden;
+    order: 1;
+}
+#proyectos .fila .proyecto p{
+   font-size: 10px;
+}
+#proyectos .fila .proyecto h4{
+    font-size: 10px;
+ }
+#proyectos .fila .proyecto h6 {
+    font-size: 10px; 
+}
+#proyectos .fila .proyecto .info {
+    padding: 10px;
+}
+#proyectos .fila .proyecto .info p{
+   margin-bottom: 5px;
+}
+.espacio-ver-repositorio .ver{
+margin-right: 50px;
+}
+.espacio-ver-repositorio i{
+    font-size: auto;
+    }
+/***************/
+/*** PERFIL ***/
+/**************/
+.col-6{
+    width: 100%;
+}
+.columna-1{
+    display: block;
+}
+.titulo-perfil h1 {
+    padding-top: 50px;
+    }
+.fondo-imagen-personal2{
+    margin-top: 1em;
+    padding: 80px;
+}
+.perfil .perfil-titulo-sobreMi{
+    margin-top: 3em;
+    font-size: 1em;
+    justify-content: center;
+}
+.perfil .perfil-titulo-intereses{
+    justify-content: center;
+}
+.perfil {
+    padding: 0px 0px 0px 0px;
+    margin: auto;
+}
+.perfil .intereses-titulo {
+    font-size: 1em;
+   display: flex;
+   justify-content: center;
+}
+/*************/
+/* Columna 2 */
+/*************/
+.columna-2{
+    display: block;
+}
+/* INTERESES */
+.intereses ul {
+    padding: 0px 20px;
+    justify-content: center;
+    }
+    .intereses ul li i {
+        font-size: 26px;
+      }
+    .intereses ul li {
+        margin: 10px 10px 10px 10px;
+        font-size: 9px;
+      }
+/* tecnologias y habilidades */
+.titulo-tecnohabilidades{
+    display: flex;
+    justify-content: center;
+}
+.tecnologíasyhabilidades h3 {
+    font-size: 1em;
+    margin-top: 2em;
+}
+.tecnologíasyhabilidades {
+    padding: 0px 0px 0px 0px;
+}
+.tecnologíasyhabilidades div p{
+    font-size: 10px;
+}
+/* habilidades blandas */
+.titulo-habilidadesBlandas{
+    display: flex;
+    justify-content: center;
+}
+.titulo-habilidadesBlandas h3{
+    font-size: 1em;
+}
+.habilidades-blandas {
+    padding: 0px 0px 30px 0px;
+}
+.habilidades-blandas .opciones p {
+    font-size: 10px ;
+}
+/***************/
+/*** DIBUJOS ***/
+/***************/
+.Galeria-img {
+    background-color: rgb(44, 44, 44);
+    display: grid;
+    grid-gap: 20px;
+    padding: 3rem 3rem 5rem 3rem;
+    margin: 0 auto;
+}
+.info .bob-esponja {
+    padding-top: 30%;
+}
+.info .super-campeones {
+    padding-top: 30%;
+}
+.info .tomYjerryAncianos {
+    padding-top: 10%;
+}
+.info .tomYjerry {
+    padding-top: 10%;
+}
+.info .hellsing {
+    padding-top: 25%;
+}
+.info .krilin {
+    padding-top: 20%;
+}
+.info .random {
+    padding-top: 0%;
+}
+.info .jovenes-titanes {
+    padding-top: 20%;
+}
+.info .jakeLong {
+    padding-top: 0%;
+}
+.info .silvestreYpiolin {
+    padding-top: 10%;
+}
+.info .stitch {
+    padding-top: 15%;
+}
+/*****************/
+/*** CONTACTO ***/
+/***************/
+    .speace-around-entre-objetos-contacto {
+        display: block;
+        padding: 0px;
+    }
+    .y {
+        padding-top: 20px;
+    }
+    .z .y .r {
+        margin: auto;
+    }
+/**********************/
+/*** SECCION FOOTER ***/
+/**********************/
+.tamaño-parrafo-footer {
+    text-align: center;
+    font-size: 1em;
     padding: 0px 5px;
 }
 }
@@ -1930,7 +1766,6 @@ margin-right: 50px;
 
 
  @media screen and (min-width:320px) and (max-width: 480px) {
-
     .modo-oscuro .contenedor-imagen img{
         width: 100%;
         height: auto;

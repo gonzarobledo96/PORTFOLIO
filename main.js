@@ -486,8 +486,8 @@ document.getElementById("fraseContacto-ing").innerText = textos.fraseContacto;
 
 // FOOTER
 document.getElementById("footer-ing").innerText = textos.footer;
-  // ... otros elementos
-  consoleText((idiomaActual === "es") ? WORDS : WORDS_EN, 'text');
+  // // ... otros elementos
+  // consoleText((idiomaActual === "es") ? WORDS : WORDS_EN, 'text');
 }
 
 // Llamada inicial para asegurar que los textos estén correctamente establecidos
