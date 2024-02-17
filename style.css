@@ -521,7 +521,8 @@ border-radius: 10px;
     position: relative;
     overflow: hidden;
     border-radius: 25px;
-    box-shadow: 10px 10px 10px 5px rgba(255, 199, 88, 0.596);    
+     /* box-shadow: 6px 6px 6px 4px rgba(255, 199, 88, 0.596);      */
+    box-shadow: 6px 6px 6px 4px var(--color-hover);  
 }
 .boton-frontEnd-diseñoUi {
     display: flex;
@@ -1929,6 +1930,7 @@ margin-right: 50px;
 
 
  @media screen and (min-width:320px) and (max-width: 480px) {
+
     .modo-oscuro .contenedor-imagen img{
         width: 100%;
         height: auto;
@@ -2067,7 +2069,8 @@ margin-right: 50px;
     margin: 10px 0;
 }
 #proyectos .fila .proyecto {
-    box-shadow: 6px 6px 6px 1px rgba(255, 199, 88, 0.596);
+    /* box-shadow: 6px 6px 6px 1px rgba(255, 199, 88, 0.596); */
+    box-shadow: 6px 6px 6px 4px var(--color-hover); 
     border-radius: 15px;
     max-width: 450px;
     margin: 12px 10px;

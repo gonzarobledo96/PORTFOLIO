@@ -88,16 +88,16 @@ function cambiarColores(colorSeleccionado) {
   
  
 // SOMBRA DE LAS IMAGENES DE PROYECTOS
-if (colorSeleccionado === '') {
-  // Removemos la sombra en las imágenes
-  portfolioImagenes.forEach((portfolioImagen) => {
-    portfolioImagen.style.boxShadow = ''; /* poner none si quieres quitar la sombra */
-  });
-} else {
-  portfolioImagenes.forEach((portfolioImagen) => {
-    portfolioImagen.style.boxShadow = `10px 10px 10px 5px ${colorSeleccionado}`;
-  });
-}
+// if (colorSeleccionado === '') {
+//    Removemos la sombra en las imágenes
+//   portfolioImagenes.forEach((portfolioImagen) => {
+//     portfolioImagen.style.boxShadow = '';  poner none si quieres quitar la sombra 
+//   });
+// } else {
+//   portfolioImagenes.forEach((portfolioImagen) => {
+//     portfolioImagen.style.boxShadow = `6px 6px 6px 1px ${colorSeleccionado}`;
+//   });
+// }
 };
 
 
