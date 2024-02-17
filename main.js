@@ -1,22 +1,3 @@
-// ****************
-// LOGO HAMBURGUESA
-// ****************
-document.querySelector('.hamburger').addEventListener('click', (e) => {
-  e.currentTarget.classList.toggle('is-active');
-  navbarCollapse.classList.toggle('show');
-});
-document.addEventListener('click', (e) => {
-  const hamburger = document.querySelector('.hamburger');
-  const navbarCollapse = document.querySelector('.navbar-collapse');
-  const targetElement = e.target;
-  
-  if (!hamburger.contains(targetElement) && !navbarCollapse.contains(targetElement)) {
-    hamburger.classList.remove('is-active');
-    navbarCollapse.classList.remove('show');
-  }
-});
-
-
 
 // ***********
 // BOTON SUBIR
