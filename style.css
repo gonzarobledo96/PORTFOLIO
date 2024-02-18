@@ -1122,6 +1122,7 @@ margin-left: 0px;
 /*** SECCION SOBRE MI ***/
 /***********************/
  #sobremi {
+    display: inline-block;
     padding: 100px 0px 0px 0px; 
 } 
 #sobremi .sobremi {
@@ -1155,6 +1156,7 @@ margin-left: 0px;
 .contenedor-imagen-logos{
     flex-direction: column;
         padding: 0px 0px 0px 0px;
+        
 } 
 .contenedor-imagen {
     max-width: 100%;
@@ -1183,8 +1185,11 @@ margin-left: 0px;
     border: 5px solid rgb(66, 66, 66); 
 }
 .fondo-imagen-personal1{
-    margin-top: 2em;
-    padding: auto;
+    margin-top: 4em;
+     padding: 0px ;
+     display: flex;
+     justify-content: center;
+   
 }
 .logo-imagenes{
     padding-top: 0%;
@@ -1209,6 +1214,10 @@ margin-left: 0px;
     font-size: 1.3em;
     color: var(--color-hover);
 }
+
+
+
+
 /*****************/
 /*** PROYECTOS ***/
 /*****************/
@@ -1230,8 +1239,8 @@ margin-left: 0px;
 
 
 .proyectosDescripcion {
-    max-width: auto;
-   
+    max-width: 700px;
+   padding: 0px 30px;
 }
 
 
@@ -1257,8 +1266,8 @@ margin-left: 0px;
     /* box-shadow: 6px 6px 6px 1px rgba(255, 199, 88, 0.596); */
     box-shadow: 6px 6px 6px 4px var(--color-hover); 
     border-radius: 15px;
-    max-width: auto;
-    margin: 12px 10px;
+    max-width: 900px;
+    margin: 12px 30px;
     position: relative;
     overflow: hidden;
     order: 1;
