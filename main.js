@@ -271,7 +271,6 @@ lenguajesUtilizadosTransporte: "Languages used: Html, Css, Bootstrap, React, js 
  repositorio3: "REPOSITORY",
  verduleriatitulo: "ORGANIC-GREENHOUSE",
  lenguajesUtilizadosVerduleria: "Languages used: Html, Css, Bootstrap and Js.",
-
  // GNC-LURO
  proyecto4Titulo: "PROJECT 4",
  subtituloProyecto4: "Gnc sales website",
@@ -279,16 +278,28 @@ lenguajesUtilizadosTransporte: "Languages used: Html, Css, Bootstrap, React, js 
  verGnc: "SEE",
  repositorio4: "REPOSITORY",
  LengujesUtilizadosGncLuro: "Languages used: Html, Css and Bootstrap.",
-// FIGMA 1
+// PORTAFOLIO ANTIGUO
 ver5: "SEE",
-repositorio5: "REPOSITORY",
+// repositorio5: "REPOSITORY",
 figmaTitulo: "Design with Figma",
 herramientaFigma: "Design Tool: Figma",
-// FIGMA 2
-ver6: "SEE",
-repositorio6: "REPOSITORY",
-// PizerriaDonRemoleo: "Pizerria Don Remoleo",
+// KIWANO
+KiwanoTitulo:"KIWANO WEBSITE",
 herramientaFigma2: "Design Tool: Figma",
+ver6: "SEE",
+
+// PIZZERIA DON REMOLEO
+herramientaFigma3: "Design Tool: Figma",
+ver7: "SEE",
+
+
+// PRACTICANDO FIGMA
+practicandoFigmaTitulo:"PRACTICING FIGMA",
+herramientaFigma4: "Design Tool: Figma",
+ver8: "SEE",
+
+
+
 
 // DIBUJOS
 dibujosTitulo: "DRAWINGS",
@@ -372,16 +383,26 @@ parrafoProyecto4: "Sitio web es sobre un comercio local especializado en la vent
 verGnc: "VER",
 repositorio4: "REPOSITORIO",
 LengujesUtilizadosGncLuro: "Lenguajes utilizados: Html, Css y Bootstrap",
-// FIGMA
+// PORTFOLIO ANTIGUO
 ver5: "VER",
-repositorio5: "REPOSITORIO",
-figmaTitulo: "Diseño con Figma",
+// repositorio5: "REPOSITORIO",
+figmaTitulo: "PORTAFOLIO ANTIGUO",
 herramientaFigma: "Herramienta de diseño: Figma",
-// FIGMA 2
-ver6: "VER",
-repositorio6: "REPOSITORIO",
-// PizerriaDonRemoleo: "Pizerria Don Remoleo",
+
+// KIWANO
+KiwanoTitulo:"WEB KIWANO",
 herramientaFigma2: "Herramienta de diseño: Figma",
+ver6: "VER",
+
+// PIZZERIA DON REMOLEO
+herramientaFigma3: "Herramienta de diseño: Figma",
+ver7: "SEE",
+
+// PRACTICANDO FIGMA
+practicandoFigmaTitulo:"PRACTICANDO FIGMA",
+herramientaFigma4: "Herramienta de diseño: Figma",
+ver8: "SEE",
+
 
 // DIBUJOS
 dibujosTitulo: "DIBUJOS",
@@ -466,14 +487,28 @@ document.getElementById("lenguajesUtilizados-gncLuro-ing").innerText = textos.Le
 document.getElementById("ver4-ing").innerText = textos.verGnc;
 document.getElementById("repositorio4-ing").innerText = textos.repositorio4;
 // FIGMA 1
-document.getElementById("figma-ing").innerText = textos.figmaTitulo;
+// PORTFOLIO ANTIGUO
+document.getElementById("portafolioAntiguo-titulo-ing").innerText = textos.figmaTitulo;
 document.getElementById("herramienta-figma-ing").innerText = textos.herramientaFigma;
 document.getElementById("ver5-ing").innerText = textos.ver5;
-document.getElementById("repositorio5-ing").innerText = textos.repositorio5;
-// FIGMA 2
-document.getElementById("herramientaDeFigmaPizza-ing").innerText = textos.herramientaFigma2;
+// document.getElementById("repositorio5-ing").innerText = textos.repositorio5;
+
+// KIWANO
+document.getElementById("web-kiwano-titulo-ing").innerText = textos.KiwanoTitulo;
+document.getElementById("herramientafigmaKiwano-ing").innerText = textos.herramientaFigma2;
 document.getElementById("ver6-ing").innerText = textos.ver6;
-document.getElementById("repositorio6-ing").innerText = textos.repositorio6;
+
+// PIZZERIA DON REMOLEO
+document.getElementById("herramientaDeFigmaPizza-ing").innerText = textos.herramientaFigma3;
+document.getElementById("ver7-ing").innerText = textos.ver7;
+
+// PRACTICANDO FIGMA
+document.getElementById("practicandoFifma-titulo-ing").innerText = textos.practicandoFigmaTitulo;
+document.getElementById("herramientaDeFigmaPracticando-ing").innerText = textos.herramientaFigma4;
+document.getElementById("ver8-ing").innerText = textos.ver7;
+
+
+
 
 // DIBUJOS
 document.getElementById("dibujos-titulo-ing").innerText = textos.dibujosTitulo;
