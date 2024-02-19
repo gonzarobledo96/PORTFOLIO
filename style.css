@@ -195,14 +195,18 @@ color: white;
     -webkit-text-stroke: 2px #ffffff3f ;
 }
 .modo-oscuro .perfil p{
-     color: rgb(255, 255, 255); 
+     color: #cfcfcf;
     font-weight: 600; 
+}
+
+.modo-oscuro .opciones p{
+    color: #cfcfcf;
 }
 .modo-oscuro .intereses ul li i{
     background-color: rgb(20, 20, 20);
 }
 .modo-oscuro .tecnologíasyhabilidades .tecnohabilidades p{
-    color: rgb(255, 255, 255);
+    color: #cfcfcf;
 }
 
 
@@ -338,6 +342,7 @@ margin: 0 auto;
     background-color: var(--color-hover);
     font-size: 1.5em;
     color: #ffffff;
+    text-shadow: 2px 2px 4px rgba(94, 94, 94, 0.26);
 }
 .info-container-añosYproyectos {
      margin-top: 1em ; 
@@ -391,6 +396,7 @@ margin: 0 auto;
     padding: 10px 20px;
     margin-top: 1em;
     transition: 0.5s;
+    text-shadow: 2px 2px 4px rgba(94, 94, 94, 0.26);
 }
 /* IMAGEN SOBRE-MI */
 /* imagen 1 */
@@ -674,7 +680,7 @@ border-radius: 10px;
 .perfil .perfil-titulo-sobreMi{
     display: flex;
 }
-.perfil-titulo-sobreMi p{
+.perfil-titulo-sobreMi h1 {
     margin-bottom: 1em;
     padding: 5px 10px;
     font-weight: 600;
@@ -682,11 +688,12 @@ border-radius: 10px;
     background-color: var(--color-hover);
     font-size: 1.5em;
     color: #ffffff;
+    text-shadow: 2px 2px 4px rgba(94, 94, 94, 0.26);
 }
 .perfil .perfil-titulo-intereses{
     display: flex;
 }
-.perfil-titulo-intereses p{
+.perfil-titulo-intereses h1{
     margin-bottom: 1em;
     padding: 5px 10px;
     font-weight: 600;
@@ -694,7 +701,10 @@ border-radius: 10px;
     background-color: var(--color-hover);
     font-size: 1.5em;
     color: #ffffff;
+    text-shadow: 2px 2px 4px rgba(94, 94, 94, 0.26);
 }
+
+
 .titulo-tecnologíasYhabilidades p{
     font-size: 1.5em;
     margin-top: 2em;
@@ -704,6 +714,7 @@ border-radius: 10px;
     border-radius: 5px;
     background-color: var(--color-hover);
     color: #ffffff;
+    
 }
 .titulo-perfil{
     border-top: solid 5px var(--color-hover);
@@ -761,6 +772,7 @@ border-radius: 10px;
     border-radius: 5px;
     background-color: var(--color-hover);
     color: #ffffff;
+    text-shadow: 2px 2px 4px rgba(94, 94, 94, 0.26);
 }
 .habilidades-blandas .opciones{
     font-size: 1em;
@@ -790,6 +802,7 @@ border-radius: 10px;
     border-radius: 5px;
     background-color: var(--color-hover);
     color: #ffffff;
+    text-shadow: 2px 2px 4px rgba(94, 94, 94, 0.26);
 }
  .tecnologíasyhabilidades .tecnohabilidades{
     font-size: 1em;
