@@ -458,35 +458,9 @@ border-radius: 10px;
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*****************/
 /*** PROYECTOS ***/
 /*****************/
-
 #proyectos-diseno-ui {
     display: none;
 }
@@ -559,7 +533,6 @@ border-radius: 10px;
      /* box-shadow: 6px 6px 6px 4px rgba(255, 199, 88, 0.596);      */
     box-shadow: 6px 6px 6px 4px var(--color-hover);  
 }
-
 .columnas-proyectosUi{
     display: flex;
 }
@@ -625,36 +598,7 @@ border-radius: 10px;
 .espacio-ver-repositorio .ver{
     margin-right: 100px;
     }
-    
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+  
 
 
 /**************/
@@ -675,7 +619,6 @@ border-radius: 10px;
 .perfil p{
      color: rgb(44, 44, 44); 
     font-weight: 600;
-    
 }
 .perfil .perfil-titulo-sobreMi{
     display: flex;
@@ -703,8 +646,6 @@ border-radius: 10px;
     color: #ffffff;
     text-shadow: 2px 2px 4px rgba(94, 94, 94, 0.26);
 }
-
-
 .titulo-tecnologíasYhabilidades p{
     font-size: 1.5em;
     margin-top: 2em;
@@ -714,7 +655,6 @@ border-radius: 10px;
     border-radius: 5px;
     background-color: var(--color-hover);
     color: #ffffff;
-    
 }
 .titulo-perfil{
     border-top: solid 5px var(--color-hover);
@@ -729,8 +669,6 @@ border-radius: 10px;
     font-family:'poppins', sans-serif;
     -webkit-text-fill-color: transparent ;
     -webkit-text-stroke: 2px #0000003f ;
-    /* text-decoration: underline;
-    text-decoration-color: var(--color-hover); */
 }
 .titulo-perfil h2{
     color: rgb(0, 0, 0);
@@ -756,8 +694,6 @@ border-radius: 10px;
     -webkit-text-stroke: 1px #ffffff3f ;
     opacity: 0.2;
     margin: 0px;
-    /* text-decoration: underline;
-    text-decoration-color: var(--color-hover); */
     padding-bottom: 12px;
 }
 .habilidades-blandas{
@@ -808,11 +744,9 @@ border-radius: 10px;
     font-size: 1em;
     font-weight: 600;
     font-family: 'Montserrat', sans-serif;
-    /* background-color: #e9e9e9; */
     text-decoration: none;
     color: #1b1b1b;
     border-radius: 30px;
-    /* border: 3px solid #00000042; */
     padding: 5px 20px 5px 0px;
     margin-top: 30px;
     transition: 0.5s;
@@ -832,7 +766,6 @@ transition: 0.3s;
     justify-content: space-between;
     padding: 0;
     margin: 0;
-   
   }
   .intereses ul li {
     display: flex;
@@ -871,7 +804,6 @@ transition: 0.3s;
     height: 350px;
     margin-top: -80px;
     margin-left: 50px;
-    /* filter: drop-shadow(16px 16px 20px rgba(189, 189, 189, 0.8)); */
     border: 6px solid rgb(66, 66, 66);
     transition: transform 0.3s ease-in-out, border-width 0.3s ease-in-out;
     border-radius: 10px;
@@ -892,16 +824,14 @@ transition: 0.3s;
     font-family:'poppins', sans-serif;
     -webkit-text-fill-color: transparent ;
     -webkit-text-stroke: 1px #ffffff3f ;
-    /* text-decoration: underline;
-    text-decoration-color: var(--color-hover); */
 }
 .titulo-dibujos i {
     display: flex;
     align-items: center;
     color: var(--color-hover);
-    margin-right: 5px; /* Ajusta el margen derecho según tus preferencias */
-    margin-left: 5px; /* Ajusta el margen izquierdo según tus preferencias */
-    font-size: 24px; /* Ajusta el tamaño de fuente según tus preferencias */
+    margin-right: 5px; 
+    margin-left: 5px; 
+    font-size: 24px; 
   }
 .titulo-dibujos h2{
     color: rgb(231, 231, 231);
@@ -1084,8 +1014,8 @@ img {
 
 
 
- /*****************************/
-/**** SECCION RESPONSIVE ****/
+/***************************/
+/**** SECCION RESPONSIVE ***/
 /***************************/
 /* ESTILOS NAVBAR */
 @media screen and (min-width: 320px) and (max-width: 991px){
@@ -1215,7 +1145,7 @@ margin-left: 0px;
     display: flex;
 }
 .descargarCv-copiarLinkGmail a{
-   font-size: 12px;
+   font-size: 1em;
 }
 .añosDeExperiencia-proyectosCreados{
     padding: 10px 0px;
@@ -1225,7 +1155,7 @@ margin-left: 0px;
     font-size: 20px;
 }
 #sobremi .sobremi h2 {
-    font-size: 1.5em;
+    font-size: 2em;
     margin: 20px 0;
 }
 #sobremi .sobremi .console-container {
@@ -1235,7 +1165,6 @@ margin-left: 0px;
 .contenedor-imagen-logos{
     flex-direction: column;
         padding: 0px 0px 0px 0px;
-        
 } 
 .contenedor-imagen {
     max-width: 100%;
@@ -1268,7 +1197,6 @@ margin-left: 0px;
      padding: 0px ;
      display: flex;
      justify-content: center;
-   
 }
 .logo-imagenes{
     padding-top: 0%;
@@ -1293,17 +1221,13 @@ margin-left: 0px;
     font-size: 1.3em;
     color: var(--color-hover);
 }
-
-
-
-
 /*****************/
 /*** PROYECTOS ***/
 /*****************/
 .titulo-proyectos h1{
     margin-top: 0px;
     padding: 30px 15px 15px 15px;
-    font-size: 30px;
+    font-size: 50px;
     letter-spacing: 10px;
 }
 #proyectos {
@@ -1311,19 +1235,17 @@ margin-left: 0px;
     padding: 0em 1em 3em 1em;
 }
 .boton-frontEnd-diseñoUi h1 {
-    font-size: 1.5em;
+    font-size: 1.7em;
 }
-
 .proyectosDescripcion {
     max-width: 700px;
    padding: 0px 30px;
 }
-
-
 .proyectosDescripcion h1 {
     color: var(--color-hover);
     text-align: center;
     padding-top: 50px;
+    font-size: 2.3em;
 }
 .proyectosDescripcion h2 {
     text-align: center;
@@ -1331,8 +1253,6 @@ margin-left: 0px;
 }
 .proyectosDescripcion p {
     text-align: center;
-   
-    
 }
 #proyectos .fila {
     flex-direction: column;
@@ -1357,15 +1277,14 @@ margin-left: 0px;
 .espacioProyectosUi-columna2{
     padding: 0em 1em 2em 1em;
 } 
-
 #proyectos .fila .proyecto p{
-   font-size: 10px;
+    font-size: 1em;
 }
 #proyectos .fila .proyecto h4{
-    font-size: 10px;
+    font-size: 1em;
  }
 #proyectos .fila .proyecto h6 {
-    font-size: 10px; 
+    font-size: 1em;
 }
 #proyectos .fila .proyecto .info {
     padding: 10px;
@@ -1379,9 +1298,6 @@ margin-right: 50px;
 .espacio-ver-repositorio i{
     font-size: auto;
     }
-
-
-
 /***************/
 /*** PERFIL ***/
 /**************/
@@ -1423,43 +1339,43 @@ margin-right: 50px;
 /* INTERESES */
 .intereses ul {
     padding: 0px 20px;
-    justify-content: center;
+    justify-content: center;  
     }
     .intereses ul li i {
         font-size: 26px;
       }
     .intereses ul li {
-        margin: 10px 10px 10px 10px;
-        font-size: 9px;
+        margin: 10px 20px 10px 20px;
+        font-size: 1em;
       }
 /* tecnologias y habilidades */
 .titulo-tecnohabilidades{
     display: flex;
     justify-content: center;
 }
+.logos-tecnohabilidades{
+    text-align: center;
+}
 .tecnologíasyhabilidades h3 {
-    font-size: 1em;
+    font-size: 1.5em;
     margin-top: 2em;
 }
 .tecnologíasyhabilidades {
     padding: 0px 0px 0px 0px;
 }
 .tecnologíasyhabilidades div p{
-    font-size: 10px;
+    font-size: 1em;
 }
 /* habilidades blandas */
-.titulo-habilidadesBlandas{
-    display: flex;
-    justify-content: center;
-}
 .titulo-habilidadesBlandas h3{
-    font-size: 1em;
+    font-size: 1.3em;
 }
 .habilidades-blandas {
     padding: 0px 0px 30px 0px;
+    text-align: center;
 }
 .habilidades-blandas .opciones p {
-    font-size: 10px ;
+    font-size: 1em ;
 }
 /***************/
 /*** DIBUJOS ***/
@@ -1511,7 +1427,7 @@ margin-right: 50px;
         padding: 0px;
     }
     .speace-around-entre-objetos-contacto .y {
-        padding: 20px;
+        padding: 10px;
     }
     .y {
         padding-top: 20px;
@@ -1553,6 +1469,7 @@ margin-right: 50px;
 /*** SECCION SOBRE MI ***/
 /***********************/
  #sobremi {
+    display: inline-block;
     padding: 100px 0px 0px 0px; 
 } 
 #sobremi .sobremi {
@@ -1566,7 +1483,7 @@ margin-right: 50px;
     display: flex;
 }
 .descargarCv-copiarLinkGmail a{
-   font-size: 12px;
+   font-size: 1em;
 }
 .añosDeExperiencia-proyectosCreados{
     padding: 10px 0px;
@@ -1576,7 +1493,7 @@ margin-right: 50px;
     font-size: 20px;
 }
 #sobremi .sobremi h2 {
-    font-size: 1.5em;
+    font-size: 2em;
     margin: 20px 0;
 }
 #sobremi .sobremi .console-container {
@@ -1585,7 +1502,7 @@ margin-right: 50px;
 /* IMAGEN SOBRE-MI */
 .contenedor-imagen-logos{
     flex-direction: column;
-        padding: 0px 0px 0px 0px;
+        padding: 0px 0px 0px 0px; 
 } 
 .contenedor-imagen {
     max-width: 100%;
@@ -1614,8 +1531,10 @@ margin-right: 50px;
     border: 5px solid rgb(66, 66, 66); 
 }
 .fondo-imagen-personal1{
-    margin-top: 2em;
-    padding: 80px;
+    margin-top: 4em;
+     padding: 0px ;
+     display: flex;
+     justify-content: center;
 }
 .logo-imagenes{
     padding-top: 0%;
@@ -1646,7 +1565,7 @@ margin-right: 50px;
 .titulo-proyectos h1{
     margin-top: 0px;
     padding: 30px 15px 15px 15px;
-    font-size: 30px;
+    font-size: 50px;
     letter-spacing: 10px;
 }
 #proyectos {
@@ -1654,21 +1573,17 @@ margin-right: 50px;
     padding: 0em 1em 3em 1em;
 }
 .boton-frontEnd-diseñoUi h1 {
-    font-size: 1.5em;
+    font-size: 1.7em;
 }
-
-
-
-
-.proyectosDescripcion{
-    max-width: auto;
+.proyectosDescripcion {
+    max-width: 700px;
+   padding: 0px 30px;
 }
-
-
 .proyectosDescripcion h1 {
     color: var(--color-hover);
     text-align: center;
     padding-top: 50px;
+    font-size: 2.3em;
 }
 .proyectosDescripcion h2 {
     text-align: center;
@@ -1685,8 +1600,8 @@ margin-right: 50px;
     /* box-shadow: 6px 6px 6px 1px rgba(255, 199, 88, 0.596); */
     box-shadow: 6px 6px 6px 4px var(--color-hover); 
     border-radius: 15px;
-    max-width: auto;
-    margin: 12px 10px;
+    max-width: 900px;
+    margin: 12px 30px;
     position: relative;
     overflow: hidden;
     order: 1;
@@ -1702,13 +1617,13 @@ margin-right: 50px;
 } 
 
 #proyectos .fila .proyecto p{
-   font-size: 10px;
+    font-size: 1em;
 }
 #proyectos .fila .proyecto h4{
-    font-size: 10px;
+    font-size: 1em;
  }
 #proyectos .fila .proyecto h6 {
-    font-size: 10px; 
+    font-size: 1em;
 }
 #proyectos .fila .proyecto .info {
     padding: 10px;
@@ -1736,7 +1651,6 @@ margin-right: 50px;
     }
 .fondo-imagen-personal2{
     margin-top: 1em;
-    padding: 80px;
 }
 .perfil .perfil-titulo-sobreMi{
     margin-top: 3em;
@@ -1770,37 +1684,37 @@ margin-right: 50px;
         font-size: 26px;
       }
     .intereses ul li {
-        margin: 10px 10px 10px 10px;
-        font-size: 9px;
+        margin: 10px 20px 10px 20px;
+        font-size: 1em;
       }
 /* tecnologias y habilidades */
 .titulo-tecnohabilidades{
     display: flex;
     justify-content: center;
 }
+.logos-tecnohabilidades{
+    text-align: center;
+}
 .tecnologíasyhabilidades h3 {
-    font-size: 1em;
+    font-size: 1.5em;
     margin-top: 2em;
 }
 .tecnologíasyhabilidades {
     padding: 0px 0px 0px 0px;
 }
 .tecnologíasyhabilidades div p{
-    font-size: 10px;
+    font-size: 1em;
 }
 /* habilidades blandas */
-.titulo-habilidadesBlandas{
-    display: flex;
-    justify-content: center;
-}
 .titulo-habilidadesBlandas h3{
-    font-size: 1em;
+    font-size: 1.3em;
 }
 .habilidades-blandas {
     padding: 0px 0px 30px 0px;
+    text-align: center;
 }
 .habilidades-blandas .opciones p {
-    font-size: 10px ;
+    font-size: 1em ;
 }
 /***************/
 /*** DIBUJOS ***/
@@ -1813,28 +1727,28 @@ margin-right: 50px;
     margin: 0 auto;
 }
 .info .bob-esponja {
-    padding-top: 30%;
+    padding-top: 50%;
 }
 .info .super-campeones {
     padding-top: 30%;
 }
 .info .tomYjerryAncianos {
-    padding-top: 10%;
+    padding-top: 30%;
 }
 .info .tomYjerry {
-    padding-top: 10%;
+    padding-top: 50%;
 }
 .info .hellsing {
-    padding-top: 25%;
+    padding-top: 50%;
 }
 .info .krilin {
     padding-top: 20%;
 }
 .info .random {
-    padding-top: 0%;
+    padding-top: 20%;
 }
 .info .jovenes-titanes {
-    padding-top: 20%;
+    padding-top: 50%;
 }
 .info .jakeLong {
     padding-top: 0%;
@@ -1843,14 +1757,16 @@ margin-right: 50px;
     padding-top: 10%;
 }
 .info .stitch {
-    padding-top: 15%;
+    padding-top: 50%;
 }
 /*****************/
 /*** CONTACTO ***/
 /***************/
     .speace-around-entre-objetos-contacto {
-        display: block;
         padding: 0px;
+    }
+    .speace-around-entre-objetos-contacto .y {
+        padding: 10px;
     }
     .y {
         padding-top: 20px;
@@ -1863,14 +1779,10 @@ margin-right: 50px;
 /**********************/
 .tamaño-parrafo-footer {
     text-align: center;
-    font-size: 1em;
+    font-size: 1.3em;
     padding: 0px 5px;
 }
 }
-
-
-
-
 
 
  @media screen and (min-width:320px) and (max-width: 480px) {
@@ -1901,6 +1813,10 @@ margin-right: 50px;
 #sobremi .sobremi {
     padding: 20px 15px 0px 15px;
 }
+#sobremi .sobremi h2 {
+    font-size: 1.5em;
+    margin: 20px 0;
+}
 .info-container-añosYproyectos {
     margin-top: 1em;
      padding: 0px 0px 0px 0px; 
@@ -1917,10 +1833,7 @@ margin-right: 50px;
 #sobremi .sobremi .titulo-seccion {
     font-size: 20px;
 }
-#sobremi .sobremi h2 {
-    font-size: 1.5em;
-    margin: 20px 0;
-}
+
 #sobremi .sobremi .console-container {
     font-size: 19px;
 }
@@ -2033,7 +1946,6 @@ margin-right: 50px;
 .espacioProyectosUi-columna2{
     padding: 0em 1em 2em 1em;
 } 
-
 #proyectos .fila .proyecto p{
    font-size: 10px;
 }
@@ -2114,6 +2026,9 @@ margin-right: 50px;
     display: flex;
     justify-content: center;
 }
+.logos-tecnohabilidades{
+    text-align: center;
+}
 .tecnologíasyhabilidades h3 {
     font-size: 1em;
     margin-top: 2em;
@@ -2137,6 +2052,7 @@ margin-right: 50px;
 }
 .habilidades-blandas .opciones {
     padding: 30px 20px 20px 20px;
+    text-align: center;
 }
 .habilidades-blandas .opciones p {
     font-size: 10px ;
