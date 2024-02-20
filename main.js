@@ -396,12 +396,12 @@ ver6: "VER",
 
 // PIZZERIA DON REMOLEO
 herramientaFigma3: "Herramienta de diseño: Figma",
-ver7: "SEE",
+ver7: "VER",
 
 // PRACTICANDO FIGMA
 practicandoFigmaTitulo:"PRACTICANDO FIGMA",
 herramientaFigma4: "Herramienta de diseño: Figma",
-ver8: "SEE",
+ver8: "VER",
 
 
 // DIBUJOS
