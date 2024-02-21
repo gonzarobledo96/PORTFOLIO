@@ -238,10 +238,11 @@ function actualizarTextos() {
     tecnologiasYhabilidades: "TECHNOLOGIES AND SKILLS",
     // herramientasDeDiseño: "Design Tools",
     habilidadesBlandas: "SOFT SKILLS",
-    ResolucionDeProblemas: "Problem resolution",
-    proactividad: "Proactivity",
-    trabajoEnEquipo: "Teamwork",
     creatividad: "Creativity",
+    proactividad: "Proactivity",
+    paciencia: "Patience",
+    trabajoEnEquipo: "Teamwork",
+    inteligenciaEmocional:"Emotional intelligence",
 
  // PROYECTOS
  proyectos: "PROJECTS",
@@ -343,10 +344,11 @@ footer: "Copyright Portfolio 2024. Gonzalo Matias Robledo - Web designer. 🏆�
     videoJuegos:"Video juegos",
     tecnologiasYhabilidades: "TECNOLOGIAS Y HABILIDADES",
     habilidadesBlandas: "HABILIDADES BLANDAS",
-    ResolucionDeProblemas: "Resolucion de problemas",
+    paciencia: "Paciencia",
     proactividad: "Proactividad",
     trabajoEnEquipo: "Trabajo en equipo",
     creatividad: "Creatividad",
+    inteligenciaEmocional: "inteligencia Emocional",
     
 // PROYECTOS
 proyectos: "PROYECTOS",
@@ -445,10 +447,11 @@ document.getElementById("meditar-ing").innerText = textos.meditar;
 document.getElementById("videoJuegos-ing").innerText = textos.videoJuegos;
   document.getElementById("tecnologíasYhabilidades-ing").innerText = textos.tecnologiasYhabilidades;
   document.getElementById("habilidades-blandas-ing").innerText = textos.habilidadesBlandas;
-  document.getElementById("ResolucionDeProblemas-ing").innerText = textos.ResolucionDeProblemas;
+  document.getElementById("paciencia-ing").innerText = textos.paciencia;
   document.getElementById("proactividad-ing").innerText = textos.proactividad;
   document.getElementById("trabajoEnEquipo-ing").innerText = textos.trabajoEnEquipo;
   document.getElementById("creatividad-ing").innerText = textos.creatividad;
+  document.getElementById("inteligenciaEmocional-ing").innerText = textos.inteligenciaEmocional;
  
  
 
