@@ -252,33 +252,25 @@ function actualizarTextos() {
  proyecto1Titulo:"PROJECT 1",
  subtituloProyecto1:"Neighborhood buffet website",
  parrafoProyecto1:"This project is about a neighborhood buffet located in Villa Luro, Capital. My focus was on creating an intuitive platform that would make it easy to view the most relevant information. Additionally, I optimized the design to improve the user experience, ensuring that key information, such as the menu, hours and promotions, was easily accessible.",
-ver: "SEE",
 repositorio: "REPOSITORY",
 BuffetStentor: "BUFFET STENTOR",
-lenguajesUtilizadosBuffet: "Languages used: Html, Css, Bootstrap, React, js and Figma",
 // transporte-escolar
 proyecto2Titulo: "PROJECT 2",
 subtituloProyecto2: "School transportation website",
 parrafoProyecto2: "This project is about my family's business. I developed a website in order to attract more clients and companies interested in school transportation, providing clear information about the transportation services we offer: vehicles, safety policies and our current clients.",
-ver2: "SEE",
 repositorio2: "REPOSITORY",
 transporteRaulTitulo: "TRANSPORTATION RAUL-SCHOOL COMPANY",
-lenguajesUtilizadosTransporte: "Languages used: Html, Css, Bootstrap, React, js and Figma.",
  // verduleria-natural
  proyecto3Titulo: "PROJECT 3",
  subtituloProyecto3: "Greengrocer's website",
  parrafoProyecto3: "Simple website of a greengrocer as part of my learning process. The idea was to practice what I learned in my web development course at coderhouse. Focusing on improving my skills in creating a website. Although the project is modest, it represents an important step in my learning as a web designer and front-end designer.",
- ver3: "SEE",
  repositorio3: "REPOSITORY",
  verduleriatitulo: "ORGANIC-GREENHOUSE",
- lenguajesUtilizadosVerduleria: "Languages used: Html, Css, Bootstrap and Js.",
  // GNC-LURO
  proyecto4Titulo: "PROJECT 4",
  subtituloProyecto4: "Gnc sales website",
  parrafoProyecto4: "Website is about a local business specialized in the sale of CNG. The objective was to create an informative and easy-to-use platform that would highlight the services and products offered. I implemented clear sections to describe the local services offered. This project contributed significantly to my experience in web design and development.",
- verGnc: "SEE",
  repositorio4: "REPOSITORY",
- LengujesUtilizadosGncLuro: "Languages used: Html, Css and Bootstrap.",
 // PORTAFOLIO ANTIGUO
 ver5: "SEE",
 // repositorio5: "REPOSITORY",
@@ -463,39 +455,29 @@ document.getElementById("videoJuegos-ing").innerText = textos.videoJuegos;
   document.getElementById("proyecto1-titulo-ing").innerText = textos.proyecto1Titulo;
   document.getElementById("subtituloProyecto1-ing").innerText = textos.subtituloProyecto1;
   document.getElementById("parrafoProyecto1-ing").innerText = textos.parrafoProyecto1;
-  document.getElementById("ver-ing").innerText = textos.ver;
   document.getElementById("repositorio-ing").innerText = textos.repositorio;
-   document.getElementById("lenguajesUtilizados-Transporte-ing").innerText = textos.lenguajesUtilizadosBuffet;
 // TRANSPORTE-ESCOLAR
 document.getElementById("proyecto2-titulo-ing").innerText = textos.proyecto2Titulo;
 document.getElementById("subtituloProyecto2-ing").innerText = textos.subtituloProyecto2;
 document.getElementById("parrafoProyecto2-ing").innerText = textos.parrafoProyecto2;
 document.getElementById("transporte-raul-titulo-ing").innerText = textos.transporteRaulTitulo;
-document.getElementById("ver2-ing").innerText = textos.ver2;
 document.getElementById("repositorio2-ing").innerText = textos.repositorio2;
-document.getElementById("lenguajesUtilizados-Buffet-ing").innerText = textos.lenguajesUtilizadosTransporte;
 // VERDULERIA-NATURAL
 document.getElementById("proyecto3-titulo-ing").innerText = textos.proyecto3Titulo;
 document.getElementById("subtituloProyecto3-ing").innerText = textos.subtituloProyecto3;
 document.getElementById("parrafoProyecto3-ing").innerText = textos.parrafoProyecto3;
 document.getElementById("verduleria-titulo-ing").innerText = textos.verduleriatitulo;
-document.getElementById("lenguajesUtilizados-verduleria-ing").innerText = textos.lenguajesUtilizadosVerduleria;
-document.getElementById("ver3-ing").innerText = textos.verGnc;
 document.getElementById("repositorio3-ing").innerText = textos.repositorio2;
 // GNC-LURO
 document.getElementById("proyecto4-titulo-ing").innerText = textos.proyecto4Titulo;
 document.getElementById("subtituloProyecto4-ing").innerText = textos.subtituloProyecto4;
 document.getElementById("parrafoProyecto4-ing").innerText = textos.parrafoProyecto4;
-document.getElementById("lenguajesUtilizados-gncLuro-ing").innerText = textos.LengujesUtilizadosGncLuro;
-document.getElementById("ver4-ing").innerText = textos.verGnc;
 document.getElementById("repositorio4-ing").innerText = textos.repositorio4;
 // FIGMA 1
 // PORTFOLIO ANTIGUO
 document.getElementById("portafolioAntiguo-titulo-ing").innerText = textos.figmaTitulo;
 document.getElementById("herramienta-figma-ing").innerText = textos.herramientaFigma;
 document.getElementById("ver5-ing").innerText = textos.ver5;
-// document.getElementById("repositorio5-ing").innerText = textos.repositorio5;
-
 // KIWANO
 document.getElementById("web-kiwano-titulo-ing").innerText = textos.KiwanoTitulo;
 document.getElementById("herramientafigmaKiwano-ing").innerText = textos.herramientaFigma2;
@@ -509,8 +491,6 @@ document.getElementById("ver7-ing").innerText = textos.ver7;
 document.getElementById("practicandoFifma-titulo-ing").innerText = textos.practicandoFigmaTitulo;
 document.getElementById("herramientaDeFigmaPracticando-ing").innerText = textos.herramientaFigma4;
 document.getElementById("ver8-ing").innerText = textos.ver7;
-
-
 
 
 // DIBUJOS
