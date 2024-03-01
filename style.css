@@ -1205,7 +1205,111 @@ margin: 10px 0px;
         width: auto;
         margin: 0 auto;
     }
-    /*****************/
+ /*************************/
+/*** SECCION SOBRE MI ***/
+/***********************/
+#sobremi {
+    display: inline-block;
+    padding: 100px 0px 0px 0px; 
+} 
+#sobremi .sobremi {
+    padding: 20px 15px 0px 15px;
+}
+.info-container-añosYproyectos {
+    margin-top: 1em;
+     padding: 0px 0px 0px 0px; 
+}
+.descargarCv-copiarLinkGmail{
+    display: flex;
+}
+.descargarCv-copiarLinkGmail a{
+   font-size: 1em;
+}
+.añosDeExperiencia-proyectosCreados{
+    padding: 10px 0px;
+    justify-content: space-around;
+}
+#sobremi .sobremi .linkGmail{
+    margin-left: 0em;
+}
+.descargarCv-copiarLinkGmail{
+    display: flex;
+    justify-content: space-evenly;
+}
+.descargarCv-copiarLinkGmail a{
+   font-size: 20px;
+}
+
+#sobremi .sobremi .titulo-seccion {
+    font-size: 20px;
+}
+#sobremi .sobremi h2 {
+    font-size: 2em;
+    margin: 20px 0;
+}
+#sobremi .sobremi .console-container {
+    font-size: 19px;
+}
+/* IMAGEN SOBRE-MI */
+.contenedor-imagen-logos{
+    flex-direction: column;
+        padding: 0px 0px 0px 0px; 
+} 
+.contenedor-imagen {
+    max-width: 100%;
+    height:auto;
+    border: 5px solid var(--color-hover);
+}
+.contenedor-imagen2 {
+    max-width: 100%;
+    height:auto;
+    border: 5px solid var(--color-hover);
+}
+.contenedor-imagen img{
+    max-width: 100%;
+    height: auto;
+    margin-top: -50px;
+    margin-left: 20px;
+    margin-bottom: 20px ;
+    border: 5px solid rgb(66, 66, 66); 
+}
+.contenedor-imagen2 img{
+    max-width: 100%;
+    height: auto;
+    margin-top: -50px;
+    margin-left: 20px;
+    margin-bottom: 20px ;
+    border: 5px solid rgb(66, 66, 66); 
+}
+.fondo-imagen-personal1{
+    margin-top: 4em;
+     padding: 0px ;
+     display: flex;
+     justify-content: center;
+}
+.logo-imagenes{
+    padding-top: 0%;
+}
+.logos-imagen ul{
+    display:flex;
+    margin-left: 0em;
+    padding: 0px;
+    justify-content: space-evenly;
+ }
+.logos-imagen ul li a{
+    padding: 10px 20px;
+    margin: 0px;
+    font-size: 1.3em;
+    color: white;
+     background-color: rgb(44, 44, 44); 
+}
+.logos-imagen ul li a:hover{
+    margin: 0px;
+    font-size: 1.3em;
+    color: var(--color-hover);
+    background-color: rgb(66, 66, 66);
+}
+/*****************/
 /*** PROYECTOS ***/
 /*****************/
 .titulo-proyectos h1{
@@ -1282,6 +1386,152 @@ margin-right: 50px;
 .espacio-ver-repositorio i{
     font-size: auto;
     }
+/***************/
+/*** PERFIL ***/
+/**************/
+.col-6{
+    width: 100%;
+}
+.columna-1{
+    display: block;
+}
+.titulo-perfil h1 {
+    padding-top: 50px;
+    }
+.fondo-imagen-personal2{
+    margin-top: 1em;
+    padding: 100px 100px 50px 150px;
+}
+.perfil .perfil-titulo-sobreMi{
+    margin-top: 3em;
+    font-size: 1em;
+    justify-content: center;
+}
+.perfil .perfil-titulo-intereses{
+    justify-content: center;
+}
+.perfil {
+    padding: 0px 0px 0px 0px;
+    margin: auto;
+}
+.perfil .intereses-titulo {
+    font-size: 1em;
+   display: flex;
+   justify-content: center;
+}
+/*************/
+/* Columna 2 */
+/*************/
+.columna-2{
+    display: block;
+}
+/* INTERESES */
+.intereses ul {
+    padding: 0px 20px;
+    justify-content: center;  
+    }
+    .intereses ul li i {
+        font-size: 26px;
+      }
+    .intereses ul li {
+        margin: 10px 20px 10px 20px;
+        font-size: 1em;
+      }
+/* tecnologias y habilidades */
+.titulo-tecnohabilidades{
+    display: flex;
+    justify-content: center;
+}
+.logos-tecnohabilidades{
+    text-align: center;
+}
+.tecnologíasyhabilidades h3 {
+    font-size: 1.5em;
+    margin-top: 2em;
+}
+.tecnologíasyhabilidades {
+    padding: 0px 0px 0px 0px;
+}
+.tecnologíasyhabilidades div p{
+    font-size: 1em;
+}
+/* habilidades blandas */
+.titulo-habilidadesBlandas h3{
+    font-size: 1.3em;
+}
+.habilidades-blandas {
+    padding: 0px 0px 30px 0px;
+    text-align: center;
+}
+.habilidades-blandas .opciones p {
+    font-size: 1em ;
+}
+/***************/
+/*** DIBUJOS ***/
+/***************/
+.Galeria-img {
+    background-color: rgb(44, 44, 44);
+    display: grid;
+    grid-gap: 20px;
+    padding: 3rem 3rem 5rem 3rem;
+    margin: 0 auto;
+}
+.info .bob-esponja {
+    padding-top: 50%;
+}
+.info .super-campeones {
+    padding-top: 30%;
+}
+.info .tomYjerryAncianos {
+    padding-top: 30%;
+}
+.info .tomYjerry {
+    padding-top: 50%;
+}
+.info .hellsing {
+    padding-top: 50%;
+}
+.info .krilin {
+    padding-top: 20%;
+}
+.info .random {
+    padding-top: 20%;
+}
+.info .jovenes-titanes {
+    padding-top: 50%;
+}
+.info .jakeLong {
+    padding-top: 0%;
+}
+.info .silvestreYpiolin {
+    padding-top: 10%;
+}
+.info .stitch {
+    padding-top: 50%;
+}
+/*****************/
+/*** CONTACTO ***/
+/***************/
+    .speace-around-entre-objetos-contacto {
+        padding: 0px;
+    }
+    .speace-around-entre-objetos-contacto .y {
+        padding: 10px;
+    }
+    .y {
+        padding-top: 20px;
+    }
+    .z .y .r {
+        margin: auto;
+    }
+/**********************/
+/*** SECCION FOOTER ***/
+/**********************/
+.tamaño-parrafo-footer {
+    text-align: center;
+    font-size: 1.3em;
+    padding: 0px 5px;
+}
 }
 
 
