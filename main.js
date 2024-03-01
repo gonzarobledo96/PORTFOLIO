@@ -249,25 +249,25 @@ function actualizarTextos() {
  misProyectos: "MY PROJECTS",
  disenoUITitulo: "UI Design",
  // Buffet Stentor
- proyecto1Titulo:"PROJECT 1",
+//  proyecto1Titulo:"PROJECT 1",
  subtituloProyecto1:"Neighborhood buffet website",
  parrafoProyecto1:"This project is about a neighborhood buffet located in Villa Luro, Capital. My focus was on creating an intuitive platform that would make it easy to view the most relevant information. Additionally, I optimized the design to improve the user experience, ensuring that key information, such as the menu, hours and promotions, was easily accessible.",
 repositorio: "REPOSITORY",
 BuffetStentor: "BUFFET STENTOR",
 // transporte-escolar
-proyecto2Titulo: "PROJECT 2",
+// proyecto2Titulo: "PROJECT 2",
 subtituloProyecto2: "School transportation website",
 parrafoProyecto2: "This project is about my family's business. I developed a website in order to attract more clients and companies interested in school transportation, providing clear information about the transportation services we offer: vehicles, safety policies and our current clients.",
 repositorio2: "REPOSITORY",
 transporteRaulTitulo: "TRANSPORTATION RAUL-SCHOOL COMPANY",
  // verduleria-natural
- proyecto3Titulo: "PROJECT 3",
+//  proyecto3Titulo: "PROJECT 3",
  subtituloProyecto3: "Greengrocer's website",
  parrafoProyecto3: "Simple website of a greengrocer as part of my learning process. The idea was to practice what I learned in my web development course at coderhouse. Focusing on improving my skills in creating a website. Although the project is modest, it represents an important step in my learning as a web designer and front-end designer.",
  repositorio3: "REPOSITORY",
  verduleriatitulo: "ORGANIC-GREENHOUSE",
  // GNC-LURO
- proyecto4Titulo: "PROJECT 4",
+//  proyecto4Titulo: "PROJECT 4",
  subtituloProyecto4: "Gnc sales website",
  parrafoProyecto4: "Website is about a local business specialized in the sale of CNG. The objective was to create an informative and easy-to-use platform that would highlight the services and products offered. I implemented clear sections to describe the local services offered. This project contributed significantly to my experience in web design and development.",
  repositorio4: "REPOSITORY",
@@ -328,7 +328,7 @@ footer: "Copyright Portfolio 2024. Gonzalo Matias Robledo - Web designer. 🏆�
     masSobreMi: "MAS SOBRE MI",
     sobreMiTitulo: "SOBRE MÍ",
     // holaSoy: "Hola, Soy",
-    parrafoPerfil: "Estudie arquitectura, tuve una materia que se llamaba dibujo, donde aprendi a dibujar bocetos, croquis, dibujos en perspectiva y demas. Ahi descubri que me gustaba mucho plasmar mis ideas y darles vida. Al elegir el diseño web como carrera puedo juntar las 2 cosas que mas me gustan, dibujar y diseñar.",
+    parrafoPerfil: "Estudié arquitectura, tuve una materia que se llamaba dibujo, donde aprendi a dibujar bocetos, croquis, dibujos en perspectiva y demas. Ahi descubri que me gustaba mucho plasmar mis ideas y darles vida. Al elegir el diseño web como carrera puedo juntar las 2 cosas que mas me gustan, dibujar y diseñar.",
     interesesTitulo:"INTERESES",
     dibujar:"Dibujar",
     musica:"Musica",
@@ -347,7 +347,7 @@ proyectos: "PROYECTOS",
 misProyectos: "MIS PROYECTOS",
 disenoUITitulo: "Diseño UI",
 // Buffet Stentor
-proyecto1Titulo:"PROYECTO 1",
+// proyecto1Titulo:"PROYECTO 1",
 subtituloProyecto1:"Pagina web de buffet de barrio",
 parrafoProyecto1:"Este proyecto es sobre un buffet de barrio ubicado en Villa Luro, Capital. Mi enfoque se centró en crear una plataforma intuitiva que facilitara la visualización de la informacion mas relevante. Además, optimicé el diseño para mejorar la experiencia del usuario, asegurándome de que la información clave, como el menu, horarios y las promociones, estuviera fácilmente accesible.",
 ver: "VER",
@@ -355,7 +355,7 @@ repositorio: "REPOSITORIO",
 BuffetStentor: "BUFFET STENTOR",
 lenguajesUtilizadosBuffet: "Lenguajes utilizados: Html, Css, Bootstrap, React, js y Figma",
 // transporte-escola
-proyecto2Titulo: "PROYECTO 2",
+// proyecto2Titulo: "PROYECTO 2",
 subtituloProyecto2: "Pagina web de transporte escolar",
 parrafoProyecto2: "Este proyecto es sobre la empresa de mi familia. Desarrollé un sitio web con el fin de atraer a mas clientes y empresas interesadas en el transporte escolar, proporcionando información clara sobre los servicios de transporte que ofrecemos: vehiculos, políticas de seguridad y nuestros clientes actuales.",
 ver2: "VER",
@@ -363,7 +363,7 @@ repositorio2: "REPOSITORIO",
 transporteRaulTitulo: "TRANSPORTE RAUL-EMPRESA ESCOLAR",
 lenguajesUtilizadosTransporte: "lenguajes utilizados: Html, Css, Bootstrap y Js.",
 // verduleria-natural
-proyecto3Titulo: "PROYECTO 3",
+// proyecto3Titulo: "PROYECTO 3",
 subtituloProyecto3: "Pagina web de Verduleria",
 parrafoProyecto3: "Sencilla web de una verdulería como parte de mi proceso de aprendizaje. La idea era practicar lo aprendido en mi curso de desarrollo web en coderhouse. Centrándome en mejorar mis habilidades en la creación de un sitio web. Aunque el proyecto es modesto, representa un paso importante en mi aprendizaje como diseñador web y diseñador front-end.",
 ver3: "VER",
@@ -371,7 +371,7 @@ repositorio3: "REPOSITORIO",
 verduleriatitulo: "VERDULERIA-ORGANICA",
 lenguajesUtilizadosVerduleria: "Lenguajes utilizados: Html, Css, Bootstrap y Js.",
 // GNC-LURO
-proyecto4Titulo: "PROYECTO 4",
+// proyecto4Titulo: "PROYECTO 4",
 subtituloProyecto4: "Pagina web de venta de Gnc",
 parrafoProyecto4: "Sitio web es sobre un comercio local especializado en la venta de GNC .El objetivo fue crear una plataforma informativa y fácil de usar que destacara los servicios y productos ofrecidos. Implementé secciones claras para describir los servicios ofrecidos del local. Este proyecto contribuyó significativamente a mi experiencia en diseño y desarrollo web.",
 verGnc: "VER",
@@ -452,24 +452,24 @@ document.getElementById("videoJuegos-ing").innerText = textos.videoJuegos;
   document.getElementById("misProyectos-ing").innerText = textos.misProyectos;
   document.getElementById("disenoUITitulo-ing").innerText = textos.disenoUITitulo;
   //BUFFET STENTOR
-  document.getElementById("proyecto1-titulo-ing").innerText = textos.proyecto1Titulo;
+  // document.getElementById("proyecto1-titulo-ing").innerText = textos.proyecto1Titulo;
   document.getElementById("subtituloProyecto1-ing").innerText = textos.subtituloProyecto1;
   document.getElementById("parrafoProyecto1-ing").innerText = textos.parrafoProyecto1;
   document.getElementById("repositorio-ing").innerText = textos.repositorio;
 // TRANSPORTE-ESCOLAR
-document.getElementById("proyecto2-titulo-ing").innerText = textos.proyecto2Titulo;
+// document.getElementById("proyecto2-titulo-ing").innerText = textos.proyecto2Titulo;
 document.getElementById("subtituloProyecto2-ing").innerText = textos.subtituloProyecto2;
 document.getElementById("parrafoProyecto2-ing").innerText = textos.parrafoProyecto2;
 document.getElementById("transporte-raul-titulo-ing").innerText = textos.transporteRaulTitulo;
 document.getElementById("repositorio2-ing").innerText = textos.repositorio2;
 // VERDULERIA-NATURAL
-document.getElementById("proyecto3-titulo-ing").innerText = textos.proyecto3Titulo;
+// document.getElementById("proyecto3-titulo-ing").innerText = textos.proyecto3Titulo;
 document.getElementById("subtituloProyecto3-ing").innerText = textos.subtituloProyecto3;
 document.getElementById("parrafoProyecto3-ing").innerText = textos.parrafoProyecto3;
 document.getElementById("verduleria-titulo-ing").innerText = textos.verduleriatitulo;
 document.getElementById("repositorio3-ing").innerText = textos.repositorio2;
 // GNC-LURO
-document.getElementById("proyecto4-titulo-ing").innerText = textos.proyecto4Titulo;
+// document.getElementById("proyecto4-titulo-ing").innerText = textos.proyecto4Titulo;
 document.getElementById("subtituloProyecto4-ing").innerText = textos.subtituloProyecto4;
 document.getElementById("parrafoProyecto4-ing").innerText = textos.parrafoProyecto4;
 document.getElementById("repositorio4-ing").innerText = textos.repositorio4;
