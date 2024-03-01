@@ -130,21 +130,14 @@ body.modo-oscuro {
 .modo-oscuro .parrafo-logo h3{
 color: white;
 }
-.modo-oscuro .logos-imagen li{
-    background-color: rgb(85, 81, 81);
-}
-.modo-oscuro .logos-imagen ul li a{
-    color: rgb(255, 255, 255);
-}
 .modo-oscuro .logos-imagen ul li a:hover{
     color: var(--color-hover);
+    /* color: white; */
     border-radius: 6% 6% 6% 6%;
     transition: 0.5s;
     border: none;
 }
-.modo-oscuro .tecnologíasyhabilidades{
-    color: rgb(255, 199, 88);
-}
+
 .modo-oscuro .fondo-contacto{
     background-color: rgb(50, 50, 50, 1);
 }
