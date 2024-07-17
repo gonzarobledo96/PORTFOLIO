@@ -219,7 +219,7 @@ function actualizarTextos() {
     // INICIO
     // holaMiNombreEsGonzalo: "HELLO, MY NAME IS",
     DiseñadorFronTend: "Front-end Developer",
-    parrafoInicio: "Passionate about design, always willing to face challenges, I like everything that indicates web design and Front-end design. My unique point? creativity. In each project, I find a way to express my creativity in a unique way.",
+    parrafoInicio: "Frontend Designer and Web Designer with 1 year of experience in responsive design, web layout and user experience improvement. Skilled in HTML, CSS, Tailwind, Bootstrap, React and Figma. Empathy, Proactive and detail-oriented.",
     descargarCV: "Download CV",
     AñosDeExperiencia: "Years of experience",
     proyectosCreados: "Created Projects",
@@ -318,7 +318,7 @@ footer: "Copyright Portfolio 2024. Gonzalo Matias Robledo - Web designer. 🏆�
     eligeColor: " Colores del Tema",
     // INICIO
     DiseñadorFronTend: "Diseñador Front-end",
-    parrafoInicio: "Apasionado por el diseño, dispuesto siempre a enfrentar desafios, me gusta todo lo que indique diseño web y diseño Front-end ¿Mi punto unico? creatividad. En cada proyecto, encuentro la forma de plasmar mi creatividad de manera única.",
+    parrafoInicio: "Diseñador Frontend y Diseñador Web con 1 año de experiencia en el diseño responsive, maquetacion web y mejora de la experiencia de usuario. Habilidad en HTML, CSS, Tailwind, Bootstrap, React y Figma. Empatía, Proactivo y detallista.",
     descargarCV: "Descargar CV",
     AñosDeExperiencia: "Años de experiencia",
     proyectosCreados: "Proyectos creados",
