@@ -13,9 +13,6 @@ function subirArriba() {
 
 
 
-
-
-
 document.addEventListener('DOMContentLoaded', function () {
   // ... (otros códigos y eventos aquí)
 
@@ -85,19 +82,7 @@ function cambiarColores(colorSeleccionado) {
 
   document.documentElement.style.setProperty('--color-hover', colorSeleccionado);
   const portfolioImagenes = document.querySelectorAll('.proyecto');
-  
- 
-// SOMBRA DE LAS IMAGENES DE PROYECTOS
-// if (colorSeleccionado === '') {
-//    Removemos la sombra en las imágenes
-//   portfolioImagenes.forEach((portfolioImagen) => {
-//     portfolioImagen.style.boxShadow = '';  poner none si quieres quitar la sombra 
-//   });
-// } else {
-//   portfolioImagenes.forEach((portfolioImagen) => {
-//     portfolioImagen.style.boxShadow = `6px 6px 6px 1px ${colorSeleccionado}`;
-//   });
-// }
+
 };
 
 
@@ -105,32 +90,31 @@ function cambiarColores(colorSeleccionado) {
 // **************************
 // CAMBIAR EL FONDO DEL BODY
 // **************************
-// nuevo del viejo
 function cambiarFondo() {
   const body = document.body;
   const icono = document.getElementById('modo-icono');
-  const contenedorImagen1 = document.querySelector('.contenedor-imagen');
-  const contenedorImagen2 = document.querySelector('.contenedor-imagen2');
-  const imagen1 = contenedorImagen1.querySelector('img');
-  const imagen2 = contenedorImagen2.querySelector('img');
+  // const contenedorImagen1 = document.querySelector('.contenedor-imagen');
+  // const contenedorImagen2 = document.querySelector('.contenedor-imagen2');
+  // const imagen1 = contenedorImagen1.querySelector('img');
+  // const imagen2 = contenedorImagen2.querySelector('img');
 
-  // Cambia la imagen de fondo del contenedor-imagen1
-  if (body.classList.contains('modo-oscuro')) {
-    imagen1.src = './imagenes/imagen-personal/responsive-1.png';
-    imagen1.alt = 'Descripción de la imagen en modo oscuro';
-  } else {
-    imagen1.src = './imagenes/imagen-personal/responsive-2.png';
-    imagen1.alt = 'Descripción de la imagen en modo claro';
-  }
+  //  Cambia la imagen de fondo del contenedor-imagen1
+  // if (body.classList.contains('modo-oscuro')) {
+  //   imagen1.src = './imagenes/imagen-personal/responsive-1.png';
+  //   imagen1.alt = 'Descripción de la imagen en modo oscuro';
+  // } else {
+  //   imagen1.src = './imagenes/imagen-personal/responsive-2.png';
+  //   imagen1.alt = 'Descripción de la imagen en modo claro';
+  // }
 
-  // Cambia la imagen de fondo del contenedor-imagen2
-  if (body.classList.contains('modo-oscuro')) {
-    imagen2.src = './imagenes/imagen-personal/responsive-1.png';
-    imagen2.alt = 'Descripción de la imagen en modo oscuro';
-  } else {
-    imagen2.src = './imagenes/imagen-personal/responsive-2.png';
-    imagen2.alt = 'Descripción de la imagen en modo claro';
-  }
+  //  Cambia la imagen de fondo del contenedor-imagen2
+  // if (body.classList.contains('modo-oscuro')) {
+  //   imagen2.src = './imagenes/imagen-personal/responsive-1.png';
+  //   imagen2.alt = 'Descripción de la imagen en modo oscuro';
+  // } else {
+  //   imagen2.src = './imagenes/imagen-personal/responsive-2.png';
+  //   imagen2.alt = 'Descripción de la imagen en modo claro';
+  // }
 
   // CAMBIA EL LOGO DEL SOL A LA LUNA
   // Verifica si el cuerpo tiene la clase 'modo-oscuro'
@@ -143,43 +127,6 @@ function cambiarFondo() {
     icono.className = 'fa-regular fa-moon';
     body.classList.add('modo-oscuro');
   }
-  // Integración de tu código
-  // const perfilTitulo = document.querySelector('.titulo-perfil');
-  // const fondoContacto = document.querySelector('.fondo-contacto');
-  // const tituloProyecto = document.querySelector('.titulo-proyectos');
-  // const span = document.querySelector('span');
-  // const perfil = document.querySelector('.acerca-de-fondo');
-  // const fondoNav = document.querySelector('.sobre-mi');
-  // const parrafos = document.querySelector('.parrafos');
-  // const tituloSeccion = document.querySelector('.titulo-seccion');
-  // const tecnologiasYHabilidades = document.querySelector('.tecnologias-y-habilidades');
-  // const consoleContainer = document.querySelector('.console-container');
-  // const consoleUnderscore = document.querySelector('.console-underscore');
-  // const navbarBg = document.querySelector('navbar');
-  // const parrafoLogo = document.querySelector('.parrafo-logo');
-  // const logosColores = document.querySelector('.logo-navBar-colores');
-  // const eligeUnColor = document.querySelector('.elige-un-color');
-  // const btnSubirArriba = document.querySelector('#btnSubirArriba');
-  
-
-  
-  // Agrega o remueve la clase 'modo-oscuro' a los elementos
-  // perfilTitulo.classList.toggle('modo-oscuro');
-  // tituloProyecto.classList.toggle('modo-oscuro');
-  // span.classList.toggle('modo-oscuro');
-  // perfil.classList.toggle('modo-oscuro');
-  // fondoNav.classList.toggle('modo-oscuro');
-  // parrafos.classList.toggle('modo-oscuro');
-  // tituloSeccion.classList.toggle('modo-oscuro');
-  // tecnologiasYHabilidades.classList.toggle('modo-oscuro');
-  // consoleContainer.classList.toggle('modo-oscuro');
-  // consoleUnderscore.classList.toggle('modo-oscuro');
-  // navbarBg.classList.toggle('modo-oscuro');
-  // parrafoLogo.classList.toggle('modo-oscuro');
-  // logosColores.classList.toggle('modo-oscuro');
-  // fondoContacto.classList.toggle('modo-oscuro');
-  // eligeUnColor.classList.toggle('modo-oscuro');
-  // btnSubirArriba.classList.toggle('modo-oscuro');
 }
 
 
@@ -218,8 +165,8 @@ function actualizarTextos() {
 
     // INICIO
     // holaMiNombreEsGonzalo: "HELLO, MY NAME IS",
-    DiseñadorFronTend: "Front-end Developer",
-    parrafoInicio: "Frontend Designer and Web Designer with 1 year of experience in responsive design, web layout and user experience improvement. Skilled in HTML, CSS, Tailwind, Bootstrap, React and Figma. Empathy, Proactive and detail-oriented.",
+    DiseñadorFronTend: "Web and Front-end designer",
+    parrafoInicio: "Frontend and web designer with 1 year of experience in responsive design, web layout and user experience improvement. I have skills in HTML, CSS, Tailwind, Bootstrap, React and Figma. I define myself as an empathetic, proactive and detail-oriented person, always looking to contribute the best of myself to each project.",
     descargarCV: "Download CV",
     AñosDeExperiencia: "Years of experience",
     proyectosCreados: "Created Projects",
@@ -250,13 +197,13 @@ function actualizarTextos() {
  disenoUITitulo: "UI Design",
  // Buffet Stentor
 //  proyecto1Titulo:"PROJECT 1",
- subtituloProyecto1:"Neighborhood buffet website",
+ subtituloProyecto1:"Neighborhood Buffet Website",
  parrafoProyecto1:"This project is about a neighborhood buffet located in Villa Luro, Capital. My focus was on creating an intuitive platform that would make it easy to view the most relevant information. Additionally, I optimized the design to improve the user experience, ensuring that key information, such as the menu, hours and promotions, was easily accessible.",
 repositorio: "REPOSITORY",
 BuffetStentor: "BUFFET STENTOR",
 // transporte-escolar
 // proyecto2Titulo: "PROJECT 2",
-subtituloProyecto2: "School transportation website",
+subtituloProyecto2: "School transport website",
 parrafoProyecto2: "This project is about my family's business. I developed a website in order to attract more clients and companies interested in school transportation, providing clear information about the transportation services we offer: vehicles, safety policies and our current clients.",
 repositorio2: "REPOSITORY",
 transporteRaulTitulo: "TRANSPORTATION RAUL-SCHOOL COMPANY",
@@ -297,7 +244,7 @@ ver8: "SEE",
 // DIBUJOS
 dibujosTitulo: "DRAWINGS",
 misDibujos: "MY DRAWINGS",
-parrafoDibujos: "I USUALLY DRAW TO PUT MY MIND BLANK, RELAX, REGULATE STRESS AND IMPROVE CONCENTRATION. IT IS THE WAY I HAVE TO IMPROVE CREATIVITY AND MENTAL HEALTH.",
+parrafoDibujos: "I LOVE DRAWING, IT IMPROVES MY CREATIVITY AND ENRICHES MY APPROACH TO WEB DESIGN, BRINGING FRESHNESS AND INNOVATION TO EVERY PROJECT.",
 
 // CONTACTO
 contacto: "CONTACT",
@@ -307,7 +254,10 @@ fraseContacto: "CREATIVITY IS INTELLIGENCE HAVING FUN.",
 footer: "Copyright Portfolio 2024. Gonzalo Matias Robledo - Web designer. 🏆🏆🏆",
 
 
-    // ... otros textos en inglés
+
+    // ********
+    // ESPAÑOL
+    // ********
   };
   var textosEs = {
     inicioNav:"INICIO",
@@ -317,8 +267,8 @@ footer: "Copyright Portfolio 2024. Gonzalo Matias Robledo - Web designer. 🏆�
     contactar: "CONTACTAR",
     eligeColor: " Colores del Tema",
     // INICIO
-    DiseñadorFronTend: "Diseñador Front-end",
-    parrafoInicio: "Diseñador Frontend y Diseñador Web con 1 año de experiencia en el diseño responsive, maquetacion web y mejora de la experiencia de usuario. Habilidad en HTML, CSS, Tailwind, Bootstrap, React y Figma. Empatía, Proactivo y detallista.",
+    DiseñadorFronTend: "Diseñador web y Front-end",
+    parrafoInicio: "Diseñador web y frontend con 1 año de experiencia en diseño responsive, maquetación web y mejora de la experiencia de usuario. Tengo habilidades en HTML, CSS, Tailwind, Bootstrap, React y Figma. Me defino como una persona empática, proactiva y detallista, siempre buscando aportar lo mejor de mí en cada proyecto.",
     descargarCV: "Descargar CV",
     AñosDeExperiencia: "Años de experiencia",
     proyectosCreados: "Proyectos creados",
@@ -348,7 +298,7 @@ misProyectos: "MIS PROYECTOS",
 disenoUITitulo: "Diseño UI",
 // Buffet Stentor
 // proyecto1Titulo:"PROYECTO 1",
-subtituloProyecto1:"Pagina web de buffet de barrio",
+subtituloProyecto1:"Web de buffet de barrio",
 parrafoProyecto1:"Este proyecto es sobre un buffet de barrio ubicado en Villa Luro, Capital. Mi enfoque se centró en crear una plataforma intuitiva que facilitara la visualización de la informacion mas relevante. Además, optimicé el diseño para mejorar la experiencia del usuario, asegurándome de que la información clave, como el menu, horarios y las promociones, estuviera fácilmente accesible.",
 ver: "VER",
 repositorio: "REPOSITORIO",
@@ -356,7 +306,7 @@ BuffetStentor: "BUFFET STENTOR",
 lenguajesUtilizadosBuffet: "Lenguajes utilizados: Html, Css, Bootstrap, React, js y Figma",
 // transporte-escola
 // proyecto2Titulo: "PROYECTO 2",
-subtituloProyecto2: "Pagina web de transporte escolar",
+subtituloProyecto2: "Web de transporte escolar",
 parrafoProyecto2: "Este proyecto es sobre la empresa de mi familia. Desarrollé un sitio web con el fin de atraer a mas clientes y empresas interesadas en el transporte escolar, proporcionando información clara sobre los servicios de transporte que ofrecemos: vehiculos, políticas de seguridad y nuestros clientes actuales.",
 ver2: "VER",
 repositorio2: "REPOSITORIO",
@@ -364,15 +314,15 @@ transporteRaulTitulo: "TRANSPORTE RAUL-EMPRESA ESCOLAR",
 lenguajesUtilizadosTransporte: "lenguajes utilizados: Html, Css, Bootstrap y Js.",
 // verduleria-natural
 // proyecto3Titulo: "PROYECTO 3",
-subtituloProyecto3: "Pagina web de Verduleria",
-parrafoProyecto3: "Sencilla web de una verdulería como parte de mi proceso de aprendizaje. La idea era practicar lo aprendido en mi curso de desarrollo web en coderhouse. Centrándome en mejorar mis habilidades en la creación de un sitio web. Aunque el proyecto es modesto, representa un paso importante en mi aprendizaje como diseñador web y diseñador front-end.",
+subtituloProyecto3: "Web de Verduleria",
+parrafoProyecto3: "Web de una verdulería como parte de mi proceso de aprendizaje. La idea era practicar lo aprendido en mi curso de desarrollo web en coderhouse. Centrándome en mejorar mis habilidades en la creación de un sitio web. Aunque el proyecto es modesto, representa un paso importante en mi aprendizaje como diseñador web y diseñador front-end.",
 ver3: "VER",
 repositorio3: "REPOSITORIO",
 verduleriatitulo: "VERDULERIA-ORGANICA",
 lenguajesUtilizadosVerduleria: "Lenguajes utilizados: Html, Css, Bootstrap y Js.",
 // GNC-LURO
 // proyecto4Titulo: "PROYECTO 4",
-subtituloProyecto4: "Pagina web de venta de Gnc",
+subtituloProyecto4: "Web de venta de Gnc",
 parrafoProyecto4: "Sitio web es sobre un comercio local especializado en la venta de GNC .El objetivo fue crear una plataforma informativa y fácil de usar que destacara los servicios y productos ofrecidos. Implementé secciones claras para describir los servicios ofrecidos del local. Este proyecto contribuyó significativamente a mi experiencia en diseño y desarrollo web.",
 verGnc: "VER",
 repositorio4: "REPOSITORIO",
@@ -401,7 +351,7 @@ ver8: "VER",
 // DIBUJOS
 dibujosTitulo: "DIBUJOS",
 misDibujos: "MIS DIBUJOS",
-parrafoDibujos: "SUELO DIBUJAR PARA PONER MI MENTE EN BLANCO, RELAJARME, REGULAR EL ESTRÉS Y MEJORAR LA CONCENTRACIÓN. ES LA FORMA QUE TENGO DE MEJORAR LA CREATIVIDAD Y SALUD MENTAL.",
+parrafoDibujos: "ME ENCANTA DIBUJAR, MEJORA MI CREATIVIDAD Y ENRIQUECE MI ENFOQUE EN EL DISEÑO WEB, APORTANDO FRESCURA E INNOVACIÓN A CADA PROYECTO.",
 // CONTACTO
 contacto: "CONTACTO",
 fraseContacto: "LA CREATIVIDAD ES LA INTELIGENCIA DIVIRTIÉNDOSE.",

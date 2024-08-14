@@ -1,804 +1,893 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- boostrap css-->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
-  <!-- boostrap iconos -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
-  <!-- google fonts -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-<!-- LOGO FONT AWESOME -->
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
-  <!-- ANIMACION DE AOS -->
-  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-<!-- efecto Lightbox grid -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.10.0/baguetteBox.min.css" /> 
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <!-- boostrap iconos -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <!-- LOGO FONT AWESOME -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+        integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <!-- ANIMACION DE AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- efecto Lightbox grid -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.10.0/baguetteBox.min.css" />
     <link rel="stylesheet" href="./style.css">
     <title>Porfolio</title>
 </head>
+
 <body>
 
-    
-<!-- *************************** -->
-<!-- *** BARRA DE NAVEGACION *** -->
-<!-- *************************** -->
-<div class="inicio" id="inicio">
-    <div class="contenido data-container">
-      <nav id="navbar" class="navbar navbar-expand-lg fixed-top">
-        <div class="container-fluid navbar-bg">
-          <div class="parrafo-logo nav-item mt-3">
-            <p class="d-inline-block"> < </p>
-            <h3 class="d-inline-block">GR</h3>
-            <p class="d-inline-block"> ></p>
-          </div>
-          <div class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <div class="hamburger__container">
-              <div class="hamburger__inner">
-                <!-- Utiliza el ícono de hamburguesa o cruz según el estado del menú -->
-                <i class="fas fa-bars logo-navbar"></i>
-                <i class="fas fa-times logo-navbar"></i>
-              </div>
-              <div class="hamburger__hidden"></div>
-            </div>
-          </div>
 
-          <div class="collapse navbar-collapse posicion-nav" id="navbarSupportedContent">
-            <ul class="navbar-nav">
-              <li class=" nav-item marginLeft-del-navBar">
-                <a id="inicio-ing" class="nav-link text-navbar diseño-texto-navbar navbar-item" href="#sobremi" rel="noopener noreferrer">
-                  <!-- <i class=" bi bi-house-door-fill"></i> -->
-                  INICIO
-                </a>
-              </li>
-              <li class="nav-item marginLeft-del-navBar">
-                <a id="proyectos-ing" class="nav-link text-navbar diseño-texto-navbar" href="#proyectos" rel="noopener noreferrer">PROYECTOS</a>
-          </li>
-              <li class="nav-item marginLeft-del-navBar">        
-                <a id="perfil-ing" class="nav-link text-navbar diseño-texto-navbar" href="#perfil" rel="noopener
+    <!-- *************************** -->
+    <!-- *** BARRA DE NAVEGACION *** -->
+    <!-- *************************** -->
+    <div class="inicio" id="inicio">
+        <div class="contenido data-container">
+            <nav id="navbar" class="navbar navbar-expand-lg fixed-top">
+                <div class="container-fluid navbar-bg">
+                    <div class="parrafo-logo nav-item mt-3">
+                        <p class="d-inline-block">
+                            < </p>
+                                <h3 class="d-inline-block">GR</h3>
+                                <p class="d-inline-block"> ></p>
+                    </div>
+                    <div class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <div class="hamburger__container">
+                            <div class="hamburger__inner">
+                                <!-- Utiliza el ícono de hamburguesa o cruz según el estado del menú -->
+                                <i class="fas fa-bars logo-navbar"></i>
+                                <i class="fas fa-times logo-navbar"></i>
+                            </div>
+                            <div class="hamburger__hidden"></div>
+                        </div>
+                    </div>
+
+                    <div class="collapse navbar-collapse posicion-nav" id="navbarSupportedContent">
+                        <ul class="navbar-nav">
+                            <li class=" nav-item marginLeft-del-navBar">
+                                <a id="inicio-ing" class="nav-link text-navbar diseño-texto-navbar navbar-item"
+                                    href="#sobremi" rel="noopener noreferrer">
+                                    <!-- <i class=" bi bi-house-door-fill"></i> -->
+                                    INICIO
+                                </a>
+                            </li>
+                            <li class="nav-item marginLeft-del-navBar">
+                                <a id="proyectos-ing" class="nav-link text-navbar diseño-texto-navbar" href="#proyectos"
+                                    rel="noopener noreferrer">PROYECTOS</a>
+                            </li>
+                            <li class="nav-item marginLeft-del-navBar">
+                                <a id="perfil-ing" class="nav-link text-navbar diseño-texto-navbar" href="#perfil" rel="noopener
                  noreferrer">perfil</a>
-              </li>
-             
-              <li class="nav-item marginLeft-del-navBar">       
-                    <a id="mis-intereses-ing" class="nav-link text-navbar diseño-texto-navbar" href="#dibujos" rel="noopener noreferrer">MIS INTERESES</a>
-              </li>
-              <li class="nav-item marginLeft-del-navBar">
-                <a id="contactar-ing" class="nav-link text-navbar diseño-texto-navbar" href="#contacto-ing" rel="noopener noreferrer">CONTACTAR</a>
-              </li>
-            </ul>
-            
-            <div>
-              <ul class="navbar-nav logo-navBar-colores">    
-                <li class="nav-item">
-                  <button style="border: none; background-color: transparent;" class="nav-link" id="idioma-link" onclick="toggleIdioma()">
-                    <i class="fa-solid fa-earth-americas logo-posicion"></i>
-                  </button>
-                </li>              
-                <li class="nav-item" style="cursor: pointer;">
-                  <a class="nav-link" onclick="cambiarFondo()"><i id="modo-icono" class="sol-icono fa-regular fa-sun logo-posicion"></i></a>
-                </li>               
-                 <li class="nav-item dropdown">
-                    <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                      <i class="fa-solid fa-gear logo-posicion"></i>
-                    </a>
-                    <ul class="dropdown-menu fondo-elige-un-color" id="color-list">
-                      <p id="elige-un-color-ing" class="text-center elige-un-color">Colores del Tema</p>
-                      <div class="logos-colores d-flex">
-                        <li><a href="#" data-color="" onclick="handleColorChange(event)"><i class="fas fa-circle" style="color: rgb(255, 199, 88);"></i></a></li>
-                        <li><a href="#" data-color="#ec1839" onclick="handleColorChange(event)"><i class="fas fa-circle" style="color: #ec1839;"></i></a></li>
-                        <li><a href="#" data-color="#fa5b0f" onclick="handleColorChange(event)"><i class="fas fa-circle" style="color: #fa5b0f;"></i></a></li>
-                        <li><a href="#" data-color="#37b182" onclick="handleColorChange(event)"><i class="fas fa-circle" style="color: #37b182;"></i></a></li>
-                        <li><a href="#" data-color="rgb(218, 221, 29)" onclick="handleColorChange(event)"><i class="fas fa-circle" style="color: rgb(218, 221, 29);"></i></a></li>
-                        <li><a href="#" data-color="#2564ca" onclick="handleColorChange(event)"><i class="fas fa-circle" style="color: #2564ca;"></i></a></li>
-                        <li><a href="#" data-color="#f021b2" onclick="handleColorChange(event)"><i class="fas fa-circle" style="color: #f021b2;"></i></a></li>
-                      </div>
-                    </ul>
-                  </li>     
-              </ul>
-            </div>
-          </div>
+                            </li>
 
-        </div>
-      </nav>
-    </div>
-  </div>
+                            <li class="nav-item marginLeft-del-navBar">
+                                <a id="mis-intereses-ing" class="nav-link text-navbar diseño-texto-navbar"
+                                    href="#dibujos" rel="noopener noreferrer">MIS INTERESES</a>
+                            </li>
+                            <li class="nav-item marginLeft-del-navBar">
+                                <a id="contactar-ing" class="nav-link text-navbar diseño-texto-navbar"
+                                    href="#contacto-ing" rel="noopener noreferrer">CONTACTAR</a>
+                            </li>
+                        </ul>
 
-
-<!-- ********************** -->
-<!-- *** SECCION INICIO *** -->
-<!-- ********************** -->
-<div class="row" id="sobremi">
-    <div class="col columna-1-inicio">
-        <div class="sobremi">
-            <div>
-                <p id="DiseñadorFronTend-ing" class="titulo-seccion">Diseñador Front-end</p>
-             <h2>GONZALO ROBLEDO</h2> 
-                  <p id="parrafo-inicio-ing" class="parrafo">
-                    Diseñador Frontend y Diseñador Web con 1 año de experiencia en el diseño responsive, maquetacion web y mejora de la experiencia de usuario. Habilidad en HTML, CSS, Tailwind, Bootstrap, React y Figma. Empatía, Proactivo y detallista.
-                  </p><!-- Apasionado por el diseño, dispuesto siempre a enfrentar desafios, me gusta todo lo que indique diseño web y diseño Front-end ¿Mi punto unico? creatividad. En cada proyecto, encuentro la forma de plasmar mi creatividad de manera única. -->
-           <div class="descargarCv-copiarLinkGmail">
-            <a id="descargarCV-ing" class="descargarCV" href="./imagenes/CV GONZALO ROBLEDO.pdf" target="_blank">Descargar CV</a>
-            <a id="linkGmail-ing" class="linkGmail" href="mailto:gonzarobledo96@gmail.com" target="_blank">Link Gmail</a> 
-           </div>
-            </div>
-            <div class="d-flex añosDeExperiencia-proyectosCreados">
-                <div class="info-container-añosYproyectos">
-                    <div class=" d-flex">
-                        <p>01</p>
-                        <h3 id="añosDeExperiencia-ing" class="d-flex ">Años de experiencia</h3>
+                        <div>
+                            <ul class="navbar-nav logo-navBar-colores">
+                                <li class="nav-item">
+                                    <button style="border: none; background-color: transparent;" class="nav-link"
+                                        id="idioma-link" onclick="toggleIdioma()">
+                                        <i class="fa-solid fa-earth-americas logo-posicion"></i>
+                                    </button>
+                                </li>
+                                <li class="nav-item" style="cursor: pointer;">
+                                    <a class="nav-link" onclick="cambiarFondo()"><i id="modo-icono"
+                                            class="sol-icono fa-regular fa-sun logo-posicion"></i></a>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown"
+                                        aria-expanded="false">
+                                        <i class="fa-solid fa-gear logo-posicion"></i>
+                                    </a>
+                                    <ul class="dropdown-menu fondo-elige-un-color" id="color-list">
+                                        <p id="elige-un-color-ing" class="text-center elige-un-color">Colores del Tema
+                                        </p>
+                                        <div class="logos-colores d-flex">
+                                            <li><a href="#" data-color="" onclick="handleColorChange(event)"><i
+                                                        class="fas fa-circle" style="color: rgb(255, 199, 88);"></i></a>
+                                            </li>
+                                            <li><a href="#" data-color="#ec1839" onclick="handleColorChange(event)"><i
+                                                        class="fas fa-circle" style="color: #ec1839;"></i></a></li>
+                                            <li><a href="#" data-color="#fa5b0f" onclick="handleColorChange(event)"><i
+                                                        class="fas fa-circle" style="color: #fa5b0f;"></i></a></li>
+                                            <li><a href="#" data-color="#37b182" onclick="handleColorChange(event)"><i
+                                                        class="fas fa-circle" style="color: #37b182;"></i></a></li>
+                                            <li><a href="#" data-color="rgb(218, 221, 29)"
+                                                    onclick="handleColorChange(event)"><i class="fas fa-circle"
+                                                        style="color: rgb(218, 221, 29);"></i></a></li>
+                                            <li><a href="#" data-color="#2564ca" onclick="handleColorChange(event)"><i
+                                                        class="fas fa-circle" style="color: #2564ca;"></i></a></li>
+                                            <li><a href="#" data-color="#f021b2" onclick="handleColorChange(event)"><i
+                                                        class="fas fa-circle" style="color: #f021b2;"></i></a></li>
+                                        </div>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
-                <div class="info-container-añosYproyectos">
-                    <div class=" d-flex">
-                        <p>8</p>
-                        <h3 id="proyectos-creados-ing">Proyectos creados</h3>
+            </nav>
+        </div>
+    </div>
+
+
+    <!-- ********************** -->
+    <!-- *** SECCION INICIO *** -->
+    <!-- ********************** -->
+    <div class="row" id="sobremi">
+        <div class="col columna-1-inicio">
+            <div class="sobremi">
+                <div>
+                    <p id="DiseñadorFronTend-ing" class="titulo-seccion">Diseñador web y Front-end</p>
+                    <h2>GONZALO ROBLEDO</h2>
+                    <p id="parrafo-inicio-ing" class="parrafo">
+                        Soy Diseñador Frontend y Diseñador Web con 1 año de experiencia en diseño responsive,
+                        maquetación web y mejora de la experiencia de usuario. Tengo habilidades en HTML, CSS, Tailwind,
+                        Bootstrap, React y Figma. Me defino como una persona empática, proactiva y detallista, siempre
+                        buscando aportar lo mejor de mí en cada proyecto.
+                        <!-- Diseñador Frontend y Diseñador Web con 1 año de experiencia en el diseño responsive, maquetacion web y mejora de la experiencia de usuario. Habilidad en HTML, CSS, Tailwind, Bootstrap, React y Figma. Empatía, Proactivo y detallista. -->
+                    </p>
+                    <!-- Apasionado por el diseño, dispuesto siempre a enfrentar desafios, me gusta todo lo que indique diseño web y diseño Front-end ¿Mi punto unico? creatividad. En cada proyecto, encuentro la forma de plasmar mi creatividad de manera única. -->
+                    <div class="descargarCv-copiarLinkGmail">
+                        <a id="descargarCV-ing" class="descargarCV" href="./imagenes/CV GONZALO ROBLEDO.pdf"
+                            target="_blank">Descargar CV</a>
+                        <a id="linkGmail-ing" class="linkGmail" href="mailto:gonzarobledo96@gmail.com"
+                            target="_blank">Link Gmail</a>
+                    </div>
+                </div>
+                <div class="d-flex añosDeExperiencia-proyectosCreados">
+                    <div class="info-container-añosYproyectos">
+                        <div class=" d-flex">
+                            <p>01</p>
+                            <h3 id="añosDeExperiencia-ing" class="d-flex ">Años de experiencia</h3>
+                        </div>
+                    </div>
+                    <div class="info-container-añosYproyectos">
+                        <div class=" d-flex">
+                            <p>8</p>
+                            <h3 id="proyectos-creados-ing">Proyectos creados</h3>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-    <div class="col fondo-imagen1Y2 columna-1-inicio">
-        <div class="container contenedor-imagen-logos">
-            <div class="fondo-imagen-personal1">
-                <div class="contenedor-imagen">
-                   <img  src="./imagenes/imagen-personal/responsive-1.png" alt="Descripción de la imagen">
-                 </div>
-             </div>
-        <div class="logos-imagen" >
-            <ul>
-                   <li class="nav-item" >
-                    <a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook iconn" ></i></a>
-                </li>  
+        <div class="col fondo-imagen1Y2 columna-1-inicio">
+            <div class="container contenedor-imagen-logos">
+                <div class="fondo-imagen-personal1">
+                    <div class="contenedor-imagen">
+                        <img src="./imagenes/imagen-personal/responsive-1.png" alt="Descripción de la imagen">
+                    </div>
+                </div>
+                <div class="logos-imagen">
+                    <ul>
+                        <li class="nav-item">
+                            <a href="https://www.facebook.com/" target="_blank"><i
+                                    class="fa-brands fa-whatsapp iconn"></i></a>
+                            <!-- <a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook iconn" ></i></a> -->
+                        </li>
 
-                <li class="nav-item" >
-                    <a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-github iconn"></i></a>
-                </li> 
+                        <li class="nav-item">
+                            <a href="https://www.facebook.com/" target="_blank"><i
+                                    class="fa-brands fa-github iconn"></i></a>
+                        </li>
 
-                <li class="nav-item" >
-                    <a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-linkedin iconn"></i></a>
-                </li> 
+                        <li class="nav-item">
+                            <a href="https://www.facebook.com/" target="_blank"><i
+                                    class="fa-brands fa-linkedin iconn"></i></a>
+                        </li>
 
-                <li class="nav-item" >
+                        <!-- <li class="nav-item" >
                     <a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-instagram iconn"></i></a>
-                </li> 
+                </li>  -->
 
-                <li class="nav-item" >
-                    <a href="https://www.facebook.com/" target="_blank"><i class="fa-solid fa-envelope iconn"></i></a>
-                </li>  
-        </div>
-
+                        <li class="nav-item">
+                            <a href="https://www.facebook.com/" target="_blank"><i
+                                    class="fa-solid fa-envelope iconn"></i></a>
+                        </li>
+                </div>
+            </div>
         </div>
     </div>
-  </div>
-  
 
-<!-- ***************** -->
-<!-- *** PROYECTOS *** -->
-<!-- ***************** -->
-<div id="proyectos" class="titulo-proyectos" >
-    <h1 id="proyecto-titulo-ing">PROYECTOS</h1>
-    <div class="d-flex justify-content-center">
-        <i class="fa-solid fa-minus"></i>
-        <h2 id="misProyectos-ing">MIS PROYECTOS </h2>
-        <i class="fa-solid fa-minus"></i>
-    </div>
-</div>
-<!-- TITULO FRON-END Y DISEÑO UI -->
-<div>
-    <div id="proyectos">
-        <div class="d-flex boton-frontEnd-diseñoUi">
-            <button onclick="mostrarProyectos('proyectos-frontend'); resaltarTitulo('frontEndTitulo', 'disenoUITitulo-ing')">
-                <h1 id="frontEndTitulo">Front-end</h1>
-            </button>
-            <button onclick="mostrarProyectos('proyectos-diseno-ui'); resaltarTitulo('disenoUITitulo-ing', 'frontEndTitulo')">
-                <h1 id="disenoUITitulo-ing">Diseño UI</h1>
-            </button>
+
+    <!-- ***************** -->
+    <!-- *** PROYECTOS *** -->
+    <!-- ***************** -->
+    <div id="proyectos" class="titulo-proyectos">
+        <h1 id="proyecto-titulo-ing">PROYECTOS</h1>
+        <div class="d-flex justify-content-center">
+            <i class="fa-solid fa-minus"></i>
+            <h2 id="misProyectos-ing">MIS PROYECTOS </h2>
+            <i class="fa-solid fa-minus"></i>
         </div>
-        <div id="proyectos-frontend">
-            <div class=" fila text-center">
-                <div class="proyectosDescripcion">
-                    <div>
-                     <!-- <h1 id="proyecto1-titulo-ing">PROYECTO 1</h1> -->
-                     <h2 id="subtituloProyecto1-ing">Pagina web de buffet de barrio</h2>
-                     <p id="parrafoProyecto1-ing">Este proyecto es sobre un buffet de barrio ubicado en Villa Luro, Capital. Mi enfoque se centró en crear una plataforma intuitiva que facilitara la visualización de la informacion mas relevante. Además, optimicé el diseño para mejorar la experiencia del usuario, asegurándome de que la información clave, como el menu, horarios y las promociones, estuviera fácilmente accesible.</p>
-                    </div> 
-                 </div>  
-                <div class="proyecto ">
+    </div>
+    <!-- TITULO FRON-END Y DISEÑO UI -->
+    <div>
+        <div id="proyectos">
+            <div class="d-flex boton-frontEnd-diseñoUi">
+                <button
+                    onclick="mostrarProyectos('proyectos-frontend'); resaltarTitulo('frontEndTitulo', 'disenoUITitulo-ing')">
+                    <h1 id="frontEndTitulo">Front-end</h1>
+                </button>
+                <button
+                    onclick="mostrarProyectos('proyectos-diseno-ui'); resaltarTitulo('disenoUITitulo-ing', 'frontEndTitulo')">
+                    <h1 id="disenoUITitulo-ing">Diseño UI</h1>
+                </button>
+            </div>
+            <div id="proyectos-frontend">
+                <div class=" fila text-center">
+                    <div class="proyectosDescripcion">
+                        <div>
+                            <!-- <h1 id="proyecto1-titulo-ing">PROYECTO 1</h1> -->
+                            <h2 id="subtituloProyecto1-ing">Web de buffet de barrio</h2>
+                            <p id="parrafoProyecto1-ing">Este proyecto es sobre un buffet de barrio ubicado en Villa
+                                Luro, Capital. Mi enfoque se centró en crear una plataforma intuitiva que facilitara la
+                                visualización de la informacion mas relevante. Además, optimicé el diseño para mejorar
+                                la experiencia del usuario, asegurándome de que la información clave, como el menu,
+                                horarios y las promociones, estuviera fácilmente accesible.</p>
+                        </div>
+                    </div>
+                    <div class="proyecto ">
                         <img src="./imagenes/BuffetStentor.png" alt="">
-                    <div class="informacion-proyectos">
-                        <h4 id="BuffetStentor-ing">BUFFET STENTOR</h4>
-                        <p >HTML, CSS, BOOTSTRAP, REACT, JS y FIGMA.</p>
-                        <div class="espacio-ver-repositorio">
-                            <a style=" text-decoration: none; outline: none; color: white;" href="https://gonzarobledo96.github.io/Buffet-Stentor-HTML/" target="_blank" class="ver-ing">
-                                <i class="fa-solid fa-display me-2"></i>
-                                <h6 class="d-inline-block ver">WEB</h6>
-                              </a>
-                              <a style=" text-decoration: none; outline: none; color: white;" href="https://github.com/gonzarobledo96/Buffet-Stentor-HTML" target="_blank">
-                                <i class="fab fa-brands fa-github me-2"></i>
-                                <h6 id="repositorio-ing" class="d-inline-block ">REPOSITORIO</h6>
-                              </a> 
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="fila text-center">
-                 <div class="proyecto proyecto2-img-responsive">
-                    <img src="./imagenes/micros-escolares.jpg" alt="">
-                    <div class="informacion-proyectos">
-                        <h4 id="transporte-raul-titulo-ing">TRANSPORTE RAUL-EMPRESA ESCOLAR</h4>
-                        <p id="lenguajesUtilizados-Buffet-ing"> HTML, CSS, BOOTSTRAP Y JS.</p>
-                        <div class="espacio-ver-repositorio">
-                            <a style=" text-decoration: none; outline: none; color: white;" href="https://gonzarobledo96.github.io/Transporte-Raul/" target="_blank" class="ver-ing">
-                                <i class="fa-solid fa-display me-2"></i>
-                                <h6 class="d-inline-block ver">WEB</h6>
-                              </a>
-                              <a style=" text-decoration: none; outline: none; color: white;" href="https://github.com/gonzarobledo96/Transporte-Raul" target="_blank">
-                                <i class="fab fa-brands fa-github me-2"></i>
-                                <h6 id="repositorio2-ing" class="d-inline-block">REPOSITORIO</h6>
-                              </a> 
-                        </div>
-                    </div>
-                </div>
-                <div class="proyectosDescripcion" >
-                    <div>
-                     <!-- <h1 id="proyecto2-titulo-ing">PROYECTO 2</h1> -->
-                     <h2 id="subtituloProyecto2-ing">Pagina web de transporte escolar</h2>
-                     <p id="parrafoProyecto2-ing">Este proyecto es sobre la empresa de mi familia. Desarrollé un sitio web con el fin de atraer a mas clientes y empresas interesadas en el transporte escolar, proporcionando información clara sobre los servicios de transporte que ofrecemos: vehiculos, políticas de seguridad y nuestros clientes actuales.</p>
-                    </div>
-                 </div>
-            </div>
-            <div class="fila text-center">
-                <div class="proyectosDescripcion" >
-                    <div>
-                     <!-- <h1 id="proyecto3-titulo-ing">PROYECTO 3</h1> -->
-                     <h2 id="subtituloProyecto3-ing">Pagina web de Verduleria</h2>
-                     <p id="parrafoProyecto3-ing">Sencilla web de una verdulería como parte de mi proceso de aprendizaje. La idea era practicar lo aprendido en mi curso de desarrollo web en coderhouse. Centrándome en mejorar mis habilidades en la creación de un sitio web. Aunque el proyecto es modesto, representa un paso importante en mi aprendizaje como diseñador web y diseñador front-end.</p>
-                    </div>
-                 </div>
-                <div class="proyecto">
-                    <img src="./imagenes/verduleria.jpg" alt="">
-                    <div class="informacion-proyectos">
-                        <h4 id="verduleria-titulo-ing">VERDULERIA-ORGANICA</h4>
-                        <p> HTML, CSS, BOOTSTRAP Y JS.</p>
-                        <div class="espacio-ver-repositorio">
-                            <a style=" text-decoration: none; outline: none; color: white;" href="https://gonzarobledo96.github.io/Verduleria-Natural/" target="_blank" class="ver-ing">
-                                <i class="fa-solid fa-display me-2"></i>
-                                <h6 class="d-inline-block ver">WEB</h6>
-                              </a>
-                              <a style=" text-decoration: none; outline: none; color: white;" href="https://gonzarobledo96.github.io/Verduleria-Natural/" target="_blank">
-                                <i class="fab fa-brands fa-github me-2"></i>
-                                <h6 id="repositorio3-ing" class="d-inline-block">REPOSITORIO</h6>
-                              </a> 
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="fila text-center proyectos-diseno-ui">
-                <div class="proyecto">
-                    <img src="./imagenes/fondo-proyecto-3.jpg" alt="">
-                    <div class="informacion-proyectos">
-                        <h4>GNC-LURO</h4>
-                        <p>HTML, CSS Y BOOTSTRAP.
-                        </p>
+                        <div class="informacion-proyectos">
+                            <h4 id="BuffetStentor-ing">BUFFET STENTOR</h4>
+                            <p>HTML, CSS, BOOTSTRAP, REACT, JS y FIGMA.</p>
                             <div class="espacio-ver-repositorio">
-                                <a style=" text-decoration: none; outline: none; color: white;" href="https://gonzarobledo96.github.io/GNC-LURO/" target="_blank" class="ver-ing">
+                                <a style=" text-decoration: none; outline: none; color: white;"
+                                    href="https://gonzarobledo96.github.io/Buffet-Stentor-HTML/" target="_blank"
+                                    class="ver-ing">
                                     <i class="fa-solid fa-display me-2"></i>
                                     <h6 class="d-inline-block ver">WEB</h6>
-                                  </a>
-                                  <a style=" text-decoration: none; outline: none; color: white;" href="https://github.com/gonzarobledo96/GNC-LURO" target="_blank">
+                                </a>
+                                <a style=" text-decoration: none; outline: none; color: white;"
+                                    href="https://github.com/gonzarobledo96/Buffet-Stentor-HTML" target="_blank">
                                     <i class="fab fa-brands fa-github me-2"></i>
-                                    <h6 id="repositorio4-ing" class="d-inline-block">REPOSITORIO</h6>
-                                  </a> 
+                                    <h6 id="repositorio-ing" class="d-inline-block ">REPOSITORIO</h6>
+                                </a>
                             </div>
+                        </div>
                     </div>
                 </div>
-                <div class="proyectosDescripcion">
-                    <div>
-                     <!-- <h1 id="proyecto4-titulo-ing">PROYECTO 4</h1> -->
-                     <h2 id="subtituloProyecto4-ing">Pagina web de venta de Gnc</h2>
-                     <p id="parrafoProyecto4-ing">Sitio web es sobre un comercio local especializado en la venta de GNC .El objetivo fue crear una plataforma informativa y fácil de usar que destacara los servicios y productos ofrecidos. Implementé secciones claras para describir los servicios ofrecidos del local. Este proyecto contribuyó significativamente a mi experiencia en diseño y desarrollo web.</p>
-                    </div>
-                 </div>
-            </div>
-        </div>
-        <!-- DISEÑO UI -->
-        <div class="fila text-center" id="proyectos-diseno-ui">
-        <div class="proyectos-ui">
-            <div class="columnas-proyectosUi">
-                <div class="text-center espacioProyectosUi-columna1"> 
-                    <div class="proyecto ">
-                        <img src="./imagenes/portfolio-viejo.png" alt="">
+                <div class="fila text-center">
+                    <div class="proyecto proyecto2-img-responsive">
+                        <img src="./imagenes/micros-escolares.jpg" alt="">
                         <div class="informacion-proyectos">
-                            <h4 id="portafolioAntiguo-titulo-ing">PORTFOLIO ANTIGUO</h4>
-                            <p id="herramienta-figma-ing">Herramienta de diseño: Figma</p>
-                        <div class="d-flex justify-content-center">
-                            <a style=" text-decoration: none; outline: none; color: white;" href="https://www.figma.com/file/L9WAX29Tsaw6KMd1nroZPV/Untitled?type=design&node-id=0%3A1&mode=design&t=eZnOkX6cbMhamAg8-1" target="_blank" class="ver-ing">
-                                <i class="fa-brands fa-figma me-2"></i>
-                                <h6 id="ver5-ing" class="d-inline-block ver">VER</h6>
-                            </a>
-                            <!-- <a style=" text-decoration: none; outline: none; color: white;" href="https://github.com/gonzarobledo96" target="_blank">
+                            <h4 id="transporte-raul-titulo-ing">TRANSPORTE RAUL-EMPRESA ESCOLAR</h4>
+                            <p id="lenguajesUtilizados-Buffet-ing"> HTML, CSS, BOOTSTRAP Y JS.</p>
+                            <div class="espacio-ver-repositorio">
+                                <a style=" text-decoration: none; outline: none; color: white;"
+                                    href="https://gonzarobledo96.github.io/Transporte-Raul/" target="_blank"
+                                    class="ver-ing">
+                                    <i class="fa-solid fa-display me-2"></i>
+                                    <h6 class="d-inline-block ver">WEB</h6>
+                                </a>
+                                <a style=" text-decoration: none; outline: none; color: white;"
+                                    href="https://github.com/gonzarobledo96/Transporte-Raul" target="_blank">
+                                    <i class="fab fa-brands fa-github me-2"></i>
+                                    <h6 id="repositorio2-ing" class="d-inline-block">REPOSITORIO</h6>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="proyectosDescripcion">
+                        <div>
+                            <!-- <h1 id="proyecto2-titulo-ing">PROYECTO 2</h1> -->
+                            <h2 id="subtituloProyecto2-ing">Pagina web de transporte escolar</h2>
+                            <p id="parrafoProyecto2-ing">Este proyecto es sobre la empresa de mi familia. Desarrollé un
+                                sitio web con el fin de atraer a mas clientes y empresas interesadas en el transporte
+                                escolar, proporcionando información clara sobre los servicios de transporte que
+                                ofrecemos: vehiculos, políticas de seguridad y nuestros clientes actuales.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="fila text-center">
+                    <div class="proyectosDescripcion">
+                        <div>
+                            <!-- <h1 id="proyecto3-titulo-ing">PROYECTO 3</h1> -->
+                            <h2 id="subtituloProyecto3-ing">Pagina web de Verduleria</h2>
+                            <p id="parrafoProyecto3-ing">Sencilla web de una verdulería como parte de mi proceso de
+                                aprendizaje. La idea era practicar lo aprendido en mi curso de desarrollo web en
+                                coderhouse. Centrándome en mejorar mis habilidades en la creación de un sitio web.
+                                Aunque el proyecto es modesto, representa un paso importante en mi aprendizaje como
+                                diseñador web y diseñador front-end.</p>
+                        </div>
+                    </div>
+                    <div class="proyecto">
+                        <img src="./imagenes/verduleria.jpg" alt="">
+                        <div class="informacion-proyectos">
+                            <h4 id="verduleria-titulo-ing">VERDULERIA-ORGANICA</h4>
+                            <p> HTML, CSS, BOOTSTRAP Y JS.</p>
+                            <div class="espacio-ver-repositorio">
+                                <a style=" text-decoration: none; outline: none; color: white;"
+                                    href="https://gonzarobledo96.github.io/Verduleria-Natural/" target="_blank"
+                                    class="ver-ing">
+                                    <i class="fa-solid fa-display me-2"></i>
+                                    <h6 class="d-inline-block ver">WEB</h6>
+                                </a>
+                                <a style=" text-decoration: none; outline: none; color: white;"
+                                    href="https://gonzarobledo96.github.io/Verduleria-Natural/" target="_blank">
+                                    <i class="fab fa-brands fa-github me-2"></i>
+                                    <h6 id="repositorio3-ing" class="d-inline-block">REPOSITORIO</h6>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="fila text-center proyectos-diseno-ui">
+                    <div class="proyecto">
+                        <img src="./imagenes/fondo-proyecto-3.jpg" alt="">
+                        <div class="informacion-proyectos">
+                            <h4>GNC-LURO</h4>
+                            <p>HTML, CSS Y BOOTSTRAP.
+                            </p>
+                            <div class="espacio-ver-repositorio">
+                                <a style=" text-decoration: none; outline: none; color: white;"
+                                    href="https://gonzarobledo96.github.io/GNC-LURO/" target="_blank" class="ver-ing">
+                                    <i class="fa-solid fa-display me-2"></i>
+                                    <h6 class="d-inline-block ver">WEB</h6>
+                                </a>
+                                <a style=" text-decoration: none; outline: none; color: white;"
+                                    href="https://github.com/gonzarobledo96/GNC-LURO" target="_blank">
+                                    <i class="fab fa-brands fa-github me-2"></i>
+                                    <h6 id="repositorio4-ing" class="d-inline-block">REPOSITORIO</h6>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="proyectosDescripcion">
+                        <div>
+                            <!-- <h1 id="proyecto4-titulo-ing">PROYECTO 4</h1> -->
+                            <h2 id="subtituloProyecto4-ing">Pagina web de venta de Gnc</h2>
+                            <p id="parrafoProyecto4-ing">Sitio web es sobre un comercio local especializado en la venta
+                                de GNC .El objetivo fue crear una plataforma informativa y fácil de usar que destacara
+                                los servicios y productos ofrecidos. Implementé secciones claras para describir los
+                                servicios ofrecidos del local. Este proyecto contribuyó significativamente a mi
+                                experiencia en diseño y desarrollo web.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- DISEÑO UI -->
+            <div class="fila text-center" id="proyectos-diseno-ui">
+                <div class="proyectos-ui">
+                    <div class="columnas-proyectosUi">
+                        <div class="text-center espacioProyectosUi-columna1">
+                            <div class="proyecto ">
+                                <img src="./imagenes/portfolio-viejo.png" alt="">
+                                <div class="informacion-proyectos">
+                                    <h4 id="portafolioAntiguo-titulo-ing">PORTFOLIO ANTIGUO</h4>
+                                    <p id="herramienta-figma-ing">Herramienta de diseño: Figma</p>
+                                    <div class="d-flex justify-content-center">
+                                        <a style=" text-decoration: none; outline: none; color: white;"
+                                            href="https://www.figma.com/file/L9WAX29Tsaw6KMd1nroZPV/Untitled?type=design&node-id=0%3A1&mode=design&t=eZnOkX6cbMhamAg8-1"
+                                            target="_blank" class="ver-ing">
+                                            <i class="fa-brands fa-figma me-2"></i>
+                                            <h6 id="ver5-ing" class="d-inline-block ver">VER</h6>
+                                        </a>
+                                        <!-- <a style=" text-decoration: none; outline: none; color: white;" href="https://github.com/gonzarobledo96" target="_blank">
                                 <i class="fab fa-brands fa-github me-2"></i>
                                 <h6 id="repositorio5-ing" class="d-inline-block">REPOSITORIO</h6>
                             </a> -->
+                                    </div>
+                                </div>
+                            </div>
                         </div>
+                        <div class="text-center espacioProyectosUi-columna1">
+                            <div class="proyecto">
+                                <img src="./imagenes/Kiwano-figma.png" alt="">
+                                <div class="informacion-proyectos">
+                                    <h4 id="web-kiwano-titulo-ing">WEB DE KIWANO</h4>
+                                    <p id="herramientafigmaKiwano-ing">Herramienta de diseño: Figma</p>
+                                    <div class="espacio-ver-repositorio">
+                                        <a style=" text-decoration: none; outline: none; color: white;"
+                                            href="https://www.figma.com/file/rkhv9ioRzeFyaQQTlmWZV1/KIWANO?type=design&mode=design&t=dAvS6nGXxX4bPRu2-1"
+                                            target="_blank" class="ver-ing">
+                                            <i class="fa-brands fa-figma me-2"></i>
+                                            <h6 id="ver6-ing" class="d-inline-block ver">VER</h6>
+                                        </a>
+                                        <a style=" text-decoration: none; outline: none; color: white;"
+                                            href="https://kiwano.com.ar/" target="_blank">
+                                            <i class="fa-solid fa-dumpster me-2"></i>
+                                            <h6 class="d-inline-block">WEB</h6>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                    </div> 
-                </div>
-                <div class="text-center espacioProyectosUi-columna1">
-                    <div class="proyecto">
-                        <img src="./imagenes/Kiwano-figma.png" alt="">
-                        <div class="informacion-proyectos">
-                            <h4 id="web-kiwano-titulo-ing">WEB DE KIWANO</h4>
-                            <p id="herramientafigmaKiwano-ing">Herramienta de diseño: Figma</p>
-                        <div class="espacio-ver-repositorio">
-                            <a style=" text-decoration: none; outline: none; color: white;" href="https://www.figma.com/file/rkhv9ioRzeFyaQQTlmWZV1/KIWANO?type=design&mode=design&t=dAvS6nGXxX4bPRu2-1" target="_blank" class="ver-ing">
-                                <i class="fa-brands fa-figma me-2"></i>
-                                <h6 id="ver6-ing" class="d-inline-block ver">VER</h6>
-                            </a>
-                             <a style=" text-decoration: none; outline: none; color: white;" href="https://kiwano.com.ar/" target="_blank">
-                                <i class="fa-solid fa-dumpster me-2"></i>
-                                <h6 class="d-inline-block">WEB</h6>
-                            </a> 
-                        </div>
-                        </div>
-                    </div> 
-                </div>
-            </div>
-          <div class="columnas-proyectosUi">
-            <div class=" text-center espacioProyectosUi-columna2">
-                <div class="proyecto">
-                    <img src="./imagenes/Pizzeria.png" alt="">
-                    <div class="informacion-proyectos">
-                        <h4>PIZZERIA DON REMOLEO</h4>
-                        <p id="herramientaDeFigmaPizza-ing">Herramienta de diseño: Figma</p>
-                       <div class="d-flex justify-content-center">
-                        <a style=" text-decoration: none; outline: none; color: white;" href="https://www.figma.com/file/MRJ2C0FzI1O5OZHOnAtXyT/proyecto-pizzeria-Don-Remoleo?type=design&mode=design&t=dAvS6nGXxX4bPRu2-1" target="_blank" class="ver-ing">
-                            <i class="fa-brands fa-figma me-2"></i>
-                            <h6 id="ver7-ing" class="d-inline-block ver">VER</h6>
-                          </a>
-                          <!-- <a style=" text-decoration: none; outline: none; color: white;" href="https://www.figma.com/file/lYQXvotoOXx0JprkxPPGsP/PROYECTO-1---IDFORIDEAS?type=design&mode=design&t=zzaMx5IZeCTtz6Ay-1" target="_blank" target="_blank">
+                    </div>
+                    <div class="columnas-proyectosUi">
+                        <div class=" text-center espacioProyectosUi-columna2">
+                            <div class="proyecto">
+                                <img src="./imagenes/Pizzeria.png" alt="">
+                                <div class="informacion-proyectos">
+                                    <h4>PIZZERIA DON REMOLEO</h4>
+                                    <p id="herramientaDeFigmaPizza-ing">Herramienta de diseño: Figma</p>
+                                    <div class="d-flex justify-content-center">
+                                        <a style=" text-decoration: none; outline: none; color: white;"
+                                            href="https://www.figma.com/file/MRJ2C0FzI1O5OZHOnAtXyT/proyecto-pizzeria-Don-Remoleo?type=design&mode=design&t=dAvS6nGXxX4bPRu2-1"
+                                            target="_blank" class="ver-ing">
+                                            <i class="fa-brands fa-figma me-2"></i>
+                                            <h6 id="ver7-ing" class="d-inline-block ver">VER</h6>
+                                        </a>
+                                        <!-- <a style=" text-decoration: none; outline: none; color: white;" href="https://www.figma.com/file/lYQXvotoOXx0JprkxPPGsP/PROYECTO-1---IDFORIDEAS?type=design&mode=design&t=zzaMx5IZeCTtz6Ay-1" target="_blank" target="_blank">
                             <i class="fab fa-brands fa-github me-2"></i>
                             <h6 id="repositorio6-ing" class="d-inline-block ">REPOSITORIO</h6>
                           </a> -->
-                       </div>
-                    </div>
-                </div> 
-            </div>
-            <div class=" text-center espacioProyectosUi-columna2">
-                <div class="proyecto">
-                    <img src="./imagenes/diseño-figma.jpg" alt="">
-                    <div class="informacion-proyectos">
-                        <h4 id="practicandoFifma-titulo-ing">PRACTICANDO FIGMA</h4>
-                        <p id="herramientaDeFigmaPracticando-ing">Herramienta de diseño: Figma</p>
-                       <div class="d-flex justify-content-center">
-                        <a style=" text-decoration: none; outline: none; color: white;" href="https://www.figma.com/file/5Qno9JX5N5B112hiX3SZ0l/1-dise%C3%B1o?type=design&mode=design&t=dAvS6nGXxX4bPRu2-1" target="_blank" class="ver-ing">
-                            <i class="fa-brands fa-figma me-2"></i>
-                            <h6 id="ver8-ing" class="d-inline-block ver">VER</h6>
-                          </a>
-                          <!-- <a style=" text-decoration: none; outline: none; color: white;" href="https://www.figma.com/file/lYQXvotoOXx0JprkxPPGsP/PROYECTO-1---IDFORIDEAS?type=design&mode=design&t=zzaMx5IZeCTtz6Ay-1" target="_blank" target="_blank">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class=" text-center espacioProyectosUi-columna2">
+                            <div class="proyecto">
+                                <img src="./imagenes/diseño-figma.jpg" alt="">
+                                <div class="informacion-proyectos">
+                                    <h4 id="practicandoFifma-titulo-ing">PRACTICANDO FIGMA</h4>
+                                    <p id="herramientaDeFigmaPracticando-ing">Herramienta de diseño: Figma</p>
+                                    <div class="d-flex justify-content-center">
+                                        <a style=" text-decoration: none; outline: none; color: white;"
+                                            href="https://www.figma.com/file/5Qno9JX5N5B112hiX3SZ0l/1-dise%C3%B1o?type=design&mode=design&t=dAvS6nGXxX4bPRu2-1"
+                                            target="_blank" class="ver-ing">
+                                            <i class="fa-brands fa-figma me-2"></i>
+                                            <h6 id="ver8-ing" class="d-inline-block ver">VER</h6>
+                                        </a>
+                                        <!-- <a style=" text-decoration: none; outline: none; color: white;" href="https://www.figma.com/file/lYQXvotoOXx0JprkxPPGsP/PROYECTO-1---IDFORIDEAS?type=design&mode=design&t=zzaMx5IZeCTtz6Ay-1" target="_blank" target="_blank">
                             <i class="fab fa-brands fa-github me-2"></i>
                             <h6 id="repositorio6-ing" class="d-inline-block ">REPOSITORIO</h6>
                           </a> -->
-                       </div>
-                    </div>
-                </div>  
-            </div>
-          </div>
-        </div>
-        </div> 
-    </div>
-</div>
-
-
-
-<!-- ************** -->
-<!-- *** PERFIL *** -->
-<!-- ************** -->
-<div id="perfil" class="titulo-perfil">
-    <h1 id="perfil-titulo-ing" >PERFIL</h1>
-    <div class="d-flex justify-content-center">
-        <i class="fa-solid fa-minus"></i>
-        <h2 id="masSobreMi-ing">MAS SOBRE MI </h2>
-        <i class="fa-solid fa-minus"></i>
-    </div>
-</div>
-  <div class="container">
-    <div class="row mt-5 columna-1">
-      <div class="col-6">
-        <div class="col fondo-imagen1Y2">
-        <div class="fondo-imagen-personal2" ><!-- data-aos="fade-down" data-aos-duration="2000" -->
-            <div class="contenedor-imagen2" >
-               <img  src="./imagenes/imagen-personal/responsive-1.png" alt="Descripción de la imagen">
-             </div>
-        </div>
-        </div>
-    </div>
-      <div class="col-6"> 
-        <div class="perfil">
-       <div class="perfil-titulo-sobreMi">
-        <h1 id="sobre-mi-titulo-ing" >SOBRE MÍ</h1>
-       </div>
-         <p id="parrafo-perfil-ing" class="parrafo">Estudié arquitectura, tuve una materia que se llamaba dibujo, donde aprendi a dibujar bocetos, croquis, dibujos en perspectiva y demas. Ahi descubri que me gustaba mucho plasmar mis ideas y darles vida. Al elegir el diseño web como carrera puedo juntar las 2 cosas que mas me gustan, dibujar y diseñar.</p>
-         <div class="perfil-titulo-intereses">
-            <h1 id="intereses-titulo-ing" class="mt-4" id="sobre-mi-titulo-ing" >INTERESES</h1>
-           </div>
-          <div class="col intereses">
-            <ul>
-              <li><i class="fa fa-paint-brush"></i>
-                <p id="dibujar-ing">Dibujar</p>
-            </li>
-              <li><i class="fa fa-music"></i>
-                <p id="musica-ing">música</p>
-            </li>
-              <li><i class="fa fa-headphones"></i>
-                <p id="meditar-ing">Meditar</p>
-            </li>
-              <li><i class="fa fa-gamepad"></i>
-                <p id="videoJuegos-ing">videojuegos</p>
-            </li>
-            </ul>
-          </div> 
-        </div>
-    </div>
-    </div>
-    <div class="row columna-2">
-        <div class="col-6">
-            <div class="tecnologíasyhabilidades iconos-prueba">
-                <!-- MIS SKILLS-->
-                <div class="titulo-tecnohabilidades">
-                    <h3 id="tecnologíasYhabilidades-ing" >
-                    TECNOLOGIAS Y HABILIDADES</h3>
-                </div>  
-               <div class="logos-tecnohabilidades">
-                <div class="d-inline-block text-center">
-                    <div class="tecnohabilidades d-flex">
-                        <i class="fa-brands fa-html5"></i>
-                    <p>HTML</p>
-                    </div>
-                </div>   
-                <div class="d-inline-block text-center">
-                    <div class="tecnohabilidades d-flex">
-                        <i class="fa-brands fa-css3-alt"></i>
-                    <p>CSS</p>
-                    </div>
-                </div>
-                <div class="d-inline-block text-center">
-                    <div class="tecnohabilidades d-flex">
-                        <i class="fa-brands fa-react"></i>
-                        <p> REACT</p>
-                    </div>   
-                </div>  
-                <div class="d-inline-block text-center">
-                    <div class="tecnohabilidades d-flex">
-                        <i class="fa-brands fa-figma"></i>
-                        <p>FIGMA</p>
-                    </div>
-                </div>
-                <div class="d-inline-block text-center">
-                    <div class="tecnohabilidades d-flex">
-                        <i class="fa-brands fa-bootstrap"></i>
-                        <p> BOOTSTRAP</p>
-                    </div>   
-                </div>  
-                <div class="d-inline-block text-center">
-                    <div class="tecnohabilidades d-flex">
-                        <i class="fa-solid fa-atom"></i>
-                        <p>TAILWIND-CSS</p>
-                    </div>
-                </div>           
-               </div>
-            </div>
-      </div>
-        <div class="col-6"> 
-            <div class="habilidades-blandas">
-                <div class="col ">
-                    <!-- habilidades blandas -->
-                    <div class="titulo-habilidadesBlandas">
-                        <h3 id="habilidades-blandas-ing" >HABILIDADES BLANDAS</h3>
-                    </div>
-                    <div class="opciones">
-
-                      
-
-                        <div class="d-inline-block text-center">
-                            <p id="creatividad-ing">Creatividad</p>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                       
-                        <div class="d-inline-block text-center">
-                            <p id="proactividad-ing">proactividad</p>
-                        </div>
-                        <div class="d-inline-block text-center">
-                            <p id="paciencia-ing">paciencia</p>
-                        </div>
-                        <div class="d-inline-block text-center">
-                            <p id="trabajoEnEquipo-ing">Trabajo en equipo</p>
-                        </div>
-                        <div class="d-inline-block text-center">
-                            <p id="inteligenciaEmocional-ing">Inteligencia emocional</p>
-                        </div>
-
                     </div>
                 </div>
             </div>
-      </div>
+        </div>
     </div>
-  </div>
 
 
 
-<!-- *************** -->
-<!-- *** DIBUJOS *** -->
-<!-- *************** -->
-<div >
-    <div class="titulo-dibujos " style="background-color: rgb(44, 44, 44);" >
-        <h1 id="dibujos-titulo-ing" style="padding-top: 1em;">DIBUJOS</h1>
+    <!-- ************** -->
+    <!-- *** PERFIL *** -->
+    <!-- ************** -->
+    <div id="perfil" class="titulo-perfil">
+        <h1 id="perfil-titulo-ing">PERFIL</h1>
         <div class="d-flex justify-content-center">
             <i class="fa-solid fa-minus"></i>
-            <h2 class="text-center" id="misDibujos-titulo-ing">MIS DIBUJOS</h2>
+            <h2 id="masSobreMi-ing">MAS SOBRE MI </h2>
             <i class="fa-solid fa-minus"></i>
         </div>
-        <p id="parrafoDibujos-ing" class="m-0 d-flex justify-content-center text-white fw-bolder" style="font-family: 'Montserrat', sans-serif; padding: 10px 40px 10px 40px; text-align: center;">SUELO DIBUJAR PARA PONER MI MENTE EN BLANCO, RELAJARME, REGULAR EL ESTRÉS Y MEJORAR LA CONCENTRACIÓN. ES LA FORMA QUE TENGO DE MEJORAR LA CREATIVIDAD Y SALUD MENTAL.</p>
     </div>
-    <div id="dibujos" class="Galeria gallery-block compact-gallery Galeria-img">
-
-        <div class="fila text-center">
-            <div class="imagenes"><a href="./imagenes/foto-4.jpeg"><img src="./imagenes/foto-4.jpeg"
-                        alt="goku"></a>
-                <div class="info">
-                    <h1>DRAGON BALL</h1>
-                    <p>GOKU</p>
+    <div class="container">
+        <div class="row mt-5 columna-1">
+            <div class="col-6">
+                <div class="col fondo-imagen1Y2">
+                    <div class="fondo-imagen-personal2"><!-- data-aos="fade-down" data-aos-duration="2000" -->
+                        <div class="contenedor-imagen2">
+                            <img src="./imagenes/imagen-personal/responsive-1.png" alt="Descripción de la imagen">
+                        </div>
+                    </div>
                 </div>
             </div>
-        </div>
-        <div class="fila text-center">
-            <div class="imagenes"><a href="./imagenes/foto-5.jpeg"><img src="./imagenes/foto-5.jpeg"
-                        alt="RANDOM"></a>
-                <div class="info">
-                    <h1>DRAGON BALL</h1>
-                    <P>MAJIN BOO</P>
-                </div>
-            </div>
-        </div>
-        <div class="fila text-center">
-            <div class="imagenes"><a href="./imagenes/foto-7.jpeg"><img src="./imagenes/foto-7.jpeg"
-                        alt="RANDOM"></a>
-                <div class="info">
-                    <h1>ANIME</h1>
-                    <P>ANIME</P>
-                </div>
-            </div>
-        </div>
-        <div class="fila text-center">
-            <div class="imagenes"><a href="./imagenes/foto-1.jpeg"><img src="./imagenes/foto-1.jpeg"
-                        alt="RANDOM"></a>
-                <div class="info">
-                    <h1>BOB ESPONJA</h1>
-                    <P class="bob-esponja">BOB ESPONJA</P>
-                </div>
-            </div>
-        </div>
-        <div class="fila text-center">
-            <div class="imagenes"><a href="./imagenes/foto-6.jpeg"><img src="./imagenes/foto-6.jpeg"
-                        alt="RANDOM"></a>
-                <div class="info">
-                    <h1>SUPER CAMPEONES</h1>
-                    <p class="super-campeones">OLIVER ATOM</p>
-                </div>
-            </div>
-        </div>
-        <div class="fila text-center">
-            <div class="imagenes"><a href="./imagenes/foto-2.jpeg"><img src="./imagenes/foto-2.jpeg"
-                        alt="RANDOM"></a>
-                <div class="info">
-                    <h1>TOM Y JERRY ANCIANOS</h1>
-                    <P class="tomYjerryAncianos">TOM Y JERRY</P>
-                </div>
-            </div>
-        </div> 
-        <div class="fila text-center">
-            <div class="imagenes"><a href="./imagenes/foto-11.jpeg"><img
-                        src="./imagenes/foto-11.jpeg" alt="TOM Y JERRY"></a>
-                <div class="info">
-                    <h1>TOM Y JERRY</h1>
-                    <P class="tomYjerry">TOM Y JERRY</P>
-                </div>
-            </div>
-        </div> 
-        <div class="fila text-center">
-            <div class="imagenes"><a href="./imagenes/foto-21.jpeg"><img src="./imagenes/foto-21.jpeg"
-                        alt="NARUTO"></a>
-                <div class="info">
-                    <h1>RANDOM</h1>
-                    <P >RANDOM</P>
-                </div>
-            </div>
-        </div>      
-        <div class="fila text-center">
-            <div class="imagenes"><a href="./imagenes/foto-8.jpeg"><img src="./imagenes/foto-8.jpeg"
-                        alt="NARUTO"></a>
-                <div class="info">
-                    <h1>SAILOR MOON</h1>
-                    <P>SAILOR MOON</P>
-                </div>
-            </div>
-        </div>  
-        <div class="fila text-center">
-            <div class="imagenes"><a href="./imagenes/foto-9.jpeg"><img
-                        src="./imagenes/foto-9.jpeg" alt="LA BELLA Y LA BESTIA"></a>
-                <div class="info">
-                    <h1>NARUTO</h1>
-                    <P>NARUTO</P>
-                </div>
-            </div>
-        </div>     
-        <div class="fila text-center">
-            <div class="imagenes"><a href="./imagenes/foto-10.jpeg"><img
-                        src="./imagenes/foto-10.jpeg" alt="TOM Y JERRY"></a>
-                <div class="info">
-                    <h1>DRAGON BALL</h1>
-                    <P class="krilin">KRILIN</P>
-                </div>
-            </div>
-        </div>   
-        <div class="fila text-center">
-            <div class="imagenes"><a href="./imagenes/foto-20.jpeg"><img
-                        src="./imagenes/foto-20.jpeg" alt="JOVENES TITANES"></a>
-                <div class="info">
-                    <h1>RANDOM</h1>
-                    <P class="random">RANDOM</P>
-                </div>
-            </div>
-        </div>
-        <div class="fila text-center">
-            <div class="imagenes"><a href="./imagenes/foto-14.jpeg"><img
-                        src="./imagenes/foto-14.jpeg" alt="JOVENES TITANES"></a>
-                <div class="info">
-                    <h1>JOVENES TITANES</h1>
-                    <P class="jovenes-titanes">TITANES</P>
-                </div>
-            </div>
-        </div>
-        <div class="fila text-center">
-            <div class="imagenes"><a href="./imagenes/foto-15.jpeg"><img src="./imagenes/foto-15.jpeg"
-                        alt="NARUTO"></a>
-                <div class="info">
-                    <h1>ANIME</h1>
-                    <P>ANIME</P>
-                </div>
-            </div>
-        </div>
-        <div class="fila text-center">
-            <div class="imagenes"><a href="./imagenes/foto-16.jpeg"><img src="./imagenes/foto-16.jpeg"
-                        alt="NARUTO"></a>
-                <div class="info">
-                    <h1>JAKE LONG: EL DRAGON OCCIDENTAL</h1>
-                    <P class="jakeLong">JAKE Y ROSE</P>
-                </div>
-            </div>
-        </div>
-        <div class="fila text-center">
-            <div class="imagenes"><a href="./imagenes/foto-17.jpeg"><img src="./imagenes/foto-17.jpeg"
-                        alt="NARUTO"></a>
-                <div class="info">
-                    <h1>SILVESTRE Y PIOLIN</h1>
-                    <P class="silvestreYpiolin">SILVESTRE Y PIOLIN</P>
-                </div>
-            </div>
-        </div>
-        <div class="fila text-center">
-            <div class="imagenes"><a href="./imagenes/foto-12.jpeg"><img src="./imagenes/foto-12.jpeg"
-                        alt="NARUTO"></a>
-                <div class="info">
-                    <h1>ANIME</h1>
-                    <P>ANIME</P>
-                </div>
-            </div>
-        </div>  
-        <div class="fila text-center">
-            <div class="imagenes"><a href="./imagenes/foto-18.jpeg"><img src="./imagenes/foto-18.jpeg"
-                        alt="NARUTO"></a>
-                <div class="info">
-                    <h1>LILO Y STITCH</h1>
-                    <P class="stitch">STITCH</P>
-                </div>
-            </div>
-        </div>
-        <div class="fila text-center">
-            <div class="imagenes"><a href="./imagenes/foto-13.jpeg"><img
-                        src="./imagenes/foto-13.jpeg" alt="SAILOR MOON"></a>
-                <div class="info">
-                    <h1>ALUCARD</h1>
-                    <P class="hellsing">HELLSING</P>
-                </div>
-            </div>
-        </div> 
-    </div>
-</div>
-
-
-
-<!-- **************** -->
-<!-- *** CONTACTO *** -->
-<!-- **************** -->
-<div id="color-fondo" >
-    <div class="fondo-contacto pt-5">
-        <h3 id="contacto-ing" class="texto-portafolio-contacto text-center pb-3">CONTACTO</h3>
-        <div>
-            <div class="row row-cols-1 row-cols-md-1 g4 me-3 ms-3">
-                <div class="col ">
-                <div class=" mb-5 text-center ">  
-                    <div>
-                        <ul class="z speace-around-entre-objetos-contacto ">
-                            <li class="y">
-                                <a class="r" href="https://www.facebook.com/gonzalo.robledo.5" target="_blank"><i class="fab fa-facebook-f iconn"></i></a>
+            <div class="col-6">
+                <div class="perfil">
+                    <div class="perfil-titulo-sobreMi">
+                        <h1 id="sobre-mi-titulo-ing">SOBRE MÍ</h1>
+                    </div>
+                    <p id="parrafo-perfil-ing" class="parrafo">Estudié arquitectura, tuve una materia que se llamaba
+                        dibujo, donde aprendi a dibujar bocetos, croquis, dibujos en perspectiva y demas. Ahi descubri
+                        que me gustaba mucho plasmar mis ideas y darles vida. Al elegir el diseño web como carrera puedo
+                        juntar las 2 cosas que mas me gustan, dibujar y diseñar.</p>
+                    <div class="perfil-titulo-intereses">
+                        <h1 id="intereses-titulo-ing" class="mt-4" id="sobre-mi-titulo-ing">INTERESES</h1>
+                    </div>
+                    <div class="col intereses">
+                        <ul>
+                            <li><i class="fa fa-paint-brush"></i>
+                                <p id="dibujar-ing">Dibujar</p>
                             </li>
-                            <li class="y">
-                                <a class="r" href="https://github.com/gonzarobledo96" target="_blank"><i class="fab fa-brands fa-github iconn"></i></a>
+                            <li><i class="fa fa-music"></i>
+                                <p id="musica-ing">música</p>
                             </li>
-                            <li class="y">
-                                <a class="r" href="https://www.linkedin.com/in/gonzalo-robledo-b5811023b/" target="_blank"><i class="fab fa-linkedin-in iconn"></i></a>
+                            <li><i class="fa fa-headphones"></i>
+                                <p id="meditar-ing">Meditar</p>
                             </li>
-                            <li class="y">
-                                <a class="r" href="https://www.instagram.com/gonzarobledo1996/" target="_blank"><i class="fab fa-brands fa-instagram iconn"></i></a>
-                            </li>
-                            <li class="y">
-                                <a class="r" href="https://mail.google.com/mail/u/0/#inbox" target="_blank"><i class="fa-solid fa-envelope iconn"></i></a>
+                            <li><i class="fa fa-gamepad"></i>
+                                <p id="videoJuegos-ing">videojuegos</p>
                             </li>
                         </ul>
                     </div>
-                    <h6 id="fraseContacto-ing" class="texto-portafolio-contacto text-center ">La creatividad es la inteligencia divirtiéndose.</h6>
                 </div>
-                <div class="text-end" style="padding: 10px 0px 10px 00px;">
-                    <div class="parrafo-logo nav-item pb-3" >
-                        <p class="parrafo-logo d-inline-block" > < </p>
-                        <h3 class="d-inline-block" > GR </h3>
-                        <p class="parrafo-logo d-inline-block" style="padding-left: 0px;"> /> </p>
+            </div>
+        </div>
+        <div class="row columna-2">
+            <div class="col-6">
+                <div class="tecnologíasyhabilidades iconos-prueba">
+                    <!-- MIS SKILLS-->
+                    <div class="titulo-tecnohabilidades">
+                        <h3 id="tecnologíasYhabilidades-ing">
+                            TECNOLOGIAS Y HABILIDADES</h3>
+                    </div>
+                    <div class="logos-tecnohabilidades">
+                        <div class="d-inline-block text-center">
+                            <div class="tecnohabilidades d-flex">
+                                <i class="fa-brands fa-html5"></i>
+                                <p>HTML</p>
+                            </div>
+                        </div>
+                        <div class="d-inline-block text-center">
+                            <div class="tecnohabilidades d-flex">
+                                <i class="fa-brands fa-css3-alt"></i>
+                                <p>CSS</p>
+                            </div>
+                        </div>
+                        <div class="d-inline-block text-center">
+                            <div class="tecnohabilidades d-flex">
+                                <i class="fa-brands fa-react"></i>
+                                <p> REACT</p>
+                            </div>
+                        </div>
+                        <div class="d-inline-block text-center">
+                            <div class="tecnohabilidades d-flex">
+                                <i class="fa-brands fa-figma"></i>
+                                <p>FIGMA</p>
+                            </div>
+                        </div>
+                        <div class="d-inline-block text-center">
+                            <div class="tecnohabilidades d-flex">
+                                <i class="fa-brands fa-bootstrap"></i>
+                                <p> BOOTSTRAP</p>
+                            </div>
+                        </div>
+                        <div class="d-inline-block text-center">
+                            <div class="tecnohabilidades d-flex">
+                                <i class="fa-solid fa-atom"></i>
+                                <p>TAILWIND-CSS</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
+            <div class="col-6">
+                <div class="habilidades-blandas">
+                    <div class="col ">
+                        <!-- habilidades blandas -->
+                        <div class="titulo-habilidadesBlandas">
+                            <h3 id="habilidades-blandas-ing">HABILIDADES BLANDAS</h3>
+                        </div>
+                        <div class="opciones">
+
+
+
+                            <div class="d-inline-block text-center">
+                                <p id="creatividad-ing">Creatividad</p>
+                            </div>
+
+                            <div class="d-inline-block text-center">
+                                <p id="proactividad-ing">proactividad</p>
+                            </div>
+                            <div class="d-inline-block text-center">
+                                <p id="paciencia-ing">paciencia</p>
+                            </div>
+                            <div class="d-inline-block text-center">
+                                <p id="trabajoEnEquipo-ing">Trabajo en equipo</p>
+                            </div>
+                            <div class="d-inline-block text-center">
+                                <p id="inteligenciaEmocional-ing">Inteligencia emocional</p>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
-</div>
 
 
 
-<!-- ******************* -->
-<!-- *** BOTON SUBIR *** -->
-<!-- ******************* -->
-<button id="btnSubirArriba" onclick="subirArriba()"><i class="fa-solid fa-arrow-up" ></i></button>
+    <!-- *************** -->
+    <!-- *** DIBUJOS *** -->
+    <!-- *************** -->
+    <div>
+        <div class="titulo-dibujos " style="background-color: rgb(44, 44, 44);">
+            <h1 id="dibujos-titulo-ing" style="padding-top: 1em;">DIBUJOS</h1>
+            <div class="d-flex justify-content-center">
+                <i class="fa-solid fa-minus"></i>
+                <h2 class="text-center" id="misDibujos-titulo-ing">MIS DIBUJOS</h2>
+                <i class="fa-solid fa-minus"></i>
+            </div>
+            <p id="parrafoDibujos-ing" class="m-0 d-flex justify-content-center text-white fw-bolder"
+                style="font-family: 'Montserrat', sans-serif; padding: 10px 40px 10px 40px; text-align: center;">SUELO
+                DIBUJAR PARA PONER MI MENTE EN BLANCO, RELAJARME, REGULAR EL ESTRÉS Y MEJORAR LA CONCENTRACIÓN. ES LA
+                FORMA QUE TENGO DE MEJORAR LA CREATIVIDAD Y SALUD MENTAL.</p>
+        </div>
+        <div id="dibujos" class="Galeria gallery-block compact-gallery Galeria-img">
+
+            <div class="fila text-center">
+                <div class="imagenes"><a href="./imagenes/foto-4.jpeg"><img src="./imagenes/foto-4.jpeg" alt="goku"></a>
+                    <div class="info">
+                        <h1>DRAGON BALL</h1>
+                        <p>GOKU</p>
+                    </div>
+                </div>
+            </div>
+            <div class="fila text-center">
+                <div class="imagenes"><a href="./imagenes/foto-5.jpeg"><img src="./imagenes/foto-5.jpeg"
+                            alt="RANDOM"></a>
+                    <div class="info">
+                        <h1>DRAGON BALL</h1>
+                        <P>MAJIN BOO</P>
+                    </div>
+                </div>
+            </div>
+            <div class="fila text-center">
+                <div class="imagenes"><a href="./imagenes/foto-7.jpeg"><img src="./imagenes/foto-7.jpeg"
+                            alt="RANDOM"></a>
+                    <div class="info">
+                        <h1>ANIME</h1>
+                        <P>ANIME</P>
+                    </div>
+                </div>
+            </div>
+            <div class="fila text-center">
+                <div class="imagenes"><a href="./imagenes/foto-1.jpeg"><img src="./imagenes/foto-1.jpeg"
+                            alt="RANDOM"></a>
+                    <div class="info">
+                        <h1>BOB ESPONJA</h1>
+                        <P class="bob-esponja">BOB ESPONJA</P>
+                    </div>
+                </div>
+            </div>
+            <div class="fila text-center">
+                <div class="imagenes"><a href="./imagenes/foto-6.jpeg"><img src="./imagenes/foto-6.jpeg"
+                            alt="RANDOM"></a>
+                    <div class="info">
+                        <h1>SUPER CAMPEONES</h1>
+                        <p class="super-campeones">OLIVER ATOM</p>
+                    </div>
+                </div>
+            </div>
+            <div class="fila text-center">
+                <div class="imagenes"><a href="./imagenes/foto-2.jpeg"><img src="./imagenes/foto-2.jpeg"
+                            alt="RANDOM"></a>
+                    <div class="info">
+                        <h1>TOM Y JERRY ANCIANOS</h1>
+                        <P class="tomYjerryAncianos">TOM Y JERRY</P>
+                    </div>
+                </div>
+            </div>
+            <div class="fila text-center">
+                <div class="imagenes"><a href="./imagenes/foto-11.jpeg"><img src="./imagenes/foto-11.jpeg"
+                            alt="TOM Y JERRY"></a>
+                    <div class="info">
+                        <h1>TOM Y JERRY</h1>
+                        <P class="tomYjerry">TOM Y JERRY</P>
+                    </div>
+                </div>
+            </div>
+            <div class="fila text-center">
+                <div class="imagenes"><a href="./imagenes/foto-21.jpeg"><img src="./imagenes/foto-21.jpeg"
+                            alt="NARUTO"></a>
+                    <div class="info">
+                        <h1>RANDOM</h1>
+                        <P>RANDOM</P>
+                    </div>
+                </div>
+            </div>
+            <div class="fila text-center">
+                <div class="imagenes"><a href="./imagenes/foto-8.jpeg"><img src="./imagenes/foto-8.jpeg"
+                            alt="NARUTO"></a>
+                    <div class="info">
+                        <h1>SAILOR MOON</h1>
+                        <P>SAILOR MOON</P>
+                    </div>
+                </div>
+            </div>
+            <div class="fila text-center">
+                <div class="imagenes"><a href="./imagenes/foto-9.jpeg"><img src="./imagenes/foto-9.jpeg"
+                            alt="LA BELLA Y LA BESTIA"></a>
+                    <div class="info">
+                        <h1>NARUTO</h1>
+                        <P>NARUTO</P>
+                    </div>
+                </div>
+            </div>
+            <div class="fila text-center">
+                <div class="imagenes"><a href="./imagenes/foto-10.jpeg"><img src="./imagenes/foto-10.jpeg"
+                            alt="TOM Y JERRY"></a>
+                    <div class="info">
+                        <h1>DRAGON BALL</h1>
+                        <P class="krilin">KRILIN</P>
+                    </div>
+                </div>
+            </div>
+            <div class="fila text-center">
+                <div class="imagenes"><a href="./imagenes/foto-20.jpeg"><img src="./imagenes/foto-20.jpeg"
+                            alt="JOVENES TITANES"></a>
+                    <div class="info">
+                        <h1>RANDOM</h1>
+                        <P class="random">RANDOM</P>
+                    </div>
+                </div>
+            </div>
+            <div class="fila text-center">
+                <div class="imagenes"><a href="./imagenes/foto-14.jpeg"><img src="./imagenes/foto-14.jpeg"
+                            alt="JOVENES TITANES"></a>
+                    <div class="info">
+                        <h1>JOVENES TITANES</h1>
+                        <P class="jovenes-titanes">TITANES</P>
+                    </div>
+                </div>
+            </div>
+            <div class="fila text-center">
+                <div class="imagenes"><a href="./imagenes/foto-15.jpeg"><img src="./imagenes/foto-15.jpeg"
+                            alt="NARUTO"></a>
+                    <div class="info">
+                        <h1>ANIME</h1>
+                        <P>ANIME</P>
+                    </div>
+                </div>
+            </div>
+            <div class="fila text-center">
+                <div class="imagenes"><a href="./imagenes/foto-16.jpeg"><img src="./imagenes/foto-16.jpeg"
+                            alt="NARUTO"></a>
+                    <div class="info">
+                        <h1>JAKE LONG: EL DRAGON OCCIDENTAL</h1>
+                        <P class="jakeLong">JAKE Y ROSE</P>
+                    </div>
+                </div>
+            </div>
+            <div class="fila text-center">
+                <div class="imagenes"><a href="./imagenes/foto-17.jpeg"><img src="./imagenes/foto-17.jpeg"
+                            alt="NARUTO"></a>
+                    <div class="info">
+                        <h1>SILVESTRE Y PIOLIN</h1>
+                        <P class="silvestreYpiolin">SILVESTRE Y PIOLIN</P>
+                    </div>
+                </div>
+            </div>
+            <div class="fila text-center">
+                <div class="imagenes"><a href="./imagenes/foto-12.jpeg"><img src="./imagenes/foto-12.jpeg"
+                            alt="NARUTO"></a>
+                    <div class="info">
+                        <h1>ANIME</h1>
+                        <P>ANIME</P>
+                    </div>
+                </div>
+            </div>
+            <div class="fila text-center">
+                <div class="imagenes"><a href="./imagenes/foto-18.jpeg"><img src="./imagenes/foto-18.jpeg"
+                            alt="NARUTO"></a>
+                    <div class="info">
+                        <h1>LILO Y STITCH</h1>
+                        <P class="stitch">STITCH</P>
+                    </div>
+                </div>
+            </div>
+            <div class="fila text-center">
+                <div class="imagenes"><a href="./imagenes/foto-13.jpeg"><img src="./imagenes/foto-13.jpeg"
+                            alt="SAILOR MOON"></a>
+                    <div class="info">
+                        <h1>ALUCARD</h1>
+                        <P class="hellsing">HELLSING</P>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
 
 
-<!-- ************** -->
-<!-- *** FOOTER *** -->
-<!-- ************** -->
-<footer class="col-xs-12 text-white p-2 fondo-footer" >
-  <div class="d-flex justify-content-center">
-    <p id="footer-ing" class="tamaño-parrafo-footer">© Copyright Portafolio 2024. Gonzalo Matias Robledo - Diseñador de páginas web.  🏆🏆🏆<p>
-  </div>
-</footer>
+    <!-- **************** -->
+    <!-- *** CONTACTO *** -->
+    <!-- **************** -->
+    <div id="color-fondo">
+        <div class="fondo-contacto pt-5">
+            <h3 id="contacto-ing" class="texto-portafolio-contacto text-center pb-3">CONTACTO</h3>
+            <div>
+                <div class="row row-cols-1 row-cols-md-1 g4 me-3 ms-3">
+                    <div class="col ">
+                        <div class=" mb-5 text-center ">
+                            <div>
+                                <ul class="z speace-around-entre-objetos-contacto ">
+                                    <li class="y">
+                                        <a class="r" href="https://www.facebook.com/gonzalo.robledo.5"
+                                            target="_blank"><i class="fab fa-facebook-f iconn"></i></a>
+                                    </li>
+                                    <li class="y">
+                                        <a class="r" href="https://github.com/gonzarobledo96" target="_blank"><i
+                                                class="fab fa-brands fa-github iconn"></i></a>
+                                    </li>
+                                    <li class="y">
+                                        <a class="r" href="https://www.linkedin.com/in/gonzalo-robledo-b5811023b/"
+                                            target="_blank"><i class="fab fa-linkedin-in iconn"></i></a>
+                                    </li>
+                                    <li class="y">
+                                        <a class="r" href="https://www.instagram.com/gonzarobledo1996/"
+                                            target="_blank"><i class="fab fa-brands fa-instagram iconn"></i></a>
+                                    </li>
+                                    <li class="y">
+                                        <a class="r" href="https://mail.google.com/mail/u/0/#inbox" target="_blank"><i
+                                                class="fa-solid fa-envelope iconn"></i></a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <h6 id="fraseContacto-ing" class="texto-portafolio-contacto text-center ">La creatividad es
+                                la inteligencia divirtiéndose.</h6>
+                        </div>
+                        <div class="text-end" style="padding: 10px 0px 10px 00px;">
+                            <div class="parrafo-logo nav-item pb-3">
+                                <p class="parrafo-logo d-inline-block">
+                                    < </p>
+                                        <h3 class="d-inline-block"> GR </h3>
+                                        <p class="parrafo-logo d-inline-block" style="padding-left: 0px;"> /> </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- ******************* -->
+    <!-- *** BOTON SUBIR *** -->
+    <!-- ******************* -->
+    <button id="btnSubirArriba" onclick="subirArriba()"><i class="fa-solid fa-arrow-up"></i></button>
+
+
+
+    <!-- ************** -->
+    <!-- *** FOOTER *** -->
+    <!-- ************** -->
+    <footer class="col-xs-12 text-white p-2 fondo-footer">
+        <div class="d-flex justify-content-center">
+            <p id="footer-ing" class="tamaño-parrafo-footer">© Copyright Portafolio 2024. Gonzalo Matias Robledo -
+                Diseñador de páginas web. 🏆🏆🏆
+            <p>
+        </div>
+    </footer>
 
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.10.0/baguetteBox.min.js"></script>
-<!-- ANIMACION GALERIA DE DBUJOS -->
-<script>baguetteBox.run('.compact-gallery', { animation: 'slideIn'});</script>
-<!-- partial -->
-  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js'></script>
-<script src='https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.15.0/popper.min.js'></script>
-<script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js'></script>
-<!-- boostrap js -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
-<!-- js -->
-<script src="./main.js"></script>
-<!-- animacion AOS -->
-<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-<!-- ANIMACION DE AOS -->
-<script>
-    AOS.init();
-  </script>
+    <!-- ANIMACION GALERIA DE DBUJOS -->
+    <script>baguetteBox.run('.compact-gallery', { animation: 'slideIn' });</script>
+    <!-- partial -->
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.15.0/popper.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js'></script>
+    <!-- boostrap js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+        crossorigin="anonymous"></script>
+    <!-- js -->
+    <script src="./main.js"></script>
+    <!-- animacion AOS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- ANIMACION DE AOS -->
+    <script>
+        AOS.init();
+    </script>
 </body>
+
 </html>
