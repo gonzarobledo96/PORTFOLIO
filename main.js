@@ -182,7 +182,7 @@ function actualizarTextos() {
     musica:"Muic",
     meditar:"To meditate",
     videoJuegos:"Video Games",
-    tecnologiasYhabilidades: "TECHNOLOGIES AND SKILLS",
+    tecnologiasYhabilidades: "TECHNOLOGY AND TOOLS",
     // herramientasDeDiseño: "Design Tools",
     habilidadesBlandas: "SOFT SKILLS",
     creatividad: "Creativity",
@@ -190,6 +190,7 @@ function actualizarTextos() {
     paciencia: "Patience",
     trabajoEnEquipo: "Teamwork",
     inteligenciaEmocional:"Emotional intelligence",
+    ComunicacionEfectiva:"Effective communication",
 
  // PROYECTOS
  proyectos: "PROJECTS",
@@ -284,13 +285,14 @@ footer: "Copyright Portfolio 2024. Gonzalo Matias Robledo - Web designer. 🏆�
     musica:"Musica",
     meditar:"Meditar",
     videoJuegos:"Video juegos",
-    tecnologiasYhabilidades: "TECNOLOGIAS Y HABILIDADES",
-    habilidadesBlandas: "HABILIDADES BLANDAS",
+    tecnologiasYhabilidades: "TECNOLÓGIA Y HERRAMIENTAS",
+    habilidadesBlandas: "SOFT SKILLS",
     paciencia: "Paciencia",
     proactividad: "Proactividad",
     trabajoEnEquipo: "Trabajo en equipo",
     creatividad: "Creatividad",
     inteligenciaEmocional: "inteligencia Emocional",
+    ComunicacionEfectiva:"Comunicación efectiva",
     
 // PROYECTOS
 proyectos: "PROYECTOS",
@@ -394,6 +396,7 @@ document.getElementById("videoJuegos-ing").innerText = textos.videoJuegos;
   document.getElementById("trabajoEnEquipo-ing").innerText = textos.trabajoEnEquipo;
   document.getElementById("creatividad-ing").innerText = textos.creatividad;
   document.getElementById("inteligenciaEmocional-ing").innerText = textos.inteligenciaEmocional;
+  document.getElementById("Comunicación-efectiva-ing").innerText = textos.ComunicacionEfectiva;
  
  
 
