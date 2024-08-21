@@ -252,7 +252,7 @@ contacto: "CONTACT",
 fraseContacto: "CREATIVITY IS INTELLIGENCE HAVING FUN.",
 
 // FOOTER
-footer: "Copyright Portfolio 2024. Gonzalo Matias Robledo - Web designer. 🏆🏆🏆",
+footer: "Copyright Portfolio 2024. Gonzalo Matías Robledo - Web designer. 🏆🏆🏆",
 
 
 
@@ -276,13 +276,13 @@ footer: "Copyright Portfolio 2024. Gonzalo Matias Robledo - Web designer. 🏆�
 
     // ACERCA-DE
     perfilTitulo: "PERFIL",
-    masSobreMi: "MAS SOBRE MI",
+    masSobreMi: "MÁS SOBRE MÍ",
     sobreMiTitulo: "SOBRE MÍ",
     // holaSoy: "Hola, Soy",
-    parrafoPerfil: "Estudié arquitectura, tuve una materia que se llamaba dibujo, donde aprendi a dibujar bocetos, croquis, dibujos en perspectiva y demas. Ahi descubri que me gustaba mucho plasmar mis ideas y darles vida. Al elegir el diseño web como carrera puedo juntar las 2 cosas que mas me gustan, dibujar y diseñar.",
+    parrafoPerfil: "Estudié arquitectura, tuve una materia que se llamaba dibujo, donde aprendí a dibujar bocetos, croquis, dibujos en perspectiva y demás. Ahí descubrí que me gustaba mucho plasmar mis ideas y darles vida. Al elegir el diseño web como carrera, puedo juntar las dos cosas que más me gustan: dibujar y diseñar.",
     interesesTitulo:"INTERESES",
     dibujar:"Dibujar",
-    musica:"Musica",
+    musica:"Música",
     meditar:"Meditar",
     videoJuegos:"Video juegos",
     tecnologiasYhabilidades: "TECNOLÓGIA Y HERRAMIENTAS",
@@ -291,7 +291,7 @@ footer: "Copyright Portfolio 2024. Gonzalo Matias Robledo - Web designer. 🏆�
     proactividad: "Proactividad",
     trabajoEnEquipo: "Trabajo en equipo",
     creatividad: "Creatividad",
-    inteligenciaEmocional: "inteligencia Emocional",
+    inteligenciaEmocional: "Inteligencia emocional",
     ComunicacionEfectiva:"Comunicación efectiva",
     
 // PROYECTOS
@@ -301,34 +301,35 @@ disenoUITitulo: "Diseño UI",
 // Buffet Stentor
 // proyecto1Titulo:"PROYECTO 1",
 subtituloProyecto1:"Web de buffet de barrio",
-parrafoProyecto1:"Este proyecto es sobre un buffet de barrio ubicado en Villa Luro, Capital. Mi enfoque se centró en crear una plataforma intuitiva que facilitara la visualización de la informacion mas relevante. Además, optimicé el diseño para mejorar la experiencia del usuario, asegurándome de que la información clave, como el menu, horarios y las promociones, estuviera fácilmente accesible.",
+parrafoProyecto1:"Este proyecto es sobre un buffet de barrio ubicado en Villa Luro, Capital. Mi enfoque se centró en crear una plataforma intuitiva que facilitara la visualización de la informacion más relevante. Además, optimicé el diseño para mejorar la experiencia del usuario, asegurándome de que la información clave, como el menú, horarios y las promociones, estuviera fácilmente accesible.",
 ver: "VER",
 repositorio: "REPOSITORIO",
 BuffetStentor: "BUFFET STENTOR",
-lenguajesUtilizadosBuffet: "Lenguajes utilizados: Html, Css, Bootstrap, React, js y Figma",
+lenguajesUtilizadosBuffet: "Lenguajes utilizados: HTML, CSS, Bootstrap, React, JS y Figma",
 // transporte-escola
 // proyecto2Titulo: "PROYECTO 2",
 subtituloProyecto2: "Web de transporte escolar",
-parrafoProyecto2: "Este proyecto es sobre la empresa de mi familia. Desarrollé un sitio web con el fin de atraer a mas clientes y empresas interesadas en el transporte escolar, proporcionando información clara sobre los servicios de transporte que ofrecemos: vehiculos, políticas de seguridad y nuestros clientes actuales.",
+parrafoProyecto2: "Este proyecto es sobre la empresa de mi familia. Desarrollé un sitio web con el fin de atraer a más clientes y empresas interesadas en el transporte escolar, proporcionando información clara sobre los servicios de transporte que ofrecemos: vehículos, políticas de seguridad y nuestros clientes actuales.",
 ver2: "VER",
 repositorio2: "REPOSITORIO",
-transporteRaulTitulo: "TRANSPORTE RAUL-EMPRESA ESCOLAR",
-lenguajesUtilizadosTransporte: "lenguajes utilizados: Html, Css, Bootstrap y Js.",
+transporteRaulTitulo: "TRANSPORTE RAÚL - EMPRESA ESCOLAR",
+lenguajesUtilizadosTransporte: "Lenguajes utilizados: HTML, CSS, Bootstrap y JS.",
 // verduleria-natural
 // proyecto3Titulo: "PROYECTO 3",
-subtituloProyecto3: "Web de Verduleria",
-parrafoProyecto3: "Web de una verdulería como parte de mi proceso de aprendizaje. La idea era practicar lo aprendido en mi curso de desarrollo web en coderhouse. Centrándome en mejorar mis habilidades en la creación de un sitio web. Aunque el proyecto es modesto, representa un paso importante en mi aprendizaje como diseñador web y diseñador front-end.",
+subtituloProyecto3: "Web de verdulería",
+parrafoProyecto3: "Web de una verdulería como parte de mi proceso de aprendizaje. La idea era practicar lo aprendido en mi curso de desarrollo web en Coderhouse, centrándome en mejorar mis habilidades en la creación de un sitio web. Aunque el proyecto es modesto, representa un paso importante en mi aprendizaje como diseñador web y diseñador front-end.",
 ver3: "VER",
 repositorio3: "REPOSITORIO",
-verduleriatitulo: "VERDULERIA-ORGANICA",
-lenguajesUtilizadosVerduleria: "Lenguajes utilizados: Html, Css, Bootstrap y Js.",
+verduleriatitulo: "VERDULERÍA ORGÁNICA",
+lenguajesUtilizadosVerduleria: "Lenguajes utilizados: HTML, CSS, Bootstrap y JS.",
 // GNC-LURO
 // proyecto4Titulo: "PROYECTO 4",
-subtituloProyecto4: "Web de venta de Gnc",
-parrafoProyecto4: "Sitio web es sobre un comercio local especializado en la venta de GNC .El objetivo fue crear una plataforma informativa y fácil de usar que destacara los servicios y productos ofrecidos. Implementé secciones claras para describir los servicios ofrecidos del local. Este proyecto contribuyó significativamente a mi experiencia en diseño y desarrollo web.",
+subtituloProyecto4: "Web de venta de GNC",
+parrafoProyecto4: "Este sitio web es sobre un comercio local especializado en la venta de GNC. El objetivo fue crear una plataforma informativa y fácil de usar que destacara los servicios y productos ofrecidos. Implementé secciones claras para describir los servicios ofrecidos del local. Este proyecto contribuyó significativamente a mi experiencia en diseño y desarrollo web.",
 verGnc: "VER",
 repositorio4: "REPOSITORIO",
-LengujesUtilizadosGncLuro: "Lenguajes utilizados: Html, Css y Bootstrap",
+lenguajesUtilizadosGncLuro: "Lenguajes utilizados: HTML, CSS y Bootstrap",
+
 // PORTFOLIO ANTIGUO
 ver5: "VER",
 // repositorio5: "REPOSITORIO",
@@ -358,7 +359,7 @@ parrafoDibujos: "ME ENCANTA DIBUJAR, MEJORA MI CREATIVIDAD Y ENRIQUECE MI ENFOQU
 contacto: "CONTACTO",
 fraseContacto: "LA CREATIVIDAD ES LA INTELIGENCIA DIVIRTIÉNDOSE.",
 // FOOTER
-footer: "© Copyright Portafolio 2024. Gonzalo Matias Robledo - Diseñador de páginas web. 🏆🏆🏆",
+footer: "© Copyright Portafolio 2024. Gonzalo Matías Robledo - Diseñador de páginas web. 🏆🏆🏆",
     // ... otros textos en español
   };
 
