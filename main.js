@@ -284,8 +284,8 @@ footer: "Copyright Portfolio 2024. Gonzalo Matías Robledo - Web designer. 🏆�
     dibujar:"Dibujar",
     musica:"Música",
     meditar:"Meditar",
-    videoJuegos:"Video juegos",
-    tecnologiasYhabilidades: "TECNOLÓGIA Y HERRAMIENTAS",
+    videoJuegos:"Videojuegos",
+    tecnologiasYhabilidades: "TECNOLOGÍA Y HERRAMIENTAS",
     habilidadesBlandas: "SOFT SKILLS",
     paciencia: "Paciencia",
     proactividad: "Proactividad",
@@ -330,7 +330,7 @@ verGnc: "VER",
 repositorio4: "REPOSITORIO",
 lenguajesUtilizadosGncLuro: "Lenguajes utilizados: HTML, CSS y Bootstrap",
 
-// PORTFOLIO ANTIGUO
+// PORTAFOLIO ANTIGUO
 ver5: "VER",
 // repositorio5: "REPOSITORIO",
 figmaTitulo: "PORTAFOLIO ANTIGUO",
