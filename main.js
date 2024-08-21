@@ -249,10 +249,11 @@ parrafoDibujos: "I LOVE DRAWING, IT IMPROVES MY CREATIVITY AND ENRICHES MY APPRO
 
 // CONTACTO
 contacto: "CONTACT",
-fraseContacto: "CREATIVITY IS INTELLIGENCE HAVING FUN.",
+// fraseContacto: "CREATIVITY IS INTELLIGENCE HAVING FUN.",
+fraseContactoDos: "Let's talk about your project! I'm here to help you create something amazing",
 
 // FOOTER
-footer: "Copyright Portfolio 2024. Gonzalo Matías Robledo - Web designer. 🏆🏆🏆",
+ footer: "Copyright Portfolio 2024. Gonzalo Matías Robledo - Web designer. 🏆🏆🏆",
 
 
 
@@ -357,9 +358,10 @@ misDibujos: "MIS DIBUJOS",
 parrafoDibujos: "ME ENCANTA DIBUJAR, MEJORA MI CREATIVIDAD Y ENRIQUECE MI ENFOQUE EN EL DISEÑO WEB, APORTANDO FRESCURA E INNOVACIÓN A CADA PROYECTO.",
 // CONTACTO
 contacto: "CONTACTO",
-fraseContacto: "LA CREATIVIDAD ES LA INTELIGENCIA DIVIRTIÉNDOSE.",
+// fraseContacto: "LA CREATIVIDAD ES LA INTELIGENCIA DIVIRTIÉNDOSE.",
+fraseContactoDos: "¡Hablemos sobre tu proyecto! Estoy aquí para ayudarte a crear algo increíble",
 // FOOTER
-footer: "© Copyright Portafolio 2024. Gonzalo Matías Robledo - Diseñador de páginas web. 🏆🏆🏆",
+ footer: "© Copyright Portafolio 2024. Gonzalo Matías Robledo - Diseñador de páginas web. 🏆🏆🏆",
     // ... otros textos en español
   };
 
@@ -454,7 +456,8 @@ document.getElementById("parrafoDibujos-ing").innerText = textos.parrafoDibujos;
 
 // CONTACTO
 document.getElementById("contacto-ing").innerText = textos.contacto;
-document.getElementById("fraseContacto-ing").innerText = textos.fraseContacto;
+// document.getElementById("fraseContacto-ing").innerText = textos.fraseContacto;
+document.getElementById("fraseContactoDos-ing").innerText = textos.fraseContactoDos;
 
 // FOOTER
 document.getElementById("footer-ing").innerText = textos.footer;
