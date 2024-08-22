@@ -116,6 +116,7 @@ function cambiarFondo() {
   //   imagen2.alt = 'Descripción de la imagen en modo claro';
   // }
 
+  
   // CAMBIA EL LOGO DEL SOL A LA LUNA
   // Verifica si el cuerpo tiene la clase 'modo-oscuro'
   if (body.classList.contains('modo-oscuro')) {
