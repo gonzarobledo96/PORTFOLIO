@@ -158,6 +158,7 @@ function actualizarTextos() {
   // Asegúrate de que estas variables estén definidas correctamente
   var textosEn = {
     inicioNav: "Start",
+    serviciosNav:"SERVICES",
     perfilNav: "Profile",
     proyectosNav: "PROJECTS",
     misInteresesNav: "MY INTERESTS",
@@ -192,6 +193,11 @@ function actualizarTextos() {
     trabajoEnEquipo: "Teamwork",
     inteligenciaEmocional:"Emotional intelligence",
     ComunicacionEfectiva:"Effective communication",
+
+
+//SERVICIOS
+ServicioTitulo: "SERVICES",
+LoQueHago: "MY SERVICES",
 
  // PROYECTOS
  proyectos: "PROJECTS",
@@ -234,14 +240,10 @@ ver6: "SEE",
 herramientaFigma3: "Design Tool: Figma",
 ver7: "SEE",
 
-
 // PRACTICANDO FIGMA
 practicandoFigmaTitulo:"PRACTICING FIGMA",
 herramientaFigma4: "Design Tool: Figma",
 ver8: "SEE",
-
-
-
 
 // DIBUJOS
 dibujosTitulo: "DRAWINGS",
@@ -264,6 +266,7 @@ fraseContactoDos: "Let's talk about your project! I'm here to help you create so
   };
   var textosEs = {
     inicioNav:"INICIO",
+    serviciosNav:"SERVICIOS",
     perfilNav: "PERFIL",
     proyectosNav: "PROYECTOS",
     misInteresesNav: "MIS INTERESES",
@@ -296,6 +299,11 @@ fraseContactoDos: "Let's talk about your project! I'm here to help you create so
     inteligenciaEmocional: "Inteligencia emocional",
     ComunicacionEfectiva:"Comunicación efectiva",
     
+
+//SERVICIOS
+ServicioTitulo: "SERVICIOS",
+LoQueHago: "MIS SERVICIOS",
+
 // PROYECTOS
 proyectos: "PROYECTOS",
 misProyectos: "MIS PROYECTOS",
@@ -375,6 +383,7 @@ fraseContactoDos: "¡Hablemos sobre tu proyecto! Estoy aquí para ayudarte a cre
   document.getElementById("mis-intereses-ing").innerText = textos.misInteresesNav;
   document.getElementById("contactar-ing").innerText = textos.contactar;
   document.getElementById("elige-un-color-ing").innerText = textos.eligeColor;
+  document.getElementById("servicios-ing").innerText = textos.serviciosNav;
 
   // INICIO
    document.getElementById("DiseñadorFronTend-ing").innerText = textos.DiseñadorFronTend;
@@ -402,7 +411,9 @@ document.getElementById("videoJuegos-ing").innerText = textos.videoJuegos;
   document.getElementById("inteligenciaEmocional-ing").innerText = textos.inteligenciaEmocional;
   document.getElementById("Comunicación-efectiva-ing").innerText = textos.ComunicacionEfectiva;
  
- 
+ //SERVICIOS
+ document.getElementById("Servicios-titulo-ing").innerText = textos.ServicioTitulo;
+ document.getElementById("Lo-que-hago-ing").innerText = textos.LoQueHago;
 
   // PROYECTOS
   document.getElementById("proyecto-titulo-ing").innerText = textos.proyectos;

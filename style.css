@@ -61,7 +61,8 @@ grid-template-columns:repeat(3fr) ;
 
 
 .servicios{
-    background-color: rgb(44, 44, 44);
+     /* background-color: rgb(44, 44, 44);  */
+    /* background: linear-gradient(to bottom, #1a202c, #000000); */
 }
 
 .imagen-servicios{
@@ -72,8 +73,8 @@ grid-template-columns:repeat(3fr) ;
 
 .imagen-servicios img{
     width: auto;
-    /* mask-image: linear-gradient(black 80%, transparent); */
     filter: drop-shadow(0 0 10px rgba(0, 0, 0, .8)) ;
+    padding: 2rem 0rem;
     /* filter: drop-shadow(0 0 10px var(--color-hover)) ; */
 }
 
@@ -93,8 +94,9 @@ grid-template-columns:repeat(3fr) ;
     /* max-width: 1200px; */
     margin: 0 auto;
     padding: 1em 6em ;
-    
 }
+
+
 
 .services h2 {
     text-align: center;
@@ -104,12 +106,19 @@ grid-template-columns:repeat(3fr) ;
 }
 
 .service {
-    background: rgb(66, 66, 66);
+    background: rgb(66, 66, 66); 
+    /* background: #1f2937; */
     border-radius: 8px;
     padding: 20px;
     margin-bottom: 20px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s, box-shadow 0.3s;
+    cursor: pointer;
+
+
+
+    /* text-align: center;  */
+    /* Centra el contenido de bloque e inline */
 }
 
 .service:hover {
@@ -120,16 +129,17 @@ grid-template-columns:repeat(3fr) ;
 }
 
 .service i {
-    display: flex;
-    justify-content: center;
+    /* display: flex;
+    justify-content: center; */
     font-size: 2.5em;
     color: var(--color-hover);
-    margin-bottom: 15px;
+    padding: 15px 5px 30px 5px;
+    filter: drop-shadow(0 0 10px rgba(0, 0, 0, .8)) ;
 }
 
 .service h3 {
-    display: flex;
-    justify-content: center;
+    /* display: flex;
+    justify-content: center; */
     white-space: nowrap;
     /* font-size: 1.5em; */
     font-size: clamp( 1rem, 0.3043rem + 3.4783vw, 1.37rem);
@@ -139,8 +149,8 @@ grid-template-columns:repeat(3fr) ;
 }
 
 .service p {
-    display: flex;
-    text-align: center;
+    /* display: flex;
+    text-align:left; */
     font-size: 1em;
     line-height: 1.5;
     /* color: #666; */
@@ -764,7 +774,7 @@ border-radius: 10px;
     display: none;
 }
 .titulo-proyectos{
-    background-color: rgb(44, 44, 44);
+    /* background-color: rgb(44, 44, 44); */
 }
 .titulo-proyectos h1{
     padding-top: 100px;
@@ -813,7 +823,7 @@ border-radius: 10px;
     color: #777777;
 }
 #proyectos {
-    background-color: rgb(44, 44, 44);
+    /* background-color: rgb(44, 44, 44); */
     padding: 0em 6em 3em 6em;
 }
 #proyectos .fila {
@@ -848,7 +858,7 @@ border-radius: 10px;
 }
 .boton-frontEnd-diseñoUi button {
     border: none;
-    background-color: rgb(44, 44, 44);
+    background-color: rgba(44, 44, 44, 0);
     cursor: pointer;
     outline: none; 
     color: white;
