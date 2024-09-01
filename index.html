@@ -59,7 +59,7 @@
                         <ul class="navbar-nav">
                             <li class=" nav-item marginLeft-del-navBar">
                                 <a id="inicio-ing" class="nav-link text-navbar diseño-texto-navbar navbar-item"
-                                    href="#sobremi" rel="noopener noreferrer">
+                                    href="#inicio" rel="noopener noreferrer">
                                     <!-- <i class=" bi bi-house-door-fill"></i> -->
                                     INICIO
                                 </a>
@@ -98,12 +98,13 @@
                                     <button style="border: none; background-color: transparent;" class="nav-link"
                                         id="idioma-link" onclick="toggleIdioma()">
                                         <i class="fa-solid fa-earth-americas logo-posicion"></i>
+                                        
                                     </button>
                                 </li>
-                                <li class="nav-item" style="cursor: pointer;">
+                                <!-- <li class="nav-item" style="cursor: pointer;">
                                     <a class="nav-link" onclick="cambiarFondo()"><i id="modo-icono"
                                             class="sol-icono fa-regular fa-sun logo-posicion"></i></a>
-                                </li>
+                                </li> -->
                                 <li class="nav-item dropdown">
                                     <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown"
                                         aria-expanded="false">
@@ -145,103 +146,104 @@
     <!-- ********************** -->
     <!-- *** SECCION INICIO *** -->
     <!-- ********************** -->
-    <div class="row" id="sobremi">
-        <div class="col columna-1-inicio">
-            <div class="sobremi">
-                <div>
-                    <p id="DiseñadorFronTend-ing" class="titulo-seccion">Diseñador web y Front-end</p>
-                    <h2>GONZALO ROBLEDO</h2>
-                    <p id="parrafo-inicio-ing" class="parrafo">
-                        Soy Diseñador Frontend y Diseñador Web con 1 año de experiencia en diseño responsive,
-                        maquetación web y mejora de la experiencia de usuario. Tengo habilidades en HTML, CSS, Tailwind,
-                        Bootstrap, React y Figma. Me defino como una persona empática, proactiva y detallista, siempre
-                        buscando aportar lo mejor de mí en cada proyecto.
-                        <!-- Diseñador Frontend y Diseñador Web con 1 año de experiencia en el diseño responsive, maquetacion web y mejora de la experiencia de usuario. Habilidad en HTML, CSS, Tailwind, Bootstrap, React y Figma. Empatía, Proactivo y detallista. -->
-                    </p>
-                    <!-- Apasionado por el diseño, dispuesto siempre a enfrentar desafios, me gusta todo lo que indique diseño web y diseño Front-end ¿Mi punto unico? creatividad. En cada proyecto, encuentro la forma de plasmar mi creatividad de manera única. -->
-                    <div class="descargarCv-copiarLinkGmail">
-                        <a id="descargarCV-ing" class="descargarCV" href="./imagenes/CV GONZALO ROBLEDO.pdf"
-                            target="_blank">Descargar CV</a>
-                        <a class="linkGmail"href="https://api.whatsapp.com/send?phone=63845885&text=Hola%20Mucho%20gusto!"
-                            target="_blank">Link whatsapp</a>
-                    </div>
-                </div>
-                <div class="d-flex añosDeExperiencia-proyectosCreados">
-                    <div class="info-container-añosYproyectos">
-                        <div class=" d-flex">
-                            <p>01</p>
-                            <h3 id="añosDeExperiencia-ing" class="d-flex ">Años de experiencia</h3>
+    <div class="fondoGrid">
+        <div class="grid-conteiner">
+            <!-- GRID 1 -->
+            <div class="parrafoServicios">
+                 <div class="tituloServicios">
+                        <div class="titulo-introduccion-container" >
+                            <div class="linea-introduccion">_________________</div>
+                            <div class="introdduccion-H1" id="introduccion-ing" >INTRODUCCION</div>
                         </div>
-                    </div>
-                    <div class="info-container-añosYproyectos">
-                        <div class=" d-flex">
-                            <p>8</p>
-                            <h3 id="proyectos-creados-ing">Proyectos creados</h3>
+                    <!-- <h1>I'M BRANT CONNOR</h1> -->
+                     <h2 class="diseñoWeb-frontend" id="DiseñadorFronTend-ing">Diseñador web y front-end</h2>
+                    <h1>GONZALO ROBLEDO</h1>
+                    <p id="MejorDiseñoParaSuWeb-ing" class="Mejor-diseño-para-su-Web">
+                        <!-- Better Design for your Digital Product - Mejor diseño para su producto digital-->
+                        Mejor diseño para su Web
+                    </p>
+                     <div class="fondo-botones-cv-y-whatsapp">
+                        <a id="descargarCV-ing" class="boton-descargarCV-y-whatsapp" href="./imagenes/CV GONZALO ROBLEDO.pdf"
+                            target="_blank">Descargar CV</a>
+                        <a id="Link-Whatsapp-ing" style="margin-left: 1em;" class="boton-descargarCV-y-whatsapp" href="https://api.whatsapp.com/send?phone=63845885&text=Hola%20Mucho%20gusto!"
+                            target="_blank">Link whatsapp</a>
+                    </div> 
+                    <div class="fondo-añosDeExperiencia-proyectos">
+                        <div class="info-container-añosYproyectos">
+                            <div class=" d-flex">
+                                <p>01</p>
+                                <h3 id="añosDeExperiencia-ing" class="d-flex" style="color: white;">Años de experiencia</h3>
+                            </div>
+                        </div>
+                        <div class="info-container-añosYproyectos">
+                            <div class=" d-flex">
+                                <p>8</p>
+                                <h3 id="proyectos-creados-ing" style="color: white;">Proyectos creados</h3>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="col fondo-imagen1Y2 columna-1-inicio">
-            <div class="container contenedor-imagen-logos">
-                <div class="fondo-imagen-personal1">
-                    <div class="contenedor-imagen">
-                        <img src="./imagenes/imagen-personal/responsive-1.png" alt="Descripción de la imagen">
+            <!-- GRID 2 -->
+            <div class="imagenPrueba">
+                <!-- <img src="./imagenes/imagen-personal/responsive-1_preview_rev_1.png" alt="Descripción de la imagen">   -->
+                 <!-- <img src="./imagenes/calm-friendly-handsome-bearded-guy-8HKSYN3-3.png" alt="Descripción de la imagen"> -->
+                 <img src="./imagenes/Nueva carpeta/7 - copia.png" alt="Descripción de la imagen">
+            </div>
+            <!-- GRID 3 -->
+            <div class="iconosServicios">
+                <div class="fondo-contacto2">
+                    <div class="lineaServicios">
+                        _
                     </div>
-                </div>
-                <div class="logos-imagen">
                     <ul>
-                        <li class="nav-item">
+                        <li>
                             <a href="https://api.whatsapp.com/send?phone=63845885&text=Hola%20Mucho%20gusto!" target="_blank"><i
                                     class="fa-brands fa-whatsapp iconn"></i></a>
-                            <!-- <a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook iconn" ></i></a> -->
                         </li>
-                        <li class="nav-item">
-                            <a href="https://github.com/gonzarobledo96" target="_blank"><i
-                                    class="fa-brands fa-github iconn"></i></a>
+                        <li>
+                            <a href="https://github.com/gonzarobledo96" target="_blank"><i class="fa-brands fa-github iconn"></i></a>
                         </li>
-
-                        <li class="nav-item">
+                        <li>
                             <a href="https://www.linkedin.com/in/gonzalo-robledo-b5811023b/" target="_blank"><i
                                     class="fa-brands fa-linkedin iconn"></i></a>
                         </li>
-                        <!-- <li class="nav-item" >
-                    <a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-instagram iconn"></i></a>
-                </li>  -->
-                        <li class="nav-item">
-                            <a href="mailto:gonzarobledo96@gmail.com" target="_blank"><i
-                                    class="fa-solid fa-envelope iconn"></i></a>
+                        <li>
+                            <a href="mailto:gonzarobledo96@gmail.com" target="_blank"><i class="fa-solid fa-envelope iconn"></i></a>
                         </li>
+                    </ul>
+                    <div class="lineaServicios">
+                        _
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
+    </div> 
 
 
 
     <!-- ***************** -->
-    <!-- *** PROYECTOS *** -->
+    <!-- *** SERVICIOS *** -->
     <!-- ***************** -->
     <!-- TITULO FRON-END Y DISEÑO UI -->
-    <div style=" background: linear-gradient(to bottom, rgb(44, 44, 44), #0e0e0e);">
-        <div id="servicios" class="titulo-proyectos">
-            <h1 id="Servicios-titulo-ing">SERVICIOS</h1>
+<div class="servicios">
+         <div id="servicios" class="titulo-proyectos">
+            <h1 id="ServiciosTituloIng">SERVICIOS</h1>
             <div class="d-flex justify-content-center">
                 <i class="fa-solid fa-minus"></i>
-                <h2 id="Lo-que-hago-ing" >LO QUE HAGO</h2>
+                <h2 id="Lo-que-hago-ing">LO QUE HAGO</h2>
                 <i class="fa-solid fa-minus"></i>
             </div>
-        </div>
-    <div class="servicios">
+        </div> 
+    <div >
         <div class="imagen-servicios">
             <img src="./imagenes/Servicios.png" alt="">
         </div>
-    
         <section class="services">
             <div class="service" style="animation-delay: 0.1s;">
                 <i class="fas fa-laptop-code"></i>
-                <h3>Web Personalizado</h3>
-                <p>creación de sitios web únicos y adaptados a las necesidades del cliente</p>
+                <h3 id="web-profesional-ing">Web Personalizado</h3>
+                <p id="web-profesionalParrafo-ing">Creación de sitios web únicos y adaptados a las necesidades del cliente</p>
             </div>
             <div class="service" style="animation-delay: 0.2s;">
                 <i class="fas fa-mobile-alt"></i>
@@ -250,25 +252,25 @@
                 <!-- <i class="fas fa-computer"></i> -->
                 <!-- <i class="fas fa-expand-arrows-alt"></i> -->
                 <!-- <i class="fas fa-responsive"></i> -->
-                <h3>Diseño Responsivo</h3>
-                <p>Asegurar que los sitios web se vean y funcionen bien en dispositivos móviles y de escritorio.</p>
+                <h3 id="Diseño-responsive-ing">Diseño Responsivo</h3>
+                <p id="Diseño-responsive-parrafo-ing">Asegurar que los sitios web se vean y funcionen bien en dispositivos móviles y de escritorio.</p>
             </div>
             <div class="service" style="animation-delay: 0.3s;">
                 <i class="fas fa-chart-line"></i>
-                <h3>Optimización para SEO</h3>
-                <p>Mejora de la estructura y contenido del sitio para maximizar su visibilidad en motores de búsqueda y aumentando el tráfico.</p>
+                <h3 id="Optimizacion-seo-ing">Optimización para SEO</h3>
+                <p id="Optimizacion-seo-parrafo-ing">Mejora de la estructura y contenido del sitio para maximizar su visibilidad en motores de búsqueda y aumentar el tráfico.</p>
             </div>
             <div class="service" style="animation-delay: 0.4s;">
                 <!-- <i class="fas fa-paint-brush"></i> -->
                 <i class="fas fa-pencil-alt"></i>
-                <h3>Diseño UI/Prototipos</h3>
-                <p>Desarrollo de wireframes y prototipos para asegurar un diseño optimo antes de iniciar el proyecto.</p>
+                <h3 id="Diseño-ui-ing">Diseño UI/Prototipos</h3>
+                <p id="Diseño-ui-parrafo-ing">Desarrollo de wireframes y prototipos para asegurar un diseño optimo antes de iniciar el proyecto.</p>
             </div>
             <div class="service" style="animation-delay: 0.5s;">
                 <!-- <i class="fas fa-wrench"></i> -->
                 <i class="fas fa-tools"></i>
-                <h3>Mantenimiento y soporte</h3>
-                <p>Servicio continuo para mantener el sitio actualizado, seguro y funcionando sin problemas, incluyendo actualizaciones de contenido.</p>
+                <h3 id="Mantenimiento-soporte-ing">Mantenimiento y soporte</h3>
+                <p id="Mantenimiento-soporte-parrafo-ing">Servicio continuo para mantener el sitio actualizado, seguro y funcionando sin problemas, incluyendo actualizaciones de contenido.</p>
             </div>
         </section>
     </div >
@@ -283,226 +285,207 @@
             <i class="fa-solid fa-minus"></i>
         </div>
     </div>
-        <div id="proyectos">
-            <div class="d-flex boton-frontEnd-diseñoUi">
-                <button
-                    onclick="mostrarProyectos('proyectos-frontend'); resaltarTitulo('frontEndTitulo', 'disenoUITitulo-ing')">
-                    <h1 id="frontEndTitulo">Front-end</h1>
-                </button>
-                <button
-                    onclick="mostrarProyectos('proyectos-diseno-ui'); resaltarTitulo('disenoUITitulo-ing', 'frontEndTitulo')">
-                    <h1 id="disenoUITitulo-ing">Diseño UI</h1>
-                </button>
-            </div>
-            <div id="proyectos-frontend">
-                <div class=" fila text-center">
-                    <div class="proyectosDescripcion">
-                        <div>
-                            <!-- <h1 id="proyecto1-titulo-ing">PROYECTO 1</h1> -->
-                            <h2 id="subtituloProyecto1-ing">Web de buffet de barrio</h2>
-                            <p id="parrafoProyecto1-ing">Este proyecto es sobre un buffet de barrio ubicado en Villa
-                                Luro, Capital. Mi enfoque se centró en crear una plataforma intuitiva que facilitara la
-                                visualización de la informacion mas relevante. Además, optimicé el diseño para mejorar
-                                la experiencia del usuario, asegurándome de que la información clave, como el menu,
-                                horarios y las promociones, estuviera fácilmente accesible.</p>
-                        </div>
-                    </div>
-                    <div class="proyecto ">
-                        <img src="./imagenes/BuffetStentor.png" alt="">
-                        <div class="informacion-proyectos">
-                            <h4 id="BuffetStentor-ing">BUFFET STENTOR</h4>
-                            <p>HTML, CSS, BOOTSTRAP, REACT, JS y FIGMA.</p>
-                            <div class="espacio-ver-repositorio">
-                                <a style=" text-decoration: none; outline: none; color: white;"
-                                    href="https://gonzarobledo96.github.io/Buffet-Stentor-HTML/" target="_blank"
-                                    class="ver-ing">
-                                    <i class="fa-solid fa-display me-2"></i>
-                                    <h6 class="d-inline-block ver">WEB</h6>
-                                </a>
-                                <a style=" text-decoration: none; outline: none; color: white;"
-                                    href="https://github.com/gonzarobledo96/Buffet-Stentor-HTML" target="_blank">
-                                    <i class="fab fa-brands fa-github me-2"></i>
-                                    <h6 id="repositorio-ing" class="d-inline-block ">REPOSITORIO</h6>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="fila text-center">
-                    <div class="proyecto proyecto2-img-responsive">
-                        <img src="./imagenes/micros-escolares.jpg" alt="">
-                        <div class="informacion-proyectos">
-                            <h4 id="transporte-raul-titulo-ing">TRANSPORTE RAUL-EMPRESA ESCOLAR</h4>
-                            <p id="lenguajesUtilizados-Buffet-ing"> HTML, CSS, BOOTSTRAP Y JS.</p>
-                            <div class="espacio-ver-repositorio">
-                                <a style=" text-decoration: none; outline: none; color: white;"
-                                    href="https://gonzarobledo96.github.io/Transporte-Raul/" target="_blank"
-                                    class="ver-ing">
-                                    <i class="fa-solid fa-display me-2"></i>
-                                    <h6 class="d-inline-block ver">WEB</h6>
-                                </a>
-                                <a style=" text-decoration: none; outline: none; color: white;"
-                                    href="https://github.com/gonzarobledo96/Transporte-Raul" target="_blank">
-                                    <i class="fab fa-brands fa-github me-2"></i>
-                                    <h6 id="repositorio2-ing" class="d-inline-block">REPOSITORIO</h6>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="proyectosDescripcion">
-                        <div>
-                            <!-- <h1 id="proyecto2-titulo-ing">PROYECTO 2</h1> -->
-                            <h2 id="subtituloProyecto2-ing">Pagina web de transporte escolar</h2>
-                            <p id="parrafoProyecto2-ing">Este proyecto es sobre la empresa de mi familia. Desarrollé un
-                                sitio web con el fin de atraer a mas clientes y empresas interesadas en el transporte
-                                escolar, proporcionando información clara sobre los servicios de transporte que
-                                ofrecemos: vehiculos, políticas de seguridad y nuestros clientes actuales.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="fila text-center">
-                    <div class="proyectosDescripcion">
-                        <div>
-                            <!-- <h1 id="proyecto3-titulo-ing">PROYECTO 3</h1> -->
-                            <h2 id="subtituloProyecto3-ing">Pagina web de Verduleria</h2>
-                            <p id="parrafoProyecto3-ing">Sencilla web de una verdulería como parte de mi proceso de
-                                aprendizaje. La idea era practicar lo aprendido en mi curso de desarrollo web en
-                                coderhouse. Centrándome en mejorar mis habilidades en la creación de un sitio web.
-                                Aunque el proyecto es modesto, representa un paso importante en mi aprendizaje como
-                                diseñador web y diseñador front-end.</p>
-                        </div>
-                    </div>
-                    <div class="proyecto">
-                        <img src="./imagenes/verduleria.jpg" alt="">
-                        <div class="informacion-proyectos">
-                            <h4 id="verduleria-titulo-ing">VERDULERIA-ORGANICA</h4>
-                            <p> HTML, CSS, BOOTSTRAP Y JS.</p>
-                            <div class="espacio-ver-repositorio">
-                                <a style=" text-decoration: none; outline: none; color: white;"
-                                    href="https://gonzarobledo96.github.io/Verduleria-Natural/" target="_blank"
-                                    class="ver-ing">
-                                    <i class="fa-solid fa-display me-2"></i>
-                                    <h6 class="d-inline-block ver">WEB</h6>
-                                </a>
-                                <a style=" text-decoration: none; outline: none; color: white;"
-                                    href="https://gonzarobledo96.github.io/Verduleria-Natural/" target="_blank">
-                                    <i class="fab fa-brands fa-github me-2"></i>
-                                    <h6 id="repositorio3-ing" class="d-inline-block">REPOSITORIO</h6>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="fila text-center proyectos-diseno-ui">
-                    <div class="proyecto">
-                        <img src="./imagenes/fondo-proyecto-3.jpg" alt="">
-                        <div class="informacion-proyectos">
-                            <h4>GNC-LURO</h4>
-                            <p>HTML, CSS Y BOOTSTRAP.
-                            </p>
-                            <div class="espacio-ver-repositorio">
-                                <a style=" text-decoration: none; outline: none; color: white;"
-                                    href="https://gonzarobledo96.github.io/GNC-LURO/" target="_blank" class="ver-ing">
-                                    <i class="fa-solid fa-display me-2"></i>
-                                    <h6 class="d-inline-block ver">WEB</h6>
-                                </a>
-                                <a style=" text-decoration: none; outline: none; color: white;"
-                                    href="https://github.com/gonzarobledo96/GNC-LURO" target="_blank">
-                                    <i class="fab fa-brands fa-github me-2"></i>
-                                    <h6 id="repositorio4-ing" class="d-inline-block">REPOSITORIO</h6>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="proyectosDescripcion">
-                        <div>
-                            <!-- <h1 id="proyecto4-titulo-ing">PROYECTO 4</h1> -->
-                            <h2 id="subtituloProyecto4-ing">Pagina web de venta de Gnc</h2>
-                            <p id="parrafoProyecto4-ing">Sitio web es sobre un comercio local especializado en la venta
-                                de GNC .El objetivo fue crear una plataforma informativa y fácil de usar que destacara
-                                los servicios y productos ofrecidos. Implementé secciones claras para describir los
-                                servicios ofrecidos del local. Este proyecto contribuyó significativamente a mi
-                                experiencia en diseño y desarrollo web.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- DISEÑO UI -->
-            <div class="fila text-center" id="proyectos-diseno-ui">
-                <div class="proyectos-ui">
-                    <div class="columnas-proyectosUi">
-                        <div class="text-center espacioProyectosUi-columna1">
-                            <div class="proyecto ">
-                                <img src="./imagenes/portfolio-viejo.png" alt="">
-                                <div class="informacion-proyectos">
-                                    <h4 id="portafolioAntiguo-titulo-ing">PORTFOLIO ANTIGUO</h4>
-                                    <p id="herramienta-figma-ing">Herramienta de diseño: Figma</p>
-                                    <div class="d-flex justify-content-center">
-                                        <a style=" text-decoration: none; outline: none; color: white;"
-                                            href="https://www.figma.com/file/L9WAX29Tsaw6KMd1nroZPV/Untitled?type=design&node-id=0%3A1&mode=design&t=eZnOkX6cbMhamAg8-1"
-                                            target="_blank" class="ver-ing">
-                                            <i class="fa-brands fa-figma me-2"></i>
-                                            <h6 id="ver5-ing" class="d-inline-block ver">VER</h6>
-                                        </a>
-                                    </div>
+    <div id="proyectos">
+        <div class="d-flex boton-frontEnd-diseñoUi">
+            <button
+                onclick="mostrarProyectos('proyectos-frontend'); resaltarTitulo('frontEndTitulo', 'disenoUITitulo-ing')">
+                <h1 id="frontEndTitulo">Front-end</h1>
+            </button>
+            <button
+                onclick="mostrarProyectos('proyectos-diseno-ui'); resaltarTitulo('disenoUITitulo-ing', 'frontEndTitulo')">
+                <h1 id="disenoUITitulo-ing">Diseño UI</h1>
+            </button>
+        </div>
+         <div id="proyectos-frontend">
+            <!-- FRONT-END -->
+            <section class="projects-section">
+                <div class="container">
+                    <div class="projects-grid">
+                        <!-- Stentor -->
+                        <article class="project-card">
+                            <div class="project-image">
+                                <img src="./imagenes/BuffetStentor.png" alt="Web de buffet de barrio">
+                                <div class="project-overlay">
+                                    <h3 id="buffet-Stentor-titulo-img-ing">Web de buffet Stentor</h3>
+                                    <p id="buffet-Stentor-parrafo-ing">Plataforma intuitiva para visualizar información relevante de un buffet local.</p>
                                 </div>
                             </div>
-                        </div>
-                        <div class="text-center espacioProyectosUi-columna1">
-                            <div class="proyecto">
-                                <img src="./imagenes/Kiwano-figma.png" alt="">
-                                <div class="informacion-proyectos">
-                                    <h4 id="web-kiwano-titulo-ing">WEB DE KIWANO</h4>
-                                    <p id="herramientafigmaKiwano-ing">Herramienta de diseño: Figma</p>
-                                    <div class="espacio-ver-repositorio">
-                                        <a style=" text-decoration: none; outline: none; color: white;"
-                                            href="https://www.figma.com/file/rkhv9ioRzeFyaQQTlmWZV1/KIWANO?type=design&mode=design&t=dAvS6nGXxX4bPRu2-1"
-                                            target="_blank" class="ver-ing">
-                                            <i class="fa-brands fa-figma me-2"></i>
-                                            <h6 id="ver6-ing" class="d-inline-block ver">VER</h6>
-                                        </a>
-                                        <a style=" text-decoration: none; outline: none; color: white;"
-                                            href="https://kiwano.com.ar/" target="_blank">
-                                            <i class="fa-solid fa-dumpster me-2"></i>
-                                            <h6 class="d-inline-block">WEB</h6>
-                                        </a>
-                                    </div>
+                            <div class="project-info">
+                                <h4 id="buffet-Stentor-titulo-ing">BUFFET STENTOR</h4>
+                                    <p id="buffet-Stentor-titulo-parrafo-ing">Web de buffet de barrio ubicado en Villa
+                                        Luro, Capital. Es una web intuitiva para captar la atencion de posibles clientes de las zona y sus alrededores. Priorizando la visualización de la informacion mas relevante, optimizando el diseño para mejorar la experiencia del usuario.</p>
+                                <div class="project-tags">
+                                    <span>HTML</span>
+                                    <span>CSS</span>
+                                    <span>Boostrap</span>
+                                    <span>React</span>
+                                    <span>JavaScript</span>
+                                    <span>Figma</span>
+                                </div>
+                                <div class="project-links">
+                                    <a href="#" class="btn btn-primary ver-proyecto-ing">
+                                        <i class="fas fa-external-link-alt"></i><span>Ver Proyecto</span>
+                                    </a>
+                                    <a href="#" class="btn btn-secondary ver-codigo-ing">
+                                        <i class="fab fa-github"></i><span>Ver Código</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </article>
+                        <!-- transporte escolar -->
+                        <article class="project-card">
+                            <div class="project-image">
+                                <img src="./imagenes/micros-escolares.jpg" alt="Página web de transporte escolar">
+                                <div class="project-overlay">
+                                    <h3 id="Transporte-escolar-titulo-img-ing">Web de transporte escolar</h3>
+                                    <p id="Transporte-escolar-parrafo-img-ing">Sitio web para una empresa familiar de transporte escolar.</p>
+                                </div>
+                            </div>
+                            <div class="project-info">
+                                <h4>TRANSPORTE RAUL</h4> 
+                                 <p id="Transporte-escolar-parrafo-ing">
+                                    Este proyecto es sobre la empresa de mi familia. Desarrollé un sitio web con el fin de mostrar y atraer a más clientes y empresas interesadas en el transporte escolar, proporcionando información clara sobre los servicios de transporte que mi familia ofrece: vehículos, servicios, políticas de seguridad y nuestros clientes actuales.
+                                 </p>
+                                <div class="project-tags">
+                                    <span>HTML</span>
+                                    <span>CSS</span>
+                                    <span>Boostrap</span>
+                                    <span>JavaScript</span>
+                                </div>
+                                <div class="project-links">
+                                    <a href="#" class="btn btn-primary ver-proyecto-ing"><i class="fas fa-external-link-alt"></i><span>Ver Proyecto</span></a>
+                                    <a href="#" class="btn btn-secondary ver-codigo-ing"><i class="fab fa-github"></i><span>Ver Código</span></a>
+                                </div>
+                            </div>
+                        </article>
+                        <!-- Hochbaum estudio -->
+                        <article class="project-card">
+                            <div class="project-image">
+                                <img src="./imagenes/Hochbaun.png" alt="Página web de transporte escolar">
+                                <div class="project-overlay">
+                                    <h3 id="Hochbaum-estudio-titulo-img-ing">Web de estudio de arquitectura</h3>
+                                    <p id="Hochbaum-estudio-parrafo-img-ing">Sitio web para un estudio de arquitectura.</p>
+                                </div>
+                            </div>
+                            <div class="project-info">
+                                <h4>HOCHBAUM ESTUDIO</h4>
+                                <p id="Hochbaum-estudio-parrafo-ing" >Concepto de página web para un estudio de arquitectura. El objetivo principal fue desarrollar un sitio con un diseño limpio y moderno que destaque sus servicios y proyectos potenciales. El enfoque estuvo en crear una experiencia de usuario intuitiva, asegurando que la navegación sea fluida y que la información esencial esté fácilmente accesible para los visitantes.</p>
+                                <div class="project-tags">
+                                    <span>HTML</span>
+                                    <span>CSS</span>
+                                    <span>Boostrap</span>
+                                    <span>JavaScript</span>
+                                    <span>Figma</span>
+                                </div>
+                                <div class="project-links">
+                                    <a href="#" class="btn btn-primary ver-proyecto-ing"><i class="fas fa-external-link-alt"></i><span>Ver Proyecto</span></a>
+                                    <a href="#" class="btn btn-secondary ver-codigo-ing"><i class="fab fa-github"></i><span>Ver Código</span></a>
+                                </div>
+                            </div>
+                        </article>
+                        <!-- Venta de gnc -->
+                        <article class="project-card">
+                            <div class="project-image">
+                                <img src="./imagenes/fondo-proyecto-3.jpg" alt="Página web de transporte escolar">
+                                <div class="project-overlay">
+                                    <h3 id="Gnc-titulo-img-ing">Web de venta de Gnc</h3>
+                                    <p id="Gnc-parrafo-img-ing">Sitio web para una local de venta de gnc.</p>
+                                </div>
+                            </div>
+                            <div class="project-info">
+                                <h4>GNC-LURO</h4>
+                                <p id="Gnc-parrafo-ing">Web sobre un comercio local especializado en la venta de GNC. El objetivo fue crear una plataforma informativa y fácil de usar que destacara los servicios y productos ofrecidos. Implementé secciones claras para describir los servicios del local. Este proyecto contribuyó significativamente a mi experiencia en diseño y desarrollo web.
+                                </p>
+                                <div class="project-tags">
+                                    <span>HTML</span>
+                                    <span>CSS</span>
+                                    <span>Boostrap</span>
+                                </div>
+                                <div class="project-links">
+                                    <a href="#" class="btn btn-primary ver-proyecto-ing"><i class="fas fa-external-link-alt"></i><span>Ver Proyecto</span></a>
+                                    <a href="#" class="btn btn-secondary ver-codigo-ing"><i class="fab fa-github"></i><span>Ver Código</span></a>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </section>
+        </div> 
+        <!-- DISEÑO UI -->
+        <div class="fila text-center" id="proyectos-diseno-ui">
+            <div >
+                <div class="columnas-proyectosUi">
+                    <div class="text-center espacioProyectosUi-columna1">
+                        <div class="proyecto ">
+                            <img src="./imagenes/portfolio-viejo.png" alt="">
+                            <div class="informacion-proyectos">
+                                <h4 id="portafolioAntiguo-titulo-ing">PORTFOLIO ANTIGUO</h4>
+                                <p id="herramienta-figma-ing">Herramienta de diseño: Figma</p>
+                                <div class="d-flex justify-content-center">
+                                    <a style=" text-decoration: none; outline: none; color: white;"
+                                        href="https://www.figma.com/file/L9WAX29Tsaw6KMd1nroZPV/Untitled?type=design&node-id=0%3A1&mode=design&t=eZnOkX6cbMhamAg8-1"
+                                        target="_blank" class="ver-ing">
+                                        <i class="fa-brands fa-figma me-2"></i>
+                                        <h6 id="ver5-ing" class="d-inline-block ver">VER</h6>
+                                    </a>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="columnas-proyectosUi">
-                        <div class=" text-center espacioProyectosUi-columna2">
-                            <div class="proyecto">
-                                <img src="./imagenes/Pizzeria.png" alt="">
-                                <div class="informacion-proyectos">
-                                    <h4>PIZZERIA DON REMOLEO</h4>
-                                    <p id="herramientaDeFigmaPizza-ing">Herramienta de diseño: Figma</p>
-                                    <div class="d-flex justify-content-center">
-                                        <a style=" text-decoration: none; outline: none; color: white;"
-                                            href="https://www.figma.com/file/MRJ2C0FzI1O5OZHOnAtXyT/proyecto-pizzeria-Don-Remoleo?type=design&mode=design&t=dAvS6nGXxX4bPRu2-1"
-                                            target="_blank" class="ver-ing">
-                                            <i class="fa-brands fa-figma me-2"></i>
-                                            <h6 id="ver7-ing" class="d-inline-block ver">VER</h6>
-                                        </a>
-                                    </div>
+                    <div class="text-center espacioProyectosUi-columna1">
+                        <div class="proyecto">
+                            <img src="./imagenes/Kiwano-figma.png" alt="">
+                            <div class="informacion-proyectos">
+                                <h4 id="web-kiwano-titulo-ing">WEB DE KIWANO</h4>
+                                <p id="herramientafigmaKiwano-ing">Herramienta de diseño: Figma</p>
+                                <div class="espacio-ver-repositorio">
+                                    <a style=" text-decoration: none; outline: none; color: white;"
+                                        href="https://www.figma.com/file/rkhv9ioRzeFyaQQTlmWZV1/KIWANO?type=design&mode=design&t=dAvS6nGXxX4bPRu2-1"
+                                        target="_blank" class="ver-ing">
+                                        <i class="fa-brands fa-figma me-2"></i>
+                                        <h6 id="ver6-ing" class="d-inline-block ver">VER</h6>
+                                    </a>
+                                    <a style=" text-decoration: none; outline: none; color: white;"
+                                        href="https://kiwano.com.ar/" target="_blank">
+                                        <i class="fa-solid fa-dumpster me-2"></i>
+                                        <h6 class="d-inline-block">WEB</h6>
+                                    </a>
                                 </div>
                             </div>
                         </div>
-                        <div class=" text-center espacioProyectosUi-columna2">
-                            <div class="proyecto">
-                                <img src="./imagenes/diseño-figma.jpg" alt="">
-                                <div class="informacion-proyectos">
-                                    <h4 id="practicandoFifma-titulo-ing">PRACTICANDO FIGMA</h4>
-                                    <p id="herramientaDeFigmaPracticando-ing">Herramienta de diseño: Figma</p>
-                                    <div class="d-flex justify-content-center">
-                                        <a style=" text-decoration: none; outline: none; color: white;"
-                                            href="https://www.figma.com/file/5Qno9JX5N5B112hiX3SZ0l/1-dise%C3%B1o?type=design&mode=design&t=dAvS6nGXxX4bPRu2-1"
-                                            target="_blank" class="ver-ing">
-                                            <i class="fa-brands fa-figma me-2"></i>
-                                            <h6 id="ver8-ing" class="d-inline-block ver">VER</h6>
-                                        </a>         
-                                    </div>
+                    </div>
+                </div>
+                <div class="columnas-proyectosUi">
+                    <div class=" text-center espacioProyectosUi-columna2">
+                        <div class="proyecto">
+                            <img src="./imagenes/Pizzeria.png" alt="">
+                            <div class="informacion-proyectos">
+                                <h4>PIZZERIA DON REMOLEO</h4>
+                                <p id="herramientaDeFigmaPizza-ing">Herramienta de diseño: Figma</p>
+                                <div class="d-flex justify-content-center">
+                                    <a style=" text-decoration: none; outline: none; color: white;"
+                                        href="https://www.figma.com/file/MRJ2C0FzI1O5OZHOnAtXyT/proyecto-pizzeria-Don-Remoleo?type=design&mode=design&t=dAvS6nGXxX4bPRu2-1"
+                                        target="_blank" class="ver-ing">
+                                        <i class="fa-brands fa-figma me-2"></i>
+                                        <h6 id="ver7-ing" class="d-inline-block ver">VER</h6>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class=" text-center espacioProyectosUi-columna2">
+                        <div class="proyecto">
+                            <img src="./imagenes/diseño-figma.jpg" alt="">
+                            <div class="informacion-proyectos">
+                                <h4 id="practicandoFifma-titulo-ing">PRACTICANDO FIGMA</h4>
+                                <p id="herramientaDeFigmaPracticando-ing">Herramienta de diseño: Figma</p>
+                                <div class="d-flex justify-content-center">
+                                    <a style=" text-decoration: none; outline: none; color: white;"
+                                        href="https://www.figma.com/file/5Qno9JX5N5B112hiX3SZ0l/1-dise%C3%B1o?type=design&mode=design&t=dAvS6nGXxX4bPRu2-1"
+                                        target="_blank" class="ver-ing">
+                                        <i class="fa-brands fa-figma me-2"></i>
+                                        <h6 id="ver8-ing" class="d-inline-block ver">VER</h6>
+                                    </a>         
                                 </div>
                             </div>
                         </div>
@@ -511,204 +494,62 @@
             </div>
         </div>
     </div>
+</div>
 
 
 
-
-
-
-
-
-<!-- <div class="fondoGrid">
-    <div class="grid-conteiner">
+<!-- ************** -->
+<!-- *** PERFIL *** -->
+<!-- ************** -->
+    <section class="about-section" id="perfil">
         <div>
-            1
-        </div>
-        <div>2</div>
-        <div>3</div>
-        <div>4</div>
-    </div>
-
-</div> -->
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    <!-- ************** -->
-    <!-- *** PERFIL *** -->
-    <!-- ************** -->
-    <div id="perfil" class="titulo-perfil">
-        <h1 id="perfil-titulo-ing">PERFIL</h1>
-        <div class="d-flex justify-content-center">
-            <i class="fa-solid fa-minus"></i>
-            <h2 id="masSobreMi-ing">MAS SOBRE MI </h2>
-            <i class="fa-solid fa-minus"></i>
-        </div>
-    </div>
-    <div class="container">
-        <div class="row mt-5 columna-1">
-            <div class="col-6">
-                <div class="col fondo-imagen1Y2">
-                    <div class="fondo-imagen-personal2"><!-- data-aos="fade-down" data-aos-duration="2000" -->
-                        <div class="contenedor-imagen2">
-                            <img src="./imagenes/imagen-personal/responsive-1.png" alt="Descripción de la imagen">
-                        </div>
-                    </div>
+            <div id="proyectos" class="titulo-proyectos">
+                <h1 class="Perfil-titulo-ing">PERFIL</h1>
+                <div class="d-flex justify-content-center">
+                    <i class="fa-solid fa-minus"></i>
+                    <h2 class="Mas-sobre-mi-ing" >MÁS SOBRE MÍ</h2>
+                    <i class="fa-solid fa-minus"></i>
                 </div>
             </div>
-            <div class="col-6">
-                <div class="perfil">
-                    <div class="perfil-titulo-sobreMi">
-                        <h1 id="sobre-mi-titulo-ing">SOBRE MÍ</h1>
-                    </div>
-                    <p id="parrafo-perfil-ing" class="parrafo">Estudié arquitectura, tuve una materia que se llamaba
-                        dibujo, donde aprendi a dibujar bocetos, croquis, dibujos en perspectiva y demas. Ahi descubri
-                        que me gustaba mucho plasmar mis ideas y darles vida. Al elegir el diseño web como carrera puedo
-                        juntar las 2 cosas que mas me gustan, dibujar y diseñar.</p>
-                    <div class="perfil-titulo-intereses">
-                        <h1 id="intereses-titulo-ing" class="mt-4" id="sobre-mi-titulo-ing">INTERESES</h1>
-                    </div>
-                    <div class="col intereses">
-                        <ul>
-                            <li><i class="fa fa-paint-brush"></i>
-                                <p id="dibujar-ing">Dibujar</p>
-                            </li>
-                            <li><i class="fa fa-music"></i>
-                                <p id="musica-ing">música</p>
-                            </li>
-                            <li><i class="fa fa-headphones"></i>
-                                <p id="meditar-ing">Meditar</p>
-                            </li>
-                            <li><i class="fa fa-gamepad"></i>
-                                <p id="videoJuegos-ing">videojuegos</p>
-                            </li>
-                        </ul>
+                <div class="about-content">
+                    <div class="about-text">
+                        <p class="about-description parrafo-perfil-uno-ing">
+                            Me llamo Gonzalo, pero mis amigos me dicen Pichu. Empecé en la programación cuando estudiaba arquitectura. Tuve dos materias que eran dibujo y proyectual; ahí aprendí a dibujar bocetos, croquis, dibujos en perspectiva y programas de diseño en 3D. Ahí entendí que mi camino era el diseño.
+                            </p>
+                            <p class="about-description parrafo-perfil-dos-ing">
+                                Decidí mejorar esas habilidades de dibujo y diseño al elegir la carrera de diseñador web y frontend. Mi primer proyecto fue la empresa de mi familia, donde ayudé a crear una web en la que las personas pudieran ver toda la información de la empresa y conocer con más detalles quiénes somos y qué ofrecemos. Eso me ayudó a conseguir otros trabajos y a seguir mejorando mis habilidades.
+                            </p>
+                            <p class="about-description parrafo-perfil-tres-ing">
+                                Me encanta aprender siempre algo nuevo. Me defino como una persona empática, proactiva y detallista, que le gusta trabajar en equipo y ayudar a los demás, ofreciendo soluciones creativas a cada proyecto. Mi objetivo es seguir mejorando y aprender más cada día.
+                            </p>
+                        <div class="about-technologies">
+                            <h3 class="tecnologias-titulo-ing">Tecnologías</h3>
+                            <div class="tech-tags">
+                                <span>HTML5</span>
+                                <span>CSS</span>
+                                <span>Boostrap</span>
+                                <span>React</span>                          
+                                <span>Figma</span>
+                            </div>
+                        </div>
+                        <div class="about-skills">
+                            <h3 class="habilidades-titulo-ing">Habilidades Blandas</h3>
+                                <div class="tech-tags">
+                                    <span class="habilidad-blanda-uno-ing">Trabajo en equipo</span>
+                                    <span class="habilidad-blanda-dos-ing">Comunicación efectiva</span>
+                                    <span class="habilidad-blanda-tres-ing">Paciencia</span>
+                                    <span class="habilidad-blanda-cuatro-ing">Inteligencia emocional</span>
+                                    <span class="habilidad-blanda-cinco-ing">Proactividad</span>
+                                    <span class="habilidad-blanda-seis-ing">Creatividad</span>
+                                </div>
+                        </div>
+                    </div> 
+                    <div class="about-image">
+                        <img src="/imagenes/Nueva carpeta/4 - copia.png" alt="Tu Nombre">
                     </div>
                 </div>
-            </div>
         </div>
-        <div class="row columna-2">
-            <div class="col-6">
-                <div class="tecnologíasyhabilidades iconos-prueba">
-                    <!-- MIS SKILLS-->
-                    <div class="titulo-tecnohabilidades">
-                        <h3 id="tecnologíasYhabilidades-ing">
-                            TECNOLÓGIA Y HERRAMIENTAS</h3>
-                    </div>
-                    <div class="logos-tecnohabilidades">
-                        <div class="d-inline-block text-center">
-                            <div class="tecnohabilidades d-flex">
-                                <i class="fa-brands fa-html5"></i>
-                                <p>HTML</p>
-                            </div>
-                        </div>
-                        <div class="d-inline-block text-center">
-                            <div class="tecnohabilidades d-flex">
-                                <i class="fa-brands fa-css3-alt"></i>
-                                <p>CSS</p>
-                            </div>
-                        </div>
-                        <div class="d-inline-block text-center">
-                            <div class="tecnohabilidades d-flex">
-                                <i class="fa-brands fa-react"></i>
-                                <p> REACT</p>
-                            </div>
-                        </div>
-                        <div class="d-inline-block text-center">
-                            <div class="tecnohabilidades d-flex">
-                                <i class="fa-brands fa-figma"></i>
-                                <p>FIGMA</p>
-                            </div>
-                        </div>
-                        <div class="d-inline-block text-center">
-                            <div class="tecnohabilidades d-flex">
-                                <i class="fa-brands fa-bootstrap"></i>
-                                <p> BOOTSTRAP</p>
-                            </div>
-                        </div>
-                        <div class="d-inline-block text-center">
-                            <div class="tecnohabilidades d-flex">
-                                <i class="fa-solid fa-atom"></i>
-                                <p>TAILWIND-CSS</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-6">
-                <div class="habilidades-blandas">
-                    <div class="col ">
-                        <!-- habilidades blandas -->
-                        <div class="titulo-habilidadesBlandas">
-                            <h3 id="habilidades-blandas-ing">HABILIDADES BLANDAS SOFT KILLS
-                            </h3>
-                        </div>
-                        <div class="opciones">
-                            <div class="d-inline-block text-center">
-                                <p id="creatividad-ing">Creatividad</p>
-                            </div>
-                            <div class="d-inline-block text-center">
-                                <p id="proactividad-ing">proactividad</p>
-                            </div>
-                            <div class="d-inline-block text-center">
-                                <p id="paciencia-ing">paciencia</p>
-                            </div>
-                            <div class="d-inline-block text-center">
-                                <p id="trabajoEnEquipo-ing">Trabajo en equipo</p>
-                            </div>
-                            <div class="d-inline-block text-center">
-                                <p id="inteligenciaEmocional-ing">Inteligencia emocional</p>
-                            </div>
-                            <div class="d-inline-block text-center">
-                                <p id="Comunicación-efectiva-ing">Comunicación efectiva</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+    </section>
 
 
 
@@ -716,15 +557,15 @@
     <!-- *** DIBUJOS *** -->
     <!-- *************** -->
     <div>
-        <div class="titulo-dibujos " style="background-color: rgb(44, 44, 44);">
+        <div class="titulo-dibujos">
             <h1 id="dibujos-titulo-ing" style="padding-top: 1em;">DIBUJOS</h1>
             <div class="d-flex justify-content-center">
                 <i class="fa-solid fa-minus"></i>
                 <h2 class="text-center" id="misDibujos-titulo-ing">MIS DIBUJOS</h2>
                 <i class="fa-solid fa-minus"></i>
             </div>
-            <p id="parrafoDibujos-ing" class="m-0 d-flex justify-content-center text-white fw-bolder"
-                style="font-family: 'Montserrat', sans-serif; padding: 10px 40px 10px 40px; text-align: center;">ME ENCANTA DIBUJAR, MEJORA MI CREATIVIDAD Y ENRIQUECE MI ENFOQUE EN EL DISEÑO WEB, APORTANDO FRESCURA E INNOVACIÓN A CADA PROYECTO.</p>
+            <p id="parrafoDibujos-ing" class="parrafo-dibujo"
+                >ME ENCANTA DIBUJAR, MEJORA MI CREATIVIDAD Y ENRIQUECE MI ENFOQUE EN EL DISEÑO WEB, APORTANDO FRESCURA E INNOVACIÓN A CADA PROYECTO.</p>
         </div>
         <div id="dibujos" class="Galeria gallery-block compact-gallery Galeria-img">
             <div class="fila text-center">
@@ -914,10 +755,6 @@
                         <div class=" mb-5 text-center ">
                             <div>
                                 <ul class="z speace-around-entre-objetos-contacto ">
-                                    <!-- <li class="y">
-                                        <a class="r" href="https://www.facebook.com/gonzalo.robledo.5"
-                                            target="_blank"><i class="fab fa-facebook-f iconn"></i></a>
-                                    </li> -->
                                     <li class="y">
                                         <a class="r" href="https://github.com/gonzarobledo96" target="_blank"><i
                                                 class="fab fa-brands fa-github iconn"></i></a>
@@ -935,8 +772,6 @@
                                     </li>
                                 </ul>
                             </div>
-                            <!-- <h6 id="fraseContacto-ing" class="texto-portafolio-contacto text-center ">La creatividad es
-                                la inteligencia divirtiéndose.</h6> -->
                             <h6 id="fraseContactoDos-ing" class="texto-portafolio-contacto text-center ">¡Hablemos sobre tu proyecto! Estoy aquí para ayudarte a crear algo increíble</h6>
                         </div>
                         <div class="text-end" style="padding: 10px 0px 10px 00px;">
@@ -972,7 +807,6 @@
             <p>
         </div>
     </footer>
-
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.10.0/baguetteBox.min.js"></script>
     <!-- ANIMACION GALERIA DE DBUJOS -->

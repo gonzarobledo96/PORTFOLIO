@@ -90,9 +90,9 @@ function cambiarColores(colorSeleccionado) {
 // **************************
 // CAMBIAR EL FONDO DEL BODY
 // **************************
-function cambiarFondo() {
-  const body = document.body;
-  const icono = document.getElementById('modo-icono');
+// function cambiarFondo() {
+//   const body = document.body;
+//   const icono = document.getElementById('modo-icono');
   // const contenedorImagen1 = document.querySelector('.contenedor-imagen');
   // const contenedorImagen2 = document.querySelector('.contenedor-imagen2');
   // const imagen1 = contenedorImagen1.querySelector('img');
@@ -116,19 +116,19 @@ function cambiarFondo() {
   //   imagen2.alt = 'Descripción de la imagen en modo claro';
   // }
 
-  
-  // CAMBIA EL LOGO DEL SOL A LA LUNA
-  // Verifica si el cuerpo tiene la clase 'modo-oscuro'
-  if (body.classList.contains('modo-oscuro')) {
-    // Cambia el ícono al sol y remueve la clase 'modo-oscuro' del cuerpo
-    icono.className = 'fa-regular fa-sun';
-    body.classList.remove('modo-oscuro');
-  } else {
-    // Cambia el ícono a la luna y agrega la clase 'modo-oscuro' al cuerpo
-    icono.className = 'fa-regular fa-moon';
-    body.classList.add('modo-oscuro');
-  }
-}
+
+//    CAMBIA EL LOGO DEL SOL A LA LUNA
+//    Verifica si el cuerpo tiene la clase 'modo-oscuro'
+//   if (body.classList.contains('modo-oscuro')) {
+//      Cambia el ícono al sol y remueve la clase 'modo-oscuro' del cuerpo
+//     icono.className = 'fa-regular fa-sun';
+//     body.classList.remove('modo-oscuro');
+//   } else {
+//      Cambia el ícono a la luna y agrega la clase 'modo-oscuro' al cuerpo
+//     icono.className = 'fa-regular fa-moon';
+//     body.classList.add('modo-oscuro');
+//   }
+// }
 
 
 
@@ -164,86 +164,70 @@ function actualizarTextos() {
     misInteresesNav: "MY INTERESTS",
     contactar: "CONTACT",
     eligeColor: "Theme Colors",
-
     // INICIO
-    // holaMiNombreEsGonzalo: "HELLO, MY NAME IS",
+    Introduccion:"INTRODUCTION",
     DiseñadorFronTend: "Web and Front-end designer",
-    parrafoInicio: "Frontend and web designer with 1 year of experience in responsive design, web layout and user experience improvement. I have skills in HTML, CSS, Tailwind, Bootstrap, React and Figma. I define myself as an empathetic, proactive and detail-oriented person, always looking to contribute the best of myself to each project.",
+    MejorDiseñoParaSuWeb: "Best design for your website",
     descargarCV: "Download CV",
+    LinkWs:"Whatsapp link",
     AñosDeExperiencia: "Years of experience",
     proyectosCreados: "Created Projects",
-
-    // ACERCA-DE
-    perfilTitulo: "PROFILE",
-    masSobreMi: "MORE ABOUT ME",
-    sobreMiTitulo: "ABOUT ME",
-    // holaSoy: "Hi, I am",
-    parrafoPerfil: "I studied architecture, I had a subject called drawing, where I learned to draw sketches, sketches, perspective drawings and so on. There I discovered that I really liked to capture my ideas and give them life. By choosing web design as a career I can combine the 2 things I like most, drawing and designing.",
-    interesesTitulo:"INTERESTS",
-    dibujar:"Draw",
-    musica:"Muic",
-    meditar:"To meditate",
-    videoJuegos:"Video Games",
-    tecnologiasYhabilidades: "TECHNOLOGY AND TOOLS",
-    // herramientasDeDiseño: "Design Tools",
-    habilidadesBlandas: "SOFT SKILLS",
-    creatividad: "Creativity",
-    proactividad: "Proactivity",
-    paciencia: "Patience",
-    trabajoEnEquipo: "Teamwork",
-    inteligenciaEmocional:"Emotional intelligence",
-    ComunicacionEfectiva:"Effective communication",
-
-
 //SERVICIOS
 ServicioTitulo: "SERVICES",
-LoQueHago: "MY SERVICES",
+LoQueHago: "WHAT I DO",
+webProfesional: "Custom Web",
+webProfesionalParrafo: "Creation of unique websites tailored to the client's needs",
+DiseñoResponsive:"Responsive Design",
+DiseñoResponsiveParrafo:"Ensuring that websites look and function well on mobile and desktop devices.",
+OptimizacionSeo:"SEO Optimization",
+OptimizacionSeoParrafo:"Improving the structure and content of your site to maximize its visibility in search engines and increase traffic.",
+DiseñoUi:"UI Design/Prototypes",
+DiseñoUiPrrafo:"Development of wireframes and prototypes to ensure optimal design before starting the project.",
+MantenimientoSoporte:"Maintenance and Support",
+ MantenimientoSoporteParrafo:"Ongoing service to keep the site up-to-date, secure and running smoothly, including content updates.",
+// PROYECTOS
+proyectoTitulo:"PROJECTS",
+proyectoSubtitulo:"MY PROJECTS",
+disenoUITitulo:"UI Design",
 
- // PROYECTOS
- proyectos: "PROJECTS",
- misProyectos: "MY PROJECTS",
- disenoUITitulo: "UI Design",
- // Buffet Stentor
-//  proyecto1Titulo:"PROJECT 1",
- subtituloProyecto1:"Neighborhood Buffet Website",
- parrafoProyecto1:"This project is about a neighborhood buffet located in Villa Luro, Capital. My focus was on creating an intuitive platform that would make it easy to view the most relevant information. Additionally, I optimized the design to improve the user experience, ensuring that key information, such as the menu, hours and promotions, was easily accessible.",
-repositorio: "REPOSITORY",
-BuffetStentor: "BUFFET STENTOR",
-// transporte-escolar
-// proyecto2Titulo: "PROJECT 2",
-subtituloProyecto2: "School transport website",
-parrafoProyecto2: "This project is about my family's business. I developed a website in order to attract more clients and companies interested in school transportation, providing clear information about the transportation services we offer: vehicles, safety policies and our current clients.",
-repositorio2: "REPOSITORY",
-transporteRaulTitulo: "TRANSPORTATION RAUL-SCHOOL COMPANY",
- // verduleria-natural
-//  proyecto3Titulo: "PROJECT 3",
- subtituloProyecto3: "Greengrocer's website",
- parrafoProyecto3: "Simple website of a greengrocer as part of my learning process. The idea was to practice what I learned in my web development course at coderhouse. Focusing on improving my skills in creating a website. Although the project is modest, it represents an important step in my learning as a web designer and front-end designer.",
- repositorio3: "REPOSITORY",
- verduleriatitulo: "ORGANIC-GREENHOUSE",
- // GNC-LURO
-//  proyecto4Titulo: "PROJECT 4",
- subtituloProyecto4: "Gnc sales website",
- parrafoProyecto4: "Website is about a local business specialized in the sale of CNG. The objective was to create an informative and easy-to-use platform that would highlight the services and products offered. I implemented clear sections to describe the local services offered. This project contributed significantly to my experience in web design and development.",
- repositorio4: "REPOSITORY",
-// PORTAFOLIO ANTIGUO
-ver5: "SEE",
-// repositorio5: "REPOSITORY",
-figmaTitulo: "Design with Figma",
-herramientaFigma: "Design Tool: Figma",
-// KIWANO
-KiwanoTitulo:"KIWANO WEBSITE",
-herramientaFigma2: "Design Tool: Figma",
-ver6: "SEE",
+buffetStentorTituloImg:"Stentor buffet website",
+buffetStentorParrafoImg:"Intuitive platform to view relevant information about a local buffet.",
+buffetStentorTitulo:"STENTOR BUFFET",
+buffetStentorParrafo:"Website for a neighborhood buffet located in Villa Luro, Capital. It is an intuitive website to capture the attention of potential customers in the area and its surroundings, prioritizing the display of the most relevant information and optimizing the design to improve the user experience.",
+verProyecto:"See project",
+verCodigo:"See code",
 
-// PIZZERIA DON REMOLEO
-herramientaFigma3: "Design Tool: Figma",
-ver7: "SEE",
+// TRANSPORTE ESCOLAR
+TransporteEscolarTituloImg:"School transport website",
+TransporteEscolarParrafoImg:"Website for a family school transportation company.",
+TransporteEscolarParrafo:"This project is about my family's business. I developed a website in order to showcase and attract more clients and companies interested in school transportation, providing clear information about the transportation services my family offers: vehicles, services, safety policies and our current clients.",
+// HOCHBAUM ESTUDIO
+HochbaumEstudioTituloImg:"Architecture studio website",
+HochbaumEstudioParrafoImg:"Website for an architecture studio.",
+HochbaumEstudioParrafo:"Website concept for an architectural firm. The main objective was to develop a site with a clean and modern design that highlights their services and potential projects. The focus was on creating an intuitive user experience, ensuring that navigation is smooth and essential information is easily accessible to visitors.",
+// GNC
+GncParrafoImg:"CNG Sales Website",
+GncParrafoImg:"Website for a CNG sales outlet.",
+GncParrafo:"Website about a local business specializing in CNG sales. The goal was to create an informative and user-friendly platform that would highlight the services and products offered. I implemented clear sections to describe the services of the outlet. This project significantly contributed to my experience in web design and development.",
 
-// PRACTICANDO FIGMA
-practicandoFigmaTitulo:"PRACTICING FIGMA",
-herramientaFigma4: "Design Tool: Figma",
-ver8: "SEE",
+// PERFIL
+PerfilTitulo:"PROFILE",
+MasSobreMi:"MORE ABOUT ME",
+perfilUno:"My name is Gonzalo, but my friends call me Pichu. I started programming when I was studying architecture. I had two subjects: drawing and design; there I learned to draw sketches, sketches, perspective drawings and 3D design programs. There I understood that my path was design.",
+perfilDos:"I decided to improve those drawing and design skills by choosing a career as a web and frontend designer. My first project was my family's company, where I helped create a website where people could see all the company's information and learn more about who we are and what we offer. That helped me get other jobs and continue improving my skills.",
+perfilTres:"I love always learning something new. I define myself as an empathetic, proactive and detail-oriented person, who likes to work in a team and help others, offering creative solutions to each project. My goal is to continue improving and learning more every day.",
+tecnologiasTitulo:"Technologies",
+habilidadesTitulo:"Soft Skills",
+// habilidades blandas
+habilidadBlandaUno: "Teamwork",
+habilidadBlandaDos: "Effective Communication",
+habilidadBlandaTres: "Patience",
+habilidadBlandaCuatro: "Emotional Intelligence",
+habilidadBlandaCinco: "Proactivity",
+habilidadBlandaSeis: "Creativity",
+
+
+
 
 // DIBUJOS
 dibujosTitulo: "DRAWINGS",
@@ -273,93 +257,68 @@ fraseContactoDos: "Let's talk about your project! I'm here to help you create so
     contactar: "CONTACTAR",
     eligeColor: " Colores del Tema",
     // INICIO
+    Introduccion:"INTRODUCCIÓN",
     DiseñadorFronTend: "Diseñador web y Front-end",
-    parrafoInicio: "Diseñador web y frontend con 1 año de experiencia en diseño responsive, maquetación web y mejora de la experiencia de usuario. Tengo habilidades en HTML, CSS, Tailwind, Bootstrap, React y Figma. Me defino como una persona empática, proactiva y detallista, siempre buscando aportar lo mejor de mí en cada proyecto.",
+    MejorDiseñoParaSuWeb: "Mejor diseño para su Web",
     descargarCV: "Descargar CV",
+    LinkWs:"link Whatsapp",
     AñosDeExperiencia: "Años de experiencia",
     proyectosCreados: "Proyectos creados",
-
-    // ACERCA-DE
-    perfilTitulo: "PERFIL",
-    masSobreMi: "MÁS SOBRE MÍ",
-    sobreMiTitulo: "SOBRE MÍ",
-    // holaSoy: "Hola, Soy",
-    parrafoPerfil: "Estudié arquitectura, tuve una materia que se llamaba dibujo, donde aprendí a dibujar bocetos, croquis, dibujos en perspectiva y demás. Ahí descubrí que me gustaba mucho plasmar mis ideas y darles vida. Al elegir el diseño web como carrera, puedo juntar las dos cosas que más me gustan: dibujar y diseñar.",
-    interesesTitulo:"INTERESES",
-    dibujar:"Dibujar",
-    musica:"Música",
-    meditar:"Meditar",
-    videoJuegos:"Videojuegos",
-    tecnologiasYhabilidades: "TECNOLOGÍA Y HERRAMIENTAS",
-    habilidadesBlandas: "SOFT SKILLS",
-    paciencia: "Paciencia",
-    proactividad: "Proactividad",
-    trabajoEnEquipo: "Trabajo en equipo",
-    creatividad: "Creatividad",
-    inteligenciaEmocional: "Inteligencia emocional",
-    ComunicacionEfectiva:"Comunicación efectiva",
-    
-
 //SERVICIOS
 ServicioTitulo: "SERVICIOS",
-LoQueHago: "MIS SERVICIOS",
-
+LoQueHago: "LO QUE HAGO",
+webProfesional: "Web Personalizado",
+webProfesionalParrafo: "creación de sitios web únicos y adaptados a las necesidades del cliente",
+DiseñoResponsive:"Diseño Responsivo",
+DiseñoResponsiveParrafo:"Asegurar que los sitios web se vean y funcionen bien en dispositivos móviles y de escritorio.",
+OptimizacionSeo:"Optimización para SEO",
+OptimizacionSeoParrafo:"Mejora de la estructura y contenido del sitio para maximizar su visibilidad en motores de búsqueda y aumentar el tráfico.",
+DiseñoUi:"Diseño UI/Prototipos",
+DiseñoUiPrrafo:"Desarrollo de wireframes y prototipos para asegurar un diseño óptimo antes de iniciar el proyecto.",
+MantenimientoSoporte:"Mantenimiento y soporte",
+ MantenimientoSoporteParrafo:"Servicio continuo para mantener el sitio actualizado, seguro y funcionando sin problemas, incluyendo actualizaciones de contenido.",
 // PROYECTOS
-proyectos: "PROYECTOS",
-misProyectos: "MIS PROYECTOS",
-disenoUITitulo: "Diseño UI",
-// Buffet Stentor
-// proyecto1Titulo:"PROYECTO 1",
-subtituloProyecto1:"Web de buffet de barrio",
-parrafoProyecto1:"Este proyecto es sobre un buffet de barrio ubicado en Villa Luro, Capital. Mi enfoque se centró en crear una plataforma intuitiva que facilitara la visualización de la informacion más relevante. Además, optimicé el diseño para mejorar la experiencia del usuario, asegurándome de que la información clave, como el menú, horarios y las promociones, estuviera fácilmente accesible.",
-ver: "VER",
-repositorio: "REPOSITORIO",
-BuffetStentor: "BUFFET STENTOR",
-lenguajesUtilizadosBuffet: "Lenguajes utilizados: HTML, CSS, Bootstrap, React, JS y Figma",
-// transporte-escola
-// proyecto2Titulo: "PROYECTO 2",
-subtituloProyecto2: "Web de transporte escolar",
-parrafoProyecto2: "Este proyecto es sobre la empresa de mi familia. Desarrollé un sitio web con el fin de atraer a más clientes y empresas interesadas en el transporte escolar, proporcionando información clara sobre los servicios de transporte que ofrecemos: vehículos, políticas de seguridad y nuestros clientes actuales.",
-ver2: "VER",
-repositorio2: "REPOSITORIO",
-transporteRaulTitulo: "TRANSPORTE RAÚL - EMPRESA ESCOLAR",
-lenguajesUtilizadosTransporte: "Lenguajes utilizados: HTML, CSS, Bootstrap y JS.",
-// verduleria-natural
-// proyecto3Titulo: "PROYECTO 3",
-subtituloProyecto3: "Web de verdulería",
-parrafoProyecto3: "Web de una verdulería como parte de mi proceso de aprendizaje. La idea era practicar lo aprendido en mi curso de desarrollo web en Coderhouse, centrándome en mejorar mis habilidades en la creación de un sitio web. Aunque el proyecto es modesto, representa un paso importante en mi aprendizaje como diseñador web y diseñador front-end.",
-ver3: "VER",
-repositorio3: "REPOSITORIO",
-verduleriatitulo: "VERDULERÍA ORGÁNICA",
-lenguajesUtilizadosVerduleria: "Lenguajes utilizados: HTML, CSS, Bootstrap y JS.",
-// GNC-LURO
-// proyecto4Titulo: "PROYECTO 4",
-subtituloProyecto4: "Web de venta de GNC",
-parrafoProyecto4: "Este sitio web es sobre un comercio local especializado en la venta de GNC. El objetivo fue crear una plataforma informativa y fácil de usar que destacara los servicios y productos ofrecidos. Implementé secciones claras para describir los servicios ofrecidos del local. Este proyecto contribuyó significativamente a mi experiencia en diseño y desarrollo web.",
-verGnc: "VER",
-repositorio4: "REPOSITORIO",
-lenguajesUtilizadosGncLuro: "Lenguajes utilizados: HTML, CSS y Bootstrap",
+proyectoTitulo:"PROYECTOS",
+proyectoSubtitulo:"MIS PROYECTOS",
+disenoUITitulo:"Diseño UI",
 
-// PORTAFOLIO ANTIGUO
-ver5: "VER",
-// repositorio5: "REPOSITORIO",
-figmaTitulo: "PORTAFOLIO ANTIGUO",
-herramientaFigma: "Herramienta de diseño: Figma",
+// BUFFET STENTOR
+buffetStentorTituloImg:"Web de buffet Stentor",
+buffetStentorParrafoImg:"Plataforma intuitiva para visualizar información relevante de un buffet local.",
+buffetStentorTitulo:"BUFFET STENTOR",
+buffetStentorParrafo:"Web de buffet de barrio ubicado en Villa Luro, Capital. Es una web intuitiva para captar la atención de posibles clientes de la zona y sus alrededores, priorizando la visualización de la información más relevante y optimizando el diseño para mejorar la experiencia del usuario.",
+verProyecto:"Ver proyecto",
+verCodigo:"Ver código",
 
-// KIWANO
-KiwanoTitulo:"WEB KIWANO",
-herramientaFigma2: "Herramienta de diseño: Figma",
-ver6: "VER",
+// TRANSPORTE ESCOLAR
+TransporteEscolarTituloImg:"Web de transporte escolar",
+TransporteEscolarParrafoImg:"Sitio web para una empresa familiar de transporte escolar.",
+TransporteEscolarParrafo:"Este proyecto es sobre la empresa de mi familia. Desarrollé un sitio web con el fin de mostrar y atraer a más clientes y empresas interesadas en el transporte escolar, proporcionando información clara sobre los servicios de transporte que mi familia ofrece: vehículos, servicios, políticas de seguridad y nuestros clientes actuales.",
 
-// PIZZERIA DON REMOLEO
-herramientaFigma3: "Herramienta de diseño: Figma",
-ver7: "VER",
+// HOCHBAUM ESTUDIO
+HochbaumEstudioTituloImg:"Web de estudio de arquitectura",
+HochbaumEstudioParrafoImg:"Sitio web para un estudio de arquitectura.",
+HochbaumEstudioParrafo:"Concepto de página web para un estudio de arquitectura. El objetivo principal fue desarrollar un sitio con un diseño limpio y moderno que destaque sus servicios y proyectos potenciales. El enfoque estuvo en crear una experiencia de usuario intuitiva, asegurando que la navegación sea fluida y que la información esencial esté fácilmente accesible para los visitantes.",
+// GNC
+GncParrafoImg:"Sitio web de venta de GNC",
+GncParrafoImg:"Sitio web para un local de venta de GNC.",
+GncParrafo:"Web sobre un comercio local especializado en la venta de GNC. El objetivo fue crear una plataforma informativa y fácil de usar que destacara los servicios y productos ofrecidos. Implementé secciones claras para describir los servicios del local. Este proyecto contribuyó significativamente a mi experiencia en diseño y desarrollo web.",
 
-// PRACTICANDO FIGMA
-practicandoFigmaTitulo:"PRACTICANDO FIGMA",
-herramientaFigma4: "Herramienta de diseño: Figma",
-ver8: "VER",
-
+// PERFIL
+PerfilTitulo:"PERFIL",
+MasSobreMi:"MÁS SOBRE MÍ",
+perfilUno:"Me llamo Gonzalo, pero mis amigos me dicen Pichu. Empecé en la programación cuando estudiaba arquitectura. Tuve dos materias que eran dibujo y proyectual; ahí aprendí a dibujar bocetos, croquis, dibujos en perspectiva y programas de diseño en 3D. Ahí entendí que mi camino era el diseño.",
+perfilDos:"Decidí mejorar esas habilidades de dibujo y diseño al elegir la carrera de diseñador web y frontend. Mi primer proyecto fue la empresa de mi familia, donde ayudé a crear una web en la que las personas pudieran ver toda la información de la empresa y conocer con más detalles quiénes somos y qué ofrecemos. Eso me ayudó a conseguir otros trabajos y a seguir mejorando mis habilidades.",
+perfilTres:"Me encanta aprender siempre algo nuevo. Me defino como una persona empática, proactiva y detallista, que le gusta trabajar en equipo y ayudar a los demás, ofreciendo soluciones creativas a cada proyecto. Mi objetivo es seguir mejorando y aprender más cada día.",
+tecnologiasTitulo:"Tecnologías",
+habilidadesTitulo:"Habilidades Blandas",
+// habilidades blandas
+habilidadBlandaUno: "Trabajo en equipo",
+habilidadBlandaDos: "Comunicación efectiva",
+habilidadBlandaTres: "Paciencia",
+habilidadBlandaCuatro: "Inteligencia emocional",
+habilidadBlandaCinco: "Proactividad",
+habilidadBlandaSeis: "Creatividad",
 
 // DIBUJOS
 dibujosTitulo: "DIBUJOS",
@@ -377,6 +336,7 @@ fraseContactoDos: "¡Hablemos sobre tu proyecto! Estoy aquí para ayudarte a cre
 
   var textos = (idiomaActual === "es") ? textosEs : textosEn;
   // Actualiza los textos en el DOM
+  // NAVBAR
   document.getElementById("inicio-ing").innerText = textos.inicioNav;
   document.getElementById("perfil-ing").innerText = textos.perfilNav;
   document.getElementById("proyectos-ing").innerText = textos.proyectosNav;
@@ -386,79 +346,75 @@ fraseContactoDos: "¡Hablemos sobre tu proyecto! Estoy aquí para ayudarte a cre
   document.getElementById("servicios-ing").innerText = textos.serviciosNav;
 
   // INICIO
+  document.getElementById("introduccion-ing").innerText = textos.Introduccion;
    document.getElementById("DiseñadorFronTend-ing").innerText = textos.DiseñadorFronTend;
-   document.getElementById("parrafo-inicio-ing").innerText = textos.parrafoInicio;
+   document.getElementById("MejorDiseñoParaSuWeb-ing").innerText = textos.MejorDiseñoParaSuWeb;
   document.getElementById("descargarCV-ing").innerText = textos.descargarCV;
+  document.getElementById("Link-Whatsapp-ing").innerText = textos.LinkWs;
   document.getElementById("añosDeExperiencia-ing").innerText = textos.AñosDeExperiencia;
   document.getElementById("proyectos-creados-ing").innerText = textos.proyectosCreados;
-  // PERFIL
-  document.getElementById("perfil-titulo-ing").innerText = textos.perfilTitulo;
-  document.getElementById("masSobreMi-ing").innerText = textos.masSobreMi;
-  document.getElementById("sobre-mi-titulo-ing").innerText = textos.sobreMiTitulo;
-  document.getElementById("parrafo-perfil-ing").innerText = textos.parrafoPerfil;
-
-  document.getElementById("intereses-titulo-ing").innerText = textos.interesesTitulo;
-document.getElementById("dibujar-ing").innerText = textos.dibujar;
-document.getElementById("musica-ing").innerText = textos.musica;
-document.getElementById("meditar-ing").innerText = textos.meditar;
-document.getElementById("videoJuegos-ing").innerText = textos.videoJuegos;
-  document.getElementById("tecnologíasYhabilidades-ing").innerText = textos.tecnologiasYhabilidades;
-  document.getElementById("habilidades-blandas-ing").innerText = textos.habilidadesBlandas;
-  document.getElementById("paciencia-ing").innerText = textos.paciencia;
-  document.getElementById("proactividad-ing").innerText = textos.proactividad;
-  document.getElementById("trabajoEnEquipo-ing").innerText = textos.trabajoEnEquipo;
-  document.getElementById("creatividad-ing").innerText = textos.creatividad;
-  document.getElementById("inteligenciaEmocional-ing").innerText = textos.inteligenciaEmocional;
-  document.getElementById("Comunicación-efectiva-ing").innerText = textos.ComunicacionEfectiva;
- 
- //SERVICIOS
- document.getElementById("Servicios-titulo-ing").innerText = textos.ServicioTitulo;
+  //SERVICIOS
+ document.getElementById("ServiciosTituloIng").innerText = textos.ServicioTitulo;
  document.getElementById("Lo-que-hago-ing").innerText = textos.LoQueHago;
+ document.getElementById("Diseño-responsive-ing").innerText = textos.DiseñoResponsive;
+ document.getElementById("Diseño-responsive-parrafo-ing").innerText = textos.DiseñoResponsiveParrafo;
+ document.getElementById("web-profesional-ing").innerText = textos.webProfesional;
+ document.getElementById("web-profesionalParrafo-ing").innerText = textos.webProfesionalParrafo;
+ document.getElementById("Optimizacion-seo-ing").innerText = textos.OptimizacionSeo;
+ document.getElementById("Optimizacion-seo-parrafo-ing").innerText = textos.OptimizacionSeoParrafo;
+ document.getElementById("Diseño-ui-ing").innerText = textos.DiseñoUi;
+ document.getElementById("Diseño-ui-parrafo-ing").innerText = textos.DiseñoUiPrrafo;
+ document.getElementById("Mantenimiento-soporte-ing").innerText = textos.MantenimientoSoporte;
+ document.getElementById("Mantenimiento-soporte-parrafo-ing").innerText = textos.MantenimientoSoporteParrafo;
+// PROYECTOS
+ document.getElementById("proyecto-titulo-ing").innerText = textos.proyectoTitulo;
+ document.getElementById("misProyectos-ing").innerText = textos.proyectoSubtitulo;
+ document.getElementById("disenoUITitulo-ing").innerText = textos.disenoUITitulo;
 
-  // PROYECTOS
-  document.getElementById("proyecto-titulo-ing").innerText = textos.proyectos;
-  document.getElementById("misProyectos-ing").innerText = textos.misProyectos;
-  document.getElementById("disenoUITitulo-ing").innerText = textos.disenoUITitulo;
-  //BUFFET STENTOR
-  // document.getElementById("proyecto1-titulo-ing").innerText = textos.proyecto1Titulo;
-  document.getElementById("subtituloProyecto1-ing").innerText = textos.subtituloProyecto1;
-  document.getElementById("parrafoProyecto1-ing").innerText = textos.parrafoProyecto1;
-  document.getElementById("repositorio-ing").innerText = textos.repositorio;
-// TRANSPORTE-ESCOLAR
-// document.getElementById("proyecto2-titulo-ing").innerText = textos.proyecto2Titulo;
-document.getElementById("subtituloProyecto2-ing").innerText = textos.subtituloProyecto2;
-document.getElementById("parrafoProyecto2-ing").innerText = textos.parrafoProyecto2;
-document.getElementById("transporte-raul-titulo-ing").innerText = textos.transporteRaulTitulo;
-document.getElementById("repositorio2-ing").innerText = textos.repositorio2;
-// VERDULERIA-NATURAL
-// document.getElementById("proyecto3-titulo-ing").innerText = textos.proyecto3Titulo;
-document.getElementById("subtituloProyecto3-ing").innerText = textos.subtituloProyecto3;
-document.getElementById("parrafoProyecto3-ing").innerText = textos.parrafoProyecto3;
-document.getElementById("verduleria-titulo-ing").innerText = textos.verduleriatitulo;
-document.getElementById("repositorio3-ing").innerText = textos.repositorio2;
-// GNC-LURO
-// document.getElementById("proyecto4-titulo-ing").innerText = textos.proyecto4Titulo;
-document.getElementById("subtituloProyecto4-ing").innerText = textos.subtituloProyecto4;
-document.getElementById("parrafoProyecto4-ing").innerText = textos.parrafoProyecto4;
-document.getElementById("repositorio4-ing").innerText = textos.repositorio4;
-// FIGMA 1
-// PORTFOLIO ANTIGUO
-document.getElementById("portafolioAntiguo-titulo-ing").innerText = textos.figmaTitulo;
-document.getElementById("herramienta-figma-ing").innerText = textos.herramientaFigma;
-document.getElementById("ver5-ing").innerText = textos.ver5;
-// KIWANO
-document.getElementById("web-kiwano-titulo-ing").innerText = textos.KiwanoTitulo;
-document.getElementById("herramientafigmaKiwano-ing").innerText = textos.herramientaFigma2;
-document.getElementById("ver6-ing").innerText = textos.ver6;
 
-// PIZZERIA DON REMOLEO
-document.getElementById("herramientaDeFigmaPizza-ing").innerText = textos.herramientaFigma3;
-document.getElementById("ver7-ing").innerText = textos.ver7;
+// BUFFET STENTOR
+ document.getElementById("buffet-Stentor-titulo-img-ing").innerText = textos.buffetStentorTituloImg;
+ document.getElementById("buffet-Stentor-parrafo-ing").innerText = textos.buffetStentorParrafoImg;
+ document.getElementById("buffet-Stentor-titulo-ing").innerText = textos.buffetStentorTitulo;
+ document.getElementById("buffet-Stentor-titulo-parrafo-ing").innerText = textos.buffetStentorParrafo;
+// el .querySelector llama al elemento que quieres cambiar, en este caso el span donde dentro esta parrafo. Esto hace que solo cambie lo que seleccionaste y no todo. si pones h1, p, h6, etc. tambien funciona.
+// document.getElementById("ver-proyecto-ing").querySelector('span').innerText = textos.verProyecto;
+// document.getElementById("ver-codigo-ing").querySelector('span').innerText = textos.verCodigo;
+document.querySelectorAll('.ver-proyecto-ing').forEach(function(button) {
+  button.querySelector('span').innerText = textos.verProyecto;
+});
+document.querySelectorAll('.ver-codigo-ing').forEach(function(button) {
+  button.querySelector('span').innerText = textos.verCodigo;
+});
+//  TRANSPORTE ESCOLAR
+document.getElementById("Transporte-escolar-titulo-img-ing").innerText = textos.TransporteEscolarTituloImg;
+document.getElementById("Transporte-escolar-parrafo-img-ing").innerText = textos.TransporteEscolarParrafoImg;
+document.getElementById("Transporte-escolar-parrafo-ing").innerText = textos.TransporteEscolarParrafo;
+// HOCHBAUM ESTUDIO 
+ document.getElementById("Hochbaum-estudio-titulo-img-ing").innerText = textos.HochbaumEstudioTituloImg;
+ document.getElementById("Hochbaum-estudio-parrafo-img-ing").innerText = textos.HochbaumEstudioParrafoImg;
+ document.getElementById("Hochbaum-estudio-parrafo-ing").innerText = textos.HochbaumEstudioParrafo;
+// GNC
+document.getElementById("Gnc-titulo-img-ing").innerText = textos.GncParrafoImg;
+ document.getElementById("Gnc-parrafo-img-ing").innerText = textos.GncParrafoImg;
+ document.getElementById("Gnc-parrafo-ing").innerText = textos.GncParrafo;
 
-// PRACTICANDO FIGMA
-document.getElementById("practicandoFifma-titulo-ing").innerText = textos.practicandoFigmaTitulo;
-document.getElementById("herramientaDeFigmaPracticando-ing").innerText = textos.herramientaFigma4;
-document.getElementById("ver8-ing").innerText = textos.ver7;
+// PERFIL
+document.querySelector('.Perfil-titulo-ing').innerText = textos.PerfilTitulo;
+document.querySelector('.Mas-sobre-mi-ing').innerText = textos.MasSobreMi;
+document.querySelector('.parrafo-perfil-uno-ing').innerText = textos.perfilUno;
+document.querySelector('.parrafo-perfil-dos-ing').innerText = textos.perfilDos;
+document.querySelector('.parrafo-perfil-tres-ing').innerText = textos.perfilTres;
+document.querySelector('.tecnologias-titulo-ing').innerText = textos.tecnologiasTitulo;
+document.querySelector('.habilidades-titulo-ing').innerText = textos.habilidadesTitulo;
+
+// habilidades blandas
+document.querySelector('.habilidad-blanda-uno-ing').innerText = textos.habilidadBlandaUno;
+ document.querySelector('.habilidad-blanda-dos-ing').innerText = textos.habilidadBlandaDos;
+ document.querySelector('.habilidad-blanda-tres-ing').innerText = textos.habilidadBlandaTres;
+ document.querySelector('.habilidad-blanda-cuatro-ing').innerText = textos.habilidadBlandaCuatro;
+ document.querySelector('.habilidad-blanda-cinco-ing').innerText = textos.habilidadBlandaCinco;
+ document.querySelector('.habilidad-blanda-seis-ing').innerText = textos.habilidadBlandaSeis;
 
 
 // DIBUJOS
