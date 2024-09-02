@@ -90,9 +90,9 @@ function cambiarColores(colorSeleccionado) {
 // **************************
 // CAMBIAR EL FONDO DEL BODY
 // **************************
-// function cambiarFondo() {
-//   const body = document.body;
-//   const icono = document.getElementById('modo-icono');
+function cambiarFondo() {
+  const body = document.body;
+  // const icono = document.getElementById('modo-icono');
   // const contenedorImagen1 = document.querySelector('.contenedor-imagen');
   // const contenedorImagen2 = document.querySelector('.contenedor-imagen2');
   // const imagen1 = contenedorImagen1.querySelector('img');
@@ -117,18 +117,24 @@ function cambiarColores(colorSeleccionado) {
   // }
 
 
-//    CAMBIA EL LOGO DEL SOL A LA LUNA
-//    Verifica si el cuerpo tiene la clase 'modo-oscuro'
-//   if (body.classList.contains('modo-oscuro')) {
-//      Cambia el ícono al sol y remueve la clase 'modo-oscuro' del cuerpo
-//     icono.className = 'fa-regular fa-sun';
-//     body.classList.remove('modo-oscuro');
-//   } else {
-//      Cambia el ícono a la luna y agrega la clase 'modo-oscuro' al cuerpo
-//     icono.className = 'fa-regular fa-moon';
-//     body.classList.add('modo-oscuro');
-//   }
+  //  CAMBIA EL LOGO DEL SOL A LA LUNA
+  //  Verifica si el cuerpo tiene la clase 'modo-oscuro'
+  // if (body.classList.contains('modo-oscuro')) {
+    //  Cambia el ícono al sol y remueve la clase 'modo-oscuro' del cuerpo
+    // icono.className = 'fa-regular fa-sun';
+    // body.classList.remove('modo-oscuro');
+  // } else {
+    //  Cambia el ícono a la luna y agrega la clase 'modo-oscuro' al cuerpo
+    // icono.className = 'fa-regular fa-moon';
+    // body.classList.add('modo-oscuro');
+  }
 // }
+
+{/* <li class="nav-item" style="cursor: pointer;">
+<a class="nav-link" onclick="cambiarFondo()"><i id="modo-icono"
+        class="sol-icono fa-regular fa-sun logo-posicion"></i></a>
+</li>  */}
+
 
 
 
@@ -155,6 +161,16 @@ function cambiarAEspanol() {
   actualizarTextos();
 }
 function actualizarTextos() {
+
+  //  Cambiar el texto del botón de idioma
+  var idiomaTexto = document.getElementById("idioma-texto");
+
+  if (idiomaActual === "es") {
+      idiomaTexto.textContent = "EN";
+  } else {
+      idiomaTexto.textContent = "ES";
+  }
+  
   // Asegúrate de que estas variables estén definidas correctamente
   var textosEn = {
     inicioNav: "Start",

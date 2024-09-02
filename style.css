@@ -154,6 +154,15 @@ ul li .text-navbar {
     transition: 0.5s;
 }
 
+.logo-es-en-engranaje{
+    color: white;
+    font-weight: 600;
+    margin: 0px 10px;
+    
+}
+.logo-es-en-engranaje:hover{
+    color: var(--color-hover);
+}
 /* ANIMACION DEL ENGRANAJE */
 .fa-gear{
     animation: homeSpinner 10s linear infinite;
@@ -2920,9 +2929,3 @@ gap: 10px;
     padding: 0px 5px;
     }
 }
-
-
-
-
-
-/* Orden para dispositivos móviles */
