@@ -205,14 +205,13 @@ MantenimientoSoporte:"Maintenance and Support",
 proyectoTitulo:"PROJECTS",
 proyectoSubtitulo:"MY PROJECTS",
 disenoUITitulo:"UI Design",
-
+//BUFFET STENTOR
 buffetStentorTituloImg:"Stentor buffet website",
 buffetStentorParrafoImg:"Intuitive platform to view relevant information about a local buffet.",
 buffetStentorTitulo:"STENTOR BUFFET",
 buffetStentorParrafo:"Website for a neighborhood buffet located in Villa Luro, Capital. It is an intuitive website to capture the attention of potential customers in the area and its surroundings. Offering a variety of homemade dishes and daily menus designed to satisfy all tastes, prioritizing the display of the most relevant information, optimizing the design to improve the user experience.",
 verProyecto:"See project",
 verCodigo:"See code",
-
 // TRANSPORTE ESCOLAR
 TransporteEscolarTituloImg:"School transport website",
 TransporteEscolarParrafoImg:"Website for a family school transportation company.",
@@ -225,6 +224,9 @@ HochbaumEstudioParrafo:"Website concept for an architectural firm. The main obje
 GncParrafoImg:"CNG Sales Website",
 GncParrafoImg:"Website for a CNG sales outlet.",
 GncParrafo:"Website about a local business specializing in CNG sales. The goal was to create an informative and user-friendly platform that would highlight the services and products offered. I implemented clear sections to describe the services of the outlet. This project significantly contributed to my experience in web design and development.",
+//VERDULERIA
+verduleriaTituloImg:"Greengrocer's website",
+
 
 // PERFIL
 PerfilTitulo:"PROFILE",
@@ -241,9 +243,6 @@ habilidadBlandaTres: "Patience",
 habilidadBlandaCuatro: "Emotional Intelligence",
 habilidadBlandaCinco: "Proactivity",
 habilidadBlandaSeis: "Creativity",
-
-
-
 
 // DIBUJOS
 dibujosTitulo: "DRAWINGS",
@@ -316,9 +315,12 @@ HochbaumEstudioTituloImg:"Web de estudio de arquitectura",
 HochbaumEstudioParrafoImg:"Sitio web para un estudio de arquitectura.",
 HochbaumEstudioParrafo:"Concepto de página web para un estudio de arquitectura. El objetivo principal fue desarrollar un sitio con un diseño limpio y moderno que destaque sus servicios y proyectos potenciales. El enfoque estuvo en crear una experiencia de usuario intuitiva, asegurando que la navegación sea fluida y que la información esencial esté fácilmente accesible para los visitantes.",
 // GNC
-GncParrafoImg:"Sitio web de venta de GNC",
-GncParrafoImg:"Sitio web para un local de venta de GNC.",
+GncParrafoImg:"web de venta de GNC",
+GncParrafoImg:"Web para un local de venta de GNC.",
 GncParrafo:"Web sobre un comercio local especializado en la venta de GNC. El objetivo fue crear una plataforma informativa y fácil de usar que destacara los servicios y productos ofrecidos. Implementé secciones claras para describir los servicios del local. Este proyecto contribuyó significativamente a mi experiencia en diseño y desarrollo web.",
+//VERDULERIA
+verduleriaTituloImg:"Web de Verduleria",
+
 
 // PERFIL
 PerfilTitulo:"PERFIL",
@@ -431,6 +433,9 @@ document.querySelector('.habilidad-blanda-uno-ing').innerText = textos.habilidad
  document.querySelector('.habilidad-blanda-cuatro-ing').innerText = textos.habilidadBlandaCuatro;
  document.querySelector('.habilidad-blanda-cinco-ing').innerText = textos.habilidadBlandaCinco;
  document.querySelector('.habilidad-blanda-seis-ing').innerText = textos.habilidadBlandaSeis;
+
+// VERDULERIA
+document.querySelector('.Verduleria-titulo-img-ing').innerText = textos.verduleriaTituloImg;
 
 
 // DIBUJOS
