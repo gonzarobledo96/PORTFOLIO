@@ -225,8 +225,10 @@ GncParrafoImg:"CNG Sales Website",
 GncParrafoImg:"Website for a CNG sales outlet.",
 GncParrafo:"Website about a local business specializing in CNG sales. The goal was to create an informative and user-friendly platform that would highlight the services and products offered. I implemented clear sections to describe the services of the outlet. This project significantly contributed to my experience in web design and development.",
 //VERDULERIA
-verduleriaTituloImg:"Greengrocer's website",
-
+VerduleriaTituloImg:"Greengrocer's website",
+VerduleriaParrafoImg:"Website for a local greengrocer.",
+VerduleriaTituloIng:"ONLINE GREEN GROCERY",
+VerduleriaParrafoIng:"I created a website for a local greengrocer with the aim of improving my design skills. This was the first project I did with a simple and user-friendly design, showcasing the products the greengrocer offers. The main idea was to make it easy for customers to find all the important information quickly, both from their phone and from their computer.",
 
 // PERFIL
 PerfilTitulo:"PROFILE",
@@ -319,10 +321,11 @@ GncParrafoImg:"web de venta de GNC",
 GncParrafoImg:"Web para un local de venta de GNC.",
 GncParrafo:"Web sobre un comercio local especializado en la venta de GNC. El objetivo fue crear una plataforma informativa y fácil de usar que destacara los servicios y productos ofrecidos. Implementé secciones claras para describir los servicios del local. Este proyecto contribuyó significativamente a mi experiencia en diseño y desarrollo web.",
 //VERDULERIA
-verduleriaTituloImg:"Web de Verduleria",
-
-
-// PERFIL
+VerduleriaTituloImg:"Web de Verduleria",
+VerduleriaParrafoImg:"Web para una Verduleria de barrio.",
+VerduleriaTituloIng:"VERDULERIA ONLINE",
+VerduleriaParrafoIng:"Creé una página web para una verdulería de barrio con el objetivo de mejorar mis habilidades de diseño. Este fue el primer proyecto que realicé con un diseño simple y fácil de usar, mostrando los productos que ofrece la verdulería. La idea principal fue facilitar que los clientes encuentren toda la información importante de manera rá  pida, tanto desde su teléfono como desde la computadora.",
+// // PERFIL
 PerfilTitulo:"PERFIL",
 MasSobreMi:"MÁS SOBRE MÍ",
 perfilUno:"Me llamo Gonzalo, pero mis amigos me dicen Pichu. Empecé en la programación cuando estudiaba arquitectura. Tuve dos materias que eran dibujo y proyectual; ahí aprendí a dibujar bocetos, croquis, dibujos en perspectiva y programas de diseño en 3D. Ahí entendí que mi camino era el diseño.",
@@ -416,6 +419,12 @@ document.getElementById("Transporte-escolar-parrafo-ing").innerText = textos.Tra
 document.getElementById("Gnc-titulo-img-ing").innerText = textos.GncParrafoImg;
  document.getElementById("Gnc-parrafo-img-ing").innerText = textos.GncParrafoImg;
  document.getElementById("Gnc-parrafo-ing").innerText = textos.GncParrafo;
+// VERDULERIA
+document.getElementById('Verduleria-titulo-img-ing').innerText = textos.VerduleriaTituloImg;
+document.getElementById('Verduleria-parrafo-img-ing').innerText = textos.VerduleriaParrafoImg;
+document.getElementById('Verduleria-parrafo-ing').innerText = textos.VerduleriaParrafoIng;
+
+document.getElementById('Verduleria-titulo-ing').innerText = textos.VerduleriaTituloIng;
 
 // PERFIL
 document.querySelector('.Perfil-titulo-ing').innerText = textos.PerfilTitulo;
@@ -433,10 +442,6 @@ document.querySelector('.habilidad-blanda-uno-ing').innerText = textos.habilidad
  document.querySelector('.habilidad-blanda-cuatro-ing').innerText = textos.habilidadBlandaCuatro;
  document.querySelector('.habilidad-blanda-cinco-ing').innerText = textos.habilidadBlandaCinco;
  document.querySelector('.habilidad-blanda-seis-ing').innerText = textos.habilidadBlandaSeis;
-
-// VERDULERIA
-document.querySelector('.Verduleria-titulo-img-ing').innerText = textos.verduleriaTituloImg;
-
 
 // DIBUJOS
 document.getElementById("dibujos-titulo-ing").innerText = textos.dibujosTitulo;
